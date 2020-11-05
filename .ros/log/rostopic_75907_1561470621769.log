@@ -1,0 +1,25 @@
+[rospy.client][INFO] 2019-06-25 13:50:21,901: init_node, name[/rostopic_75907_1561470621769], pid[75907]
+[xmlrpc][INFO] 2019-06-25 13:50:21,916: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2019-06-25 13:50:21,918: ROS Slave URI: [http://dc5b429f784e:46559/]
+[xmlrpc][INFO] 2019-06-25 13:50:21,917: Started XML-RPC server [http://dc5b429f784e:46559/]
+[rospy.impl.masterslave][INFO] 2019-06-25 13:50:21,918: _ready: http://dc5b429f784e:46559/
+[rospy.registration][INFO] 2019-06-25 13:50:21,919: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-25 13:50:21,919: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-25 13:50:22,018: registered with master
+[rospy.rosout][INFO] 2019-06-25 13:50:22,018: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-25 13:50:22,028: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-25 13:50:22,030: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-25 13:50:22,051: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-25 13:50:22,091: topic[/tf] adding connection to [http://dc5b429f784e:43795/], count 0
+[rospy.internal][INFO] 2019-06-25 13:50:22,092: topic[/clock] adding connection to [http://dc5b429f784e:43795/], count 0
+[rospy.internal][INFO] 2019-06-25 13:50:22,096: topic[/tf] adding connection to [http://dc5b429f784e:40513/], count 1
+[rospy.internal][INFO] 2019-06-25 13:50:22,096: topic[/tf] adding connection to [http://dc5b429f784e:33979/], count 1
+[rospy.internal][INFO] 2019-06-25 13:50:22,246: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2019-06-25 13:50:24,524: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-25 13:50:24,532: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-25 13:50:24,538: topic[/clock] removing connection to http://dc5b429f784e:43795/
+[rospy.internal][INFO] 2019-06-25 13:50:24,538: topic[/tf] removing connection to http://dc5b429f784e:43795/
+[rospy.internal][INFO] 2019-06-25 13:50:24,541: topic[/tf] removing connection to http://dc5b429f784e:40513/
+[rospy.internal][INFO] 2019-06-25 13:50:24,541: topic[/tf] removing connection to http://dc5b429f784e:33979/
+[rospy.impl.masterslave][INFO] 2019-06-25 13:50:24,542: signal-2
+[rospy.core][INFO] 2019-06-25 13:50:24,674: signal_shutdown [atexit]

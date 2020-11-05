@@ -1,0 +1,28 @@
+[rospy.client][INFO] 2019-06-25 22:01:09,275: init_node, name[/rostopic_20524_1561500069034], pid[20524]
+[xmlrpc][INFO] 2019-06-25 22:01:09,279: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-25 22:01:09,282: Started XML-RPC server [http://dc5b429f784e:36447/]
+[rospy.init][INFO] 2019-06-25 22:01:09,283: ROS Slave URI: [http://dc5b429f784e:36447/]
+[rospy.impl.masterslave][INFO] 2019-06-25 22:01:09,287: _ready: http://dc5b429f784e:36447/
+[rospy.registration][INFO] 2019-06-25 22:01:09,303: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-25 22:01:09,304: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-25 22:01:09,388: registered with master
+[rospy.rosout][INFO] 2019-06-25 22:01:09,388: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-25 22:01:09,392: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-25 22:01:09,402: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-25 22:01:09,435: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-25 22:01:09,515: topic[/clock] adding connection to [http://dc5b429f784e:41861/], count 0
+[rospy.internal][INFO] 2019-06-25 22:01:09,618: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-06-25 22:01:09,625: topic[/move_base/feedback] adding connection to [http://dc5b429f784e:33147/], count 0
+[rospy.core][INFO] 2019-06-25 22:01:19,921: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-25 22:01:19,938: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-25 22:01:19,938: topic[/clock] removing connection to http://dc5b429f784e:41861/
+[rospy.internal][INFO] 2019-06-25 22:01:19,939: topic[/move_base/feedback] removing connection to http://dc5b429f784e:33147/
+[rospy.impl.masterslave][INFO] 2019-06-25 22:01:19,939: signal-2
+[rospy.internal][ERROR] 2019-06-25 22:01:19,941: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 729, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.core][INFO] 2019-06-25 22:01:20,044: signal_shutdown [atexit]

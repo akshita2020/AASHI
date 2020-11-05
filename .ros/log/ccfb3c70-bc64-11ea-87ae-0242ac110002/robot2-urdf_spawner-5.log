@@ -1,0 +1,86 @@
+[rospy.client][INFO] 2020-07-02 13:07:00,088: init_node, name[/robot2/urdf_spawner], pid[3221]
+[xmlrpc][INFO] 2020-07-02 13:07:00,089: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-07-02 13:07:00,089: Started XML-RPC server [http://177b797fd17c:39263/]
+[rospy.impl.masterslave][INFO] 2020-07-02 13:07:00,089: _ready: http://177b797fd17c:39263/
+[xmlrpc][INFO] 2020-07-02 13:07:00,090: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-07-02 13:07:00,090: ROS Slave URI: [http://177b797fd17c:39263/]
+[rospy.registration][INFO] 2020-07-02 13:07:00,091: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-07-02 13:07:00,091: registered with master
+[rospy.rosout][INFO] 2020-07-02 13:07:00,092: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-07-02 13:07:00,094: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-07-02 13:07:00,095: initializing /clock core topic
+[rospy.simtime][INFO] 2020-07-02 13:07:00,098: connected to core topic /clock
+[rospy.internal][INFO] 2020-07-02 13:07:00,102: topic[/clock] adding connection to [http://177b797fd17c:46687/], count 0
+[rosout][INFO] 2020-07-02 13:07:00,103: Loading model XML from ros parameter
+[rosout][INFO] 2020-07-02 13:07:00,107: Waiting for service /gazebo/spawn_urdf_model
+[rosout][INFO] 2020-07-02 13:07:00,109: Calling service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2020-07-02 13:07:00,325: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2020-07-02 13:07:06,351: signal_shutdown [atexit]
+[rospy.internal][WARNING] 2020-07-02 13:07:06,353: Unknown error initiating TCP/IP socket to 177b797fd17c:39317 (http://177b797fd17c:46687/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2020-07-02 13:07:06,354: topic[/clock] removing connection to http://177b797fd17c:46687/
+[rospy.internal][INFO] 2020-07-02 13:07:06,354: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2020-07-02 13:07:06,355: atexit
+[rospy.client][INFO] 2020-07-02 13:07:14,339: init_node, name[/robot2/urdf_spawner], pid[3708]
+[xmlrpc][INFO] 2020-07-02 13:07:14,340: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-07-02 13:07:14,340: Started XML-RPC server [http://177b797fd17c:40577/]
+[rospy.init][INFO] 2020-07-02 13:07:14,340: ROS Slave URI: [http://177b797fd17c:40577/]
+[rospy.impl.masterslave][INFO] 2020-07-02 13:07:14,340: _ready: http://177b797fd17c:40577/
+[xmlrpc][INFO] 2020-07-02 13:07:14,341: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-07-02 13:07:14,342: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-07-02 13:07:14,441: registered with master
+[rospy.rosout][INFO] 2020-07-02 13:07:14,441: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-07-02 13:07:14,444: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-07-02 13:07:14,448: initializing /clock core topic
+[rospy.simtime][INFO] 2020-07-02 13:07:14,464: connected to core topic /clock
+[rosout][INFO] 2020-07-02 13:07:14,468: Loading model XML from ros parameter
+[rosout][INFO] 2020-07-02 13:07:14,471: Waiting for service /gazebo/spawn_urdf_model
+[rosout][INFO] 2020-07-02 13:07:14,473: Calling service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2020-07-02 13:07:14,507: topic[/clock] adding connection to [http://177b797fd17c:40401/], count 0
+[rospy.internal][INFO] 2020-07-02 13:07:14,647: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2020-07-02 13:08:32,381: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-07-02 13:08:32,383: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-07-02 13:08:32,383: topic[/clock] removing connection to http://177b797fd17c:40401/
+[rospy.impl.masterslave][INFO] 2020-07-02 13:08:32,383: signal-2
+[rospy.internal][ERROR] 2020-07-02 13:08:32,516: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 729, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 4] Interrupted system call
+
+[rospy.core][INFO] 2020-07-02 13:08:32,517: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-07-02 13:08:46,236: init_node, name[/robot2/urdf_spawner], pid[6073]
+[xmlrpc][INFO] 2020-07-02 13:08:46,248: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-07-02 13:08:46,250: Started XML-RPC server [http://177b797fd17c:39439/]
+[rospy.impl.masterslave][INFO] 2020-07-02 13:08:46,251: _ready: http://177b797fd17c:39439/
+[xmlrpc][INFO] 2020-07-02 13:08:46,251: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-07-02 13:08:46,251: ROS Slave URI: [http://177b797fd17c:39439/]
+[rospy.registration][INFO] 2020-07-02 13:08:46,252: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-07-02 13:08:46,352: registered with master
+[rospy.rosout][INFO] 2020-07-02 13:08:46,352: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-07-02 13:08:46,363: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-07-02 13:08:46,365: initializing /clock core topic
+[rospy.simtime][INFO] 2020-07-02 13:08:46,379: connected to core topic /clock
+[rosout][INFO] 2020-07-02 13:08:46,383: Loading model XML from ros parameter
+[rosout][INFO] 2020-07-02 13:08:46,386: Waiting for service /gazebo/spawn_urdf_model
+[rosout][INFO] 2020-07-02 13:08:46,387: Calling service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2020-07-02 13:08:46,420: topic[/clock] adding connection to [http://177b797fd17c:37033/], count 0
+[rospy.internal][INFO] 2020-07-02 13:08:46,563: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2020-07-02 13:09:31,444: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-07-02 13:09:31,447: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-07-02 13:09:31,447: topic[/clock] removing connection to http://177b797fd17c:37033/
+[rospy.impl.masterslave][INFO] 2020-07-02 13:09:31,447: signal-2
+[rospy.internal][ERROR] 2020-07-02 13:09:32,062: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 729, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 4] Interrupted system call
+
+[rospy.core][INFO] 2020-07-02 13:09:32,063: signal_shutdown [atexit]

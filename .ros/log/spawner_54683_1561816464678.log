@@ -1,0 +1,25 @@
+[rospy.client][INFO] 2019-06-29 13:54:24,849: init_node, name[/spawner_54683_1561816464678], pid[54683]
+[xmlrpc][INFO] 2019-06-29 13:54:24,850: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-29 13:54:24,851: Started XML-RPC server [http://dc5b429f784e:40511/]
+[rospy.impl.masterslave][INFO] 2019-06-29 13:54:24,851: _ready: http://dc5b429f784e:40511/
+[rospy.init][INFO] 2019-06-29 13:54:24,852: ROS Slave URI: [http://dc5b429f784e:40511/]
+[xmlrpc][INFO] 2019-06-29 13:54:24,853: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-06-29 13:54:24,854: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-29 13:54:24,952: registered with master
+[rospy.rosout][INFO] 2019-06-29 13:54:24,953: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-29 13:54:24,956: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-29 13:54:24,958: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-29 13:54:24,966: connected to core topic /clock
+[rosout][INFO] 2019-06-29 13:54:24,973: Controller Spawner: Waiting for service controller_manager/load_controller
+[rospy.internal][INFO] 2019-06-29 13:54:24,973: topic[/clock] adding connection to [http://dc5b429f784e:46377/], count 0
+[rosout][INFO] 2019-06-29 13:54:24,976: Controller Spawner: Waiting for service controller_manager/switch_controller
+[rosout][INFO] 2019-06-29 13:54:24,979: Controller Spawner: Waiting for service controller_manager/unload_controller
+[rosout][INFO] 2019-06-29 13:54:24,982: Loading controller: controller
+[rospy.internal][INFO] 2019-06-29 13:54:25,249: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2019-06-29 13:54:25,992: Failed to load controller
+[rosout][INFO] 2019-06-29 13:54:25,993: Loading controller: joint_controller
+[rosout][ERROR] 2019-06-29 13:54:27,007: Failed to load joint_controller
+[rosout][INFO] 2019-06-29 13:54:27,007: Controller Spawner: Loaded controllers: 
+[rospy.core][INFO] 2019-06-29 13:54:38,621: signal_shutdown [signal-2]
+[rosout][INFO] 2019-06-29 13:54:38,622: Shutting down spawner. Stopping and unloading controllers...
+[rosout][INFO] 2019-06-29 13:54:38,623: Stopping all controllers...

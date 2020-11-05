@@ -1,0 +1,83 @@
+[roslaunch][INFO] 2019-07-02 15:06:08,403: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2019-07-02 15:06:08,414: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2019-07-02 15:06:08,414: roslaunch starting with args ['roscore', '--core']
+[roslaunch][INFO] 2019-07-02 15:06:08,414: roslaunch env is {'ROS_DISTRO': 'kinetic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/course_ws/devel/share/common-lisp:/home/tmp_ws/devel/share/common-lisp', 'USER': 'root', 'LC_ALL': 'C.UTF-8', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/home/course_ws/devel:/home/tmp_ws/devel:/opt/ros/kinetic:/root/Downloads/V-REP_PRO_EDU_V3_6_2_Ubuntu16_04', 'LD_LIBRARY_PATH': '/home/course_ws/devel/lib:/home/tmp_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:/home/velodyne_plugin/build', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'ROS_LOG_FILENAME': '/root/.ros/log/ebbf252c-9cda-11e9-89a3-0242ac110002/roslaunch-f6566a55c2b3-25661.log', 'SHLVL': '1', 'TERMINATOR_UUID': 'urn:uuid:7be12067-3c58-48d8-9ab8-a832cc1a2b86', 'SUPERVISOR_ENABLED': '1', 'DISPLAY': ':1.0', 'WINDOWID': '20971523', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'HOME': '/root', 'COLORTERM': 'gnome-terminal', 'PYTHONPATH': '/home/course_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'SUPERVISOR_PROCESS_NAME': 'pcmanfm', 'TINI_VERSION': 'v0.9.0', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'IBUS_DISABLE_SNOOPER': '1', 'PKG_CONFIG_PATH': '/home/course_ws/devel/lib/pkgconfig:/home/tmp_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PACKAGE_PATH': '/home/course_ws/src:/home/tmp_ws/src/ros_bubble_rob2:/home/tmp_ws/src/vrep_ros_interface:/opt/ros/kinetic/share', '_': '/opt/ros/kinetic/bin/roscore', 'OLDPWD': '/root/Downloads', 'HOSTNAME': 'f6566a55c2b3', 'PWD': '/root/Downloads/V-REP_PRO_EDU_V3_6_2_Ubuntu16_04', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_GROUP_NAME': 'pcmanfm'}
+[roslaunch][INFO] 2019-07-02 15:06:08,415: starting in server mode
+[roslaunch.parent][INFO] 2019-07-02 15:06:08,415: starting roslaunch parent run
+[roslaunch][INFO] 2019-07-02 15:06:08,415: loading roscore config file /opt/ros/kinetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2019-07-02 15:06:08,801: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 2019-07-02 15:06:08,802: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2019-07-02 15:06:08,802: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2019-07-02 15:06:08,802: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2019-07-02 15:06:08,802: starting parent XML-RPC server
+[roslaunch.server][INFO] 2019-07-02 15:06:08,803: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2019-07-02 15:06:08,803: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2019-07-02 15:06:08,803: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-07-02 15:06:08,803: Started XML-RPC server [http://f6566a55c2b3:42229/]
+[xmlrpc][INFO] 2019-07-02 15:06:08,803: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2019-07-02 15:06:08,818: started roslaunch server http://f6566a55c2b3:42229/
+[roslaunch.parent][INFO] 2019-07-02 15:06:08,818: ... parent XML-RPC server started
+[roslaunch][INFO] 2019-07-02 15:06:08,819: master.is_running[http://f6566a55c2b3:11311/]
+[roslaunch][INFO] 2019-07-02 15:06:08,821: auto-starting new master
+[roslaunch][INFO] 2019-07-02 15:06:08,821: create_master_process: rosmaster, /opt/ros/kinetic/share/ros, 11311, 3, None
+[roslaunch][INFO] 2019-07-02 15:06:08,822: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2019-07-02 15:06:08,822: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2019-07-02 15:06:08,822: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2019-07-02 15:06:08,822: process[master]: starting os process
+[roslaunch][INFO] 2019-07-02 15:06:08,822: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/root/.ros/log/ebbf252c-9cda-11e9-89a3-0242ac110002/master.log']]
+[roslaunch][INFO] 2019-07-02 15:06:08,822: process[master]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-07-02 15:06:09,095: process[master]: started with pid [25671]
+[roslaunch][INFO] 2019-07-02 15:06:09,096: master.is_running[http://f6566a55c2b3:11311/]
+[roslaunch][INFO] 2019-07-02 15:06:09,200: master.is_running[http://f6566a55c2b3:11311/]
+[roslaunch][INFO] 2019-07-02 15:06:09,301: master.is_running[http://f6566a55c2b3:11311/]
+[roslaunch][INFO] 2019-07-02 15:06:09,303: master.is_running[http://f6566a55c2b3:11311/]
+[roslaunch][INFO] 2019-07-02 15:06:09,304: ROS_MASTER_URI=http://f6566a55c2b3:11311/
+[roslaunch][INFO] 2019-07-02 15:06:09,305: setting /run_id to ebbf252c-9cda-11e9-89a3-0242ac110002
+[roslaunch][INFO] 2019-07-02 15:06:09,307: setting /roslaunch/uris/host_f6566a55c2b3__42229' to http://f6566a55c2b3:42229/
+[roslaunch][INFO] 2019-07-02 15:06:09,309: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2019-07-02 15:06:09,309: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://f6566a55c2b3:11311/]
+[roslaunch][INFO] 2019-07-02 15:06:09,309: process[rosout-1]: env[{'ROS_DISTRO': 'kinetic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/course_ws/devel/share/common-lisp:/home/tmp_ws/devel/share/common-lisp', 'LD_LIBRARY_PATH': '/home/course_ws/devel/lib:/home/tmp_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:/home/velodyne_plugin/build', 'USER': 'root', 'HOME': '/root', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_PACKAGE_PATH': '/home/course_ws/src:/home/tmp_ws/src/ros_bubble_rob2:/home/tmp_ws/src/vrep_ros_interface:/opt/ros/kinetic/share', 'CMAKE_PREFIX_PATH': '/home/course_ws/devel:/home/tmp_ws/devel:/opt/ros/kinetic:/root/Downloads/V-REP_PRO_EDU_V3_6_2_Ubuntu16_04', 'ROS_LOG_FILENAME': '/root/.ros/log/ebbf252c-9cda-11e9-89a3-0242ac110002/roslaunch-f6566a55c2b3-25661.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'SHLVL': '1', 'TERMINATOR_UUID': 'urn:uuid:7be12067-3c58-48d8-9ab8-a832cc1a2b86', 'SUPERVISOR_ENABLED': '1', 'DISPLAY': ':1.0', 'WINDOWID': '20971523', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_MASTER_URI': 'http://f6566a55c2b3:11311/', 'ROS_VERSION': '1', 'PYTHONPATH': '/home/course_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'SUPERVISOR_PROCESS_NAME': 'pcmanfm', 'TINI_VERSION': 'v0.9.0', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'IBUS_DISABLE_SNOOPER': '1', 'PKG_CONFIG_PATH': '/home/course_ws/devel/lib/pkgconfig:/home/tmp_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/kinetic/bin/roscore', 'OLDPWD': '/root/Downloads', 'HOSTNAME': 'f6566a55c2b3', 'PWD': '/root/Downloads/V-REP_PRO_EDU_V3_6_2_Ubuntu16_04', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'COLORTERM': 'gnome-terminal', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_GROUP_NAME': 'pcmanfm'}]
+[roslaunch][INFO] 2019-07-02 15:06:09,381: process[rosout-1]: args[[u'/opt/ros/kinetic/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2019-07-02 15:06:09,381: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2019-07-02 15:06:09,382: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2019-07-02 15:06:09,382: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2019-07-02 15:06:09,382: ... registered process [rosout-1]
+[roslaunch][INFO] 2019-07-02 15:06:09,382: process[rosout-1]: starting os process
+[roslaunch][INFO] 2019-07-02 15:06:09,382: process[rosout-1]: start w/ args [[u'/opt/ros/kinetic/lib/rosout/rosout', u'__name:=rosout', u'__log:=/root/.ros/log/ebbf252c-9cda-11e9-89a3-0242ac110002/rosout-1.log']]
+[roslaunch][INFO] 2019-07-02 15:06:09,382: process[rosout-1]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-07-02 15:06:09,647: process[rosout-1]: started with pid [25684]
+[roslaunch][INFO] 2019-07-02 15:06:09,648: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2019-07-02 15:06:09,648: load_parameters starting ...
+[roslaunch][INFO] 2019-07-02 15:06:09,651: ... load_parameters complete
+[roslaunch][INFO] 2019-07-02 15:06:09,651: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2019-07-02 15:06:09,652: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2019-07-02 15:06:09,652: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140359084193536)>
+[roslaunch.parent][INFO] 2019-07-02 15:06:09,652: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2019-07-02 15:06:09,652: spin
+[roslaunch.pmon][INFO] 2019-07-02 15:06:27,208: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140359084193536)>
+[roslaunch.pmon][INFO] 2019-07-02 15:06:27,253: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140359084193536)>
+[roslaunch.pmon][INFO] 2019-07-02 15:06:27,253: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140359084193536)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7fa7e55c14d0>, <roslaunch.nodeprocess.LocalProcess object at 0x7fa7e55c1750>]
+[roslaunch.pmon][INFO] 2019-07-02 15:06:27,256: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2019-07-02 15:06:27,256: [rosout-1] killing on exit
+[roslaunch][INFO] 2019-07-02 15:06:27,256: process[rosout-1]: killing os process with pid[25684] pgid[25684]
+[roslaunch][INFO] 2019-07-02 15:06:27,256: [rosout-1] sending SIGINT to pgid [25684]
+[roslaunch][INFO] 2019-07-02 15:06:27,256: [rosout-1] sent SIGINT to pgid [25684]
+[roslaunch][INFO] 2019-07-02 15:06:27,356: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2019-07-02 15:06:27,357: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2019-07-02 15:06:27,357: [master] killing on exit
+[roslaunch][INFO] 2019-07-02 15:06:27,357: process[master]: killing os process with pid[25671] pgid[25671]
+[roslaunch][INFO] 2019-07-02 15:06:27,357: [master] sending SIGINT to pgid [25671]
+[roslaunch][INFO] 2019-07-02 15:06:27,357: [master] sent SIGINT to pgid [25671]
+[roslaunch][INFO] 2019-07-02 15:06:27,558: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2019-07-02 15:06:27,559: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2019-07-02 15:06:27,559: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2019-07-02 15:06:27,572: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2019-07-02 15:06:27,573: runner.stop()
+[roslaunch][INFO] 2019-07-02 15:06:27,573: shutting down processing monitor...
+[roslaunch][INFO] 2019-07-02 15:06:27,573: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 140359084193536)>
+[roslaunch.pmon][INFO] 2019-07-02 15:06:27,573: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140359084193536)>
+[roslaunch][INFO] 2019-07-02 15:06:27,573: ... shutting down processing monitor complete
+[roslaunch][INFO] 2019-07-02 15:06:27,573: done
+[roslaunch.pmon][INFO] 2019-07-02 15:06:27,573: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140359084193536)>
+[rospy.core][INFO] 2019-07-02 15:06:27,574: signal_shutdown [atexit]

@@ -1,0 +1,3 @@
+logging to /root/.ros/log/fe769d92-9a75-11e9-bf41-0242ac110002/rosout.log
+re-publishing aggregated messages to /rosout_agg
+subscribed to /rosout

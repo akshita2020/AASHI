@@ -1,0 +1,632 @@
+[rosmaster.main][INFO] 2019-06-29 13:51:52,468: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-06-29 13:51:52,468: Starting ROS Master Node
+[xmlrpc][INFO] 2019-06-29 13:51:52,469: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-06-29 13:51:52,469: Started XML-RPC server [http://dc5b429f784e:11311/]
+[xmlrpc][INFO] 2019-06-29 13:51:52,470: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-06-29 13:51:52,470: Master initialized: port[11311], uri[http://dc5b429f784e:11311/]
+[rosmaster.master][INFO] 2019-06-29 13:51:52,545: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,546: +PARAM [/roslaunch/uris/host_dc5b429f784e__41219] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,973: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,973: +PARAM [/m2wr/m2wr/lgrip_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,973: +PARAM [/m2wr/m2wr/joint_state_controller/publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,973: +PARAM [/m2wr/m2wr/joint1_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,973: +PARAM [/m2wr/m2wr/joint_state_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,974: +PARAM [/m2wr/m2wr/joint2_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,974: +PARAM [/m2wr/m2wr/lgrip_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,974: +PARAM [/m2wr/m2wr/lgrip_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,974: +PARAM [/m2wr/m2wr/joint4_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,974: +PARAM [/m2wr/m2wr/joint4_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,974: +PARAM [/m2wr/m2wr/joint3_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,974: +PARAM [/m2wr/m2wr/joint3_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,974: +PARAM [/m2wr/m2wr/joint3_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,974: +PARAM [/m2wr/m2wr/joint2_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,974: +PARAM [/m2wr/m2wr/joint3_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,974: +PARAM [/m2wr/m2wr/joint4_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,975: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,975: +PARAM [/m2wr/m2wr/rgrip_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,975: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,975: +PARAM [/m2wr/m2wr/joint1_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,975: +PARAM [/m2wr/m2wr/rgrip_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,975: +PARAM [/m2wr/m2wr/rgrip_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,975: +PARAM [/m2wr/m2wr/joint1_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,975: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,975: +PARAM [/m2wr/m2wr/joint3_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,975: +PARAM [/m2wr/m2wr/rgrip_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,975: +PARAM [/m2wr/m2wr/lgrip_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,975: +PARAM [/m2wr/m2wr/rgrip_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,976: +PARAM [/m2wr/m2wr/joint2_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,976: +PARAM [/m2wr/m2wr/joint2_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,976: +PARAM [/m2wr/m2wr/lgrip_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,976: +PARAM [/m2wr/m2wr/joint2_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,976: +PARAM [/m2wr/m2wr/joint4_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,976: +PARAM [/m2wr/m2wr/joint1_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,976: +PARAM [/m2wr/m2wr/joint1_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,976: +PARAM [/m2wr/m2wr/joint4_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:51:52,982: +SERVICE [/rosout/get_loggers] /rosout http://dc5b429f784e:42009/
+[rosmaster.master][INFO] 2019-06-29 13:51:52,983: +SERVICE [/rosout/set_logger_level] /rosout http://dc5b429f784e:42009/
+[rosmaster.master][INFO] 2019-06-29 13:51:53,000: +SUB [/clock] /rosout http://dc5b429f784e:42009/
+[rosmaster.master][INFO] 2019-06-29 13:51:53,002: +PUB [/rosout_agg] /rosout http://dc5b429f784e:42009/
+[rosmaster.master][INFO] 2019-06-29 13:51:53,007: +SUB [/rosout] /rosout http://dc5b429f784e:42009/
+[rosmaster.master][INFO] 2019-06-29 13:51:53,830: +PUB [/rosout] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:53,831: +SERVICE [/gazebo/get_loggers] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:53,832: +SERVICE [/gazebo/set_logger_level] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:53,854: +SUB [/clock] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:53,871: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/']
+[rosmaster.master][INFO] 2019-06-29 13:51:53,873: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:51:54,013: +PUB [/rosout] /gazebo_gui http://dc5b429f784e:33193/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,014: +SERVICE [/gazebo_gui/get_loggers] /gazebo_gui http://dc5b429f784e:33193/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,015: +SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui http://dc5b429f784e:33193/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,023: +SUB [/clock] /gazebo_gui http://dc5b429f784e:33193/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,072: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:33193/']
+[rosmaster.master][INFO] 2019-06-29 13:51:54,073: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:33193/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:51:54,204: +PUB [/clock] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,206: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,207: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,208: +SERVICE [/gazebo/delete_model] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,209: +SERVICE [/gazebo/delete_light] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,210: +SERVICE [/gazebo/get_model_properties] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,211: +SERVICE [/gazebo/get_model_state] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,213: +SERVICE [/gazebo/get_world_properties] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,214: +SERVICE [/gazebo/get_joint_properties] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,215: +SERVICE [/gazebo/get_link_properties] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,216: +SERVICE [/gazebo/get_link_state] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,218: +SERVICE [/gazebo/get_light_properties] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,220: +SERVICE [/gazebo/set_light_properties] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,221: +SERVICE [/gazebo/get_physics_properties] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,222: +PUB [/gazebo/link_states] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,228: +PUB [/gazebo/model_states] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,229: +SERVICE [/gazebo/set_link_properties] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,230: +SERVICE [/gazebo/set_physics_properties] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,231: +SERVICE [/gazebo/set_model_state] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,232: +SERVICE [/gazebo/set_model_configuration] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,234: +SERVICE [/gazebo/set_joint_properties] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,236: +SERVICE [/gazebo/set_link_state] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,243: +SUB [/gazebo/set_link_state] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,249: +SUB [/gazebo/set_model_state] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,251: +SERVICE [/gazebo/pause_physics] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,252: +SERVICE [/gazebo/unpause_physics] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,253: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,255: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,256: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,257: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,259: +SERVICE [/gazebo/reset_simulation] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,260: +SERVICE [/gazebo/reset_world] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,273: publisherUpdate[/clock] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/']
+[rosmaster.master][INFO] 2019-06-29 13:51:54,274: publisherUpdate[/clock] -> http://dc5b429f784e:40177/ ['http://dc5b429f784e:40177/']
+[rosmaster.master][INFO] 2019-06-29 13:51:54,274: publisherUpdate[/clock] -> http://dc5b429f784e:33193/ ['http://dc5b429f784e:40177/']
+[rosmaster.master][INFO] 2019-06-29 13:51:54,275: publisherUpdate[/clock] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:51:54,276: publisherUpdate[/clock] -> http://dc5b429f784e:40177/ ['http://dc5b429f784e:40177/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:51:54,277: publisherUpdate[/clock] -> http://dc5b429f784e:33193/ ['http://dc5b429f784e:40177/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:51:54,457: +PUB [/rosout] /robot_state_publisher http://dc5b429f784e:37859/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,458: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://dc5b429f784e:37859/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,460: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://dc5b429f784e:37859/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,470: +SUB [/clock] /robot_state_publisher http://dc5b429f784e:37859/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,476: +PUB [/tf] /robot_state_publisher http://dc5b429f784e:37859/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,476: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:33193/', 'http://dc5b429f784e:37859/']
+[rosmaster.master][INFO] 2019-06-29 13:51:54,478: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:33193/', 'http://dc5b429f784e:37859/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:51:54,479: +PUB [/tf_static] /robot_state_publisher http://dc5b429f784e:37859/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,493: +SUB [/joint_states] /robot_state_publisher http://dc5b429f784e:37859/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,545: +PUB [/rosout] /controller_spawner http://dc5b429f784e:39647/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,550: +SUB [/clock] /controller_spawner http://dc5b429f784e:39647/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,552: +SERVICE [/controller_spawner/get_loggers] /controller_spawner http://dc5b429f784e:39647/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,554: +SERVICE [/controller_spawner/set_logger_level] /controller_spawner http://dc5b429f784e:39647/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,578: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:33193/', 'http://dc5b429f784e:37859/', 'http://dc5b429f784e:39647/']
+[rosmaster.master][INFO] 2019-06-29 13:51:54,579: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:33193/', 'http://dc5b429f784e:37859/', 'http://dc5b429f784e:39647/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:51:54,995: +PUB [/rosout] /mybot_spawn http://dc5b429f784e:33979/
+[rosmaster.master][INFO] 2019-06-29 13:51:54,999: +SUB [/clock] /mybot_spawn http://dc5b429f784e:33979/
+[rosmaster.master][INFO] 2019-06-29 13:51:55,001: +SERVICE [/mybot_spawn/get_loggers] /mybot_spawn http://dc5b429f784e:33979/
+[rosmaster.master][INFO] 2019-06-29 13:51:55,003: +SERVICE [/mybot_spawn/set_logger_level] /mybot_spawn http://dc5b429f784e:33979/
+[rosmaster.master][INFO] 2019-06-29 13:51:55,080: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:33193/', 'http://dc5b429f784e:37859/', 'http://dc5b429f784e:39647/', 'http://dc5b429f784e:33979/']
+[rosmaster.master][INFO] 2019-06-29 13:51:55,081: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:33193/', 'http://dc5b429f784e:37859/', 'http://dc5b429f784e:39647/', 'http://dc5b429f784e:33979/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:51:55,558: -SUB [/clock] /mybot_spawn http://dc5b429f784e:33979/
+[rosmaster.master][INFO] 2019-06-29 13:51:55,558: -PUB [/rosout] /mybot_spawn http://dc5b429f784e:33979/
+[rosmaster.master][INFO] 2019-06-29 13:51:55,558: -SERVICE [/mybot_spawn/set_logger_level] /mybot_spawn rosrpc://dc5b429f784e:45085
+[rosmaster.master][INFO] 2019-06-29 13:51:55,559: -SERVICE [/mybot_spawn/get_loggers] /mybot_spawn rosrpc://dc5b429f784e:45085
+[rosmaster.master][ERROR] 2019-06-29 13:51:55,560: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2019-06-29 13:51:55,562: +PUB [/m2wr/laser/scan] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:55,582: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:33193/', 'http://dc5b429f784e:37859/', 'http://dc5b429f784e:39647/']
+[rosmaster.master][INFO] 2019-06-29 13:51:55,582: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:33193/', 'http://dc5b429f784e:37859/', 'http://dc5b429f784e:39647/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][ERROR] 2019-06-29 13:51:55,656: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2019-06-29 13:51:55,658: +PUB [/joint_states] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:55,659: +PUB [/tf] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:55,665: +SUB [/cmd_vel] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:55,667: +PUB [/odom] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:55,682: publisherUpdate[/joint_states] -> http://dc5b429f784e:37859/ ['http://dc5b429f784e:40177/']
+[rosmaster.master][INFO] 2019-06-29 13:51:55,684: publisherUpdate[/joint_states] -> http://dc5b429f784e:37859/ ['http://dc5b429f784e:40177/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][ERROR] 2019-06-29 13:51:55,701: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2019-06-29 13:51:55,825: +SERVICE [/controller_manager/list_controllers] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:55,826: +SERVICE [/controller_manager/list_controller_types] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:55,828: +SERVICE [/controller_manager/load_controller] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:55,829: +SERVICE [/controller_manager/unload_controller] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:55,830: +SERVICE [/controller_manager/switch_controller] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:51:55,831: +SERVICE [/controller_manager/reload_controller_libraries] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:52:24,713: -SUB [/clock] /controller_spawner http://dc5b429f784e:39647/
+[rosmaster.master][INFO] 2019-06-29 13:52:24,714: -PUB [/rosout] /controller_spawner http://dc5b429f784e:39647/
+[rosmaster.master][INFO] 2019-06-29 13:52:24,714: -SERVICE [/controller_spawner/set_logger_level] /controller_spawner rosrpc://dc5b429f784e:35719
+[rosmaster.master][INFO] 2019-06-29 13:52:24,715: -SERVICE [/controller_spawner/get_loggers] /controller_spawner rosrpc://dc5b429f784e:35719
+[rosmaster.master][INFO] 2019-06-29 13:52:24,736: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:33193/', 'http://dc5b429f784e:37859/']
+[rosmaster.master][INFO] 2019-06-29 13:52:24,737: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:33193/', 'http://dc5b429f784e:37859/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:52:29,966: +SERVICE [/gazebo_gui/set_parameters] /gazebo_gui http://dc5b429f784e:33193/
+[rosmaster.master][INFO] 2019-06-29 13:52:29,968: +SERVICE [/gazebo/set_parameters] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:52:29,970: +PUB [/gazebo_gui/parameter_descriptions] /gazebo_gui http://dc5b429f784e:33193/
+[rosmaster.master][INFO] 2019-06-29 13:52:29,972: +PUB [/gazebo/parameter_descriptions] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:52:29,976: +PUB [/gazebo/parameter_updates] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:52:29,977: +PUB [/gazebo_gui/parameter_updates] /gazebo_gui http://dc5b429f784e:33193/
+[rosmaster.master][INFO] 2019-06-29 13:52:30,030: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,033: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,039: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,041: +PARAM [/gazebo_gui/time_step] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,043: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,047: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,050: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,054: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,057: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,058: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,061: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,062: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,064: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,065: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,067: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,069: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,073: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,074: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,076: +PARAM [/gazebo_gui/max_update_rate] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,077: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,079: +PARAM [/gazebo_gui/gravity_x] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,081: +PARAM [/gazebo_gui/gravity_y] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,082: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,085: +PARAM [/gazebo_gui/gravity_z] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,086: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,088: +PARAM [/gazebo_gui/auto_disable_bodies] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,090: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,092: +PARAM [/gazebo_gui/sor_pgs_precon_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,093: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,095: +PARAM [/gazebo_gui/sor_pgs_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,098: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,099: +PARAM [/gazebo_gui/sor_pgs_w] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,101: +PARAM [/gazebo_gui/sor_pgs_rms_error_tol] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,103: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,105: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,107: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,109: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,110: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,112: +PARAM [/gazebo_gui/cfm] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,114: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,116: +PARAM [/gazebo_gui/erp] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,122: +PARAM [/gazebo_gui/contact_surface_layer] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,123: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2019-06-29 13:52:30,134: +PARAM [/gazebo_gui/contact_max_correcting_vel] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,137: +PARAM [/gazebo_gui/max_contacts] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,142: +PARAM [/gazebo_gui/time_step] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,143: +PARAM [/gazebo_gui/max_update_rate] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,144: +PARAM [/gazebo_gui/gravity_x] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,146: +PARAM [/gazebo_gui/gravity_y] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,147: +PARAM [/gazebo_gui/gravity_z] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,149: +PARAM [/gazebo_gui/auto_disable_bodies] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,150: +PARAM [/gazebo_gui/sor_pgs_precon_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,152: +PARAM [/gazebo_gui/sor_pgs_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,154: +PARAM [/gazebo_gui/sor_pgs_w] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,155: +PARAM [/gazebo_gui/sor_pgs_rms_error_tol] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,157: +PARAM [/gazebo_gui/cfm] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,159: +PARAM [/gazebo_gui/erp] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,162: +PARAM [/gazebo_gui/contact_surface_layer] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,166: +PARAM [/gazebo_gui/contact_max_correcting_vel] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:30,168: +PARAM [/gazebo_gui/max_contacts] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:52:33,696: -PUB [/gazebo_gui/parameter_descriptions] /gazebo_gui http://dc5b429f784e:33193/
+[rosmaster.master][INFO] 2019-06-29 13:52:33,698: -PUB [/gazebo_gui/parameter_updates] /gazebo_gui http://dc5b429f784e:33193/
+[rosmaster.master][INFO] 2019-06-29 13:52:33,700: -SERVICE [/gazebo_gui/set_parameters] /gazebo_gui rosrpc://dc5b429f784e:44377
+[rosmaster.master][INFO] 2019-06-29 13:52:33,747: -PUB [/rosout] /gazebo_gui http://dc5b429f784e:33193/
+[rosmaster.master][INFO] 2019-06-29 13:52:33,749: -SUB [/clock] /gazebo_gui http://dc5b429f784e:33193/
+[rosmaster.master][INFO] 2019-06-29 13:52:33,751: -SERVICE [/gazebo_gui/get_loggers] /gazebo_gui rosrpc://dc5b429f784e:44377
+[rosmaster.master][INFO] 2019-06-29 13:52:33,753: -SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui rosrpc://dc5b429f784e:44377
+[rosmaster.master][INFO] 2019-06-29 13:52:33,753: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:37859/']
+[rosmaster.master][INFO] 2019-06-29 13:52:33,755: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:37859/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:52:36,386: -PUB [/rosout] /robot_state_publisher http://dc5b429f784e:37859/
+[rosmaster.master][INFO] 2019-06-29 13:52:36,387: -PUB [/tf] /robot_state_publisher http://dc5b429f784e:37859/
+[rosmaster.master][INFO] 2019-06-29 13:52:36,388: -PUB [/tf_static] /robot_state_publisher http://dc5b429f784e:37859/
+[rosmaster.master][INFO] 2019-06-29 13:52:36,389: -SUB [/clock] /robot_state_publisher http://dc5b429f784e:37859/
+[rosmaster.master][INFO] 2019-06-29 13:52:36,390: -SUB [/joint_states] /robot_state_publisher http://dc5b429f784e:37859/
+[rosmaster.master][INFO] 2019-06-29 13:52:36,391: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://dc5b429f784e:51741
+[rosmaster.master][INFO] 2019-06-29 13:52:36,392: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://dc5b429f784e:51741
+[rosmaster.master][INFO] 2019-06-29 13:52:36,407: -SUB [/gazebo/set_link_state] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:52:36,408: -SUB [/gazebo/set_model_state] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:52:36,409: -PUB [/clock] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:52:36,411: -PUB [/gazebo/link_states] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:52:36,412: -PUB [/gazebo/model_states] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:52:36,413: -SERVICE [/gazebo/spawn_sdf_model] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,414: -SERVICE [/gazebo/spawn_urdf_model] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,415: -SERVICE [/gazebo/delete_model] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,416: -SERVICE [/gazebo/delete_light] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,417: -SERVICE [/gazebo/get_model_properties] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,418: -SERVICE [/gazebo/get_model_state] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,419: -SERVICE [/gazebo/get_world_properties] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,420: -SERVICE [/gazebo/get_joint_properties] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,421: -SERVICE [/gazebo/get_link_properties] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,423: -SERVICE [/gazebo/get_link_state] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,424: -SERVICE [/gazebo/get_light_properties] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,425: -SERVICE [/gazebo/set_light_properties] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,426: -SERVICE [/gazebo/get_physics_properties] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,427: -SERVICE [/gazebo/set_link_properties] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,428: -SERVICE [/gazebo/set_physics_properties] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,429: -SERVICE [/gazebo/set_model_state] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,430: -SERVICE [/gazebo/set_model_configuration] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,431: -SERVICE [/gazebo/set_joint_properties] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,432: -SERVICE [/gazebo/set_link_state] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,433: -SERVICE [/gazebo/pause_physics] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,433: -SERVICE [/gazebo/unpause_physics] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,434: -SERVICE [/gazebo/apply_body_wrench] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,435: -SERVICE [/gazebo/apply_joint_effort] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,436: -SERVICE [/gazebo/clear_joint_forces] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,437: -SERVICE [/gazebo/clear_body_wrenches] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,438: -SERVICE [/gazebo/reset_simulation] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,439: -SERVICE [/gazebo/reset_world] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,440: -PUB [/gazebo/parameter_descriptions] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:52:36,441: -PUB [/gazebo/parameter_updates] /gazebo http://dc5b429f784e:40177/
+[rosmaster.master][INFO] 2019-06-29 13:52:36,442: -SERVICE [/gazebo/set_parameters] /gazebo rosrpc://dc5b429f784e:57765
+[rosmaster.master][INFO] 2019-06-29 13:52:36,461: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/']
+[rosmaster.master][INFO] 2019-06-29 13:52:36,467: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:52:36,467: publisherUpdate[/clock] -> http://dc5b429f784e:42009/ []
+[rosmaster.master][INFO] 2019-06-29 13:52:36,467: publisherUpdate[/clock] -> http://dc5b429f784e:42009/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:52:36,467: publisherUpdate[/clock] -> http://dc5b429f784e:40177/ []
+[rosmaster.master][INFO] 2019-06-29 13:52:36,468: publisherUpdate[/clock] -> http://dc5b429f784e:40177/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:53:02,333: +PARAM [/roslaunch/uris/host_dc5b429f784e__38197] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,339: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,339: +PARAM [/m2wr/m2wr/lgrip_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,339: +PARAM [/m2wr/m2wr/joint_state_controller/publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,339: +PARAM [/m2wr/m2wr/joint1_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,339: +PARAM [/m2wr/m2wr/joint_state_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,339: +PARAM [/m2wr/m2wr/joint2_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,339: +PARAM [/m2wr/m2wr/lgrip_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,339: +PARAM [/m2wr/m2wr/lgrip_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,339: +PARAM [/m2wr/m2wr/joint4_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,339: +PARAM [/m2wr/m2wr/joint4_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,339: +PARAM [/m2wr/m2wr/joint3_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,340: +PARAM [/m2wr/m2wr/joint3_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,340: +PARAM [/m2wr/m2wr/joint3_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,340: +PARAM [/m2wr/m2wr/joint2_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,340: +PARAM [/m2wr/m2wr/joint3_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,340: +PARAM [/m2wr/m2wr/joint4_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,340: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,340: +PARAM [/m2wr/m2wr/rgrip_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,340: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,340: +PARAM [/m2wr/m2wr/joint1_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,340: +PARAM [/m2wr/m2wr/rgrip_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,340: +PARAM [/m2wr/m2wr/rgrip_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,341: +PARAM [/m2wr/m2wr/joint1_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,341: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,341: +PARAM [/m2wr/m2wr/joint3_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,341: +PARAM [/m2wr/m2wr/rgrip_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,341: +PARAM [/m2wr/m2wr/lgrip_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,341: +PARAM [/m2wr/m2wr/rgrip_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,341: +PARAM [/m2wr/m2wr/joint2_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,341: +PARAM [/m2wr/m2wr/joint2_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,341: +PARAM [/m2wr/m2wr/lgrip_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,341: +PARAM [/m2wr/m2wr/joint2_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,341: +PARAM [/m2wr/m2wr/joint4_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,341: +PARAM [/m2wr/m2wr/joint1_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,342: +PARAM [/m2wr/m2wr/joint1_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:02,342: +PARAM [/m2wr/m2wr/joint4_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:03,484: +PUB [/rosout] /gazebo_gui http://dc5b429f784e:46015/
+[rosmaster.master][INFO] 2019-06-29 13:53:03,486: +SERVICE [/gazebo_gui/get_loggers] /gazebo_gui http://dc5b429f784e:46015/
+[rosmaster.master][INFO] 2019-06-29 13:53:03,487: +SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui http://dc5b429f784e:46015/
+[rosmaster.master][INFO] 2019-06-29 13:53:03,494: +SUB [/clock] /gazebo_gui http://dc5b429f784e:46015/
+[rosmaster.master][INFO] 2019-06-29 13:53:03,509: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:46015/']
+[rosmaster.master][INFO] 2019-06-29 13:53:03,510: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:46015/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:53:03,978: +PUB [/rosout] /robot_state_publisher http://dc5b429f784e:39285/
+[rosmaster.master][INFO] 2019-06-29 13:53:03,979: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://dc5b429f784e:39285/
+[rosmaster.master][INFO] 2019-06-29 13:53:03,980: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://dc5b429f784e:39285/
+[rosmaster.master][INFO] 2019-06-29 13:53:03,989: +SUB [/clock] /robot_state_publisher http://dc5b429f784e:39285/
+[rosmaster.master][INFO] 2019-06-29 13:53:03,994: +PUB [/tf] /robot_state_publisher http://dc5b429f784e:39285/
+[rosmaster.master][INFO] 2019-06-29 13:53:03,995: +PUB [/tf_static] /robot_state_publisher http://dc5b429f784e:39285/
+[rosmaster.master][INFO] 2019-06-29 13:53:04,006: +SUB [/joint_states] /robot_state_publisher http://dc5b429f784e:39285/
+[rosmaster.master][INFO] 2019-06-29 13:53:04,011: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:46015/', 'http://dc5b429f784e:39285/']
+[rosmaster.master][INFO] 2019-06-29 13:53:04,012: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:46015/', 'http://dc5b429f784e:39285/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:53:04,052: +PUB [/rosout] /controller_spawner http://dc5b429f784e:38265/
+[rosmaster.master][INFO] 2019-06-29 13:53:04,058: +SUB [/clock] /controller_spawner http://dc5b429f784e:38265/
+[rosmaster.master][INFO] 2019-06-29 13:53:04,060: +SERVICE [/controller_spawner/get_loggers] /controller_spawner http://dc5b429f784e:38265/
+[rosmaster.master][INFO] 2019-06-29 13:53:04,062: +SERVICE [/controller_spawner/set_logger_level] /controller_spawner http://dc5b429f784e:38265/
+[rosmaster.master][INFO] 2019-06-29 13:53:04,071: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:46015/', 'http://dc5b429f784e:39285/', 'http://dc5b429f784e:38265/']
+[rosmaster.master][INFO] 2019-06-29 13:53:04,072: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:46015/', 'http://dc5b429f784e:39285/', 'http://dc5b429f784e:38265/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:53:04,460: +PUB [/rosout] /mybot_spawn http://dc5b429f784e:33355/
+[rosmaster.master][INFO] 2019-06-29 13:53:04,464: +SUB [/clock] /mybot_spawn http://dc5b429f784e:33355/
+[rosmaster.master][INFO] 2019-06-29 13:53:04,466: +SERVICE [/mybot_spawn/get_loggers] /mybot_spawn http://dc5b429f784e:33355/
+[rosmaster.master][INFO] 2019-06-29 13:53:04,468: +SERVICE [/mybot_spawn/set_logger_level] /mybot_spawn http://dc5b429f784e:33355/
+[rosmaster.master][INFO] 2019-06-29 13:53:04,473: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:46015/', 'http://dc5b429f784e:39285/', 'http://dc5b429f784e:38265/', 'http://dc5b429f784e:33355/']
+[rosmaster.master][INFO] 2019-06-29 13:53:04,474: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:46015/', 'http://dc5b429f784e:39285/', 'http://dc5b429f784e:38265/', 'http://dc5b429f784e:33355/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:53:05,240: -SUB [/clock] /controller_spawner http://dc5b429f784e:38265/
+[rosmaster.master][INFO] 2019-06-29 13:53:05,240: -PUB [/rosout] /controller_spawner http://dc5b429f784e:38265/
+[rosmaster.master][INFO] 2019-06-29 13:53:05,240: -SERVICE [/controller_spawner/set_logger_level] /controller_spawner rosrpc://dc5b429f784e:35951
+[rosmaster.master][INFO] 2019-06-29 13:53:05,240: -SERVICE [/controller_spawner/get_loggers] /controller_spawner rosrpc://dc5b429f784e:35951
+[rosmaster.master][INFO] 2019-06-29 13:53:05,242: -SUB [/clock] /mybot_spawn http://dc5b429f784e:33355/
+[rosmaster.master][INFO] 2019-06-29 13:53:05,242: -PUB [/rosout] /mybot_spawn http://dc5b429f784e:33355/
+[rosmaster.master][INFO] 2019-06-29 13:53:05,242: -SERVICE [/mybot_spawn/set_logger_level] /mybot_spawn rosrpc://dc5b429f784e:42373
+[rosmaster.master][INFO] 2019-06-29 13:53:05,242: -SERVICE [/mybot_spawn/get_loggers] /mybot_spawn rosrpc://dc5b429f784e:42373
+[rosmaster.master][INFO] 2019-06-29 13:53:05,276: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:46015/', 'http://dc5b429f784e:39285/', 'http://dc5b429f784e:33355/']
+[rosmaster.master][INFO] 2019-06-29 13:53:05,277: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:46015/', 'http://dc5b429f784e:39285/', 'http://dc5b429f784e:33355/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:53:05,277: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:46015/', 'http://dc5b429f784e:39285/']
+[rosmaster.master][INFO] 2019-06-29 13:53:05,277: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:46015/', 'http://dc5b429f784e:39285/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:53:05,377: -PUB [/rosout] /robot_state_publisher http://dc5b429f784e:39285/
+[rosmaster.master][INFO] 2019-06-29 13:53:05,378: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:46015/']
+[rosmaster.master][INFO] 2019-06-29 13:53:05,379: -PUB [/tf] /robot_state_publisher http://dc5b429f784e:39285/
+[rosmaster.master][INFO] 2019-06-29 13:53:05,379: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:40177/', 'http://dc5b429f784e:46015/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:53:05,380: -PUB [/tf_static] /robot_state_publisher http://dc5b429f784e:39285/
+[rosmaster.master][INFO] 2019-06-29 13:53:05,382: -SUB [/clock] /robot_state_publisher http://dc5b429f784e:39285/
+[rosmaster.master][INFO] 2019-06-29 13:53:05,383: -SUB [/joint_states] /robot_state_publisher http://dc5b429f784e:39285/
+[rosmaster.master][INFO] 2019-06-29 13:53:05,384: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://dc5b429f784e:33741
+[rosmaster.master][INFO] 2019-06-29 13:53:05,385: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://dc5b429f784e:33741
+[rosmaster.master][INFO] 2019-06-29 13:53:11,761: +PARAM [/roslaunch/uris/host_dc5b429f784e__45231] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,767: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,767: +PARAM [/m2wr/m2wr/lgrip_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,767: +PARAM [/m2wr/m2wr/joint_state_controller/publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,767: +PARAM [/m2wr/m2wr/joint1_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,767: +PARAM [/m2wr/m2wr/joint_state_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,767: +PARAM [/m2wr/m2wr/joint2_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,767: +PARAM [/m2wr/m2wr/lgrip_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,767: +PARAM [/m2wr/m2wr/lgrip_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,768: +PARAM [/m2wr/m2wr/joint4_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,768: +PARAM [/m2wr/m2wr/joint4_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,768: +PARAM [/m2wr/m2wr/joint3_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,768: +PARAM [/m2wr/m2wr/joint3_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,768: +PARAM [/m2wr/m2wr/joint3_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,768: +PARAM [/m2wr/m2wr/joint2_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,768: +PARAM [/m2wr/m2wr/joint3_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,768: +PARAM [/m2wr/m2wr/joint4_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,768: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,768: +PARAM [/m2wr/m2wr/rgrip_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,768: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,769: +PARAM [/m2wr/m2wr/joint1_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,769: +PARAM [/m2wr/m2wr/rgrip_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,769: +PARAM [/m2wr/m2wr/rgrip_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,769: +PARAM [/m2wr/m2wr/joint1_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,769: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,769: +PARAM [/m2wr/m2wr/joint3_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,769: +PARAM [/m2wr/m2wr/rgrip_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,769: +PARAM [/m2wr/m2wr/lgrip_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,769: +PARAM [/m2wr/m2wr/rgrip_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,769: +PARAM [/m2wr/m2wr/joint2_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,769: +PARAM [/m2wr/m2wr/joint2_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,769: +PARAM [/m2wr/m2wr/lgrip_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,769: +PARAM [/m2wr/m2wr/joint2_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,770: +PARAM [/m2wr/m2wr/joint4_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,770: +PARAM [/m2wr/m2wr/joint1_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,770: +PARAM [/m2wr/m2wr/joint1_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:11,770: +PARAM [/m2wr/m2wr/joint4_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2019-06-29 13:53:12,687: +PUB [/rosout] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:12,689: +SERVICE [/gazebo/get_loggers] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:12,690: +SERVICE [/gazebo/set_logger_level] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:12,697: +SUB [/clock] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:12,702: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46015/', 'http://dc5b429f784e:46377/']
+[rosmaster.master][INFO] 2019-06-29 13:53:12,703: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46015/', 'http://dc5b429f784e:46377/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:53:13,048: +PUB [/clock] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,049: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,050: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,052: +SERVICE [/gazebo/delete_model] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,053: +SERVICE [/gazebo/delete_light] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,054: +SERVICE [/gazebo/get_model_properties] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,055: +SERVICE [/gazebo/get_model_state] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,056: +SERVICE [/gazebo/get_world_properties] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,058: +SERVICE [/gazebo/get_joint_properties] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,059: +SERVICE [/gazebo/get_link_properties] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,061: +SERVICE [/gazebo/get_link_state] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,062: +SERVICE [/gazebo/get_light_properties] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,063: +SERVICE [/gazebo/set_light_properties] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,064: +SERVICE [/gazebo/get_physics_properties] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,065: +PUB [/gazebo/link_states] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,066: +PUB [/gazebo/model_states] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,068: +SERVICE [/gazebo/set_link_properties] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,069: +SERVICE [/gazebo/set_physics_properties] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,070: +SERVICE [/gazebo/set_model_state] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,072: +SERVICE [/gazebo/set_model_configuration] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,074: +SERVICE [/gazebo/set_joint_properties] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,075: +SERVICE [/gazebo/set_link_state] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,083: +PUB [/rosout] /gazebo_gui http://dc5b429f784e:44139/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,086: +SERVICE [/gazebo_gui/get_loggers] /gazebo_gui http://dc5b429f784e:44139/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,087: publisherUpdate[/clock] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/']
+[rosmaster.master][INFO] 2019-06-29 13:53:13,087: publisherUpdate[/clock] -> http://dc5b429f784e:46015/ ['http://dc5b429f784e:46377/']
+[rosmaster.master][INFO] 2019-06-29 13:53:13,088: +SUB [/gazebo/set_link_state] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,091: +SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui http://dc5b429f784e:44139/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,091: publisherUpdate[/clock] -> http://dc5b429f784e:46015/ ['http://dc5b429f784e:46377/']: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2019-06-29 13:53:13,091: publisherUpdate[/clock] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:53:13,093: publisherUpdate[/clock] -> http://dc5b429f784e:46377/ ['http://dc5b429f784e:46377/']
+[rosmaster.threadpool][ERROR] 2019-06-29 13:53:13,099: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2019-06-29 13:53:13,102: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/', 'http://dc5b429f784e:44139/']
+[rosmaster.master][INFO] 2019-06-29 13:53:13,104: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/', 'http://dc5b429f784e:44139/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:53:13,108: +SUB [/gazebo/set_model_state] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,110: publisherUpdate[/clock] -> http://dc5b429f784e:46377/ ['http://dc5b429f784e:46377/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:53:13,112: +SERVICE [/gazebo/pause_physics] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,114: +SERVICE [/gazebo/unpause_physics] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,115: +SUB [/clock] /gazebo_gui http://dc5b429f784e:44139/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,117: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,119: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,121: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,124: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,125: +SERVICE [/gazebo_gui/set_parameters] /gazebo_gui http://dc5b429f784e:44139/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,126: +SERVICE [/gazebo/reset_simulation] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,128: +SERVICE [/gazebo/reset_world] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,129: +PUB [/gazebo_gui/parameter_descriptions] /gazebo_gui http://dc5b429f784e:44139/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,131: +PUB [/gazebo_gui/parameter_updates] /gazebo_gui http://dc5b429f784e:44139/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,168: +PARAM [/gazebo_gui/time_step] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,170: +PARAM [/gazebo_gui/max_update_rate] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,171: +PARAM [/gazebo_gui/gravity_x] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,172: +PARAM [/gazebo_gui/gravity_y] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,173: +PARAM [/gazebo_gui/gravity_z] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,174: +PARAM [/gazebo_gui/auto_disable_bodies] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,176: +PARAM [/gazebo_gui/sor_pgs_precon_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,177: +PARAM [/gazebo_gui/sor_pgs_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,178: +PARAM [/gazebo_gui/sor_pgs_w] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,179: +PARAM [/gazebo_gui/sor_pgs_rms_error_tol] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,180: +PARAM [/gazebo_gui/cfm] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,181: +PARAM [/gazebo_gui/erp] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,182: +PARAM [/gazebo_gui/contact_surface_layer] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,184: +PARAM [/gazebo_gui/contact_max_correcting_vel] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,185: +PARAM [/gazebo_gui/max_contacts] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,192: +PARAM [/gazebo_gui/time_step] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,195: +PARAM [/gazebo_gui/max_update_rate] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,208: +PARAM [/gazebo_gui/gravity_x] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,210: +PARAM [/gazebo_gui/gravity_y] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,211: +PARAM [/gazebo_gui/gravity_z] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,212: +PARAM [/gazebo_gui/auto_disable_bodies] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,214: +PARAM [/gazebo_gui/sor_pgs_precon_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,215: +PARAM [/gazebo_gui/sor_pgs_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,216: +PARAM [/gazebo_gui/sor_pgs_w] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,217: +PARAM [/gazebo_gui/sor_pgs_rms_error_tol] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,219: +PARAM [/gazebo_gui/cfm] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,220: +PARAM [/gazebo_gui/erp] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,221: +PARAM [/gazebo_gui/contact_surface_layer] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,222: +PARAM [/gazebo_gui/contact_max_correcting_vel] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,223: +PARAM [/gazebo_gui/max_contacts] by /gazebo_gui
+[rosmaster.master][INFO] 2019-06-29 13:53:13,331: +PUB [/rosout] /robot_state_publisher http://dc5b429f784e:43107/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,332: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://dc5b429f784e:43107/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,333: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://dc5b429f784e:43107/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,341: +SUB [/clock] /robot_state_publisher http://dc5b429f784e:43107/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,346: +PUB [/tf] /robot_state_publisher http://dc5b429f784e:43107/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,347: +PUB [/tf_static] /robot_state_publisher http://dc5b429f784e:43107/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,359: +SUB [/joint_states] /robot_state_publisher http://dc5b429f784e:43107/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,408: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/', 'http://dc5b429f784e:44139/', 'http://dc5b429f784e:43107/']
+[rosmaster.master][INFO] 2019-06-29 13:53:13,409: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/', 'http://dc5b429f784e:44139/', 'http://dc5b429f784e:43107/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:53:13,425: +PUB [/rosout] /controller_spawner http://dc5b429f784e:34197/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,437: +SUB [/clock] /controller_spawner http://dc5b429f784e:34197/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,439: +SERVICE [/controller_spawner/get_loggers] /controller_spawner http://dc5b429f784e:34197/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,441: +SERVICE [/controller_spawner/set_logger_level] /controller_spawner http://dc5b429f784e:34197/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,508: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/', 'http://dc5b429f784e:44139/', 'http://dc5b429f784e:43107/', 'http://dc5b429f784e:34197/']
+[rosmaster.master][INFO] 2019-06-29 13:53:13,509: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/', 'http://dc5b429f784e:44139/', 'http://dc5b429f784e:43107/', 'http://dc5b429f784e:34197/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:53:13,883: +PUB [/rosout] /mybot_spawn http://dc5b429f784e:44733/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,887: +SUB [/clock] /mybot_spawn http://dc5b429f784e:44733/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,889: +SERVICE [/mybot_spawn/get_loggers] /mybot_spawn http://dc5b429f784e:44733/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,891: +SERVICE [/mybot_spawn/set_logger_level] /mybot_spawn http://dc5b429f784e:44733/
+[rosmaster.master][INFO] 2019-06-29 13:53:13,910: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/', 'http://dc5b429f784e:44139/', 'http://dc5b429f784e:43107/', 'http://dc5b429f784e:34197/', 'http://dc5b429f784e:44733/']
+[rosmaster.master][INFO] 2019-06-29 13:53:13,911: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/', 'http://dc5b429f784e:44139/', 'http://dc5b429f784e:43107/', 'http://dc5b429f784e:34197/', 'http://dc5b429f784e:44733/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:53:14,264: -SUB [/clock] /mybot_spawn http://dc5b429f784e:44733/
+[rosmaster.master][INFO] 2019-06-29 13:53:14,264: -PUB [/rosout] /mybot_spawn http://dc5b429f784e:44733/
+[rosmaster.master][INFO] 2019-06-29 13:53:14,264: -SERVICE [/mybot_spawn/set_logger_level] /mybot_spawn rosrpc://dc5b429f784e:36771
+[rosmaster.master][INFO] 2019-06-29 13:53:14,264: -SERVICE [/mybot_spawn/get_loggers] /mybot_spawn rosrpc://dc5b429f784e:36771
+[rosmaster.master][ERROR] 2019-06-29 13:53:14,269: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2019-06-29 13:53:14,271: +PUB [/m2wr/laser/scan] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:14,311: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/', 'http://dc5b429f784e:44139/', 'http://dc5b429f784e:43107/', 'http://dc5b429f784e:34197/']
+[rosmaster.master][INFO] 2019-06-29 13:53:14,312: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/', 'http://dc5b429f784e:44139/', 'http://dc5b429f784e:43107/', 'http://dc5b429f784e:34197/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][ERROR] 2019-06-29 13:53:14,367: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2019-06-29 13:53:14,369: +PUB [/joint_states] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:14,371: +PUB [/tf] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:14,377: +SUB [/cmd_vel] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:14,379: +PUB [/odom] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][ERROR] 2019-06-29 13:53:14,402: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2019-06-29 13:53:14,412: publisherUpdate[/joint_states] -> http://dc5b429f784e:43107/ ['http://dc5b429f784e:46377/']
+[rosmaster.master][INFO] 2019-06-29 13:53:14,413: publisherUpdate[/joint_states] -> http://dc5b429f784e:43107/ ['http://dc5b429f784e:46377/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:53:14,521: +SERVICE [/controller_manager/list_controllers] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:14,522: +SERVICE [/controller_manager/list_controller_types] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:14,523: +SERVICE [/controller_manager/load_controller] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:14,524: +SERVICE [/controller_manager/unload_controller] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:14,525: +SERVICE [/controller_manager/switch_controller] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:14,527: +SERVICE [/controller_manager/reload_controller_libraries] /gazebo http://dc5b429f784e:46377/
+[rosmaster.master][INFO] 2019-06-29 13:53:43,493: -SUB [/clock] /controller_spawner http://dc5b429f784e:34197/
+[rosmaster.master][INFO] 2019-06-29 13:53:43,493: -PUB [/rosout] /controller_spawner http://dc5b429f784e:34197/
+[rosmaster.master][INFO] 2019-06-29 13:53:43,493: -SERVICE [/controller_spawner/set_logger_level] /controller_spawner rosrpc://dc5b429f784e:37899
+[rosmaster.master][INFO] 2019-06-29 13:53:43,493: -SERVICE [/controller_spawner/get_loggers] /controller_spawner rosrpc://dc5b429f784e:37899
+[rosmaster.master][INFO] 2019-06-29 13:53:43,564: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/', 'http://dc5b429f784e:44139/', 'http://dc5b429f784e:43107/']
+[rosmaster.master][INFO] 2019-06-29 13:53:43,566: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/', 'http://dc5b429f784e:44139/', 'http://dc5b429f784e:43107/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:54:24,955: +PUB [/rosout] /spawner_54683_1561816464678 http://dc5b429f784e:40511/
+[rosmaster.master][INFO] 2019-06-29 13:54:24,964: +SUB [/clock] /spawner_54683_1561816464678 http://dc5b429f784e:40511/
+[rosmaster.master][INFO] 2019-06-29 13:54:24,969: +SERVICE [/spawner_54683_1561816464678/get_loggers] /spawner_54683_1561816464678 http://dc5b429f784e:40511/
+[rosmaster.master][INFO] 2019-06-29 13:54:24,972: +SERVICE [/spawner_54683_1561816464678/set_logger_level] /spawner_54683_1561816464678 http://dc5b429f784e:40511/
+[rosmaster.master][INFO] 2019-06-29 13:54:25,039: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/', 'http://dc5b429f784e:44139/', 'http://dc5b429f784e:43107/', 'http://dc5b429f784e:40511/']
+[rosmaster.master][INFO] 2019-06-29 13:54:25,041: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/', 'http://dc5b429f784e:44139/', 'http://dc5b429f784e:43107/', 'http://dc5b429f784e:40511/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:54:41,856: -PUB [/rosout] /robot_state_publisher http://dc5b429f784e:43107/
+[rosmaster.master][INFO] 2019-06-29 13:54:41,858: -PUB [/tf] /robot_state_publisher http://dc5b429f784e:43107/
+[rosmaster.master][INFO] 2019-06-29 13:54:41,859: -PUB [/tf_static] /robot_state_publisher http://dc5b429f784e:43107/
+[rosmaster.master][INFO] 2019-06-29 13:54:41,860: -SUB [/clock] /robot_state_publisher http://dc5b429f784e:43107/
+[rosmaster.master][INFO] 2019-06-29 13:54:41,862: -PUB [/gazebo_gui/parameter_descriptions] /gazebo_gui http://dc5b429f784e:44139/
+[rosmaster.master][INFO] 2019-06-29 13:54:41,864: -SUB [/joint_states] /robot_state_publisher http://dc5b429f784e:43107/
+[rosmaster.master][INFO] 2019-06-29 13:54:41,865: -PUB [/gazebo_gui/parameter_updates] /gazebo_gui http://dc5b429f784e:44139/
+[rosmaster.master][INFO] 2019-06-29 13:54:41,866: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://dc5b429f784e:55161
+[rosmaster.master][INFO] 2019-06-29 13:54:41,868: -SERVICE [/gazebo_gui/set_parameters] /gazebo_gui rosrpc://dc5b429f784e:56241
+[rosmaster.master][INFO] 2019-06-29 13:54:41,869: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/', 'http://dc5b429f784e:44139/', 'http://dc5b429f784e:40511/']
+[rosmaster.master][INFO] 2019-06-29 13:54:41,870: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://dc5b429f784e:55161
+[rosmaster.master][INFO] 2019-06-29 13:54:41,871: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/', 'http://dc5b429f784e:44139/', 'http://dc5b429f784e:40511/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:54:42,047: -PUB [/rosout] /gazebo_gui http://dc5b429f784e:44139/
+[rosmaster.master][INFO] 2019-06-29 13:54:42,048: -SUB [/clock] /gazebo_gui http://dc5b429f784e:44139/
+[rosmaster.master][INFO] 2019-06-29 13:54:42,050: -SERVICE [/gazebo_gui/get_loggers] /gazebo_gui rosrpc://dc5b429f784e:56241
+[rosmaster.master][INFO] 2019-06-29 13:54:42,052: -SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui rosrpc://dc5b429f784e:56241
+[rosmaster.master][INFO] 2019-06-29 13:54:42,072: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/', 'http://dc5b429f784e:40511/']
+[rosmaster.master][INFO] 2019-06-29 13:54:42,073: publisherUpdate[/rosout] -> http://dc5b429f784e:42009/ ['http://dc5b429f784e:46377/', 'http://dc5b429f784e:40511/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-29 13:56:20,642: -PUB [/rosout_agg] /rosout http://dc5b429f784e:42009/
+[rosmaster.master][INFO] 2019-06-29 13:56:20,643: -SUB [/clock] /rosout http://dc5b429f784e:42009/
+[rosmaster.master][INFO] 2019-06-29 13:56:20,644: -SUB [/rosout] /rosout http://dc5b429f784e:42009/
+[rosmaster.master][INFO] 2019-06-29 13:56:20,645: -SERVICE [/rosout/get_loggers] /rosout rosrpc://dc5b429f784e:37235
+[rosmaster.master][INFO] 2019-06-29 13:56:20,646: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://dc5b429f784e:37235
+[rosmaster.main][INFO] 2019-06-29 13:56:20,749: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2019-06-29 13:56:20,749: stopping master...
+[rospy.core][INFO] 2019-06-29 13:56:20,750: signal_shutdown [atexit]

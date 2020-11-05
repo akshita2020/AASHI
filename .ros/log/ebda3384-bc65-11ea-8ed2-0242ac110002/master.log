@@ -1,0 +1,220 @@
+[rosmaster.main][INFO] 2020-07-02 13:14:14,105: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-07-02 13:14:14,106: Starting ROS Master Node
+[xmlrpc][INFO] 2020-07-02 13:14:14,107: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2020-07-02 13:14:14,107: Started XML-RPC server [http://177b797fd17c:11311/]
+[xmlrpc][INFO] 2020-07-02 13:14:14,107: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-07-02 13:14:14,107: Master initialized: port[11311], uri[http://177b797fd17c:11311/]
+[rosmaster.master][INFO] 2020-07-02 13:14:14,203: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-07-02 13:14:14,205: +PARAM [/roslaunch/uris/host_177b797fd17c__33551] by /roslaunch
+[rosmaster.master][INFO] 2020-07-02 13:14:14,763: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2020-07-02 13:14:14,765: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-07-02 13:14:14,765: +PARAM [/robot2/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2020-07-02 13:14:14,765: +PARAM [/robot2/tf_prefix] by /roslaunch
+[rosmaster.master][INFO] 2020-07-02 13:14:14,765: +PARAM [/robot1/tf_prefix] by /roslaunch
+[rosmaster.master][INFO] 2020-07-02 13:14:14,766: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-07-02 13:14:14,766: +PARAM [/robot1/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2020-07-02 13:14:14,767: +SERVICE [/rosout/get_loggers] /rosout http://177b797fd17c:42787/
+[rosmaster.master][INFO] 2020-07-02 13:14:14,768: +SERVICE [/rosout/set_logger_level] /rosout http://177b797fd17c:42787/
+[rosmaster.master][INFO] 2020-07-02 13:14:14,777: +SUB [/clock] /rosout http://177b797fd17c:42787/
+[rosmaster.master][INFO] 2020-07-02 13:14:14,778: +PUB [/rosout_agg] /rosout http://177b797fd17c:42787/
+[rosmaster.master][INFO] 2020-07-02 13:14:14,783: +SUB [/rosout] /rosout http://177b797fd17c:42787/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,531: +PUB [/rosout] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,532: +SERVICE [/gazebo/get_loggers] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,533: +SERVICE [/gazebo/set_logger_level] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,539: +SUB [/clock] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,609: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/']
+[rosmaster.master][INFO] 2020-07-02 13:14:15,610: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-07-02 13:14:15,905: +PUB [/clock] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,906: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,907: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,908: +SERVICE [/gazebo/delete_model] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,909: +SERVICE [/gazebo/delete_light] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,910: publisherUpdate[/clock] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/']
+[rosmaster.master][INFO] 2020-07-02 13:14:15,910: publisherUpdate[/clock] -> http://177b797fd17c:35485/ ['http://177b797fd17c:35485/']
+[rosmaster.master][INFO] 2020-07-02 13:14:15,911: publisherUpdate[/clock] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-07-02 13:14:15,912: publisherUpdate[/clock] -> http://177b797fd17c:35485/ ['http://177b797fd17c:35485/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-07-02 13:14:15,912: +SERVICE [/gazebo/get_model_properties] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,917: +SERVICE [/gazebo/get_model_state] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,921: +SERVICE [/gazebo/get_world_properties] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,924: +SERVICE [/gazebo/get_joint_properties] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,925: +SERVICE [/gazebo/get_link_properties] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,926: +SERVICE [/gazebo/get_link_state] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,926: +SERVICE [/gazebo/get_light_properties] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,927: +SERVICE [/gazebo/set_light_properties] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,928: +SERVICE [/gazebo/get_physics_properties] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,928: +PUB [/gazebo/link_states] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,929: +PUB [/gazebo/model_states] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,930: +SERVICE [/gazebo/set_link_properties] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,930: +SERVICE [/gazebo/set_physics_properties] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,931: +SERVICE [/gazebo/set_model_state] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,932: +SERVICE [/gazebo/set_model_configuration] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,932: +SERVICE [/gazebo/set_joint_properties] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,933: +SERVICE [/gazebo/set_link_state] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,936: +SUB [/gazebo/set_link_state] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,940: +SUB [/gazebo/set_model_state] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,941: +SERVICE [/gazebo/pause_physics] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,941: +SERVICE [/gazebo/unpause_physics] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,942: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,943: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,944: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,944: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,945: +SERVICE [/gazebo/reset_simulation] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,946: +SERVICE [/gazebo/reset_world] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,984: +SERVICE [/gazebo/set_parameters] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,985: +PUB [/gazebo/parameter_descriptions] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:15,986: +PUB [/gazebo/parameter_updates] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:16,017: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,018: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,019: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,020: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,021: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,022: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,023: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,024: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,025: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,026: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,030: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,031: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,032: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,033: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,034: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,038: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,040: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,042: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,044: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,045: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,046: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,047: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,048: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,049: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,050: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,054: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,055: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,056: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,057: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,064: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2020-07-02 13:14:16,079: +PUB [/rosout] /gazebo_gui http://177b797fd17c:34813/
+[rosmaster.master][INFO] 2020-07-02 13:14:16,080: +SERVICE [/gazebo_gui/get_loggers] /gazebo_gui http://177b797fd17c:34813/
+[rosmaster.master][INFO] 2020-07-02 13:14:16,081: +SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui http://177b797fd17c:34813/
+[rosmaster.master][INFO] 2020-07-02 13:14:16,089: +SUB [/clock] /gazebo_gui http://177b797fd17c:34813/
+[rosmaster.master][INFO] 2020-07-02 13:14:16,097: +SERVICE [/gazebo_gui/set_parameters] /gazebo_gui http://177b797fd17c:34813/
+[rosmaster.master][INFO] 2020-07-02 13:14:16,098: +PUB [/gazebo_gui/parameter_descriptions] /gazebo_gui http://177b797fd17c:34813/
+[rosmaster.master][INFO] 2020-07-02 13:14:16,099: +PUB [/gazebo_gui/parameter_updates] /gazebo_gui http://177b797fd17c:34813/
+[rosmaster.master][INFO] 2020-07-02 13:14:16,112: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/']
+[rosmaster.master][INFO] 2020-07-02 13:14:16,112: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-07-02 13:14:16,152: +PARAM [/gazebo_gui/time_step] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,153: +PARAM [/gazebo_gui/max_update_rate] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,154: +PARAM [/gazebo_gui/gravity_x] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,155: +PARAM [/gazebo_gui/gravity_y] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,156: +PARAM [/gazebo_gui/gravity_z] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,158: +PARAM [/gazebo_gui/auto_disable_bodies] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,160: +PARAM [/gazebo_gui/sor_pgs_precon_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,164: +PARAM [/gazebo_gui/sor_pgs_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,165: +PARAM [/gazebo_gui/sor_pgs_w] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,166: +PARAM [/gazebo_gui/sor_pgs_rms_error_tol] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,168: +PARAM [/gazebo_gui/cfm] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,170: +PARAM [/gazebo_gui/erp] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,172: +PARAM [/gazebo_gui/contact_surface_layer] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,173: +PARAM [/gazebo_gui/contact_max_correcting_vel] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,175: +PARAM [/gazebo_gui/max_contacts] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,180: +PARAM [/gazebo_gui/time_step] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,186: +PARAM [/gazebo_gui/max_update_rate] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,189: +PARAM [/gazebo_gui/gravity_x] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,198: +PARAM [/gazebo_gui/gravity_y] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,203: +PARAM [/gazebo_gui/gravity_z] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,210: +PARAM [/gazebo_gui/auto_disable_bodies] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,215: +PARAM [/gazebo_gui/sor_pgs_precon_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,229: +PARAM [/gazebo_gui/sor_pgs_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,232: +PARAM [/gazebo_gui/sor_pgs_w] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,234: +PARAM [/gazebo_gui/sor_pgs_rms_error_tol] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,242: +PARAM [/gazebo_gui/cfm] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,251: +PARAM [/gazebo_gui/erp] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,260: +PARAM [/gazebo_gui/contact_surface_layer] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,267: +PARAM [/gazebo_gui/contact_max_correcting_vel] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,269: +PARAM [/gazebo_gui/max_contacts] by /gazebo_gui
+[rosmaster.master][INFO] 2020-07-02 13:14:16,702: +PUB [/rosout] /robot1/controller http://177b797fd17c:36259/
+[rosmaster.master][INFO] 2020-07-02 13:14:16,709: +SERVICE [/robot1/controller/get_loggers] /robot1/controller http://177b797fd17c:36259/
+[rosmaster.master][INFO] 2020-07-02 13:14:16,713: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/', 'http://177b797fd17c:36259/']
+[rosmaster.master][INFO] 2020-07-02 13:14:16,713: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/', 'http://177b797fd17c:36259/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-07-02 13:14:16,714: +SERVICE [/robot1/controller/set_logger_level] /robot1/controller http://177b797fd17c:36259/
+[rosmaster.master][INFO] 2020-07-02 13:14:16,754: +SUB [/clock] /robot1/controller http://177b797fd17c:36259/
+[rosmaster.master][INFO] 2020-07-02 13:14:16,764: +PUB [/robot1/cmd_vel] /robot1/controller http://177b797fd17c:36259/
+[rosmaster.master][INFO] 2020-07-02 13:14:16,803: +SUB [/robot1/odom] /robot1/controller http://177b797fd17c:36259/
+[rosmaster.master][INFO] 2020-07-02 13:14:17,106: +PUB [/rosout] /robot1/urdf_spawner http://177b797fd17c:44143/
+[rosmaster.master][INFO] 2020-07-02 13:14:17,110: +SUB [/clock] /robot1/urdf_spawner http://177b797fd17c:44143/
+[rosmaster.master][INFO] 2020-07-02 13:14:17,112: +SERVICE [/robot1/urdf_spawner/get_loggers] /robot1/urdf_spawner http://177b797fd17c:44143/
+[rosmaster.master][INFO] 2020-07-02 13:14:17,113: +SERVICE [/robot1/urdf_spawner/set_logger_level] /robot1/urdf_spawner http://177b797fd17c:44143/
+[rosmaster.master][INFO] 2020-07-02 13:14:17,114: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/', 'http://177b797fd17c:36259/', 'http://177b797fd17c:44143/']
+[rosmaster.master][INFO] 2020-07-02 13:14:17,115: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/', 'http://177b797fd17c:36259/', 'http://177b797fd17c:44143/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-07-02 13:14:17,407: -SUB [/clock] /robot1/urdf_spawner http://177b797fd17c:44143/
+[rosmaster.master][INFO] 2020-07-02 13:14:17,408: -PUB [/rosout] /robot1/urdf_spawner http://177b797fd17c:44143/
+[rosmaster.master][INFO] 2020-07-02 13:14:17,408: -SERVICE [/robot1/urdf_spawner/set_logger_level] /robot1/urdf_spawner rosrpc://177b797fd17c:33375
+[rosmaster.master][INFO] 2020-07-02 13:14:17,408: -SERVICE [/robot1/urdf_spawner/get_loggers] /robot1/urdf_spawner rosrpc://177b797fd17c:33375
+[rosmaster.master][INFO] 2020-07-02 13:14:17,415: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/', 'http://177b797fd17c:36259/']
+[rosmaster.master][INFO] 2020-07-02 13:14:17,416: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/', 'http://177b797fd17c:36259/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-07-02 13:14:17,839: +PUB [/rosout] /robot2/controller http://177b797fd17c:35365/
+[rosmaster.master][INFO] 2020-07-02 13:14:17,849: +SERVICE [/robot2/controller/get_loggers] /robot2/controller http://177b797fd17c:35365/
+[rosmaster.master][INFO] 2020-07-02 13:14:17,856: +SERVICE [/robot2/controller/set_logger_level] /robot2/controller http://177b797fd17c:35365/
+[rosmaster.master][INFO] 2020-07-02 13:14:17,917: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/', 'http://177b797fd17c:36259/', 'http://177b797fd17c:35365/']
+[rosmaster.master][INFO] 2020-07-02 13:14:17,918: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/', 'http://177b797fd17c:36259/', 'http://177b797fd17c:35365/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-07-02 13:14:17,949: +SUB [/clock] /robot2/controller http://177b797fd17c:35365/
+[rosmaster.master][INFO] 2020-07-02 13:14:17,970: +PUB [/robot2/cmd_vel] /robot2/controller http://177b797fd17c:35365/
+[rosmaster.master][INFO] 2020-07-02 13:14:18,030: +PUB [/robot1/laserscan] /gazebo http://177b797fd17c:35485/
+[rosmaster.master][INFO] 2020-07-02 13:14:18,037: +SUB [/robot2/odom] /robot2/controller http://177b797fd17c:35365/
+[rosmaster.master][INFO] 2020-07-02 13:14:18,213: +PUB [/rosout] /robot2/urdf_spawner http://177b797fd17c:45319/
+[rosmaster.master][INFO] 2020-07-02 13:14:18,218: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/', 'http://177b797fd17c:36259/', 'http://177b797fd17c:35365/', 'http://177b797fd17c:45319/']
+[rosmaster.master][INFO] 2020-07-02 13:14:18,219: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/', 'http://177b797fd17c:36259/', 'http://177b797fd17c:35365/', 'http://177b797fd17c:45319/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-07-02 13:14:18,227: +SUB [/clock] /robot2/urdf_spawner http://177b797fd17c:45319/
+[rosmaster.master][INFO] 2020-07-02 13:14:18,236: +SERVICE [/robot2/urdf_spawner/get_loggers] /robot2/urdf_spawner http://177b797fd17c:45319/
+[rosmaster.master][INFO] 2020-07-02 13:14:18,244: +SERVICE [/robot2/urdf_spawner/set_logger_level] /robot2/urdf_spawner http://177b797fd17c:45319/
+[rosmaster.master][INFO] 2020-07-02 13:14:19,104: +PUB [/rosout] /robot1/urdf_spawner http://177b797fd17c:46825/
+[rosmaster.master][INFO] 2020-07-02 13:14:19,115: +SUB [/clock] /robot1/urdf_spawner http://177b797fd17c:46825/
+[rosmaster.master][INFO] 2020-07-02 13:14:19,117: +SERVICE [/robot1/urdf_spawner/get_loggers] /robot1/urdf_spawner http://177b797fd17c:46825/
+[rosmaster.master][INFO] 2020-07-02 13:14:19,118: +SERVICE [/robot1/urdf_spawner/set_logger_level] /robot1/urdf_spawner http://177b797fd17c:46825/
+[rosmaster.master][INFO] 2020-07-02 13:14:19,119: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/', 'http://177b797fd17c:36259/', 'http://177b797fd17c:35365/', 'http://177b797fd17c:45319/', 'http://177b797fd17c:46825/']
+[rosmaster.master][INFO] 2020-07-02 13:14:19,121: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/', 'http://177b797fd17c:36259/', 'http://177b797fd17c:35365/', 'http://177b797fd17c:45319/', 'http://177b797fd17c:46825/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-07-02 13:14:59,635: -SUB [/clock] /robot2/urdf_spawner http://177b797fd17c:45319/
+[rosmaster.master][INFO] 2020-07-02 13:14:59,635: -PUB [/rosout] /robot2/urdf_spawner http://177b797fd17c:45319/
+[rosmaster.master][INFO] 2020-07-02 13:14:59,636: -SERVICE [/robot2/urdf_spawner/get_loggers] /robot2/urdf_spawner rosrpc://177b797fd17c:39577
+[rosmaster.master][INFO] 2020-07-02 13:14:59,636: -SERVICE [/robot2/urdf_spawner/set_logger_level] /robot2/urdf_spawner rosrpc://177b797fd17c:39577
+[rosmaster.master][INFO] 2020-07-02 13:14:59,640: -SUB [/clock] /robot1/urdf_spawner http://177b797fd17c:46825/
+[rosmaster.master][INFO] 2020-07-02 13:14:59,641: -PUB [/rosout] /robot1/urdf_spawner http://177b797fd17c:46825/
+[rosmaster.master][INFO] 2020-07-02 13:14:59,641: -SERVICE [/robot1/urdf_spawner/set_logger_level] /robot1/urdf_spawner rosrpc://177b797fd17c:46731
+[rosmaster.master][INFO] 2020-07-02 13:14:59,641: -SERVICE [/robot1/urdf_spawner/get_loggers] /robot1/urdf_spawner rosrpc://177b797fd17c:46731
+[rosmaster.master][INFO] 2020-07-02 13:14:59,689: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/', 'http://177b797fd17c:36259/', 'http://177b797fd17c:35365/', 'http://177b797fd17c:46825/']
+[rosmaster.master][INFO] 2020-07-02 13:14:59,690: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/', 'http://177b797fd17c:36259/', 'http://177b797fd17c:35365/', 'http://177b797fd17c:46825/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-07-02 13:14:59,690: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/', 'http://177b797fd17c:36259/', 'http://177b797fd17c:35365/']
+[rosmaster.master][INFO] 2020-07-02 13:14:59,690: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/', 'http://177b797fd17c:36259/', 'http://177b797fd17c:35365/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-07-02 13:14:59,787: -PUB [/rosout] /robot1/controller http://177b797fd17c:36259/
+[rosmaster.master][INFO] 2020-07-02 13:14:59,791: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/', 'http://177b797fd17c:35365/']
+[rosmaster.master][INFO] 2020-07-02 13:14:59,792: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/', 'http://177b797fd17c:35365/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-07-02 13:14:59,795: -PUB [/rosout] /robot2/controller http://177b797fd17c:35365/
+[rosmaster.master][INFO] 2020-07-02 13:14:59,796: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/']
+[rosmaster.master][INFO] 2020-07-02 13:14:59,797: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/', 'http://177b797fd17c:34813/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-07-02 13:14:59,805: -PUB [/robot2/cmd_vel] /robot2/controller http://177b797fd17c:35365/
+[rosmaster.master][INFO] 2020-07-02 13:14:59,813: -PUB [/robot1/cmd_vel] /robot1/controller http://177b797fd17c:36259/
+[rosmaster.master][INFO] 2020-07-02 13:14:59,814: -SUB [/clock] /robot2/controller http://177b797fd17c:35365/
+[rosmaster.master][INFO] 2020-07-02 13:14:59,815: -SUB [/clock] /robot1/controller http://177b797fd17c:36259/
+[rosmaster.master][INFO] 2020-07-02 13:14:59,820: -SUB [/robot2/odom] /robot2/controller http://177b797fd17c:35365/
+[rosmaster.master][INFO] 2020-07-02 13:14:59,825: -SUB [/robot1/odom] /robot1/controller http://177b797fd17c:36259/
+[rosmaster.master][INFO] 2020-07-02 13:14:59,828: -SERVICE [/robot2/controller/get_loggers] /robot2/controller rosrpc://177b797fd17c:56365
+[rosmaster.master][INFO] 2020-07-02 13:14:59,833: -SERVICE [/robot1/controller/get_loggers] /robot1/controller rosrpc://177b797fd17c:44249
+[rosmaster.master][INFO] 2020-07-02 13:14:59,839: -SERVICE [/robot2/controller/set_logger_level] /robot2/controller rosrpc://177b797fd17c:56365
+[rosmaster.master][INFO] 2020-07-02 13:14:59,843: -SERVICE [/robot1/controller/set_logger_level] /robot1/controller rosrpc://177b797fd17c:44249
+[rosmaster.master][INFO] 2020-07-02 13:14:59,847: -PUB [/gazebo_gui/parameter_descriptions] /gazebo_gui http://177b797fd17c:34813/
+[rosmaster.master][INFO] 2020-07-02 13:14:59,853: -PUB [/gazebo_gui/parameter_updates] /gazebo_gui http://177b797fd17c:34813/
+[rosmaster.master][INFO] 2020-07-02 13:14:59,855: -SERVICE [/gazebo_gui/set_parameters] /gazebo_gui rosrpc://177b797fd17c:35763
+[rosmaster.master][INFO] 2020-07-02 13:14:59,981: -PUB [/rosout] /gazebo_gui http://177b797fd17c:34813/
+[rosmaster.master][INFO] 2020-07-02 13:14:59,982: -SUB [/clock] /gazebo_gui http://177b797fd17c:34813/
+[rosmaster.master][INFO] 2020-07-02 13:14:59,983: -SERVICE [/gazebo_gui/get_loggers] /gazebo_gui rosrpc://177b797fd17c:35763
+[rosmaster.master][INFO] 2020-07-02 13:14:59,984: -SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui rosrpc://177b797fd17c:35763
+[rosmaster.master][INFO] 2020-07-02 13:14:59,991: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/']
+[rosmaster.master][INFO] 2020-07-02 13:14:59,992: publisherUpdate[/rosout] -> http://177b797fd17c:42787/ ['http://177b797fd17c:35485/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-07-02 13:15:05,804: -PUB [/rosout_agg] /rosout http://177b797fd17c:42787/
+[rosmaster.master][INFO] 2020-07-02 13:15:05,805: -SUB [/clock] /rosout http://177b797fd17c:42787/
+[rosmaster.master][INFO] 2020-07-02 13:15:05,806: -SUB [/rosout] /rosout http://177b797fd17c:42787/
+[rosmaster.master][INFO] 2020-07-02 13:15:05,807: -SERVICE [/rosout/get_loggers] /rosout rosrpc://177b797fd17c:60779
+[rosmaster.master][INFO] 2020-07-02 13:15:05,808: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://177b797fd17c:60779
+[rosmaster.main][INFO] 2020-07-02 13:15:05,857: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2020-07-02 13:15:05,857: stopping master...
+[rospy.core][INFO] 2020-07-02 13:15:05,857: signal_shutdown [atexit]

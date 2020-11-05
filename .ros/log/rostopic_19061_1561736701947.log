@@ -1,0 +1,22 @@
+[rospy.client][INFO] 2019-06-28 15:45:02,153: init_node, name[/rostopic_19061_1561736701947], pid[19061]
+[xmlrpc][INFO] 2019-06-28 15:45:02,154: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-28 15:45:02,155: Started XML-RPC server [http://dc5b429f784e:40979/]
+[rospy.init][INFO] 2019-06-28 15:45:02,155: ROS Slave URI: [http://dc5b429f784e:40979/]
+[rospy.impl.masterslave][INFO] 2019-06-28 15:45:02,155: _ready: http://dc5b429f784e:40979/
+[rospy.registration][INFO] 2019-06-28 15:45:02,156: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-28 15:45:02,157: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-28 15:45:02,256: registered with master
+[rospy.rosout][INFO] 2019-06-28 15:45:02,256: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-28 15:45:02,259: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-28 15:45:02,261: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-28 15:45:02,267: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-28 15:45:02,276: topic[/clock] adding connection to [http://dc5b429f784e:45991/], count 0
+[rospy.internal][INFO] 2019-06-28 15:45:02,320: topic[/joint_states] adding connection to [http://dc5b429f784e:45991/], count 0
+[rospy.internal][INFO] 2019-06-28 15:45:02,321: topic[/joint_states] adding connection to [http://dc5b429f784e:44533/], count 0
+[rospy.core][INFO] 2019-06-28 15:45:05,030: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-28 15:45:05,037: topic[/clock] removing connection to http://dc5b429f784e:45991/
+[rospy.internal][INFO] 2019-06-28 15:45:05,038: topic[/joint_states] removing connection to http://dc5b429f784e:45991/
+[rospy.internal][INFO] 2019-06-28 15:45:05,038: topic[/joint_states] removing connection to http://dc5b429f784e:44533/
+[rospy.impl.masterslave][INFO] 2019-06-28 15:45:05,039: signal-2
+[rospy.core][INFO] 2019-06-28 15:45:05,665: signal_shutdown [signal-2]
+[rospy.core][INFO] 2019-06-28 15:45:05,666: signal_shutdown [atexit]

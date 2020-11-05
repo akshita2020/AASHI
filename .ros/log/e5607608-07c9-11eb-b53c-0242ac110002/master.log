@@ -1,0 +1,31 @@
+[rosmaster.main][INFO] 2020-10-06 11:48:49,548: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-10-06 11:48:49,548: Starting ROS Master Node
+[xmlrpc][INFO] 2020-10-06 11:48:49,549: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2020-10-06 11:48:49,550: Started XML-RPC server [http://9e25d43a61db:11311/]
+[xmlrpc][INFO] 2020-10-06 11:48:49,550: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-10-06 11:48:49,550: Master initialized: port[11311], uri[http://9e25d43a61db:11311/]
+[rosmaster.master][INFO] 2020-10-06 11:48:49,634: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-10-06 11:48:49,636: +PARAM [/roslaunch/uris/host_9e25d43a61db__33029] by /roslaunch
+[rosmaster.master][INFO] 2020-10-06 11:48:50,204: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-10-06 11:48:50,205: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-10-06 11:48:50,208: +SERVICE [/rosout/get_loggers] /rosout http://9e25d43a61db:43401/
+[rosmaster.master][INFO] 2020-10-06 11:48:50,209: +SERVICE [/rosout/set_logger_level] /rosout http://9e25d43a61db:43401/
+[rosmaster.master][INFO] 2020-10-06 11:48:50,212: +PUB [/rosout_agg] /rosout http://9e25d43a61db:43401/
+[rosmaster.master][INFO] 2020-10-06 11:48:50,217: +SUB [/rosout] /rosout http://9e25d43a61db:43401/
+[rosmaster.master][INFO] 2020-10-06 11:49:35,977: +PUB [/rosout] /rosjava/perception2owl http://127.0.0.1:38245/
+[rosmaster.master][INFO] 2020-10-06 11:49:36,005: publisherUpdate[/rosout] -> http://9e25d43a61db:43401/ ['http://127.0.0.1:38245/']
+[rosmaster.master][INFO] 2020-10-06 11:49:36,006: publisherUpdate[/rosout] -> http://9e25d43a61db:43401/ ['http://127.0.0.1:38245/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-10-06 11:49:36,089: +SERVICE [/armor_interface_srv] /rosjava/perception2owl http://127.0.0.1:38245/
+[rosmaster.master][INFO] 2020-10-06 11:49:36,093: +SERVICE [/armor_interface_serialized_srv] /rosjava/perception2owl http://127.0.0.1:38245/
+[rosmaster.master][INFO] 2020-10-06 11:49:38,279: -PUB [/rosout] /rosjava/perception2owl http://127.0.0.1:38245/
+[rosmaster.master][INFO] 2020-10-06 11:49:38,283: -SERVICE [/armor_interface_serialized_srv] /rosjava/perception2owl rosrpc://127.0.0.1:35313/
+[rosmaster.master][INFO] 2020-10-06 11:49:38,289: -SERVICE [/armor_interface_srv] /rosjava/perception2owl rosrpc://127.0.0.1:35313/
+[rosmaster.master][INFO] 2020-10-06 11:49:38,312: publisherUpdate[/rosout] -> http://9e25d43a61db:43401/ []
+[rosmaster.master][INFO] 2020-10-06 11:49:38,313: publisherUpdate[/rosout] -> http://9e25d43a61db:43401/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-10-06 11:49:40,919: -PUB [/rosout_agg] /rosout http://9e25d43a61db:43401/
+[rosmaster.master][INFO] 2020-10-06 11:49:40,920: -SUB [/rosout] /rosout http://9e25d43a61db:43401/
+[rosmaster.master][INFO] 2020-10-06 11:49:40,921: -SERVICE [/rosout/get_loggers] /rosout rosrpc://9e25d43a61db:52635
+[rosmaster.master][INFO] 2020-10-06 11:49:40,922: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://9e25d43a61db:52635
+[rosmaster.main][INFO] 2020-10-06 11:49:40,945: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2020-10-06 11:49:40,945: stopping master...
+[rospy.core][INFO] 2020-10-06 11:49:40,946: signal_shutdown [atexit]

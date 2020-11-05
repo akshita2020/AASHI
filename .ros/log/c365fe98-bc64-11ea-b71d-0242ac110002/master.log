@@ -1,0 +1,24 @@
+[rosmaster.main][INFO] 2020-07-02 13:05:56,141: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-07-02 13:05:56,141: Starting ROS Master Node
+[xmlrpc][INFO] 2020-07-02 13:05:56,143: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2020-07-02 13:05:56,143: Started XML-RPC server [http://177b797fd17c:11311/]
+[xmlrpc][INFO] 2020-07-02 13:05:56,143: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-07-02 13:05:56,143: Master initialized: port[11311], uri[http://177b797fd17c:11311/]
+[rosmaster.master][INFO] 2020-07-02 13:05:56,234: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-07-02 13:05:56,235: +PARAM [/roslaunch/uris/host_177b797fd17c__35701] by /roslaunch
+[rosmaster.master][INFO] 2020-07-02 13:05:56,787: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-07-02 13:05:56,787: +PARAM [/my_integer] by /roslaunch
+[rosmaster.master][INFO] 2020-07-02 13:05:56,787: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-07-02 13:05:56,787: +PARAM [/my_float] by /roslaunch
+[rosmaster.master][INFO] 2020-07-02 13:05:56,787: +PARAM [/my_string] by /roslaunch
+[rosmaster.master][INFO] 2020-07-02 13:05:56,791: +SERVICE [/rosout/get_loggers] /rosout http://177b797fd17c:43101/
+[rosmaster.master][INFO] 2020-07-02 13:05:56,792: +SERVICE [/rosout/set_logger_level] /rosout http://177b797fd17c:43101/
+[rosmaster.master][INFO] 2020-07-02 13:05:56,794: +PUB [/rosout_agg] /rosout http://177b797fd17c:43101/
+[rosmaster.master][INFO] 2020-07-02 13:05:56,799: +SUB [/rosout] /rosout http://177b797fd17c:43101/
+[rosmaster.master][INFO] 2020-07-02 13:06:00,702: -PUB [/rosout_agg] /rosout http://177b797fd17c:43101/
+[rosmaster.master][INFO] 2020-07-02 13:06:00,703: -SUB [/rosout] /rosout http://177b797fd17c:43101/
+[rosmaster.master][INFO] 2020-07-02 13:06:00,704: -SERVICE [/rosout/get_loggers] /rosout rosrpc://177b797fd17c:41555
+[rosmaster.master][INFO] 2020-07-02 13:06:00,705: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://177b797fd17c:41555
+[rosmaster.main][INFO] 2020-07-02 13:06:00,779: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2020-07-02 13:06:00,779: stopping master...
+[rospy.core][INFO] 2020-07-02 13:06:00,779: signal_shutdown [atexit]

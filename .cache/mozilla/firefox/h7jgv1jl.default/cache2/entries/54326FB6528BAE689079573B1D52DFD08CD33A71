@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html class="nojs html" lang="en-US">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2017.0.2.363"/>
+  <meta name="keywords" content="Robot Simulator Simulation V-REP Virtual Experimentation Platform Coppelia Robotics"/><!-- custom meta -->
+  <meta name="keywords" content="Create. Compose. Simulate. Any Robot"/><!-- custom meta -->
+  <meta name="description" content="Robot Simulator Simulation V-REP Virtual Experimentation Platform Coppelia Robotics"/><!-- custom meta -->
+  
+  <script type="text/javascript">
+   // Update the 'nojs'/'js' class on the html node
+document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+
+// Check that all required assets are uploaded and up-to-date
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "require.js", "downloads.css"], "outOfDate":[]};
+</script>
+  
+  <link rel="shortcut icon" href="images/favicon.ico?crc=3959599113"/>
+  <title>Coppelia Robotics V-REP: Create. Compose. Simulate. Any Robot: Downloads</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=433477320"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=361641470"/>
+  <link rel="stylesheet" type="text/css" href="css/downloads.css?crc=3960936090" id="pagesheet"/>
+  <!-- JS includes -->
+  <script src="https://use.typekit.net/ik/mHb_rTDAHn9wyTJ1UfjuRPMoWOK05zc9w2IQBcq7o7wfel3gfH2gwUJ152bD5QwhWD6uwRMtwQ88FR6XwDw3FAbtFQBcwR9UjQwoZQjtjDS3eqb7OcFzSYg8de8yScNKdasTjaw0jhNlOeFzSYg8de8yScNKdasTjaw0jhNlOYiaikoRdag3ZAUTjW4zjcNX-AFDOcFzdPJHdWmDZAvlShUyjKJw-cBcOAZyjh8XihmKH6qJ_6vbMg6BJMJ7fbRC2UMMeMw6MKG4f5vVIMMj2kMfH6qJ_bvbMg6FJMJ7fbKWOUMgeMw6MKG4f49zIMIjgfMfP6sFiWF8qMeREVRegb.js" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   try {Typekit.load();} catch(e) {}
+</script>
+    <!--custom head HTML-->
+  <script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-35774795-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+
+
+<style type="text/css">
+a {
+	-moz-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	-webkit-transition: all 0.6s ease;
+	-ms-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+} 
+ </style> 
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//www.coppeliarobotics.com/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//www.coppeliarobotics.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+ </head>
+ <body>
+
+  <div class="shadow clearfix" id="page"><!-- column -->
+   <div class="clearfix colelem" id="pu94"><!-- group -->
+    <div id="u94"><!-- simple frame --></div>
+    <div class="Menu clearfix" id="u218-4"><!-- content -->
+     <p>Home&nbsp;&nbsp;&nbsp;&nbsp; Features&nbsp;&nbsp;&nbsp;&nbsp; Videos&nbsp;&nbsp;&nbsp;&nbsp; Downloads&nbsp;&nbsp;&nbsp;&nbsp; Resources&nbsp;&nbsp;&nbsp;&nbsp; Contact</p>
+    </div>
+    <a class="nonblock nontext clip_frame" id="u965" href="index.html"><!-- svg --><img class="svg" id="u960" src="images/coppelia-robotics-outlines.svg?crc=3781576155" width="295" height="88" alt="" data-mu-svgfallback="images/coppelia-robotics-outlines_poster_.png?crc=180858944"/></a>
+    <div class="Menu clearfix" id="u425-6"><!-- content -->
+     <p>Home&nbsp;&nbsp;&nbsp;&nbsp; Features&nbsp;&nbsp;&nbsp;&nbsp; Videos&nbsp;&nbsp;&nbsp;&nbsp; <span id="u425-2">Downloads</span>&nbsp;&nbsp;&nbsp;&nbsp; Resources&nbsp;&nbsp;&nbsp;&nbsp; Contact</p>
+    </div>
+    <a class="nonblock nontext" id="u513" href="index.html"><!-- simple frame --></a>
+    <a class="nonblock nontext" id="u516" href="features.html"><!-- simple frame --></a>
+    <a class="nonblock nontext" id="u522" href="videos.html"><!-- simple frame --></a>
+    <a class="nonblock nontext MuseLinkActive" id="u528" href="downloads.html"><!-- simple frame --></a>
+    <a class="nonblock nontext" id="u534" href="resources.html"><!-- simple frame --></a>
+    <a class="nonblock nontext" id="u540" href="contact.html"><!-- simple frame --></a>
+   </div>
+   <a class="nonblock nontext colelem" id="u546" href="index.html"><!-- simple frame --></a>
+   <div class="clearfix colelem" id="ppu692"><!-- group -->
+    <div class="clearfix grpelem" id="pu692"><!-- column -->
+     <div class="clip_frame colelem" id="u692"><!-- image -->
+      <img class="block" id="u692_img" src="images/v-rep-logo-pro-edu.png?crc=90231548" data-hidpi-src="images/v-rep-logo-pro-edu_2x.png?crc=90231548" alt="v-rep pro edu" width="179" height="62"/>
+     </div>
+     <div class="Fliesstext clearfix colelem" id="u752-9"><!-- content -->
+      <p><span class="strong">V-REP PRO EDU V3.6.2 rev0</span></p>
+      <p>Non-limited EDUCATIONAL version. Free.</p>
+      <p><span id="u752-5">â†’</span> <span><a class="nonblock" href="educational-licensing.html">Licensing conditions</a></span></p>
+     </div>
+    </div>
+    <a class="nonblock nontext clip_frame grpelem" id="u3660" href="http://coppeliarobotics.com/files/V-REP_PRO_EDU_V3_6_2_Setup.exe"><!-- svg --><img class="svg" id="u4181" src="images/os-downloads-05.svg?crc=3871905435" width="62" height="110" alt="Download V-REP pro edu for Windows " data-mu-svgfallback="images/os-downloads-05_poster_.png?crc=170807875"/></a>
+    <a class="nonblock nontext clip_frame grpelem" id="u3651" href="http://coppeliarobotics.com/files/V-REP_PRO_EDU_V3_6_2_Mac.zip"><!-- svg --><img class="svg" id="u3652" src="images/os-downloads-02.svg?crc=4100037415" width="62" height="110" alt="Download V-REP pro edu for Apple macOS" data-mu-svgfallback="images/os-downloads-02_poster_.png?crc=5824759"/></a>
+    <a class="nonblock nontext clip_frame grpelem" id="u3633" href="http://coppeliarobotics.com/ubuntuVersions.html"><!-- svg --><img class="svg" id="u3634" src="images/os-downloads-04.svg?crc=4224989889" width="62" height="110" alt="Download V-REP pro edu for Linux 64bit" data-mu-svgfallback="images/os-downloads-04_poster_.png?crc=138996008"/></a>
+   </div>
+   <div class="clearfix colelem" id="ppu682"><!-- group -->
+    <div class="clearfix grpelem" id="pu682"><!-- column -->
+     <div class="clip_frame colelem" id="u682"><!-- image -->
+      <img class="block" id="u682_img" src="images/v-rep-logo-pro-eval.png?crc=4048020194" data-hidpi-src="images/v-rep-logo-pro-eval_2x.png?crc=4048020194" alt="v-rep pro eval" width="179" height="62"/>
+     </div>
+     <div class="Fliesstext clearfix colelem" id="u786-8"><!-- content -->
+      <p><span class="strong">V-REP PRO V3.6.2 rev0</span></p>
+      <p>Commercial version.</p>
+      <p>Reverts to evaluation mode without license (i.e. saving is disabled).</p>
+     </div>
+    </div>
+    <a class="nonblock nontext clip_frame grpelem" id="u3588" href="http://coppeliarobotics.com/files/V-REP_PRO_V3_6_2_Setup.exe"><!-- svg --><img class="svg" id="u4207" src="images/os-downloads-05.svg?crc=3871905435" width="62" height="110" alt="Download V-REP pro eval for Windows" data-mu-svgfallback="images/os-downloads-05_poster_.png?crc=170807875"/></a>
+    <a class="nonblock nontext clip_frame grpelem" id="u3579" href="http://coppeliarobotics.com/files/V-REP_PRO_V3_6_2_Mac.zip"><!-- svg --><img class="svg" id="u3580" src="images/os-downloads-02.svg?crc=4100037415" width="62" height="110" alt="Download V-REP pro eval for Apple macOS" data-mu-svgfallback="images/os-downloads-02_poster_.png?crc=5824759"/></a>
+    <a class="nonblock nontext clip_frame grpelem" id="u3561" href="http://coppeliarobotics.com/ubuntuVersions.html"><!-- svg --><img class="svg" id="u3562" src="images/os-downloads-04.svg?crc=4224989889" width="62" height="110" alt="Download V-REP pro eval for Linux 64bit" data-mu-svgfallback="images/os-downloads-04_poster_.png?crc=138996008"/></a>
+   </div>
+   <div class="clearfix colelem" id="ppu702"><!-- group -->
+    <div class="clearfix grpelem" id="pu702"><!-- column -->
+     <div class="clip_frame colelem" id="u702"><!-- image -->
+      <img class="block" id="u702_img" src="images/v-rep-logo-player.png?crc=10950406" data-hidpi-src="images/v-rep-logo-player_2x.png?crc=10950406" alt="v-rep player" width="179" height="62"/>
+     </div>
+     <div class="Fliesstext clearfix colelem" id="u848-10"><!-- content -->
+      <p><span class="strong">V-REP PLAYER V3.6.2 rev0</span></p>
+      <p>Play back your simulations on any computer! Free.</p>
+      <p>Limited editing capabilities.</p>
+      <p>May be freely distributed.</p>
+     </div>
+    </div>
+    <a class="nonblock nontext clip_frame grpelem" id="u3459" href="http://coppeliarobotics.com/files/V-REP_PLAYER_V3_6_2_Setup.exe"><!-- svg --><img class="svg" id="u4216" src="images/os-downloads-05.svg?crc=3871905435" width="62" height="110" alt="Download V-REP player for Windows" data-mu-svgfallback="images/os-downloads-05_poster_.png?crc=170807875"/></a>
+    <a class="nonblock nontext clip_frame grpelem" id="u3465" href="http://coppeliarobotics.com/files/V-REP_PLAYER_V3_6_2_Mac.zip"><!-- svg --><img class="svg" id="u3461" src="images/os-downloads-02.svg?crc=4100037415" width="62" height="110" alt="Download V-REP player for Apple macOS" data-mu-svgfallback="images/os-downloads-02_poster_.png?crc=5824759"/></a>
+    <a class="nonblock nontext clip_frame grpelem" id="u3477" href="http://coppeliarobotics.com/ubuntuVersions.html"><!-- svg --><img class="svg" id="u3473" src="images/os-downloads-04.svg?crc=4224989889" width="62" height="111" alt="Download V-REP player for Linux 64bit" data-mu-svgfallback="images/os-downloads-04_poster_.png?crc=138996008"/></a>
+   </div>
+   <a class="anchor_item colelem" id="source"></a>
+   <div class="clearfix colelem" id="pu882"><!-- group -->
+    <div class="clip_frame grpelem" id="u882"><!-- image -->
+     <img class="block" id="u882_img" src="images/v-rep-logo.png?crc=3839650585" data-hidpi-src="images/v-rep-logo_2x.png?crc=3839650585" alt="v-rep source" width="179" height="62"/>
+    </div>
+    <div class="clearfix grpelem" id="u972-4"><!-- content -->
+     <p>source</p>
+    </div>
+   </div>
+   <div class="clearfix colelem" id="pu910-5"><!-- group -->
+    <div class="Fliesstext clearfix grpelem" id="u910-5"><!-- content -->
+     <p><span class="strong">V-REP source code items</span></p>
+     <p>&nbsp;</p>
+    </div>
+    <div class="Fliesstext clearfix grpelem" id="u913-34"><!-- content -->
+     <p><span id="u913">â†’</span> <span><a class="nonblock" href="https://github.com/CoppeliaRobotics" target="_blank">Coppelia Robotics GitHub repositories</a></span></p>
+     <p>&nbsp;</p>
+     <p><span id="u913-20">â†’</span> <span><a class="nonblock" href="licensing.html">Compiled packages licensing conditions</a></span></p>
+     <p>&nbsp;</p>
+    </div>
+   </div>
+   <div class="colelem" id="u3434"><!-- simple frame --></div>
+   <div class="Fliesstext clearfix colelem" id="u2817-10"><!-- content -->
+    <p><span><a class="nonblock" href="https://www.sciencedaily.com/releases/2016/08/160809121813.htm"><span id="u2817">â†’</span></a></span><span id="u2817-4"> </span><span><a class="nonblock" href="previousversions.html">Previous versions of V-REP are available here</a></span></p>
+   </div>
+   <div class="clearfix colelem" id="pu1503"><!-- group -->
+    <div class="clip_frame grpelem" id="u1503"><!-- svg -->
+     <img class="svg" id="u1498" src="images/social.svg?crc=3823856590" width="67" height="30" alt="" data-mu-svgfallback="images/social_poster_.png?crc=4099269622"/>
+    </div>
+    <a class="nonblock nontext grpelem" id="u1509" href="https://www.youtube.com/user/VirtualRobotPlatform" target="_blank"><!-- simple frame --></a>
+    <a class="nonblock nontext grpelem" id="u1512" href="https://twitter.com/coppeliaRobotic" target="_blank"><!-- simple frame --></a>
+   </div>
+  </div>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
+16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
+l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
+f.parentNode.removeChild(f);location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){g(!0)},5E3):g()}};
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput"],function(d){var $ = d;$(document).ready(function(){try{
+window.Muse.assets.check($);/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.detectScreenResolution();/* HiDPI screens */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
+
+</script>
+  <!-- RequireJS script -->
+  <script src="scripts/require.js?crc=4234670167" type="text/javascript" async data-main="scripts/museconfig.js?crc=3849126041" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+   </body>
+</html>
+¹~ÑûZ      ]Ö¸]ÖÅ@‡â°       /    :http://www.coppeliarobotics.com/downloads.html necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Sat, 29 Jun 2019 21:22:36 GMT
+Server: Apache/2.2.27 (Unix) mod_ssl/2.2.27 OpenSSL/0.9.8e-fips-rhel5 mod_bwlimited/1.4 PHP/5.4.31
+X-Powered-By: PHP/5.4.31
+Content-Type: text/html
+ original-response-headers Date: Sat, 29 Jun 2019 21:22:36 GMT
+Server: Apache/2.2.27 (Unix) mod_ssl/2.2.27 OpenSSL/0.9.8e-fips-rhel5 mod_bwlimited/1.4 PHP/5.4.31
+X-Powered-By: PHP/5.4.31
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html
+ uncompressed-len 0 predictor::resource-count 28 predictor::http://www.coppeliarobotics.com/css/site_global.css?crc=433477320 1,2,1561843384,12288 predictor::http://www.coppeliarobotics.com/css/master_a-master.css?crc=361641470 1,2,1561843384,12288 predictor::http://www.coppeliarobotics.com/css/downloads.css?crc=3960936090 1,2,1561843384,12288 predictor::https://use.typekit.net/ik/mHb_rTDAHn9wyTJ1UfjuRPMoWOK05zc9w2IQBcq7o7wfel3gfH2gwUJ152bD5QwhWD6uwRMtwQ88FR6XwDw3FAbtFQBcwR9UjQwoZQjtjDS3eqb7OcFzSYg8de8yScNKdasTjaw0jhNlOeFzSYg8de8yScNKdasTjaw0jhNlOYiaikoRdag3ZAUTjW4zjcNX-AFDOcFzdPJHdWmDZAvlShUyjKJw-cBcOAZyjh8XihmKH6qJ_6vbMg6BJMJ7fbRC2UMMeMw6MKG4f5vVIMMj2kMfH6qJ_bvbMg6FJMJ7fbKWOUMgeMw6MKG4f49zIMIjgfMfP6sFiWF8qMeREVRegb.js 1,2,1561843384,12288 predictor::http://www.coppeliarobotics.com/images/coppelia-robotics-outlines.svg?crc=3781576155 1,1,1561843356,8192 predictor::http://www.coppeliarobotics.com/images/v-rep-logo-pro-edu.png?crc=90231548 1,1,1561843356,8192 predictor::http://www.coppeliarobotics.com/images/os-downloads-05.svg?crc=3871905435 1,1,1561843356,8192 predictor::http://www.coppeliarobotics.com/images/os-downloads-02.svg?crc=4100037415 1,1,1561843356,8192 predictor::http://www.coppeliarobotics.com/images/os-downloads-04.svg?crc=4224989889 1,1,1561843356,8192 predictor::http://www.coppeliarobotics.com/images/v-rep-logo-pro-eval.png?crc=4048020194 1,1,1561843356,8192 predictor::http://www.coppeliarobotics.com/images/v-rep-logo-player.png?crc=10950406 1,1,1561843356,8192 predictor::http://www.coppeliarobotics.com/images/v-rep-logo.png?crc=3839650585 1,1,1561843356,8192 predictor::http://www.coppeliarobotics.com/images/social.svg?crc=3823856590 1,1,1561843356,8192 net-response-time-onstart 62 net-response-time-onstop 217 predictor::http://www.coppeliarobotics.com/scripts/require.js?crc=4234670167 1,2,1561843384,12288 predictor::http://www.google-analytics.com/ga.js 1,2,1561843384,12288 predictor::http://www.coppeliarobotics.com/piwik/piwik.js 1,2,1561843384,12289 predictor::http://www.coppeliarobotics.com/images/bg.jpg?crc=276321342 1,1,1561843356,8192 predictor::https://use.typekit.net/af/aa4f4e/000000000000000000012043/27/l?subset_id=2&fvd=n5&v=3 1,1,1561843356,8192 predictor::https://use.typekit.net/af/53dec0/0000000000000000000100fe/27/l?subset_id=2&fvd=n3&v=3 1,1,1561843356,8192 predictor::https://use.typekit.net/af/f1892e/00000000000000000000ec08/27/l?subset_id=2&fvd=i5&v=3 1,1,1561843356,8192 predictor::https://use.typekit.net/af/9b5d75/0000000000000000000132a5/27/l?subset_id=2&fvd=n4&v=3 1,1,1561843356,8192 predictor::https://use.typekit.net/af/ea0e14/000000000000000000010141/27/l?subset_id=2&fvd=i3&v=3 1,1,1561843356,8192 predictor::https://use.typekit.net/af/f95b7a/0000000000000000000132a8/27/l?subset_id=2&fvd=n3&v=3 1,1,1561843356,8192 predictor::http://www.coppeliarobotics.com/scripts/museconfig.js?crc=3849126041 1,2,1561843384,12288 predictor::https://p.typekit.net/p.gif?s=2&k=843936_8520819e6843305d851f251a39e68c70&ht=tk&h=www.coppeliarobotics.com&f=2030.2028.2031.2029.6039.6037&a=843936&js=1.19.2&app=Muse&e=js&_=1561843357427 1,1,1561843356,8192 predictor::http://www.coppeliarobotics.com/piwik/piwik.php?link=http%3A%2F%2Fcoppeliarobotics.com%2FubuntuVersions.html&idsite=1&rec=1&r=493152&h=21&m=22&s=47&url=http%3A%2F%2Fwww.coppeliarobotics.com%2Fdownloads.html&urlref=http%3A%2F%2Fwww.forum.coppeliarobotics.com%2Fviewtopic.php%3Ft%3D5333&_id=60bb09d4791369e0&_idts=1561843358&_idvc=1&_idn=0&_refts=1561843358&_viewts=1561843358&_ref=http%3A%2F%2Fwww.forum.coppeliarobotics.com%2Fviewtopic.php%3Ft%3D5333&send_image=1&cookie=1&res=1024x768&gt_ms=215 1,1,1561843356,8192 predictor::https://p.typekit.net/p.gif?s=2&k=843936_8520819e6843305d851f251a39e68c70&ht=tk&h=www.coppeliarobotics.com&f=2030.2028.2031.2029.6039.6037&a=843936&js=1.19.2&app=Muse&e=js&_=1561843384080 1,1,1561843384,4096 predictor::http://www.coppeliarobotics.com/piwik/piwik.php?link=http%3A%2F%2Fcoppeliarobotics.com%2FubuntuVersions.html&idsite=1&rec=1&r=840036&h=21&m=23&s=16&url=http%3A%2F%2Fwww.coppeliarobotics.com%2Fdownloads.html&urlref=http%3A%2F%2Fwww.forum.coppeliarobotics.com%2Fviewtopic.php%3Ft%3D5333&_id=60bb09d4791369e0&_idts=1561843358&_idvc=1&_idn=0&_refts=1561843358&_viewts=1561843358&_ref=http%3A%2F%2Fwww.forum.coppeliarobotics.com%2Fviewtopic.php%3Ft%3D5333&send_image=1&cookie=1&res=1024x768&gt_ms=16 1,1,1561843384,4096   =

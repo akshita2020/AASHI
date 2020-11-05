@@ -1,0 +1,160 @@
+Dbg [parser.cc:387] Converting a deprecated source[/usr/share/gazebo-7/worlds/empty.world].
+Dbg [Converter.cc:59] Version[1.5] to Version[1.6]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:387] Converting a deprecated source[/usr/share/gazebo-7/models/sun/model.sdf].
+Dbg [Converter.cc:59] Version[1.5] to Version[1.6]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:387] Converting a deprecated source[/usr/share/gazebo-7/models/ground_plane/model.sdf].
+Dbg [Converter.cc:59] Version[1.5] to Version[1.6]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:403] No <sdf> element in file[data-string]
+Dbg [parser_urdf.cc:1608] extension [<plugin filename="libgazebo_ros_control.so" name="gazebo_ros_control"><robotNamespace>robot1</robotNamespace><legacyModeNS>true</legacyModeNS></plugin>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:1608] extension [<sensor name="head_hokuyo_sensor" type="gpu_ray"><pose>0 0 0 0 0 0</pose><visualize>true</visualize><update_rate>40</update_rate><ray><scan><horizontal><samples>1080</samples><resolution>0.25</resolution><min_angle>-2.3561945</min_angle><max_angle>2.3561945</max_angle></horizontal></scan><range><min>0.10</min><max>30.0</max><resolution>0.01</resolution></range><noise><type>gaussian</type><mean>0.0</mean><stddev>0.01</stddev></noise></ray><plugin filename="libgazebo_ros_gpu_laser.so" name="gazebo_ros_head_hokuyo_controller"><topicName>laserscan</topicName><frameName>hokuyo_link</frameName><robotNamespace>/robot1/</robotNamespace></plugin></sensor>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:1608] extension [<plugin filename="libgazebo_ros_skid_steer_drive.so" name="skid_steer_drive_controller"><updateRate>100.0</updateRate><robotNamespace>robot1</robotNamespace><leftFrontJoint>base_to_wheel1</leftFrontJoint><rightFrontJoint>base_to_wheel3</rightFrontJoint><leftRearJoint>base_to_wheel2</leftRearJoint><rightRearJoint>base_to_wheel4</rightRearJoint><wheelDiameter>0.1</wheelDiameter><robotBaseFrame>base_link</robotBaseFrame><torque>2</torque><topicName>cmd_vel</topicName><broadcastTF>0</broadcastTF></plugin>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:495] Fixed Joint Reduction: extension lumping from [camera_link] to [base_link]
+Dbg [parser_urdf.cc:2639]   REDUCE EXTENSION: moving reference from [camera_link] to [base_link]
+Dbg [parser_urdf.cc:2703]   STRING REPLACE: instances of _link name [camera_link] with [base_link]
+Dbg [parser_urdf.cc:2712]         INITIAL STRING link [camera_link]-->[base_link]: [<plugin filename="libgazebo_ros_control.so" name="gazebo_ros_control"><robotNamespace>robot1</robotNamespace><legacyModeNS>true</legacyModeNS></plugin>]
+Dbg [parser_urdf.cc:2703]   STRING REPLACE: instances of _link name [camera_link] with [base_link]
+Dbg [parser_urdf.cc:2712]         INITIAL STRING link [camera_link]-->[base_link]: [<plugin filename="libgazebo_ros_skid_steer_drive.so" name="skid_steer_drive_controller"><updateRate>100.0</updateRate><robotNamespace>robot1</robotNamespace><leftFrontJoint>base_to_wheel1</leftFrontJoint><rightFrontJoint>base_to_wheel3</rightFrontJoint><leftRearJoint>base_to_wheel2</leftRearJoint><rightRearJoint>base_to_wheel4</rightRearJoint><wheelDiameter>0.1</wheelDiameter><robotBaseFrame>base_link</robotBaseFrame><torque>2</torque><topicName>cmd_vel</topicName><broadcastTF>0</broadcastTF></plugin>]
+Dbg [parser_urdf.cc:2703]   STRING REPLACE: instances of _link name [camera_link] with [base_link]
+Dbg [parser_urdf.cc:2703]   STRING REPLACE: instances of _link name [camera_link] with [base_link]
+Dbg [parser_urdf.cc:2712]         INITIAL STRING link [camera_link]-->[base_link]: [<sensor name="head_hokuyo_sensor" type="gpu_ray"><visualize>true</visualize><update_rate>40</update_rate><ray><scan><horizontal><samples>1080</samples><resolution>0.25</resolution><min_angle>-2.3561945</min_angle><max_angle>2.3561945</max_angle></horizontal></scan><range><min>0.10</min><max>30.0</max><resolution>0.01</resolution></range><noise><type>gaussian</type><mean>0.0</mean><stddev>0.01</stddev></noise></ray><plugin filename="libgazebo_ros_gpu_laser.so" name="gazebo_ros_head_hokuyo_controller"><topicName>laserscan</topicName><frameName>hokuyo_link</frameName><robotNamespace>/robot1/</robotNamespace></plugin><pose>0.125 0 0.125 0 -0 0</pose></sensor>]
+Dbg [parser_urdf.cc:2703]   STRING REPLACE: instances of _link name [camera_link] with [base_link]
+Dbg [parser_urdf.cc:2703]   STRING REPLACE: instances of _link name [camera_link] with [base_link]
+Dbg [parser_urdf.cc:2703]   STRING REPLACE: instances of _link name [camera_link] with [base_link]
+Dbg [parser_urdf.cc:2703]   STRING REPLACE: instances of _link name [camera_link] with [base_link]
+Dbg [parser_urdf.cc:760] LINK NAME: [parent: base_link] from dMass
+Dbg [parser_urdf.cc:761]      MASS: [10]
+Dbg [parser_urdf.cc:762]        CG: [0, 0, 0]
+Dbg [parser_urdf.cc:764]         I: [1, 0, 0]
+Dbg [parser_urdf.cc:766]            [0, 1, 0]
+Dbg [parser_urdf.cc:768]            [0, 0, 1]
+Dbg [parser_urdf.cc:760] LINK NAME: [link : camera_link] from dMass
+Dbg [parser_urdf.cc:761]      MASS: [1e-05]
+Dbg [parser_urdf.cc:762]        CG: [0, 0, 0]
+Dbg [parser_urdf.cc:764]         I: [1e-06, 0, 0]
+Dbg [parser_urdf.cc:766]            [0, 1e-06, 0]
+Dbg [parser_urdf.cc:768]            [0, 0, 1e-06]
+Dbg [parser_urdf.cc:760] LINK NAME: [link in parent link: camera_link] from dMass
+Dbg [parser_urdf.cc:761]      MASS: [1e-05]
+Dbg [parser_urdf.cc:762]        CG: [0.125, 0, 0.125]
+Dbg [parser_urdf.cc:764]         I: [1.15625e-06, 0, -1.5625e-07]
+Dbg [parser_urdf.cc:766]            [0, 1.3125e-06, 0]
+Dbg [parser_urdf.cc:768]            [-1.5625e-07, 0, 1.15625e-06]
+Dbg [parser_urdf.cc:760] LINK NAME: [combined: base_link] from dMass
+Dbg [parser_urdf.cc:761]      MASS: [10]
+Dbg [parser_urdf.cc:762]        CG: [1.25e-07, 0, 1.25e-07]
+Dbg [parser_urdf.cc:764]         I: [1, 0, -1.5625e-07]
+Dbg [parser_urdf.cc:766]            [0, 1, 0]
+Dbg [parser_urdf.cc:768]            [-1.5625e-07, 0, 1]
+Dbg [parser_urdf.cc:776] LINK NAME: [base_link] from dMass
+Dbg [parser_urdf.cc:777]      MASS: [10]
+Dbg [parser_urdf.cc:778]        CG: [1.25e-07, 0, 1.25e-07]
+Dbg [parser_urdf.cc:781]         I: [1, 0, -1.5625e-07]
+Dbg [parser_urdf.cc:784]            [0, 1, 0]
+Dbg [parser_urdf.cc:787]            [-1.5625e-07, 0, 1]
+Dbg [parser_urdf.cc:1024] lumping visual [] for link [camera_link] to parent [base_link] with name [camera_link]
+Dbg [parser_urdf.cc:1139] lumping collision [] for link [camera_link] to parent [base_link] with name [camera_link]
+Dbg [parser_urdf.cc:2899] [base_link] has no parent joint
+Dbg [parser_urdf.cc:3017] creating collision for link [base_link] collision []
+Dbg [parser_urdf.cc:3017] creating collision for link [base_link] collision [camera_link]
+Dbg [parser_urdf.cc:3139] creating visual for link [base_link] visual []
+Dbg [parser_urdf.cc:3139] creating visual for link [base_link] visual [camera_link]
+Dbg [parser_urdf.cc:2154] inserting extension with reference [base_link] into link.
+Dbg [parser_urdf.cc:1243] multiple consistent <gravity> exists with [true] due to fixed joint reduction.
+Dbg [parser_urdf.cc:3017] creating collision for link [wheel_1] collision []
+Dbg [parser_urdf.cc:3139] creating visual for link [wheel_1] visual []
+Dbg [parser_urdf.cc:2154] inserting extension with reference [wheel_1] into link.
+Dbg [parser_urdf.cc:3017] creating collision for link [wheel_2] collision []
+Dbg [parser_urdf.cc:3139] creating visual for link [wheel_2] visual []
+Dbg [parser_urdf.cc:2154] inserting extension with reference [wheel_2] into link.
+Dbg [parser_urdf.cc:3017] creating collision for link [wheel_3] collision []
+Dbg [parser_urdf.cc:3139] creating visual for link [wheel_3] visual []
+Dbg [parser_urdf.cc:2154] inserting extension with reference [wheel_3] into link.
+Dbg [parser_urdf.cc:3017] creating collision for link [wheel_4] collision []
+Dbg [parser_urdf.cc:3139] creating visual for link [wheel_4] visual []
+Dbg [parser_urdf.cc:2154] inserting extension with reference [wheel_4] into link.
+Dbg [parser_urdf.cc:1243] multiple consistent <static> exists with [false] due to fixed joint reduction.
+Dbg [parser.cc:387] Converting a deprecated source[urdf string].
+Dbg [Converter.cc:59] Version[1.4] to Version[1.6]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:336] Parsing from urdf.
+Dbg [parser.cc:403] No <sdf> element in file[data-string]
+Dbg [parser_urdf.cc:1608] extension [<plugin filename="libgazebo_ros_control.so" name="gazebo_ros_control"><robotNamespace>robot1</robotNamespace><legacyModeNS>true</legacyModeNS></plugin>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:1608] extension [<sensor name="head_hokuyo_sensor" type="gpu_ray"><pose>0 0 0 0 0 0</pose><visualize>true</visualize><update_rate>40</update_rate><ray><scan><horizontal><samples>1080</samples><resolution>0.25</resolution><min_angle>-2.3561945</min_angle><max_angle>2.3561945</max_angle></horizontal></scan><range><min>0.10</min><max>30.0</max><resolution>0.01</resolution></range><noise><type>gaussian</type><mean>0.0</mean><stddev>0.01</stddev></noise></ray><plugin filename="libgazebo_ros_gpu_laser.so" name="gazebo_ros_head_hokuyo_controller"><topicName>laserscan</topicName><frameName>hokuyo_link</frameName><robotNamespace>/robot2/</robotNamespace></plugin></sensor>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:1608] extension [<plugin filename="libgazebo_ros_skid_steer_drive.so" name="skid_steer_drive_controller"><updateRate>100.0</updateRate><robotNamespace>robot1</robotNamespace><leftFrontJoint>base_to_wheel1</leftFrontJoint><rightFrontJoint>base_to_wheel3</rightFrontJoint><leftRearJoint>base_to_wheel2</leftRearJoint><rightRearJoint>base_to_wheel4</rightRearJoint><wheelDiameter>0.1</wheelDiameter><robotBaseFrame>base_link</robotBaseFrame><torque>2</torque><topicName>cmd_vel</topicName><broadcastTF>0</broadcastTF></plugin>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:495] Fixed Joint Reduction: extension lumping from [camera_link] to [base_link]
+Dbg [parser_urdf.cc:2639]   REDUCE EXTENSION: moving reference from [camera_link] to [base_link]
+Dbg [parser_urdf.cc:2703]   STRING REPLACE: instances of _link name [camera_link] with [base_link]
+Dbg [parser_urdf.cc:2712]         INITIAL STRING link [camera_link]-->[base_link]: [<plugin filename="libgazebo_ros_control.so" name="gazebo_ros_control"><robotNamespace>robot1</robotNamespace><legacyModeNS>true</legacyModeNS></plugin>]
+Dbg [parser_urdf.cc:2703]   STRING REPLACE: instances of _link name [camera_link] with [base_link]
+Dbg [parser_urdf.cc:2712]         INITIAL STRING link [camera_link]-->[base_link]: [<plugin filename="libgazebo_ros_skid_steer_drive.so" name="skid_steer_drive_controller"><updateRate>100.0</updateRate><robotNamespace>robot1</robotNamespace><leftFrontJoint>base_to_wheel1</leftFrontJoint><rightFrontJoint>base_to_wheel3</rightFrontJoint><leftRearJoint>base_to_wheel2</leftRearJoint><rightRearJoint>base_to_wheel4</rightRearJoint><wheelDiameter>0.1</wheelDiameter><robotBaseFrame>base_link</robotBaseFrame><torque>2</torque><topicName>cmd_vel</topicName><broadcastTF>0</broadcastTF></plugin>]
+Dbg [parser_urdf.cc:2703]   STRING REPLACE: instances of _link name [camera_link] with [base_link]
+Dbg [parser_urdf.cc:2703]   STRING REPLACE: instances of _link name [camera_link] with [base_link]
+Dbg [parser_urdf.cc:2712]         INITIAL STRING link [camera_link]-->[base_link]: [<sensor name="head_hokuyo_sensor" type="gpu_ray"><visualize>true</visualize><update_rate>40</update_rate><ray><scan><horizontal><samples>1080</samples><resolution>0.25</resolution><min_angle>-2.3561945</min_angle><max_angle>2.3561945</max_angle></horizontal></scan><range><min>0.10</min><max>30.0</max><resolution>0.01</resolution></range><noise><type>gaussian</type><mean>0.0</mean><stddev>0.01</stddev></noise></ray><plugin filename="libgazebo_ros_gpu_laser.so" name="gazebo_ros_head_hokuyo_controller"><topicName>laserscan</topicName><frameName>hokuyo_link</frameName><robotNamespace>/robot2/</robotNamespace></plugin><pose>0.125 0 0.125 0 -0 0</pose></sensor>]
+Dbg [parser_urdf.cc:2703]   STRING REPLACE: instances of _link name [camera_link] with [base_link]
+Dbg [parser_urdf.cc:2703]   STRING REPLACE: instances of _link name [camera_link] with [base_link]
+Dbg [parser_urdf.cc:2703]   STRING REPLACE: instances of _link name [camera_link] with [base_link]
+Dbg [parser_urdf.cc:2703]   STRING REPLACE: instances of _link name [camera_link] with [base_link]
+Dbg [parser_urdf.cc:760] LINK NAME: [parent: base_link] from dMass
+Dbg [parser_urdf.cc:761]      MASS: [10]
+Dbg [parser_urdf.cc:762]        CG: [0, 0, 0]
+Dbg [parser_urdf.cc:764]         I: [1, 0, 0]
+Dbg [parser_urdf.cc:766]            [0, 1, 0]
+Dbg [parser_urdf.cc:768]            [0, 0, 1]
+Dbg [parser_urdf.cc:760] LINK NAME: [link : camera_link] from dMass
+Dbg [parser_urdf.cc:761]      MASS: [1e-05]
+Dbg [parser_urdf.cc:762]        CG: [0, 0, 0]
+Dbg [parser_urdf.cc:764]         I: [1e-06, 0, 0]
+Dbg [parser_urdf.cc:766]            [0, 1e-06, 0]
+Dbg [parser_urdf.cc:768]            [0, 0, 1e-06]
+Dbg [parser_urdf.cc:760] LINK NAME: [link in parent link: camera_link] from dMass
+Dbg [parser_urdf.cc:761]      MASS: [1e-05]
+Dbg [parser_urdf.cc:762]        CG: [0.125, 0, 0.125]
+Dbg [parser_urdf.cc:764]         I: [1.15625e-06, 0, -1.5625e-07]
+Dbg [parser_urdf.cc:766]            [0, 1.3125e-06, 0]
+Dbg [parser_urdf.cc:768]            [-1.5625e-07, 0, 1.15625e-06]
+Dbg [parser_urdf.cc:760] LINK NAME: [combined: base_link] from dMass
+Dbg [parser_urdf.cc:761]      MASS: [10]
+Dbg [parser_urdf.cc:762]        CG: [1.25e-07, 0, 1.25e-07]
+Dbg [parser_urdf.cc:764]         I: [1, 0, -1.5625e-07]
+Dbg [parser_urdf.cc:766]            [0, 1, 0]
+Dbg [parser_urdf.cc:768]            [-1.5625e-07, 0, 1]
+Dbg [parser_urdf.cc:776] LINK NAME: [base_link] from dMass
+Dbg [parser_urdf.cc:777]      MASS: [10]
+Dbg [parser_urdf.cc:778]        CG: [1.25e-07, 0, 1.25e-07]
+Dbg [parser_urdf.cc:781]         I: [1, 0, -1.5625e-07]
+Dbg [parser_urdf.cc:784]            [0, 1, 0]
+Dbg [parser_urdf.cc:787]            [-1.5625e-07, 0, 1]
+Dbg [parser_urdf.cc:1024] lumping visual [] for link [camera_link] to parent [base_link] with name [camera_link]
+Dbg [parser_urdf.cc:1139] lumping collision [] for link [camera_link] to parent [base_link] with name [camera_link]
+Dbg [parser_urdf.cc:2899] [base_link] has no parent joint
+Dbg [parser_urdf.cc:3017] creating collision for link [base_link] collision []
+Dbg [parser_urdf.cc:3017] creating collision for link [base_link] collision [camera_link]
+Dbg [parser_urdf.cc:3139] creating visual for link [base_link] visual []
+Dbg [parser_urdf.cc:3139] creating visual for link [base_link] visual [camera_link]
+Dbg [parser_urdf.cc:2154] inserting extension with reference [base_link] into link.
+Dbg [parser_urdf.cc:1243] multiple consistent <gravity> exists with [true] due to fixed joint reduction.
+Dbg [parser_urdf.cc:3017] creating collision for link [wheel_1] collision []
+Dbg [parser_urdf.cc:3139] creating visual for link [wheel_1] visual []
+Dbg [parser_urdf.cc:2154] inserting extension with reference [wheel_1] into link.
+Dbg [parser_urdf.cc:3017] creating collision for link [wheel_2] collision []
+Dbg [parser_urdf.cc:3139] creating visual for link [wheel_2] visual []
+Dbg [parser_urdf.cc:2154] inserting extension with reference [wheel_2] into link.
+Dbg [parser_urdf.cc:3017] creating collision for link [wheel_3] collision []
+Dbg [parser_urdf.cc:3139] creating visual for link [wheel_3] visual []
+Dbg [parser_urdf.cc:2154] inserting extension with reference [wheel_3] into link.
+Dbg [parser_urdf.cc:3017] creating collision for link [wheel_4] collision []
+Dbg [parser_urdf.cc:3139] creating visual for link [wheel_4] visual []
+Dbg [parser_urdf.cc:2154] inserting extension with reference [wheel_4] into link.
+Dbg [parser_urdf.cc:1243] multiple consistent <static> exists with [false] due to fixed joint reduction.
+Dbg [parser.cc:387] Converting a deprecated source[urdf string].
+Dbg [Converter.cc:59] Version[1.4] to Version[1.6]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:336] Parsing from urdf.

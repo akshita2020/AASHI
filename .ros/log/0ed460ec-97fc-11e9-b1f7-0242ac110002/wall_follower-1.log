@@ -1,0 +1,60 @@
+[rospy.client][INFO] 2019-06-26 10:22:26,352: init_node, name[/wall_follower], pid[6368]
+[xmlrpc][INFO] 2019-06-26 10:22:26,354: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-26 10:22:26,354: Started XML-RPC server [http://dc5b429f784e:32925/]
+[rospy.impl.masterslave][INFO] 2019-06-26 10:22:26,355: _ready: http://dc5b429f784e:32925/
+[rospy.init][INFO] 2019-06-26 10:22:26,355: ROS Slave URI: [http://dc5b429f784e:32925/]
+[xmlrpc][INFO] 2019-06-26 10:22:26,357: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-06-26 10:22:26,358: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-26 10:22:26,457: registered with master
+[rospy.rosout][INFO] 2019-06-26 10:22:26,457: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-26 10:22:26,466: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-26 10:22:26,469: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-26 10:22:26,491: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-26 10:22:26,524: topic[/clock] adding connection to [http://dc5b429f784e:42097/], count 0
+[rospy.internal][INFO] 2019-06-26 10:22:26,533: topic[/m2wr/laser/scan] adding connection to [http://dc5b429f784e:42097/], count 0
+[rospy.internal][INFO] 2019-06-26 10:22:26,735: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-06-26 10:22:26,748: topic[/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.core][INFO] 2019-06-26 10:24:49,343: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-26 10:24:49,354: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-26 10:24:49,354: topic[/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2019-06-26 10:24:49,355: topic[/clock] removing connection to http://dc5b429f784e:42097/
+[rospy.topics][ERROR] 2019-06-26 10:24:49,356: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2019-06-26 10:24:49,356: topic[/m2wr/laser/scan] removing connection to http://dc5b429f784e:42097/
+[rospy.impl.masterslave][INFO] 2019-06-26 10:24:49,356: signal-2
+[rospy.internal][WARNING] 2019-06-26 10:24:49,357: Unknown error initiating TCP/IP socket to dc5b429f784e:55537 (http://dc5b429f784e:42097/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2019-06-26 10:24:49,491: signal_shutdown [atexit]
+[rospy.client][INFO] 2019-06-26 10:24:58,385: init_node, name[/wall_follower], pid[6490]
+[xmlrpc][INFO] 2019-06-26 10:24:58,385: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-26 10:24:58,386: Started XML-RPC server [http://dc5b429f784e:33691/]
+[rospy.init][INFO] 2019-06-26 10:24:58,387: ROS Slave URI: [http://dc5b429f784e:33691/]
+[rospy.impl.masterslave][INFO] 2019-06-26 10:24:58,387: _ready: http://dc5b429f784e:33691/
+[rospy.registration][INFO] 2019-06-26 10:24:58,388: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-26 10:24:58,388: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-26 10:24:58,487: registered with master
+[rospy.rosout][INFO] 2019-06-26 10:24:58,488: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-26 10:24:58,498: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-26 10:24:58,506: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-26 10:24:58,517: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-26 10:24:58,556: topic[/m2wr/laser/scan] adding connection to [http://dc5b429f784e:42097/], count 0
+[rospy.internal][INFO] 2019-06-26 10:24:58,558: topic[/clock] adding connection to [http://dc5b429f784e:42097/], count 0
+[rospy.internal][INFO] 2019-06-26 10:24:58,660: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-06-26 10:24:58,772: topic[/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.core][INFO] 2019-06-26 10:33:20,328: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-26 10:33:20,354: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-26 10:33:20,354: topic[/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2019-06-26 10:33:20,355: topic[/clock] removing connection to http://dc5b429f784e:42097/
+[rospy.internal][INFO] 2019-06-26 10:33:20,355: topic[/m2wr/laser/scan] removing connection to http://dc5b429f784e:42097/
+[rospy.impl.masterslave][INFO] 2019-06-26 10:33:20,356: signal-2
+[rospy.core][INFO] 2019-06-26 10:33:20,980: signal_shutdown [atexit]

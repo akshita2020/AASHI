@@ -1,0 +1,44 @@
+[roslaunch][INFO] 2019-06-25 15:03:01,348: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2019-06-25 15:03:01,354: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2019-06-25 15:03:01,354: roslaunch starting with args ['/opt/ros/kinetic/bin/roslaunch', 'pr2_description', 'upload_pr2.launch']
+[roslaunch][INFO] 2019-06-25 15:03:01,354: roslaunch env is {'ROS_DISTRO': 'kinetic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/catkin_ws/devel/share/common-lisp', 'USER': 'root', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOME': '/root', 'CMAKE_PREFIX_PATH': '/home/catkin_ws/devel:/opt/ros/kinetic', 'LD_LIBRARY_PATH': '/home/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'ROS_LOG_FILENAME': '/root/.ros/log/56b9d918-9758-11e9-accf-0242ac110002/roslaunch-dc5b429f784e-94415.log', 'SHLVL': '1', 'TERMINATOR_UUID': 'urn:uuid:48155345-6798-4a1d-8958-1342f3989314', 'SUPERVISOR_ENABLED': '1', 'DISPLAY': ':1.0', 'WINDOWID': '20971523', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'LC_ALL': 'C.UTF-8', 'COLORTERM': 'gnome-terminal', 'PYTHONPATH': '/home/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'SUPERVISOR_PROCESS_NAME': 'pcmanfm', 'TINI_VERSION': 'v0.9.0', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'IBUS_DISABLE_SNOOPER': '1', 'PKG_CONFIG_PATH': '/home/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PACKAGE_PATH': '/home/catkin_ws/src:/opt/ros/kinetic/share', '_': '/opt/ros/kinetic/bin/roslaunch', 'OLDPWD': '/home/catkin_ws', 'HOSTNAME': 'dc5b429f784e', 'PWD': '/home/catkin_ws/src', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_GROUP_NAME': 'pcmanfm'}
+[roslaunch][INFO] 2019-06-25 15:03:01,354: starting in server mode
+[roslaunch.parent][INFO] 2019-06-25 15:03:01,355: starting roslaunch parent run
+[roslaunch][INFO] 2019-06-25 15:03:01,355: loading roscore config file /opt/ros/kinetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2019-06-25 15:03:01,521: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2019-06-25 15:03:01,522: loading config file /opt/ros/kinetic/share/pr2_description/robots/upload_pr2.launch
+[roslaunch.pmon][INFO] 2019-06-25 15:03:04,796: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2019-06-25 15:03:04,796: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2019-06-25 15:03:04,797: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2019-06-25 15:03:04,797: starting parent XML-RPC server
+[roslaunch.server][INFO] 2019-06-25 15:03:04,797: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2019-06-25 15:03:04,797: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2019-06-25 15:03:04,797: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-25 15:03:04,797: Started XML-RPC server [http://dc5b429f784e:42541/]
+[xmlrpc][INFO] 2019-06-25 15:03:04,798: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2019-06-25 15:03:04,809: started roslaunch server http://dc5b429f784e:42541/
+[roslaunch.parent][INFO] 2019-06-25 15:03:04,809: ... parent XML-RPC server started
+[roslaunch][INFO] 2019-06-25 15:03:04,810: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-06-25 15:03:04,811: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-06-25 15:03:04,812: ROS_MASTER_URI=http://localhost:11311
+[roslaunch][INFO] 2019-06-25 15:03:04,814: setting /roslaunch/uris/host_dc5b429f784e__42541' to http://dc5b429f784e:42541/
+[roslaunch][INFO] 2019-06-25 15:03:04,816: load_parameters starting ...
+[roslaunch][INFO] 2019-06-25 15:03:04,829: ... load_parameters complete
+[roslaunch][INFO] 2019-06-25 15:03:04,829: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2019-06-25 15:03:04,829: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2019-06-25 15:03:04,829: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140677178746624)>
+[roslaunch.parent][INFO] 2019-06-25 15:03:04,829: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2019-06-25 15:03:04,830: spin
+[roslaunch][INFO] 2019-06-25 15:03:04,830: No processes to monitor
+[roslaunch][INFO] 2019-06-25 15:03:04,830: runner.stop()
+[roslaunch][INFO] 2019-06-25 15:03:04,830: shutting down processing monitor...
+[roslaunch][INFO] 2019-06-25 15:03:04,830: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, started daemon 140677178746624)>
+[roslaunch.pmon][INFO] 2019-06-25 15:03:04,830: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140677178746624)>
+[roslaunch.pmon][INFO] 2019-06-25 15:03:04,897: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140677178746624)>
+[roslaunch.pmon][INFO] 2019-06-25 15:03:04,897: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140677178746624)>: remaining procs are []
+[roslaunch.pmon][INFO] 2019-06-25 15:03:04,900: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2019-06-25 15:03:04,900: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2019-06-25 15:03:04,900: ... shutting down processing monitor complete
+[roslaunch.pmon][INFO] 2019-06-25 15:03:04,900: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140677178746624)>
+[rospy.core][INFO] 2019-06-25 15:03:04,900: signal_shutdown [atexit]

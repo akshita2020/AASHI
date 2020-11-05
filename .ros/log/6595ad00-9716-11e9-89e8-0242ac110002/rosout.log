@@ -1,0 +1,4 @@
+
+
+1561445807.326933800  Node Startup
+1561445808.571254968 INFO [gazebo_interface.py:27(spawn_urdf_model_client) [topics: /rosout] Waiting for service /gazebo/spawn_urdf_model

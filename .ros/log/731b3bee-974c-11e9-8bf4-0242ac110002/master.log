@@ -1,0 +1,378 @@
+[rosmaster.main][INFO] 2019-06-25 13:23:42,256: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-06-25 13:23:42,256: Starting ROS Master Node
+[xmlrpc][INFO] 2019-06-25 13:23:42,257: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-06-25 13:23:42,258: Started XML-RPC server [http://dc5b429f784e:11311/]
+[xmlrpc][INFO] 2019-06-25 13:23:42,258: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-06-25 13:23:42,258: Master initialized: port[11311], uri[http://dc5b429f784e:11311/]
+[rosmaster.master][INFO] 2019-06-25 13:23:42,293: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 13:23:42,295: +PARAM [/roslaunch/uris/host_dc5b429f784e__35587] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 13:23:42,695: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 13:23:42,695: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 13:23:42,713: +SERVICE [/rosout/get_loggers] /rosout http://dc5b429f784e:45013/
+[rosmaster.master][INFO] 2019-06-25 13:23:42,714: +SERVICE [/rosout/set_logger_level] /rosout http://dc5b429f784e:45013/
+[rosmaster.master][INFO] 2019-06-25 13:23:42,717: +PUB [/rosout_agg] /rosout http://dc5b429f784e:45013/
+[rosmaster.master][INFO] 2019-06-25 13:23:42,777: +SUB [/rosout] /rosout http://dc5b429f784e:45013/
+[rosmaster.master][INFO] 2019-06-25 13:23:58,181: +PARAM [/use_sim_time] by /rosparam-71324
+[rosmaster.master][INFO] 2019-06-25 13:24:14,018: +PARAM [/roslaunch/uris/host_dc5b429f784e__40911] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 13:24:14,023: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 13:24:14,023: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 13:24:14,023: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 13:24:14,023: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 13:24:14,819: +PUB [/rosout] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:14,820: +SERVICE [/gazebo/get_loggers] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:14,821: +SERVICE [/gazebo/set_logger_level] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:14,835: +SUB [/clock] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:14,877: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/']
+[rosmaster.master][INFO] 2019-06-25 13:24:14,878: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:24:15,303: +PUB [/clock] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,305: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,306: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,307: +SERVICE [/gazebo/delete_model] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,309: +SERVICE [/gazebo/delete_light] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,310: +SERVICE [/gazebo/get_model_properties] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,312: +SERVICE [/gazebo/get_model_state] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,313: +SERVICE [/gazebo/get_world_properties] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,314: +SERVICE [/gazebo/get_joint_properties] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,315: +SERVICE [/gazebo/get_link_properties] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,316: +SERVICE [/gazebo/get_link_state] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,317: +SERVICE [/gazebo/get_light_properties] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,319: +SERVICE [/gazebo/set_light_properties] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,320: +SERVICE [/gazebo/get_physics_properties] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,321: +PUB [/gazebo/link_states] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,322: +PUB [/gazebo/model_states] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,323: +SERVICE [/gazebo/set_link_properties] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,324: +SERVICE [/gazebo/set_physics_properties] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,325: +SERVICE [/gazebo/set_model_state] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,326: +SERVICE [/gazebo/set_model_configuration] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,328: +SERVICE [/gazebo/set_joint_properties] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,329: +SERVICE [/gazebo/set_link_state] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,334: +SUB [/gazebo/set_link_state] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,340: +SUB [/gazebo/set_model_state] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,341: +SERVICE [/gazebo/pause_physics] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,342: +SERVICE [/gazebo/unpause_physics] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,343: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,344: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,345: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,346: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,347: +SERVICE [/gazebo/reset_simulation] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,348: +SERVICE [/gazebo/reset_world] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,379: publisherUpdate[/clock] -> http://dc5b429f784e:39511/ ['http://dc5b429f784e:39511/']
+[rosmaster.master][INFO] 2019-06-25 13:24:15,380: publisherUpdate[/clock] -> http://dc5b429f784e:39511/ ['http://dc5b429f784e:39511/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:24:15,512: +SERVICE [/gazebo/set_parameters] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,514: +PUB [/gazebo/parameter_descriptions] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,516: +PUB [/gazebo/parameter_updates] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,542: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,544: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,545: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,546: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,548: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,552: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,554: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,557: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,562: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,564: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,566: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,568: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,570: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,571: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,572: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,575: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,576: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,578: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,579: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,580: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,580: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,581: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,582: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,583: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,584: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,585: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,586: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,588: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,588: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,590: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2019-06-25 13:24:15,941: +PUB [/rosout] /mybot_spawn http://dc5b429f784e:37973/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,948: +SUB [/clock] /mybot_spawn http://dc5b429f784e:37973/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,950: +SERVICE [/mybot_spawn/get_loggers] /mybot_spawn http://dc5b429f784e:37973/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,952: +SERVICE [/mybot_spawn/set_logger_level] /mybot_spawn http://dc5b429f784e:37973/
+[rosmaster.master][INFO] 2019-06-25 13:24:15,981: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:37973/']
+[rosmaster.master][INFO] 2019-06-25 13:24:15,982: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:37973/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:24:16,222: -SUB [/clock] /mybot_spawn http://dc5b429f784e:37973/
+[rosmaster.master][INFO] 2019-06-25 13:24:16,222: -PUB [/rosout] /mybot_spawn http://dc5b429f784e:37973/
+[rosmaster.master][INFO] 2019-06-25 13:24:16,223: -SERVICE [/mybot_spawn/set_logger_level] /mybot_spawn rosrpc://dc5b429f784e:44277
+[rosmaster.master][INFO] 2019-06-25 13:24:16,223: -SERVICE [/mybot_spawn/get_loggers] /mybot_spawn rosrpc://dc5b429f784e:44277
+[rosmaster.master][ERROR] 2019-06-25 13:24:16,233: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2019-06-25 13:24:16,234: +PUB [/scan] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:16,282: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/']
+[rosmaster.master][INFO] 2019-06-25 13:24:16,284: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][ERROR] 2019-06-25 13:24:16,326: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2019-06-25 13:24:16,328: +PUB [/joint_states] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:16,330: +PUB [/tf] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:16,337: +SUB [/cmd_vel] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:16,339: +PUB [/odom] /gazebo http://dc5b429f784e:39511/
+[rosmaster.master][INFO] 2019-06-25 13:24:26,663: +PUB [/rosout] /rviz_1561469066658700900 http://dc5b429f784e:38521/
+[rosmaster.master][INFO] 2019-06-25 13:24:26,664: +SERVICE [/rviz_1561469066658700900/get_loggers] /rviz_1561469066658700900 http://dc5b429f784e:38521/
+[rosmaster.master][INFO] 2019-06-25 13:24:26,665: +SERVICE [/rviz_1561469066658700900/set_logger_level] /rviz_1561469066658700900 http://dc5b429f784e:38521/
+[rosmaster.master][INFO] 2019-06-25 13:24:26,674: +SUB [/clock] /rviz_1561469066658700900 http://dc5b429f784e:38521/
+[rosmaster.master][INFO] 2019-06-25 13:24:26,702: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/']
+[rosmaster.master][INFO] 2019-06-25 13:24:26,704: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:24:26,903: +SUB [/tf] /rviz_1561469066658700900 http://dc5b429f784e:38521/
+[rosmaster.master][INFO] 2019-06-25 13:24:26,909: +SUB [/tf_static] /rviz_1561469066658700900 http://dc5b429f784e:38521/
+[rosmaster.master][INFO] 2019-06-25 13:24:26,962: +PUB [/initialpose] /rviz_1561469066658700900 http://dc5b429f784e:38521/
+[rosmaster.master][INFO] 2019-06-25 13:24:26,964: +PUB [/goal] /rviz_1561469066658700900 http://dc5b429f784e:38521/
+[rosmaster.master][INFO] 2019-06-25 13:24:26,968: -PUB [/goal] /rviz_1561469066658700900 http://dc5b429f784e:38521/
+[rosmaster.master][INFO] 2019-06-25 13:24:26,970: -PUB [/initialpose] /rviz_1561469066658700900 http://dc5b429f784e:38521/
+[rosmaster.master][INFO] 2019-06-25 13:24:26,973: +PUB [/initialpose] /rviz_1561469066658700900 http://dc5b429f784e:38521/
+[rosmaster.master][INFO] 2019-06-25 13:24:26,974: +PUB [/goal] /rviz_1561469066658700900 http://dc5b429f784e:38521/
+[rosmaster.master][INFO] 2019-06-25 13:24:26,976: +PUB [/move_base_simple/goal] /rviz_1561469066658700900 http://dc5b429f784e:38521/
+[rosmaster.master][INFO] 2019-06-25 13:24:26,977: -PUB [/goal] /rviz_1561469066658700900 http://dc5b429f784e:38521/
+[rosmaster.master][INFO] 2019-06-25 13:24:26,978: +PUB [/clicked_point] /rviz_1561469066658700900 http://dc5b429f784e:38521/
+[rosmaster.master][INFO] 2019-06-25 13:24:27,017: +SERVICE [/rviz_1561469066658700900/reload_shaders] /rviz_1561469066658700900 http://dc5b429f784e:38521/
+[rosmaster.master][INFO] 2019-06-25 13:26:13,816: +PUB [/rosout] /static_transform_publisher_1561469173812493900 http://dc5b429f784e:36259/
+[rosmaster.master][INFO] 2019-06-25 13:26:13,818: +SERVICE [/static_transform_publisher_1561469173812493900/get_loggers] /static_transform_publisher_1561469173812493900 http://dc5b429f784e:36259/
+[rosmaster.master][INFO] 2019-06-25 13:26:13,819: +SERVICE [/static_transform_publisher_1561469173812493900/set_logger_level] /static_transform_publisher_1561469173812493900 http://dc5b429f784e:36259/
+[rosmaster.master][INFO] 2019-06-25 13:26:13,829: +SUB [/clock] /static_transform_publisher_1561469173812493900 http://dc5b429f784e:36259/
+[rosmaster.master][INFO] 2019-06-25 13:26:13,831: +PUB [/tf] /static_transform_publisher_1561469173812493900 http://dc5b429f784e:36259/
+[rosmaster.master][INFO] 2019-06-25 13:26:13,835: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/']
+[rosmaster.master][INFO] 2019-06-25 13:26:13,841: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:26:13,841: publisherUpdate[/tf] -> http://dc5b429f784e:38521/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/']
+[rosmaster.master][INFO] 2019-06-25 13:26:13,842: publisherUpdate[/tf] -> http://dc5b429f784e:38521/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:26:40,928: +PUB [/rosout] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:26:40,929: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:33279/']
+[rosmaster.master][INFO] 2019-06-25 13:26:40,932: +SERVICE [/slam_gmapping/get_loggers] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:26:40,932: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:33279/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:26:40,935: +SERVICE [/slam_gmapping/set_logger_level] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:26:40,989: +SUB [/clock] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:26:41,000: +SUB [/tf] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:26:41,014: +SUB [/tf_static] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:26:41,016: +PUB [/tf] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:26:41,033: publisherUpdate[/tf] -> http://dc5b429f784e:38521/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:33279/']
+[rosmaster.master][INFO] 2019-06-25 13:26:41,036: publisherUpdate[/tf] -> http://dc5b429f784e:38521/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:33279/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:26:41,036: publisherUpdate[/tf] -> http://dc5b429f784e:33279/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:33279/']
+[rosmaster.master][INFO] 2019-06-25 13:26:41,043: publisherUpdate[/tf] -> http://dc5b429f784e:33279/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:33279/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:26:41,081: +PUB [/slam_gmapping/entropy] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:26:41,083: +PUB [/map] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:26:41,085: +PUB [/map_metadata] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:26:41,087: +SERVICE [/dynamic_map] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:26:41,094: +SUB [/scan] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:29:23,123: +PUB [/rosout] /static_transform_publisher_1561469363112107100 http://dc5b429f784e:38229/
+[rosmaster.master][INFO] 2019-06-25 13:29:23,125: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:33279/', 'http://dc5b429f784e:38229/']
+[rosmaster.master][INFO] 2019-06-25 13:29:23,126: +SERVICE [/static_transform_publisher_1561469363112107100/get_loggers] /static_transform_publisher_1561469363112107100 http://dc5b429f784e:38229/
+[rosmaster.master][INFO] 2019-06-25 13:29:23,127: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:33279/', 'http://dc5b429f784e:38229/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:29:23,129: +SERVICE [/static_transform_publisher_1561469363112107100/set_logger_level] /static_transform_publisher_1561469363112107100 http://dc5b429f784e:38229/
+[rosmaster.master][INFO] 2019-06-25 13:29:23,139: +SUB [/clock] /static_transform_publisher_1561469363112107100 http://dc5b429f784e:38229/
+[rosmaster.master][INFO] 2019-06-25 13:29:23,141: +PUB [/tf] /static_transform_publisher_1561469363112107100 http://dc5b429f784e:38229/
+[rosmaster.master][INFO] 2019-06-25 13:29:23,156: publisherUpdate[/tf] -> http://dc5b429f784e:38521/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:33279/', 'http://dc5b429f784e:38229/']
+[rosmaster.master][INFO] 2019-06-25 13:29:23,157: publisherUpdate[/tf] -> http://dc5b429f784e:38521/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:33279/', 'http://dc5b429f784e:38229/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:29:23,158: publisherUpdate[/tf] -> http://dc5b429f784e:33279/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:33279/', 'http://dc5b429f784e:38229/']
+[rosmaster.master][INFO] 2019-06-25 13:29:23,158: publisherUpdate[/tf] -> http://dc5b429f784e:33279/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:33279/', 'http://dc5b429f784e:38229/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:29:49,315: -PUB [/rosout] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:29:49,318: -PUB [/tf] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:29:49,321: -PUB [/slam_gmapping/entropy] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:29:49,336: -PUB [/map] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:29:49,338: -PUB [/map_metadata] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:29:49,339: -SUB [/clock] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:29:49,342: -SUB [/tf] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:29:49,344: -SUB [/tf_static] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:29:49,346: -SUB [/scan] /slam_gmapping http://dc5b429f784e:33279/
+[rosmaster.master][INFO] 2019-06-25 13:29:49,347: -SERVICE [/slam_gmapping/get_loggers] /slam_gmapping rosrpc://dc5b429f784e:35503
+[rosmaster.master][INFO] 2019-06-25 13:29:49,349: -SERVICE [/slam_gmapping/set_logger_level] /slam_gmapping rosrpc://dc5b429f784e:35503
+[rosmaster.master][INFO] 2019-06-25 13:29:49,350: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/']
+[rosmaster.master][INFO] 2019-06-25 13:29:49,351: -SERVICE [/dynamic_map] /slam_gmapping rosrpc://dc5b429f784e:35503
+[rosmaster.master][INFO] 2019-06-25 13:29:49,352: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:29:49,352: publisherUpdate[/tf] -> http://dc5b429f784e:38521/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/']
+[rosmaster.master][INFO] 2019-06-25 13:29:49,353: publisherUpdate[/tf] -> http://dc5b429f784e:38521/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:29:49,354: publisherUpdate[/tf] -> http://dc5b429f784e:33279/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/']
+[rosmaster.master][INFO] 2019-06-25 13:29:49,355: publisherUpdate[/tf] -> http://dc5b429f784e:33279/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2019-06-25 13:29:49,356: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2019-06-25 13:29:53,017: +PUB [/rosout] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:29:53,021: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:37525/']
+[rosmaster.master][INFO] 2019-06-25 13:29:53,023: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:37525/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:29:53,024: +SERVICE [/slam_gmapping/get_loggers] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:29:53,026: +SERVICE [/slam_gmapping/set_logger_level] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:29:53,039: +SUB [/clock] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:29:53,050: +SUB [/tf] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:29:53,061: +SUB [/tf_static] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:29:53,064: +PUB [/tf] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:29:53,087: publisherUpdate[/tf] -> http://dc5b429f784e:38521/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:37525/']
+[rosmaster.master][INFO] 2019-06-25 13:29:53,091: publisherUpdate[/tf] -> http://dc5b429f784e:38521/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:37525/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:29:53,091: publisherUpdate[/tf] -> http://dc5b429f784e:37525/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:37525/']
+[rosmaster.master][INFO] 2019-06-25 13:29:53,093: publisherUpdate[/tf] -> http://dc5b429f784e:37525/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:37525/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:29:53,157: +PUB [/slam_gmapping/entropy] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:29:53,160: +PUB [/map] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:29:53,162: +PUB [/map_metadata] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:29:53,165: +SERVICE [/dynamic_map] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:29:53,176: +SUB [/scan] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:31:28,121: -PUB [/rosout] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:31:28,123: -PUB [/tf] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:31:28,125: -PUB [/slam_gmapping/entropy] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:31:28,127: -PUB [/map] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:31:28,129: -PUB [/map_metadata] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:31:28,131: -SUB [/clock] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:31:28,133: -SUB [/tf] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:31:28,135: -SUB [/tf_static] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:31:28,136: -SUB [/scan] /slam_gmapping http://dc5b429f784e:37525/
+[rosmaster.master][INFO] 2019-06-25 13:31:28,138: -SERVICE [/slam_gmapping/get_loggers] /slam_gmapping rosrpc://dc5b429f784e:36639
+[rosmaster.master][INFO] 2019-06-25 13:31:28,142: -SERVICE [/slam_gmapping/set_logger_level] /slam_gmapping rosrpc://dc5b429f784e:36639
+[rosmaster.master][INFO] 2019-06-25 13:31:28,144: -SERVICE [/dynamic_map] /slam_gmapping rosrpc://dc5b429f784e:36639
+[rosmaster.master][INFO] 2019-06-25 13:31:28,159: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/']
+[rosmaster.master][INFO] 2019-06-25 13:31:28,160: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:31:28,160: publisherUpdate[/tf] -> http://dc5b429f784e:38521/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/']
+[rosmaster.master][INFO] 2019-06-25 13:31:28,161: publisherUpdate[/tf] -> http://dc5b429f784e:38521/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:31:28,161: publisherUpdate[/tf] -> http://dc5b429f784e:37525/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/']
+[rosmaster.master][INFO] 2019-06-25 13:31:28,162: publisherUpdate[/tf] -> http://dc5b429f784e:37525/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2019-06-25 13:31:28,162: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2019-06-25 13:31:40,700: +PUB [/rosout] /view_frames_72559_1561469500451 http://dc5b429f784e:35593/
+[rosmaster.master][INFO] 2019-06-25 13:31:40,707: +SUB [/clock] /view_frames_72559_1561469500451 http://dc5b429f784e:35593/
+[rosmaster.master][INFO] 2019-06-25 13:31:40,709: +SERVICE [/view_frames_72559_1561469500451/get_loggers] /view_frames_72559_1561469500451 http://dc5b429f784e:35593/
+[rosmaster.master][INFO] 2019-06-25 13:31:40,711: +SERVICE [/view_frames_72559_1561469500451/set_logger_level] /view_frames_72559_1561469500451 http://dc5b429f784e:35593/
+[rosmaster.master][INFO] 2019-06-25 13:31:40,722: +SUB [/tf] /view_frames_72559_1561469500451 http://dc5b429f784e:35593/
+[rosmaster.master][INFO] 2019-06-25 13:31:40,728: +SUB [/tf_static] /view_frames_72559_1561469500451 http://dc5b429f784e:35593/
+[rosmaster.master][INFO] 2019-06-25 13:31:40,735: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:35593/']
+[rosmaster.master][INFO] 2019-06-25 13:31:40,736: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:35593/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:31:45,849: -SUB [/tf_static] /view_frames_72559_1561469500451 http://dc5b429f784e:35593/
+[rosmaster.master][INFO] 2019-06-25 13:31:45,849: -SUB [/clock] /view_frames_72559_1561469500451 http://dc5b429f784e:35593/
+[rosmaster.master][INFO] 2019-06-25 13:31:45,849: -SUB [/tf] /view_frames_72559_1561469500451 http://dc5b429f784e:35593/
+[rosmaster.master][INFO] 2019-06-25 13:31:45,850: -PUB [/rosout] /view_frames_72559_1561469500451 http://dc5b429f784e:35593/
+[rosmaster.master][INFO] 2019-06-25 13:31:45,850: -SERVICE [/view_frames_72559_1561469500451/set_logger_level] /view_frames_72559_1561469500451 rosrpc://dc5b429f784e:41699
+[rosmaster.master][INFO] 2019-06-25 13:31:45,850: -SERVICE [/view_frames_72559_1561469500451/get_loggers] /view_frames_72559_1561469500451 rosrpc://dc5b429f784e:41699
+[rosmaster.master][INFO] 2019-06-25 13:31:45,855: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/']
+[rosmaster.master][INFO] 2019-06-25 13:31:45,857: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:32:20,842: +PUB [/rosout] /slam_gmapping http://dc5b429f784e:46007/
+[rosmaster.master][INFO] 2019-06-25 13:32:20,847: +SERVICE [/slam_gmapping/get_loggers] /slam_gmapping http://dc5b429f784e:46007/
+[rosmaster.master][INFO] 2019-06-25 13:32:20,849: +SERVICE [/slam_gmapping/set_logger_level] /slam_gmapping http://dc5b429f784e:46007/
+[rosmaster.master][INFO] 2019-06-25 13:32:20,853: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/']
+[rosmaster.master][INFO] 2019-06-25 13:32:20,861: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:32:20,864: +SUB [/clock] /slam_gmapping http://dc5b429f784e:46007/
+[rosmaster.master][INFO] 2019-06-25 13:32:20,881: +SUB [/tf] /slam_gmapping http://dc5b429f784e:46007/
+[rosmaster.master][INFO] 2019-06-25 13:32:20,892: +SUB [/tf_static] /slam_gmapping http://dc5b429f784e:46007/
+[rosmaster.master][INFO] 2019-06-25 13:32:20,894: +PUB [/tf] /slam_gmapping http://dc5b429f784e:46007/
+[rosmaster.master][INFO] 2019-06-25 13:32:20,959: publisherUpdate[/tf] -> http://dc5b429f784e:38521/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/']
+[rosmaster.master][INFO] 2019-06-25 13:32:20,962: publisherUpdate[/tf] -> http://dc5b429f784e:38521/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:32:20,963: publisherUpdate[/tf] -> http://dc5b429f784e:46007/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/']
+[rosmaster.master][INFO] 2019-06-25 13:32:20,966: publisherUpdate[/tf] -> http://dc5b429f784e:46007/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:32:20,993: +PUB [/slam_gmapping/entropy] /slam_gmapping http://dc5b429f784e:46007/
+[rosmaster.master][INFO] 2019-06-25 13:32:20,996: +PUB [/map] /slam_gmapping http://dc5b429f784e:46007/
+[rosmaster.master][INFO] 2019-06-25 13:32:21,001: +PUB [/map_metadata] /slam_gmapping http://dc5b429f784e:46007/
+[rosmaster.master][INFO] 2019-06-25 13:32:21,003: +SERVICE [/dynamic_map] /slam_gmapping http://dc5b429f784e:46007/
+[rosmaster.master][INFO] 2019-06-25 13:32:21,016: +SUB [/scan] /slam_gmapping http://dc5b429f784e:46007/
+[rosmaster.master][INFO] 2019-06-25 13:32:29,431: +PUB [/rosout] /view_frames_72681_1561469549160 http://dc5b429f784e:41893/
+[rosmaster.master][INFO] 2019-06-25 13:32:29,437: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/', 'http://dc5b429f784e:41893/']
+[rosmaster.master][INFO] 2019-06-25 13:32:29,439: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/', 'http://dc5b429f784e:41893/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:32:29,443: +SUB [/clock] /view_frames_72681_1561469549160 http://dc5b429f784e:41893/
+[rosmaster.master][INFO] 2019-06-25 13:32:29,448: +SERVICE [/view_frames_72681_1561469549160/get_loggers] /view_frames_72681_1561469549160 http://dc5b429f784e:41893/
+[rosmaster.master][INFO] 2019-06-25 13:32:29,463: +SERVICE [/view_frames_72681_1561469549160/set_logger_level] /view_frames_72681_1561469549160 http://dc5b429f784e:41893/
+[rosmaster.master][INFO] 2019-06-25 13:32:29,467: +SUB [/tf] /view_frames_72681_1561469549160 http://dc5b429f784e:41893/
+[rosmaster.master][INFO] 2019-06-25 13:32:29,473: +SUB [/tf_static] /view_frames_72681_1561469549160 http://dc5b429f784e:41893/
+[rosmaster.master][INFO] 2019-06-25 13:32:34,577: -SUB [/tf_static] /view_frames_72681_1561469549160 http://dc5b429f784e:41893/
+[rosmaster.master][INFO] 2019-06-25 13:32:34,578: -SUB [/clock] /view_frames_72681_1561469549160 http://dc5b429f784e:41893/
+[rosmaster.master][INFO] 2019-06-25 13:32:34,578: -SUB [/tf] /view_frames_72681_1561469549160 http://dc5b429f784e:41893/
+[rosmaster.master][INFO] 2019-06-25 13:32:34,578: -PUB [/rosout] /view_frames_72681_1561469549160 http://dc5b429f784e:41893/
+[rosmaster.master][INFO] 2019-06-25 13:32:34,578: -SERVICE [/view_frames_72681_1561469549160/get_loggers] /view_frames_72681_1561469549160 rosrpc://dc5b429f784e:37423
+[rosmaster.master][INFO] 2019-06-25 13:32:34,579: -SERVICE [/view_frames_72681_1561469549160/set_logger_level] /view_frames_72681_1561469549160 rosrpc://dc5b429f784e:37423
+[rosmaster.master][INFO] 2019-06-25 13:32:34,598: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/']
+[rosmaster.master][INFO] 2019-06-25 13:32:34,600: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:33:12,488: +PUB [/cmd_vel] /teleop_twist_keyboard http://dc5b429f784e:33349/
+[rosmaster.master][INFO] 2019-06-25 13:33:12,504: publisherUpdate[/cmd_vel] -> http://dc5b429f784e:39511/ ['http://dc5b429f784e:33349/']
+[rosmaster.master][INFO] 2019-06-25 13:33:12,505: publisherUpdate[/cmd_vel] -> http://dc5b429f784e:39511/ ['http://dc5b429f784e:33349/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:33:12,584: +PUB [/rosout] /teleop_twist_keyboard http://dc5b429f784e:33349/
+[rosmaster.master][INFO] 2019-06-25 13:33:12,594: +SUB [/clock] /teleop_twist_keyboard http://dc5b429f784e:33349/
+[rosmaster.master][INFO] 2019-06-25 13:33:12,598: +SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard http://dc5b429f784e:33349/
+[rosmaster.master][INFO] 2019-06-25 13:33:12,600: +SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard http://dc5b429f784e:33349/
+[rosmaster.master][INFO] 2019-06-25 13:33:12,604: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/', 'http://dc5b429f784e:33349/']
+[rosmaster.master][INFO] 2019-06-25 13:33:12,605: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/', 'http://dc5b429f784e:33349/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:34:12,564: -SUB [/clock] /teleop_twist_keyboard http://dc5b429f784e:33349/
+[rosmaster.master][INFO] 2019-06-25 13:34:12,564: -PUB [/rosout] /teleop_twist_keyboard http://dc5b429f784e:33349/
+[rosmaster.master][INFO] 2019-06-25 13:34:12,564: -PUB [/cmd_vel] /teleop_twist_keyboard http://dc5b429f784e:33349/
+[rosmaster.master][INFO] 2019-06-25 13:34:12,566: -SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard rosrpc://dc5b429f784e:38523
+[rosmaster.master][INFO] 2019-06-25 13:34:12,566: -SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard rosrpc://dc5b429f784e:38523
+[rosmaster.master][INFO] 2019-06-25 13:34:12,569: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/']
+[rosmaster.master][INFO] 2019-06-25 13:34:12,571: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:34:12,571: publisherUpdate[/cmd_vel] -> http://dc5b429f784e:39511/ []
+[rosmaster.master][INFO] 2019-06-25 13:34:12,572: publisherUpdate[/cmd_vel] -> http://dc5b429f784e:39511/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:34:18,600: +PUB [/rosout] /view_frames_72783_1561469658384 http://dc5b429f784e:45739/
+[rosmaster.master][INFO] 2019-06-25 13:34:18,607: +SUB [/clock] /view_frames_72783_1561469658384 http://dc5b429f784e:45739/
+[rosmaster.master][INFO] 2019-06-25 13:34:18,608: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/', 'http://dc5b429f784e:45739/']
+[rosmaster.master][INFO] 2019-06-25 13:34:18,610: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/', 'http://dc5b429f784e:45739/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:34:18,614: +SERVICE [/view_frames_72783_1561469658384/get_loggers] /view_frames_72783_1561469658384 http://dc5b429f784e:45739/
+[rosmaster.master][INFO] 2019-06-25 13:34:18,617: +SERVICE [/view_frames_72783_1561469658384/set_logger_level] /view_frames_72783_1561469658384 http://dc5b429f784e:45739/
+[rosmaster.master][INFO] 2019-06-25 13:34:18,621: +SUB [/tf] /view_frames_72783_1561469658384 http://dc5b429f784e:45739/
+[rosmaster.master][INFO] 2019-06-25 13:34:18,627: +SUB [/tf_static] /view_frames_72783_1561469658384 http://dc5b429f784e:45739/
+[rosmaster.master][INFO] 2019-06-25 13:34:23,735: -SUB [/tf_static] /view_frames_72783_1561469658384 http://dc5b429f784e:45739/
+[rosmaster.master][INFO] 2019-06-25 13:34:23,736: -SUB [/clock] /view_frames_72783_1561469658384 http://dc5b429f784e:45739/
+[rosmaster.master][INFO] 2019-06-25 13:34:23,736: -SUB [/tf] /view_frames_72783_1561469658384 http://dc5b429f784e:45739/
+[rosmaster.master][INFO] 2019-06-25 13:34:23,736: -PUB [/rosout] /view_frames_72783_1561469658384 http://dc5b429f784e:45739/
+[rosmaster.master][INFO] 2019-06-25 13:34:23,736: -SERVICE [/view_frames_72783_1561469658384/get_loggers] /view_frames_72783_1561469658384 rosrpc://dc5b429f784e:44861
+[rosmaster.master][INFO] 2019-06-25 13:34:23,736: -SERVICE [/view_frames_72783_1561469658384/set_logger_level] /view_frames_72783_1561469658384 rosrpc://dc5b429f784e:44861
+[rosmaster.master][INFO] 2019-06-25 13:34:23,762: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/']
+[rosmaster.master][INFO] 2019-06-25 13:34:23,763: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:36259/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:35:06,994: -PUB [/rosout] /static_transform_publisher_1561469173812493900 http://dc5b429f784e:36259/
+[rosmaster.master][INFO] 2019-06-25 13:35:06,998: -PUB [/tf] /static_transform_publisher_1561469173812493900 http://dc5b429f784e:36259/
+[rosmaster.master][INFO] 2019-06-25 13:35:07,000: -SUB [/clock] /static_transform_publisher_1561469173812493900 http://dc5b429f784e:36259/
+[rosmaster.master][INFO] 2019-06-25 13:35:07,002: -SERVICE [/static_transform_publisher_1561469173812493900/get_loggers] /static_transform_publisher_1561469173812493900 rosrpc://dc5b429f784e:54235
+[rosmaster.master][INFO] 2019-06-25 13:35:07,004: -SERVICE [/static_transform_publisher_1561469173812493900/set_logger_level] /static_transform_publisher_1561469173812493900 rosrpc://dc5b429f784e:54235
+[rosmaster.master][INFO] 2019-06-25 13:35:07,029: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/']
+[rosmaster.master][INFO] 2019-06-25 13:35:07,030: publisherUpdate[/rosout] -> http://dc5b429f784e:45013/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38521/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:35:07,030: publisherUpdate[/tf] -> http://dc5b429f784e:38521/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/']
+[rosmaster.master][INFO] 2019-06-25 13:35:07,031: publisherUpdate[/tf] -> http://dc5b429f784e:38521/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:35:07,031: publisherUpdate[/tf] -> http://dc5b429f784e:46007/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/']
+[rosmaster.master][INFO] 2019-06-25 13:35:07,032: publisherUpdate[/tf] -> http://dc5b429f784e:46007/ ['http://dc5b429f784e:39511/', 'http://dc5b429f784e:38229/', 'http://dc5b429f784e:46007/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 13:35:16,748: -PUB [/rosout_agg] /rosout http://dc5b429f784e:45013/
+[rosmaster.master][INFO] 2019-06-25 13:35:16,749: -SUB [/rosout] /rosout http://dc5b429f784e:45013/
+[rosmaster.master][INFO] 2019-06-25 13:35:16,751: -SERVICE [/rosout/get_loggers] /rosout rosrpc://dc5b429f784e:49207
+[rosmaster.master][INFO] 2019-06-25 13:35:16,752: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://dc5b429f784e:49207
+[rosmaster.main][INFO] 2019-06-25 13:35:16,789: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2019-06-25 13:35:16,790: stopping master...
+[rospy.core][INFO] 2019-06-25 13:35:16,790: signal_shutdown [atexit]

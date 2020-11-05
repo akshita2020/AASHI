@@ -1,0 +1,16 @@
+Gazebo multi-robot simulator, version 7.15.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1593697093 254334962) [Msg] Waiting for master.
+(1593697093 260184662) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1593697093 260308262) [Msg] Publicized address: 172.17.0.2
+(1593697093 594696568) Init world[default]
+(1593697095 20300495) applying Gaussian noise model with mean 0, stddev 0.01, bias 0
+(1593697095 48261296) [Wrn] [msgs.cc:1808] Conversion of sensor type[gpu_ray] not suppported.
+(1593697096 2735114) [Wrn] [msgs.cc:1808] Conversion of sensor type[gpu_ray] not suppported.
+(1593697096 3010714) [Wrn] [msgs.cc:1808] Conversion of sensor type[gpu_ray] not suppported.
+(1593697096 63380915) applying Gaussian noise model with mean 0, stddev 0.01, bias 0
+(1593697096 66412315) [Wrn] [msgs.cc:1808] Conversion of sensor type[gpu_ray] not suppported.

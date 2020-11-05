@@ -1,0 +1,716 @@
+[rosmaster.main][INFO] 2019-07-02 13:29:52,290: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-07-02 13:29:52,290: Starting ROS Master Node
+[xmlrpc][INFO] 2019-07-02 13:29:52,291: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-07-02 13:29:52,291: Started XML-RPC server [http://f6566a55c2b3:11311/]
+[xmlrpc][INFO] 2019-07-02 13:29:52,291: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-07-02 13:29:52,292: Master initialized: port[11311], uri[http://f6566a55c2b3:11311/]
+[rosmaster.master][INFO] 2019-07-02 13:29:52,317: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:29:52,319: +PARAM [/roslaunch/uris/host_f6566a55c2b3__43073] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:29:52,663: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:29:52,664: +PARAM [/use_gui] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:29:52,664: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:29:52,664: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:29:52,667: +SERVICE [/rosout/get_loggers] /rosout http://f6566a55c2b3:46335/
+[rosmaster.master][INFO] 2019-07-02 13:29:52,668: +SERVICE [/rosout/set_logger_level] /rosout http://f6566a55c2b3:46335/
+[rosmaster.master][INFO] 2019-07-02 13:29:52,671: +PUB [/rosout_agg] /rosout http://f6566a55c2b3:46335/
+[rosmaster.master][INFO] 2019-07-02 13:29:52,676: +SUB [/rosout] /rosout http://f6566a55c2b3:46335/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,213: +PUB [/rosout] /robot_state_publisher http://f6566a55c2b3:37551/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,214: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://f6566a55c2b3:37551/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,215: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://f6566a55c2b3:37551/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,220: +PUB [/tf] /robot_state_publisher http://f6566a55c2b3:37551/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,221: +PUB [/tf_static] /robot_state_publisher http://f6566a55c2b3:37551/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,230: +SUB [/joint_states] /robot_state_publisher http://f6566a55c2b3:37551/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,273: +PUB [/rosout] /joint_state_publisher http://f6566a55c2b3:35727/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,276: +SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher http://f6566a55c2b3:35727/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,277: +SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher http://f6566a55c2b3:35727/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,294: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:37551/']
+[rosmaster.master][INFO] 2019-07-02 13:29:53,298: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:37551/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:29:53,298: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:37551/', 'http://f6566a55c2b3:35727/']
+[rosmaster.master][INFO] 2019-07-02 13:29:53,299: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:37551/', 'http://f6566a55c2b3:35727/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:29:53,311: +PUB [/joint_states] /joint_state_publisher http://f6566a55c2b3:35727/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,398: publisherUpdate[/joint_states] -> http://f6566a55c2b3:37551/ ['http://f6566a55c2b3:35727/']
+[rosmaster.master][INFO] 2019-07-02 13:29:53,399: publisherUpdate[/joint_states] -> http://f6566a55c2b3:37551/ ['http://f6566a55c2b3:35727/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:29:53,538: +PUB [/rosout] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,539: +SERVICE [/rviz/get_loggers] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,540: +SERVICE [/rviz/set_logger_level] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,599: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:37551/', 'http://f6566a55c2b3:35727/', 'http://f6566a55c2b3:32795/']
+[rosmaster.master][INFO] 2019-07-02 13:29:53,600: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:37551/', 'http://f6566a55c2b3:35727/', 'http://f6566a55c2b3:32795/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:29:53,682: +SUB [/tf] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,687: +SUB [/tf_static] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,716: +PUB [/initialpose] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,717: +PUB [/goal] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,720: -PUB [/goal] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,721: -PUB [/initialpose] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,724: +PUB [/initialpose] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,726: +PUB [/goal] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,727: +PUB [/move_base_simple/goal] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,728: -PUB [/goal] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,730: +PUB [/clicked_point] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:29:53,757: +SERVICE [/rviz/reload_shaders] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:30:51,884: -PUB [/clicked_point] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:30:51,886: -PUB [/move_base_simple/goal] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:30:51,887: -PUB [/initialpose] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:30:51,897: -SUB [/tf_static] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:30:51,898: -SUB [/tf] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:30:51,901: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://f6566a55c2b3:41037
+[rosmaster.master][INFO] 2019-07-02 13:30:52,034: -PUB [/rosout] /rviz http://f6566a55c2b3:32795/
+[rosmaster.master][INFO] 2019-07-02 13:30:52,036: -SERVICE [/rviz/get_loggers] /rviz rosrpc://f6566a55c2b3:41037
+[rosmaster.master][INFO] 2019-07-02 13:30:52,037: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://f6566a55c2b3:41037
+[rosmaster.master][INFO] 2019-07-02 13:30:52,044: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:37551/', 'http://f6566a55c2b3:35727/']
+[rosmaster.master][INFO] 2019-07-02 13:30:52,044: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:37551/', 'http://f6566a55c2b3:35727/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:30:53,714: -PUB [/joint_states] /joint_state_publisher http://f6566a55c2b3:35727/
+[rosmaster.master][INFO] 2019-07-02 13:30:53,714: -PUB [/rosout] /joint_state_publisher http://f6566a55c2b3:35727/
+[rosmaster.master][INFO] 2019-07-02 13:30:53,715: -SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher rosrpc://f6566a55c2b3:42843
+[rosmaster.master][INFO] 2019-07-02 13:30:53,715: -SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher rosrpc://f6566a55c2b3:42843
+[rosmaster.master][INFO] 2019-07-02 13:30:53,728: publisherUpdate[/joint_states] -> http://f6566a55c2b3:37551/ []
+[rosmaster.master][INFO] 2019-07-02 13:30:53,728: publisherUpdate[/joint_states] -> http://f6566a55c2b3:37551/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:30:53,729: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:37551/']
+[rosmaster.master][INFO] 2019-07-02 13:30:53,729: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:37551/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:30:53,830: -PUB [/rosout] /robot_state_publisher http://f6566a55c2b3:37551/
+[rosmaster.master][INFO] 2019-07-02 13:30:53,831: -PUB [/tf] /robot_state_publisher http://f6566a55c2b3:37551/
+[rosmaster.master][INFO] 2019-07-02 13:30:53,832: -PUB [/tf_static] /robot_state_publisher http://f6566a55c2b3:37551/
+[rosmaster.master][INFO] 2019-07-02 13:30:53,833: -SUB [/joint_states] /robot_state_publisher http://f6566a55c2b3:37551/
+[rosmaster.master][INFO] 2019-07-02 13:30:53,834: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://f6566a55c2b3:46087
+[rosmaster.master][INFO] 2019-07-02 13:30:53,835: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://f6566a55c2b3:46087
+[rosmaster.master][INFO] 2019-07-02 13:30:53,849: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ []
+[rosmaster.master][INFO] 2019-07-02 13:30:53,849: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:32:47,259: +PARAM [/roslaunch/uris/host_f6566a55c2b3__42381] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:32:47,263: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:32:47,263: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:32:47,264: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:32:47,264: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:32:47,865: +PUB [/rosout] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:47,866: +SERVICE [/gazebo/get_loggers] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:47,867: +SERVICE [/gazebo/set_logger_level] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:47,874: +SUB [/clock] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:47,879: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:34131/']
+[rosmaster.master][INFO] 2019-07-02 13:32:47,880: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:34131/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:32:48,176: +PUB [/rosout] /gazebo_gui http://f6566a55c2b3:43993/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,178: +SERVICE [/gazebo_gui/get_loggers] /gazebo_gui http://f6566a55c2b3:43993/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,179: +SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui http://f6566a55c2b3:43993/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,183: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:34131/', 'http://f6566a55c2b3:43993/']
+[rosmaster.master][INFO] 2019-07-02 13:32:48,183: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:34131/', 'http://f6566a55c2b3:43993/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:32:48,186: +SUB [/clock] /gazebo_gui http://f6566a55c2b3:43993/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,383: +PUB [/clock] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,384: publisherUpdate[/clock] -> http://f6566a55c2b3:34131/ ['http://f6566a55c2b3:34131/']
+[rosmaster.master][INFO] 2019-07-02 13:32:48,386: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,387: publisherUpdate[/clock] -> http://f6566a55c2b3:34131/ ['http://f6566a55c2b3:34131/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:32:48,387: publisherUpdate[/clock] -> http://f6566a55c2b3:43993/ ['http://f6566a55c2b3:34131/']
+[rosmaster.master][INFO] 2019-07-02 13:32:48,389: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,390: publisherUpdate[/clock] -> http://f6566a55c2b3:43993/ ['http://f6566a55c2b3:34131/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:32:48,391: +SERVICE [/gazebo/delete_model] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,392: +SERVICE [/gazebo/delete_light] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,393: +SERVICE [/gazebo/get_model_properties] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,394: +SERVICE [/gazebo/get_model_state] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,395: +SERVICE [/gazebo/get_world_properties] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,396: +SERVICE [/gazebo/get_joint_properties] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,397: +SERVICE [/gazebo/get_link_properties] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,399: +SERVICE [/gazebo/get_link_state] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,400: +SERVICE [/gazebo/get_light_properties] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,401: +SERVICE [/gazebo/set_light_properties] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,403: +SERVICE [/gazebo/get_physics_properties] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,404: +PUB [/gazebo/link_states] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,405: +PUB [/gazebo/model_states] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,407: +SERVICE [/gazebo/set_link_properties] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,408: +SERVICE [/gazebo/set_physics_properties] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,409: +SERVICE [/gazebo/set_model_state] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,410: +SERVICE [/gazebo/set_model_configuration] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,411: +SERVICE [/gazebo/set_joint_properties] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,413: +SERVICE [/gazebo/set_link_state] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,420: +SUB [/gazebo/set_link_state] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,426: +SUB [/gazebo/set_model_state] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,427: +SERVICE [/gazebo/pause_physics] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,428: +SERVICE [/gazebo/unpause_physics] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,429: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,430: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,432: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,434: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,435: +SERVICE [/gazebo/reset_simulation] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,436: +SERVICE [/gazebo/reset_world] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,939: +PUB [/rosout] /urdf_spawner http://f6566a55c2b3:46081/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,943: +SUB [/clock] /urdf_spawner http://f6566a55c2b3:46081/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,945: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://f6566a55c2b3:46081/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,947: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://f6566a55c2b3:46081/
+[rosmaster.master][INFO] 2019-07-02 13:32:48,953: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:34131/', 'http://f6566a55c2b3:43993/', 'http://f6566a55c2b3:46081/']
+[rosmaster.master][INFO] 2019-07-02 13:32:48,954: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:34131/', 'http://f6566a55c2b3:43993/', 'http://f6566a55c2b3:46081/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:32:49,263: -SUB [/clock] /urdf_spawner http://f6566a55c2b3:46081/
+[rosmaster.master][INFO] 2019-07-02 13:32:49,264: -PUB [/rosout] /urdf_spawner http://f6566a55c2b3:46081/
+[rosmaster.master][INFO] 2019-07-02 13:32:49,264: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://f6566a55c2b3:33591
+[rosmaster.master][INFO] 2019-07-02 13:32:49,264: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://f6566a55c2b3:33591
+[rosmaster.master][ERROR] 2019-07-02 13:32:49,277: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2019-07-02 13:32:49,278: +PUB [/p3dx/laser/scan] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:49,292: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:34131/', 'http://f6566a55c2b3:43993/']
+[rosmaster.master][INFO] 2019-07-02 13:32:49,293: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:34131/', 'http://f6566a55c2b3:43993/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:32:49,494: +SERVICE [/p3dx/controller_manager/list_controllers] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:49,495: +SERVICE [/p3dx/controller_manager/list_controller_types] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:49,496: +SERVICE [/p3dx/controller_manager/load_controller] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:49,497: +SERVICE [/p3dx/controller_manager/unload_controller] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:49,498: +SERVICE [/p3dx/controller_manager/switch_controller] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:49,500: +SERVICE [/p3dx/controller_manager/reload_controller_libraries] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][ERROR] 2019-07-02 13:32:49,505: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2019-07-02 13:32:49,507: +PUB [/tf] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:49,513: +SUB [/cmd_vel] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:49,514: +PUB [/odom] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:32:49,520: +PUB [/p3dx/base_pose_ground_truth] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:33:02,201: -SUB [/gazebo/set_link_state] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:33:02,202: -SUB [/gazebo/set_model_state] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:33:02,203: -PUB [/clock] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:33:02,204: -PUB [/gazebo/link_states] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:33:02,205: -PUB [/gazebo/model_states] /gazebo http://f6566a55c2b3:34131/
+[rosmaster.master][INFO] 2019-07-02 13:33:02,206: -SERVICE [/gazebo/spawn_sdf_model] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,207: -SERVICE [/gazebo/spawn_urdf_model] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,208: -SERVICE [/gazebo/delete_model] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,209: -SERVICE [/gazebo/delete_light] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,210: -SERVICE [/gazebo/get_model_properties] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,211: -SERVICE [/gazebo/get_model_state] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,212: -SERVICE [/gazebo/get_world_properties] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,212: -SERVICE [/gazebo/get_joint_properties] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,213: -SERVICE [/gazebo/get_link_properties] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,214: -SERVICE [/gazebo/get_link_state] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,215: -SERVICE [/gazebo/get_light_properties] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,216: publisherUpdate[/clock] -> http://f6566a55c2b3:34131/ []
+[rosmaster.master][INFO] 2019-07-02 13:33:02,216: -SERVICE [/gazebo/set_light_properties] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,217: publisherUpdate[/clock] -> http://f6566a55c2b3:34131/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:33:02,217: publisherUpdate[/clock] -> http://f6566a55c2b3:43993/ []
+[rosmaster.master][INFO] 2019-07-02 13:33:02,218: -SERVICE [/gazebo/get_physics_properties] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,219: publisherUpdate[/clock] -> http://f6566a55c2b3:43993/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:33:02,220: -SERVICE [/gazebo/set_link_properties] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,221: -SERVICE [/gazebo/set_physics_properties] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,222: -SERVICE [/gazebo/set_model_state] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,222: -SERVICE [/gazebo/set_model_configuration] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,223: -SERVICE [/gazebo/set_joint_properties] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,224: -SERVICE [/gazebo/set_link_state] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,225: -SERVICE [/gazebo/pause_physics] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,226: -SERVICE [/gazebo/unpause_physics] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,227: -SERVICE [/gazebo/apply_body_wrench] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,227: -SERVICE [/gazebo/apply_joint_effort] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,228: -SERVICE [/gazebo/clear_joint_forces] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,229: -SERVICE [/gazebo/clear_body_wrenches] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,230: -SERVICE [/gazebo/reset_simulation] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:33:02,231: -SERVICE [/gazebo/reset_world] /gazebo rosrpc://f6566a55c2b3:37571
+[rosmaster.master][INFO] 2019-07-02 13:35:44,966: +PARAM [/roslaunch/uris/host_f6566a55c2b3__42641] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:35:44,971: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:35:44,971: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:35:44,971: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:35:44,971: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:35:45,567: +PUB [/rosout] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:45,569: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:43993/', 'http://f6566a55c2b3:42111/']
+[rosmaster.master][INFO] 2019-07-02 13:35:45,569: +SERVICE [/gazebo/get_loggers] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:45,570: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:43993/', 'http://f6566a55c2b3:42111/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:35:45,571: +SERVICE [/gazebo/set_logger_level] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:45,584: +SUB [/clock] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:45,935: +PUB [/rosout] /gazebo_gui http://f6566a55c2b3:34503/
+[rosmaster.master][INFO] 2019-07-02 13:35:45,937: +SERVICE [/gazebo_gui/get_loggers] /gazebo_gui http://f6566a55c2b3:34503/
+[rosmaster.master][INFO] 2019-07-02 13:35:45,938: +SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui http://f6566a55c2b3:34503/
+[rosmaster.master][INFO] 2019-07-02 13:35:45,945: +SUB [/clock] /gazebo_gui http://f6566a55c2b3:34503/
+[rosmaster.master][INFO] 2019-07-02 13:35:45,967: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:42111/', 'http://f6566a55c2b3:34503/']
+[rosmaster.master][INFO] 2019-07-02 13:35:45,968: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:42111/', 'http://f6566a55c2b3:34503/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:35:46,053: +PUB [/clock] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,055: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,056: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,057: +SERVICE [/gazebo/delete_model] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,058: +SERVICE [/gazebo/delete_light] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,059: +SERVICE [/gazebo/get_model_properties] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,060: +SERVICE [/gazebo/get_model_state] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,061: +SERVICE [/gazebo/get_world_properties] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,063: +SERVICE [/gazebo/get_joint_properties] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,064: +SERVICE [/gazebo/get_link_properties] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,064: +SERVICE [/gazebo/get_link_state] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,065: +SERVICE [/gazebo/get_light_properties] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,066: +SERVICE [/gazebo/set_light_properties] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,068: +SERVICE [/gazebo/get_physics_properties] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,068: publisherUpdate[/clock] -> http://f6566a55c2b3:42111/ ['http://f6566a55c2b3:42111/']
+[rosmaster.master][INFO] 2019-07-02 13:35:46,070: +PUB [/gazebo/link_states] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,071: publisherUpdate[/clock] -> http://f6566a55c2b3:34503/ ['http://f6566a55c2b3:42111/']
+[rosmaster.master][INFO] 2019-07-02 13:35:46,072: publisherUpdate[/clock] -> http://f6566a55c2b3:42111/ ['http://f6566a55c2b3:42111/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:35:46,072: +PUB [/gazebo/model_states] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,073: publisherUpdate[/clock] -> http://f6566a55c2b3:34503/ ['http://f6566a55c2b3:42111/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:35:46,074: +SERVICE [/gazebo/set_link_properties] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,075: +SERVICE [/gazebo/set_physics_properties] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,076: +SERVICE [/gazebo/set_model_state] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,077: +SERVICE [/gazebo/set_model_configuration] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,078: +SERVICE [/gazebo/set_joint_properties] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,079: +SERVICE [/gazebo/set_link_state] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,084: +SUB [/gazebo/set_link_state] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,091: +SUB [/gazebo/set_model_state] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,092: +SERVICE [/gazebo/pause_physics] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,094: +SERVICE [/gazebo/unpause_physics] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,095: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,096: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,097: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,098: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,099: +SERVICE [/gazebo/reset_simulation] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,100: +SERVICE [/gazebo/reset_world] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,601: +PUB [/rosout] /urdf_spawner http://f6566a55c2b3:34159/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,607: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:42111/', 'http://f6566a55c2b3:34503/', 'http://f6566a55c2b3:34159/']
+[rosmaster.master][INFO] 2019-07-02 13:35:46,607: +SUB [/clock] /urdf_spawner http://f6566a55c2b3:34159/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,608: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:42111/', 'http://f6566a55c2b3:34503/', 'http://f6566a55c2b3:34159/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:35:46,611: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://f6566a55c2b3:34159/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,615: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://f6566a55c2b3:34159/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,961: -SUB [/clock] /urdf_spawner http://f6566a55c2b3:34159/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,961: -PUB [/rosout] /urdf_spawner http://f6566a55c2b3:34159/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,962: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://f6566a55c2b3:39259
+[rosmaster.master][INFO] 2019-07-02 13:35:46,962: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://f6566a55c2b3:39259
+[rosmaster.master][ERROR] 2019-07-02 13:35:46,964: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2019-07-02 13:35:46,965: +PUB [/p3dx/laser/scan] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:46,975: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:42111/', 'http://f6566a55c2b3:34503/']
+[rosmaster.master][INFO] 2019-07-02 13:35:46,976: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:42111/', 'http://f6566a55c2b3:34503/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:35:47,190: +SERVICE [/p3dx/controller_manager/list_controllers] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:47,191: +SERVICE [/p3dx/controller_manager/list_controller_types] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:47,192: +SERVICE [/p3dx/controller_manager/load_controller] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:47,193: +SERVICE [/p3dx/controller_manager/unload_controller] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:47,194: +SERVICE [/p3dx/controller_manager/switch_controller] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:47,195: +SERVICE [/p3dx/controller_manager/reload_controller_libraries] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][ERROR] 2019-07-02 13:35:47,200: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2019-07-02 13:35:47,202: +PUB [/tf] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:47,207: +SUB [/cmd_vel] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:47,208: +PUB [/odom] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:47,215: +PUB [/p3dx/base_pose_ground_truth] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:50,879: +SERVICE [/gazebo/set_parameters] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:50,880: +SERVICE [/gazebo_gui/set_parameters] /gazebo_gui http://f6566a55c2b3:34503/
+[rosmaster.master][INFO] 2019-07-02 13:35:50,881: +PUB [/gazebo/parameter_descriptions] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:50,884: +PUB [/gazebo_gui/parameter_descriptions] /gazebo_gui http://f6566a55c2b3:34503/
+[rosmaster.master][INFO] 2019-07-02 13:35:50,885: +PUB [/gazebo/parameter_updates] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:35:50,888: +PUB [/gazebo_gui/parameter_updates] /gazebo_gui http://f6566a55c2b3:34503/
+[rosmaster.master][INFO] 2019-07-02 13:35:50,943: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:50,945: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:50,947: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:50,950: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:50,951: +PARAM [/gazebo_gui/time_step] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:50,952: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:50,953: +PARAM [/gazebo_gui/max_update_rate] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:50,963: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:50,964: +PARAM [/gazebo_gui/gravity_x] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:50,965: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:50,967: +PARAM [/gazebo_gui/gravity_y] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:50,968: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:50,969: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:50,970: +PARAM [/gazebo_gui/gravity_z] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:50,972: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:50,972: +PARAM [/gazebo_gui/auto_disable_bodies] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:50,974: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:50,975: +PARAM [/gazebo_gui/sor_pgs_precon_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:50,976: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:50,977: +PARAM [/gazebo_gui/sor_pgs_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:50,978: +PARAM [/gazebo_gui/sor_pgs_w] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:50,980: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:50,980: +PARAM [/gazebo_gui/sor_pgs_rms_error_tol] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:50,981: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:50,982: +PARAM [/gazebo_gui/cfm] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:50,984: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:50,985: +PARAM [/gazebo_gui/erp] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:50,986: +PARAM [/gazebo_gui/contact_surface_layer] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:50,987: +PARAM [/gazebo_gui/contact_max_correcting_vel] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:50,988: +PARAM [/gazebo_gui/max_contacts] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:50,994: +PARAM [/gazebo_gui/time_step] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:50,995: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:50,996: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:50,997: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:50,998: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:51,000: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:51,001: +PARAM [/gazebo_gui/max_update_rate] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:51,003: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:51,005: +PARAM [/gazebo_gui/gravity_x] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:51,007: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:51,007: +PARAM [/gazebo_gui/gravity_y] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:51,009: +PARAM [/gazebo_gui/gravity_z] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:51,010: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:51,023: +PARAM [/gazebo_gui/auto_disable_bodies] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:51,024: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:51,026: +PARAM [/gazebo_gui/sor_pgs_precon_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:51,027: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:51,028: +PARAM [/gazebo_gui/sor_pgs_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:51,029: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:51,030: +PARAM [/gazebo_gui/sor_pgs_w] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:51,039: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:51,040: +PARAM [/gazebo_gui/sor_pgs_rms_error_tol] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:51,041: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:51,043: +PARAM [/gazebo_gui/cfm] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:51,044: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:51,046: +PARAM [/gazebo_gui/erp] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:51,046: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:35:51,048: +PARAM [/gazebo_gui/contact_surface_layer] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:51,049: +PARAM [/gazebo_gui/contact_max_correcting_vel] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:51,050: +PARAM [/gazebo_gui/max_contacts] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:35:56,871: -PUB [/gazebo_gui/parameter_descriptions] /gazebo_gui http://f6566a55c2b3:34503/
+[rosmaster.master][INFO] 2019-07-02 13:35:56,872: -PUB [/gazebo_gui/parameter_updates] /gazebo_gui http://f6566a55c2b3:34503/
+[rosmaster.master][INFO] 2019-07-02 13:35:56,874: -SERVICE [/gazebo_gui/set_parameters] /gazebo_gui rosrpc://f6566a55c2b3:55335
+[rosmaster.master][INFO] 2019-07-02 13:35:56,897: -PUB [/rosout] /gazebo_gui http://f6566a55c2b3:34503/
+[rosmaster.master][INFO] 2019-07-02 13:35:56,899: -SUB [/clock] /gazebo_gui http://f6566a55c2b3:34503/
+[rosmaster.master][INFO] 2019-07-02 13:35:56,900: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:42111/']
+[rosmaster.master][INFO] 2019-07-02 13:35:56,900: -SERVICE [/gazebo_gui/get_loggers] /gazebo_gui rosrpc://f6566a55c2b3:55335
+[rosmaster.master][INFO] 2019-07-02 13:35:56,902: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:42111/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:35:56,903: -SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui rosrpc://f6566a55c2b3:55335
+[rosmaster.master][INFO] 2019-07-02 13:38:50,377: -SUB [/gazebo/set_link_state] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:38:50,378: -SUB [/gazebo/set_model_state] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:38:50,379: -PUB [/clock] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:38:50,380: -PUB [/gazebo/link_states] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:38:50,381: -PUB [/gazebo/model_states] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:38:50,382: -SERVICE [/gazebo/spawn_sdf_model] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,383: -SERVICE [/gazebo/spawn_urdf_model] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,384: -SERVICE [/gazebo/delete_model] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,385: -SERVICE [/gazebo/delete_light] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,386: -SERVICE [/gazebo/get_model_properties] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,387: -SERVICE [/gazebo/get_model_state] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,388: -SERVICE [/gazebo/get_world_properties] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,389: -SERVICE [/gazebo/get_joint_properties] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,390: -SERVICE [/gazebo/get_link_properties] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,392: -SERVICE [/gazebo/get_link_state] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,393: -SERVICE [/gazebo/get_light_properties] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,394: -SERVICE [/gazebo/set_light_properties] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,394: -SERVICE [/gazebo/get_physics_properties] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,395: -SERVICE [/gazebo/set_link_properties] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,396: -SERVICE [/gazebo/set_physics_properties] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,397: -SERVICE [/gazebo/set_model_state] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,398: -SERVICE [/gazebo/set_model_configuration] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,399: -SERVICE [/gazebo/set_joint_properties] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,400: -SERVICE [/gazebo/set_link_state] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,401: -SERVICE [/gazebo/pause_physics] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,402: -SERVICE [/gazebo/unpause_physics] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,403: -SERVICE [/gazebo/apply_body_wrench] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,404: -SERVICE [/gazebo/apply_joint_effort] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,405: -SERVICE [/gazebo/clear_joint_forces] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,406: -SERVICE [/gazebo/clear_body_wrenches] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,407: -SERVICE [/gazebo/reset_simulation] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,407: -SERVICE [/gazebo/reset_world] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,409: -PUB [/gazebo/parameter_descriptions] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:38:50,410: -PUB [/gazebo/parameter_updates] /gazebo http://f6566a55c2b3:42111/
+[rosmaster.master][INFO] 2019-07-02 13:38:50,411: -SERVICE [/gazebo/set_parameters] /gazebo rosrpc://f6566a55c2b3:47311
+[rosmaster.master][INFO] 2019-07-02 13:38:50,452: publisherUpdate[/clock] -> http://f6566a55c2b3:42111/ []
+[rosmaster.master][INFO] 2019-07-02 13:38:50,452: publisherUpdate[/clock] -> http://f6566a55c2b3:42111/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:52:49,004: +PARAM [/roslaunch/uris/host_f6566a55c2b3__43621] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:52:49,009: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:52:49,009: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:52:49,009: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:52:49,009: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:52:49,604: +PUB [/rosout] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:49,605: +SERVICE [/gazebo/get_loggers] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:49,606: +SERVICE [/gazebo/set_logger_level] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:49,613: +SUB [/clock] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:49,623: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/']
+[rosmaster.master][INFO] 2019-07-02 13:52:49,624: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:52:49,921: +PUB [/rosout] /gazebo_gui http://f6566a55c2b3:46273/
+[rosmaster.master][INFO] 2019-07-02 13:52:49,922: +SERVICE [/gazebo_gui/get_loggers] /gazebo_gui http://f6566a55c2b3:46273/
+[rosmaster.master][INFO] 2019-07-02 13:52:49,923: +SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui http://f6566a55c2b3:46273/
+[rosmaster.master][INFO] 2019-07-02 13:52:49,923: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:46273/']
+[rosmaster.master][INFO] 2019-07-02 13:52:49,924: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:46273/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:52:49,931: +SUB [/clock] /gazebo_gui http://f6566a55c2b3:46273/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,040: +PUB [/clock] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,041: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,042: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,043: +SERVICE [/gazebo/delete_model] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,045: +SERVICE [/gazebo/delete_light] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,046: +SERVICE [/gazebo/get_model_properties] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,047: +SERVICE [/gazebo/get_model_state] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,048: +SERVICE [/gazebo/get_world_properties] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,049: +SERVICE [/gazebo/get_joint_properties] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,050: +SERVICE [/gazebo/get_link_properties] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,052: +SERVICE [/gazebo/get_link_state] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,053: +SERVICE [/gazebo/get_light_properties] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,054: +SERVICE [/gazebo/set_light_properties] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,055: +SERVICE [/gazebo/get_physics_properties] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,057: +PUB [/gazebo/link_states] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,058: +PUB [/gazebo/model_states] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,059: +SERVICE [/gazebo/set_link_properties] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,060: +SERVICE [/gazebo/set_physics_properties] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,062: +SERVICE [/gazebo/set_model_state] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,063: +SERVICE [/gazebo/set_model_configuration] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,064: +SERVICE [/gazebo/set_joint_properties] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,064: +SERVICE [/gazebo/set_link_state] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,072: +SUB [/gazebo/set_link_state] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,072: publisherUpdate[/clock] -> http://f6566a55c2b3:46705/ ['http://f6566a55c2b3:46705/']
+[rosmaster.master][INFO] 2019-07-02 13:52:50,079: +SUB [/gazebo/set_model_state] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,080: publisherUpdate[/clock] -> http://f6566a55c2b3:46705/ ['http://f6566a55c2b3:46705/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:52:50,080: publisherUpdate[/clock] -> http://f6566a55c2b3:46273/ ['http://f6566a55c2b3:46705/']
+[rosmaster.master][INFO] 2019-07-02 13:52:50,082: +SERVICE [/gazebo/pause_physics] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,083: publisherUpdate[/clock] -> http://f6566a55c2b3:46273/ ['http://f6566a55c2b3:46705/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:52:50,084: +SERVICE [/gazebo/unpause_physics] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,085: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,087: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,088: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,090: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,091: +SERVICE [/gazebo/reset_simulation] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,092: +SERVICE [/gazebo/reset_world] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,644: +PUB [/rosout] /urdf_spawner http://f6566a55c2b3:38581/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,648: +SUB [/clock] /urdf_spawner http://f6566a55c2b3:38581/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,650: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://f6566a55c2b3:38581/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,652: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://f6566a55c2b3:38581/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,684: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:46273/', 'http://f6566a55c2b3:38581/']
+[rosmaster.master][INFO] 2019-07-02 13:52:50,685: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:46273/', 'http://f6566a55c2b3:38581/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:52:50,912: -SUB [/clock] /urdf_spawner http://f6566a55c2b3:38581/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,912: -PUB [/rosout] /urdf_spawner http://f6566a55c2b3:38581/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,912: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://f6566a55c2b3:34475
+[rosmaster.master][INFO] 2019-07-02 13:52:50,912: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://f6566a55c2b3:34475
+[rosmaster.master][ERROR] 2019-07-02 13:52:50,918: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2019-07-02 13:52:50,919: +PUB [/p3dx/laser/scan] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:50,926: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:46273/']
+[rosmaster.master][INFO] 2019-07-02 13:52:50,927: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:46273/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:52:51,143: +SERVICE [/p3dx/controller_manager/list_controllers] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:51,144: +SERVICE [/p3dx/controller_manager/list_controller_types] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:51,145: +SERVICE [/p3dx/controller_manager/load_controller] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:51,146: +SERVICE [/p3dx/controller_manager/unload_controller] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:51,147: +SERVICE [/p3dx/controller_manager/switch_controller] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:51,148: +SERVICE [/p3dx/controller_manager/reload_controller_libraries] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][ERROR] 2019-07-02 13:52:51,153: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2019-07-02 13:52:51,155: +PUB [/tf] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:51,160: +SUB [/cmd_vel] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:51,161: +PUB [/odom] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:52:51,167: +PUB [/p3dx/base_pose_ground_truth] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:53:08,940: +SERVICE [/gazebo_gui/set_parameters] /gazebo_gui http://f6566a55c2b3:46273/
+[rosmaster.master][INFO] 2019-07-02 13:53:08,941: +SERVICE [/gazebo/set_parameters] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:53:08,943: +PUB [/gazebo_gui/parameter_descriptions] /gazebo_gui http://f6566a55c2b3:46273/
+[rosmaster.master][INFO] 2019-07-02 13:53:08,945: +PUB [/gazebo/parameter_descriptions] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:53:08,954: +PUB [/gazebo_gui/parameter_updates] /gazebo_gui http://f6566a55c2b3:46273/
+[rosmaster.master][INFO] 2019-07-02 13:53:08,956: +PUB [/gazebo/parameter_updates] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:53:08,986: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:08,988: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:08,990: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:08,992: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:08,993: +PARAM [/gazebo_gui/time_step] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:08,994: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:08,995: +PARAM [/gazebo_gui/max_update_rate] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:08,996: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:08,997: +PARAM [/gazebo_gui/gravity_x] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:08,998: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,000: +PARAM [/gazebo_gui/gravity_y] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,001: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,003: +PARAM [/gazebo_gui/gravity_z] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,004: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,005: +PARAM [/gazebo_gui/auto_disable_bodies] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,007: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,008: +PARAM [/gazebo_gui/sor_pgs_precon_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,010: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,011: +PARAM [/gazebo_gui/sor_pgs_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,012: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,014: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,015: +PARAM [/gazebo_gui/sor_pgs_w] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,017: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,017: +PARAM [/gazebo_gui/sor_pgs_rms_error_tol] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,019: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,025: +PARAM [/gazebo_gui/cfm] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,028: +PARAM [/gazebo_gui/erp] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,030: +PARAM [/gazebo_gui/contact_surface_layer] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,031: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,034: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,036: +PARAM [/gazebo_gui/contact_max_correcting_vel] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,037: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,053: +PARAM [/gazebo_gui/max_contacts] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,054: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,060: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,061: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,061: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,062: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,063: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,064: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,065: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,066: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,068: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,070: +PARAM [/gazebo_gui/time_step] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,070: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,072: +PARAM [/gazebo_gui/max_update_rate] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,074: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2019-07-02 13:53:09,075: +PARAM [/gazebo_gui/gravity_x] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,076: +PARAM [/gazebo_gui/gravity_y] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,078: +PARAM [/gazebo_gui/gravity_z] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,079: +PARAM [/gazebo_gui/auto_disable_bodies] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,080: +PARAM [/gazebo_gui/sor_pgs_precon_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,081: +PARAM [/gazebo_gui/sor_pgs_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,082: +PARAM [/gazebo_gui/sor_pgs_w] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,084: +PARAM [/gazebo_gui/sor_pgs_rms_error_tol] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,085: +PARAM [/gazebo_gui/cfm] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,086: +PARAM [/gazebo_gui/erp] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,092: +PARAM [/gazebo_gui/contact_surface_layer] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,094: +PARAM [/gazebo_gui/contact_max_correcting_vel] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:09,096: +PARAM [/gazebo_gui/max_contacts] by /gazebo_gui
+[rosmaster.master][INFO] 2019-07-02 13:53:58,477: +PUB [/cmd_vel] /teleop_twist_keyboard http://f6566a55c2b3:32957/
+[rosmaster.master][INFO] 2019-07-02 13:53:58,480: publisherUpdate[/cmd_vel] -> http://f6566a55c2b3:46705/ ['http://f6566a55c2b3:32957/']
+[rosmaster.master][INFO] 2019-07-02 13:53:58,481: publisherUpdate[/cmd_vel] -> http://f6566a55c2b3:46705/ ['http://f6566a55c2b3:32957/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:53:58,581: +PUB [/rosout] /teleop_twist_keyboard http://f6566a55c2b3:32957/
+[rosmaster.master][INFO] 2019-07-02 13:53:58,582: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:46273/', 'http://f6566a55c2b3:32957/']
+[rosmaster.master][INFO] 2019-07-02 13:53:58,583: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:46273/', 'http://f6566a55c2b3:32957/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:53:58,592: +SUB [/clock] /teleop_twist_keyboard http://f6566a55c2b3:32957/
+[rosmaster.master][INFO] 2019-07-02 13:53:58,595: +SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard http://f6566a55c2b3:32957/
+[rosmaster.master][INFO] 2019-07-02 13:53:58,597: +SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard http://f6566a55c2b3:32957/
+[rosmaster.master][INFO] 2019-07-02 13:54:12,486: -SUB [/clock] /teleop_twist_keyboard http://f6566a55c2b3:32957/
+[rosmaster.master][INFO] 2019-07-02 13:54:12,486: -PUB [/rosout] /teleop_twist_keyboard http://f6566a55c2b3:32957/
+[rosmaster.master][INFO] 2019-07-02 13:54:12,486: -PUB [/cmd_vel] /teleop_twist_keyboard http://f6566a55c2b3:32957/
+[rosmaster.master][INFO] 2019-07-02 13:54:12,487: -SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard rosrpc://f6566a55c2b3:36043
+[rosmaster.master][INFO] 2019-07-02 13:54:12,487: -SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard rosrpc://f6566a55c2b3:36043
+[rosmaster.master][INFO] 2019-07-02 13:54:12,507: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:46273/']
+[rosmaster.master][INFO] 2019-07-02 13:54:12,508: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:46273/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:54:12,508: publisherUpdate[/cmd_vel] -> http://f6566a55c2b3:46705/ []
+[rosmaster.master][INFO] 2019-07-02 13:54:12,509: publisherUpdate[/cmd_vel] -> http://f6566a55c2b3:46705/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:54:13,472: -PUB [/gazebo_gui/parameter_descriptions] /gazebo_gui http://f6566a55c2b3:46273/
+[rosmaster.master][INFO] 2019-07-02 13:54:13,473: -PUB [/gazebo_gui/parameter_updates] /gazebo_gui http://f6566a55c2b3:46273/
+[rosmaster.master][INFO] 2019-07-02 13:54:13,474: -SERVICE [/gazebo_gui/set_parameters] /gazebo_gui rosrpc://f6566a55c2b3:51771
+[rosmaster.master][INFO] 2019-07-02 13:54:13,527: -SUB [/gazebo/set_link_state] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:54:13,528: -SUB [/gazebo/set_model_state] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:54:13,529: -PUB [/clock] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:54:13,530: -PUB [/gazebo/link_states] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:54:13,531: -PUB [/gazebo/model_states] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:54:13,532: -SERVICE [/gazebo/spawn_sdf_model] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,533: -SERVICE [/gazebo/spawn_urdf_model] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,534: -SERVICE [/gazebo/delete_model] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,535: -SERVICE [/gazebo/delete_light] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,536: -SERVICE [/gazebo/get_model_properties] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,537: -SERVICE [/gazebo/get_model_state] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,538: -SERVICE [/gazebo/get_world_properties] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,539: -SERVICE [/gazebo/get_joint_properties] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,540: -SERVICE [/gazebo/get_link_properties] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,541: -SERVICE [/gazebo/get_link_state] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,541: -SERVICE [/gazebo/get_light_properties] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,543: -SERVICE [/gazebo/set_light_properties] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,544: -SERVICE [/gazebo/get_physics_properties] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,545: -SERVICE [/gazebo/set_link_properties] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,546: -SERVICE [/gazebo/set_physics_properties] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,547: -SERVICE [/gazebo/set_model_state] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,548: -SERVICE [/gazebo/set_model_configuration] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,549: -SERVICE [/gazebo/set_joint_properties] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,550: -SERVICE [/gazebo/set_link_state] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,551: -SERVICE [/gazebo/pause_physics] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,552: -SERVICE [/gazebo/unpause_physics] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,553: -SERVICE [/gazebo/apply_body_wrench] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,555: -SERVICE [/gazebo/apply_joint_effort] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,556: -SERVICE [/gazebo/clear_joint_forces] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,557: -SERVICE [/gazebo/clear_body_wrenches] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,559: -SERVICE [/gazebo/reset_simulation] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,560: -SERVICE [/gazebo/reset_world] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,561: -PUB [/gazebo/parameter_descriptions] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:54:13,562: -PUB [/gazebo/parameter_updates] /gazebo http://f6566a55c2b3:46705/
+[rosmaster.master][INFO] 2019-07-02 13:54:13,564: -SERVICE [/gazebo/set_parameters] /gazebo rosrpc://f6566a55c2b3:44043
+[rosmaster.master][INFO] 2019-07-02 13:54:13,568: publisherUpdate[/clock] -> http://f6566a55c2b3:46705/ []
+[rosmaster.master][INFO] 2019-07-02 13:54:13,570: publisherUpdate[/clock] -> http://f6566a55c2b3:46705/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:54:13,570: publisherUpdate[/clock] -> http://f6566a55c2b3:46273/ []
+[rosmaster.master][INFO] 2019-07-02 13:54:13,572: publisherUpdate[/clock] -> http://f6566a55c2b3:46273/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-07-02 13:54:13,672: -PUB [/rosout] /gazebo_gui http://f6566a55c2b3:46273/
+[rosmaster.master][INFO] 2019-07-02 13:54:13,673: -SUB [/clock] /gazebo_gui http://f6566a55c2b3:46273/
+[rosmaster.master][INFO] 2019-07-02 13:54:13,674: -SERVICE [/gazebo_gui/get_loggers] /gazebo_gui rosrpc://f6566a55c2b3:51771
+[rosmaster.master][INFO] 2019-07-02 13:54:13,675: -SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui rosrpc://f6566a55c2b3:51771
+[rosmaster.master][INFO] 2019-07-02 13:54:13,711: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/']
+[rosmaster.master][INFO] 2019-07-02 13:54:13,712: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:57:13,897: +PARAM [/roslaunch/uris/host_f6566a55c2b3__44561] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:57:13,900: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:57:13,900: +PARAM [/use_gui] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:57:13,901: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:57:13,901: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 13:57:14,521: +PUB [/rosout] /robot_state_publisher http://f6566a55c2b3:42899/
+[rosmaster.master][INFO] 2019-07-02 13:57:14,522: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://f6566a55c2b3:42899/
+[rosmaster.master][INFO] 2019-07-02 13:57:14,522: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://f6566a55c2b3:42899/
+[rosmaster.master][INFO] 2019-07-02 13:57:14,529: +SUB [/clock] /robot_state_publisher http://f6566a55c2b3:42899/
+[rosmaster.master][INFO] 2019-07-02 13:57:14,533: +PUB [/tf] /robot_state_publisher http://f6566a55c2b3:42899/
+[rosmaster.master][INFO] 2019-07-02 13:57:14,534: +PUB [/tf_static] /robot_state_publisher http://f6566a55c2b3:42899/
+[rosmaster.master][INFO] 2019-07-02 13:57:14,547: +SUB [/joint_states] /robot_state_publisher http://f6566a55c2b3:42899/
+[rosmaster.master][INFO] 2019-07-02 13:57:14,547: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:42899/']
+[rosmaster.master][INFO] 2019-07-02 13:57:14,548: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:42899/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:57:14,577: +PUB [/rosout] /joint_state_publisher http://f6566a55c2b3:33323/
+[rosmaster.master][INFO] 2019-07-02 13:57:14,579: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:42899/', 'http://f6566a55c2b3:33323/']
+[rosmaster.master][INFO] 2019-07-02 13:57:14,580: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:42899/', 'http://f6566a55c2b3:33323/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:57:14,583: +SUB [/clock] /joint_state_publisher http://f6566a55c2b3:33323/
+[rosmaster.master][INFO] 2019-07-02 13:57:14,585: +SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher http://f6566a55c2b3:33323/
+[rosmaster.master][INFO] 2019-07-02 13:57:14,586: +SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher http://f6566a55c2b3:33323/
+[rosmaster.master][INFO] 2019-07-02 13:57:14,620: +PUB [/joint_states] /joint_state_publisher http://f6566a55c2b3:33323/
+[rosmaster.master][INFO] 2019-07-02 13:57:14,649: publisherUpdate[/joint_states] -> http://f6566a55c2b3:42899/ ['http://f6566a55c2b3:33323/']
+[rosmaster.master][INFO] 2019-07-02 13:57:14,649: publisherUpdate[/joint_states] -> http://f6566a55c2b3:42899/ ['http://f6566a55c2b3:33323/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:57:14,839: +PUB [/rosout] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:57:14,840: +SERVICE [/rviz/get_loggers] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:57:14,841: +SERVICE [/rviz/set_logger_level] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:57:14,848: +SUB [/clock] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:57:14,850: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:42899/', 'http://f6566a55c2b3:33323/', 'http://f6566a55c2b3:38733/']
+[rosmaster.master][INFO] 2019-07-02 13:57:14,851: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:42899/', 'http://f6566a55c2b3:33323/', 'http://f6566a55c2b3:38733/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:57:14,973: +SUB [/tf] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:57:14,978: +SUB [/tf_static] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:57:15,007: +PUB [/initialpose] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:57:15,008: +PUB [/goal] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:57:15,012: -PUB [/goal] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:57:15,013: -PUB [/initialpose] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:57:15,016: +PUB [/initialpose] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:57:15,018: +PUB [/goal] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:57:15,019: +PUB [/move_base_simple/goal] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:57:15,020: -PUB [/goal] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:57:15,021: +PUB [/clicked_point] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:57:15,052: +SERVICE [/rviz/reload_shaders] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:58:17,342: -PUB [/clicked_point] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:58:17,343: -PUB [/move_base_simple/goal] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:58:17,344: -PUB [/initialpose] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:58:17,351: -SUB [/tf_static] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:58:17,352: -SUB [/tf] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:58:17,355: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://f6566a55c2b3:36185
+[rosmaster.master][INFO] 2019-07-02 13:58:17,512: -PUB [/rosout] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:58:17,513: -SUB [/clock] /rviz http://f6566a55c2b3:38733/
+[rosmaster.master][INFO] 2019-07-02 13:58:17,514: -SERVICE [/rviz/get_loggers] /rviz rosrpc://f6566a55c2b3:36185
+[rosmaster.master][INFO] 2019-07-02 13:58:17,515: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://f6566a55c2b3:36185
+[rosmaster.master][INFO] 2019-07-02 13:58:17,564: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:42899/', 'http://f6566a55c2b3:33323/']
+[rosmaster.master][INFO] 2019-07-02 13:58:17,565: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:42899/', 'http://f6566a55c2b3:33323/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:58:18,820: -SUB [/clock] /joint_state_publisher http://f6566a55c2b3:33323/
+[rosmaster.master][INFO] 2019-07-02 13:58:18,820: -PUB [/joint_states] /joint_state_publisher http://f6566a55c2b3:33323/
+[rosmaster.master][INFO] 2019-07-02 13:58:18,820: -PUB [/rosout] /joint_state_publisher http://f6566a55c2b3:33323/
+[rosmaster.master][INFO] 2019-07-02 13:58:18,820: -SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher rosrpc://f6566a55c2b3:39377
+[rosmaster.master][INFO] 2019-07-02 13:58:18,820: -SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher rosrpc://f6566a55c2b3:39377
+[rosmaster.master][INFO] 2019-07-02 13:58:18,868: publisherUpdate[/joint_states] -> http://f6566a55c2b3:42899/ []
+[rosmaster.master][INFO] 2019-07-02 13:58:18,869: publisherUpdate[/joint_states] -> http://f6566a55c2b3:42899/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-07-02 13:58:18,869: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:42899/']
+[rosmaster.master][INFO] 2019-07-02 13:58:18,869: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/', 'http://f6566a55c2b3:42899/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:58:18,970: -PUB [/rosout] /robot_state_publisher http://f6566a55c2b3:42899/
+[rosmaster.master][INFO] 2019-07-02 13:58:18,970: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/']
+[rosmaster.master][INFO] 2019-07-02 13:58:18,971: publisherUpdate[/rosout] -> http://f6566a55c2b3:46335/ ['http://f6566a55c2b3:46705/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 13:58:18,972: -PUB [/tf] /robot_state_publisher http://f6566a55c2b3:42899/
+[rosmaster.master][INFO] 2019-07-02 13:58:18,973: -PUB [/tf_static] /robot_state_publisher http://f6566a55c2b3:42899/
+[rosmaster.master][INFO] 2019-07-02 13:58:18,974: -SUB [/clock] /robot_state_publisher http://f6566a55c2b3:42899/
+[rosmaster.master][INFO] 2019-07-02 13:58:18,975: -SUB [/joint_states] /robot_state_publisher http://f6566a55c2b3:42899/
+[rosmaster.master][INFO] 2019-07-02 13:58:18,976: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://f6566a55c2b3:45863
+[rosmaster.master][INFO] 2019-07-02 13:58:18,977: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://f6566a55c2b3:45863
+[rosmaster.master][INFO] 2019-07-02 13:58:21,779: -PUB [/rosout_agg] /rosout http://f6566a55c2b3:46335/
+[rosmaster.master][INFO] 2019-07-02 13:58:21,785: -SUB [/rosout] /rosout http://f6566a55c2b3:46335/
+[rosmaster.master][INFO] 2019-07-02 13:58:21,786: -SERVICE [/rosout/get_loggers] /rosout rosrpc://f6566a55c2b3:51435
+[rosmaster.master][INFO] 2019-07-02 13:58:21,787: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://f6566a55c2b3:51435
+[rosmaster.main][INFO] 2019-07-02 13:58:21,857: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2019-07-02 13:58:21,857: stopping master...
+[rospy.core][INFO] 2019-07-02 13:58:21,857: signal_shutdown [atexit]

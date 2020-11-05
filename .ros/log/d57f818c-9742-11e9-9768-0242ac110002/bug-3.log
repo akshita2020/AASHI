@@ -1,0 +1,31 @@
+[rospy.client][INFO] 2019-06-25 12:15:06,551: init_node, name[/bug], pid[53494]
+[xmlrpc][INFO] 2019-06-25 12:15:06,551: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-25 12:15:06,552: Started XML-RPC server [http://dc5b429f784e:33889/]
+[rospy.init][INFO] 2019-06-25 12:15:06,553: ROS Slave URI: [http://dc5b429f784e:33889/]
+[rospy.impl.masterslave][INFO] 2019-06-25 12:15:06,553: _ready: http://dc5b429f784e:33889/
+[rospy.registration][INFO] 2019-06-25 12:15:06,554: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-25 12:15:06,560: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-25 12:15:06,654: registered with master
+[rospy.rosout][INFO] 2019-06-25 12:15:06,654: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-25 12:15:06,657: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-25 12:15:06,660: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-25 12:15:06,664: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-25 12:15:06,672: topic[/clock] adding connection to [http://dc5b429f784e:44243/], count 0
+[rosout][INFO] 2019-06-25 12:15:06,692: state changed: Go to point
+[rospy.internal][INFO] 2019-06-25 12:15:06,696: topic[/odom] adding connection to [http://dc5b429f784e:44243/], count 0
+[rospy.internal][INFO] 2019-06-25 12:15:06,698: topic[/m2wr/laser/scan] adding connection to [http://dc5b429f784e:44243/], count 0
+[rospy.internal][INFO] 2019-06-25 12:15:06,895: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2019-06-25 12:15:27,408: state changed: wall following
+[rosout][INFO] 2019-06-25 12:16:06,241: state changed: Go to point
+[rospy.core][INFO] 2019-06-25 12:17:05,118: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-25 12:17:05,124: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-25 12:17:05,125: topic[/clock] removing connection to http://dc5b429f784e:44243/
+[rospy.internal][INFO] 2019-06-25 12:17:05,125: topic[/m2wr/laser/scan] removing connection to http://dc5b429f784e:44243/
+[rospy.internal][INFO] 2019-06-25 12:17:05,126: topic[/odom] removing connection to http://dc5b429f784e:44243/
+[rospy.impl.masterslave][INFO] 2019-06-25 12:17:05,127: signal-2
+[rospy.internal][WARNING] 2019-06-25 12:17:05,127: Unknown error initiating TCP/IP socket to dc5b429f784e:59259 (http://dc5b429f784e:44243/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2019-06-25 12:17:05,276: signal_shutdown [atexit]

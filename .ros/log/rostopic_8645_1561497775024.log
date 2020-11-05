@@ -1,0 +1,41 @@
+[rospy.client][INFO] 2019-06-25 21:22:55,111: init_node, name[/rostopic_8645_1561497775024], pid[8645]
+[xmlrpc][INFO] 2019-06-25 21:22:55,111: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-25 21:22:55,111: Started XML-RPC server [http://dc5b429f784e:44185/]
+[rospy.impl.masterslave][INFO] 2019-06-25 21:22:55,112: _ready: http://dc5b429f784e:44185/
+[rospy.init][INFO] 2019-06-25 21:22:55,112: ROS Slave URI: [http://dc5b429f784e:44185/]
+[xmlrpc][INFO] 2019-06-25 21:22:55,112: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-06-25 21:22:55,112: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-25 21:22:55,212: registered with master
+[rospy.rosout][INFO] 2019-06-25 21:22:55,213: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-25 21:22:55,216: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-25 21:22:55,218: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-25 21:22:55,222: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-25 21:22:55,262: topic[/fibonacci/status] adding connection to [http://dc5b429f784e:37873/], count 0
+[rospy.internal][INFO] 2019-06-25 21:22:55,432: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][WARNING] 2019-06-25 21:22:57,281: Unknown error initiating TCP/IP socket to dc5b429f784e:45025 (http://dc5b429f784e:37873/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2019-06-25 21:22:57,281: topic[/fibonacci/status] removing connection to http://dc5b429f784e:37873/
+[rospy.internal][INFO] 2019-06-25 21:23:12,892: topic[/fibonacci/status] adding connection to [http://dc5b429f784e:46643/], count 0
+[rospy.internal][WARNING] 2019-06-25 21:23:29,610: Unknown error initiating TCP/IP socket to dc5b429f784e:46941 (http://dc5b429f784e:46643/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2019-06-25 21:23:29,610: topic[/fibonacci/status] removing connection to http://dc5b429f784e:46643/
+[rospy.internal][INFO] 2019-06-25 21:24:30,519: topic[/fibonacci/status] adding connection to [http://dc5b429f784e:40313/], count 0
+[rospy.core][INFO] 2019-06-25 21:24:45,556: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-25 21:24:45,559: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-25 21:24:45,560: topic[/fibonacci/status] removing connection to http://dc5b429f784e:40313/
+[rospy.impl.masterslave][INFO] 2019-06-25 21:24:45,560: signal-2
+[rospy.core][INFO] 2019-06-25 21:24:45,661: signal_shutdown [atexit]

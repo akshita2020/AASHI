@@ -1,0 +1,7 @@
+
+
+0.000000000  Node Startup
+0.023000000 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.13/src/libros/service.cpp:122(service::waitForService) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states] waitForService: Service [/gazebo/set_physics_properties] is now available.
+0.083000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-ros-2.5.14/src/gazebo_ros_api_plugin.cpp:2083(GazeboRosApiPlugin::physicsReconfigureThread) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates] Physics dynamic reconfigure ready.
+742.988000000 ERROR [/tmp/binarydeb/ros-kinetic-gazebo-ros-2.5.14/src/gazebo_ros_api_plugin.cpp:558(GazeboRosApiPlugin::spawnURDFModel) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates] SpawnModel: Failure - entity format is invalid.
+825.363000000 ERROR [/tmp/binarydeb/ros-kinetic-gazebo-ros-2.5.14/src/gazebo_ros_api_plugin.cpp:558(GazeboRosApiPlugin::spawnURDFModel) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates] SpawnModel: Failure - entity format is invalid.

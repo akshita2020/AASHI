@@ -1,0 +1,4 @@
+[33m[ WARN] [1561475813.653524800]: The input topic '/l_forearm_cam/image_raw' is not yet advertised[0m
+[33m[ WARN] [1561475813.653753700]: The input topic '/l_forearm_cam/camera_info' is not yet advertised[0m
+[33m[ WARN] [1561475873.654591800]: The input topic '/l_forearm_cam/image_raw' is not yet advertised[0m
+[33m[ WARN] [1561475873.654726400]: The input topic '/l_forearm_cam/camera_info' is not yet advertised[0m

@@ -1,0 +1,13 @@
+[rospy.client][INFO] 2019-06-30 13:24:25,457: init_node, name[/rostopic_5922_1561901065356], pid[5922]
+[xmlrpc][INFO] 2019-06-30 13:24:25,457: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-30 13:24:25,458: Started XML-RPC server [http://dc5b429f784e:41749/]
+[rospy.init][INFO] 2019-06-30 13:24:25,458: ROS Slave URI: [http://dc5b429f784e:41749/]
+[rospy.impl.masterslave][INFO] 2019-06-30 13:24:25,458: _ready: http://dc5b429f784e:41749/
+[rospy.registration][INFO] 2019-06-30 13:24:25,459: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-30 13:24:25,459: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-30 13:24:25,559: registered with master
+[rospy.internal][INFO] 2019-06-30 13:24:25,845: topic[/target_pos] adding connection to [/vrep_ros_interface], count 0
+[rospy.core][INFO] 2019-06-30 13:24:36,184: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-30 13:24:36,186: topic[/target_pos] removing connection to /vrep_ros_interface
+[rospy.impl.masterslave][INFO] 2019-06-30 13:24:36,186: signal-2
+[rospy.core][INFO] 2019-06-30 13:24:36,351: signal_shutdown [atexit]

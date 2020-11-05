@@ -1,0 +1,71 @@
+[rospy.client][INFO] 2019-07-02 13:32:48,834: init_node, name[/urdf_spawner], pid[16225]
+[xmlrpc][INFO] 2019-07-02 13:32:48,835: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-07-02 13:32:48,835: Started XML-RPC server [http://f6566a55c2b3:46081/]
+[rospy.impl.masterslave][INFO] 2019-07-02 13:32:48,835: _ready: http://f6566a55c2b3:46081/
+[rospy.init][INFO] 2019-07-02 13:32:48,836: ROS Slave URI: [http://f6566a55c2b3:46081/]
+[xmlrpc][INFO] 2019-07-02 13:32:48,836: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-07-02 13:32:48,836: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-07-02 13:32:48,936: registered with master
+[rospy.rosout][INFO] 2019-07-02 13:32:48,936: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-07-02 13:32:48,940: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-07-02 13:32:48,941: initializing /clock core topic
+[rospy.simtime][INFO] 2019-07-02 13:32:48,944: connected to core topic /clock
+[rosout][INFO] 2019-07-02 13:32:48,947: Loading model XML from ros parameter
+[rospy.internal][INFO] 2019-07-02 13:32:48,955: topic[/clock] adding connection to [http://f6566a55c2b3:34131/], count 0
+[rosout][INFO] 2019-07-02 13:32:48,957: Waiting for service /gazebo/spawn_urdf_model
+[rosout][INFO] 2019-07-02 13:32:48,963: Calling service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2019-07-02 13:32:49,156: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2019-07-02 13:32:49,261: Spawn status: SpawnModel: Successfully spawned entity
+[rospy.core][INFO] 2019-07-02 13:32:49,261: signal_shutdown [atexit]
+[rospy.internal][INFO] 2019-07-02 13:32:49,265: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-07-02 13:32:49,265: topic[/clock] removing connection to http://f6566a55c2b3:34131/
+[rospy.impl.masterslave][INFO] 2019-07-02 13:32:49,265: atexit
+[rospy.client][INFO] 2019-07-02 13:35:46,497: init_node, name[/urdf_spawner], pid[16936]
+[xmlrpc][INFO] 2019-07-02 13:35:46,497: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-07-02 13:35:46,497: Started XML-RPC server [http://f6566a55c2b3:34159/]
+[rospy.impl.masterslave][INFO] 2019-07-02 13:35:46,498: _ready: http://f6566a55c2b3:34159/
+[rospy.init][INFO] 2019-07-02 13:35:46,498: ROS Slave URI: [http://f6566a55c2b3:34159/]
+[xmlrpc][INFO] 2019-07-02 13:35:46,498: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-07-02 13:35:46,499: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-07-02 13:35:46,599: registered with master
+[rospy.rosout][INFO] 2019-07-02 13:35:46,599: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-07-02 13:35:46,602: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-07-02 13:35:46,604: initializing /clock core topic
+[rospy.simtime][INFO] 2019-07-02 13:35:46,609: connected to core topic /clock
+[rospy.internal][INFO] 2019-07-02 13:35:46,616: topic[/clock] adding connection to [http://f6566a55c2b3:42111/], count 0
+[rosout][INFO] 2019-07-02 13:35:46,616: Loading model XML from ros parameter
+[rosout][INFO] 2019-07-02 13:35:46,626: Waiting for service /gazebo/spawn_urdf_model
+[rosout][INFO] 2019-07-02 13:35:46,628: Calling service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2019-07-02 13:35:46,809: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2019-07-02 13:35:46,958: Spawn status: SpawnModel: Successfully spawned entity
+[rospy.core][INFO] 2019-07-02 13:35:46,958: signal_shutdown [atexit]
+[rospy.internal][INFO] 2019-07-02 13:35:46,963: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-07-02 13:35:46,963: topic[/clock] removing connection to http://f6566a55c2b3:42111/
+[rospy.impl.masterslave][INFO] 2019-07-02 13:35:46,963: atexit
+[rospy.client][INFO] 2019-07-02 13:52:50,541: init_node, name[/urdf_spawner], pid[18954]
+[xmlrpc][INFO] 2019-07-02 13:52:50,541: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-07-02 13:52:50,542: Started XML-RPC server [http://f6566a55c2b3:38581/]
+[rospy.init][INFO] 2019-07-02 13:52:50,542: ROS Slave URI: [http://f6566a55c2b3:38581/]
+[rospy.impl.masterslave][INFO] 2019-07-02 13:52:50,542: _ready: http://f6566a55c2b3:38581/
+[xmlrpc][INFO] 2019-07-02 13:52:50,543: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-07-02 13:52:50,543: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-07-02 13:52:50,642: registered with master
+[rospy.rosout][INFO] 2019-07-02 13:52:50,643: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-07-02 13:52:50,645: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-07-02 13:52:50,646: initializing /clock core topic
+[rospy.simtime][INFO] 2019-07-02 13:52:50,649: connected to core topic /clock
+[rosout][INFO] 2019-07-02 13:52:50,653: Loading model XML from ros parameter
+[rosout][INFO] 2019-07-02 13:52:50,657: Waiting for service /gazebo/spawn_urdf_model
+[rosout][INFO] 2019-07-02 13:52:50,659: Calling service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2019-07-02 13:52:50,660: topic[/clock] adding connection to [http://f6566a55c2b3:46705/], count 0
+[rospy.internal][INFO] 2019-07-02 13:52:50,887: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2019-07-02 13:52:50,910: Spawn status: SpawnModel: Successfully spawned entity
+[rospy.core][INFO] 2019-07-02 13:52:50,910: signal_shutdown [atexit]
+[rospy.internal][INFO] 2019-07-02 13:52:50,913: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-07-02 13:52:50,913: topic[/clock] removing connection to http://f6566a55c2b3:46705/
+[rospy.impl.masterslave][INFO] 2019-07-02 13:52:50,914: atexit
+[rospy.internal][WARNING] 2019-07-02 13:52:50,914: Unknown error initiating TCP/IP socket to f6566a55c2b3:44043 (http://f6566a55c2b3:46705/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+

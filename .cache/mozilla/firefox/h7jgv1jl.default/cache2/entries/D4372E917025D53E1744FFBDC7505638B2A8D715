@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>V-Rep installation on Ubuntu - V-REP Forum</title>
+
+	<link rel="alternate" type="application/atom+xml" title="Feed - V-REP Forum" href="/app.php/feed?sid=8dfbea5bcc0626cf1931726b83194614">			<link rel="alternate" type="application/atom+xml" title="Feed - New Topics" href="/app.php/feed/topics?sid=8dfbea5bcc0626cf1931726b83194614">		<link rel="alternate" type="application/atom+xml" title="Feed - Forum - General questions" href="/app.php/feed/forum/9?sid=8dfbea5bcc0626cf1931726b83194614">	<link rel="alternate" type="application/atom+xml" title="Feed - Topic - V-Rep installation on Ubuntu" href="/app.php/feed/topic/5333?sid=8dfbea5bcc0626cf1931726b83194614">	
+	<link rel="canonical" href="http://www.forum.coppeliarobotics.com/viewtopic.php?t=5333">
+
+<!--
+	phpBB style name: Flat Style
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Original author:  Tom Beddard ( http://www.subBlue.com/ )
+	Modified by:      Ian Bradley
+-->
+
+<script>
+	WebFontConfig = {
+		google: {
+			families: ['Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese']
+		}
+	};
+
+	(function(d) {
+		var wf = d.createElement('script'), s = d.scripts[0];
+		wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+		wf.async = true;
+		s.parentNode.insertBefore(wf, s);
+	})(document);
+</script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="./styles/flat-style-gold/theme/stylesheet.css?assets_version=7" rel="stylesheet">
+<link href="./styles/flat-style-gold/theme/en/stylesheet.css?assets_version=7" rel="stylesheet">
+
+
+
+
+<!--[if lte IE 9]>
+	<link href="./styles/flat-style-gold/theme/tweaks.css?assets_version=7" rel="stylesheet">
+<![endif]-->
+
+
+
+
+
+</head>
+<body id="phpbb" class="nojs notouch section-viewtopic ltr ">
+
+
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+	<div id="page-header">
+		<div class="headerbar" role="banner">
+					<div class="inner">
+
+			<div id="site-description">
+				<a id="logo" class="logo" href="./index.php?sid=8dfbea5bcc0626cf1931726b83194614" title="Board index"><span class="site_logo"></span></a>
+				<div  class="site-description">
+					<h1>V-REP Forum</h1>
+					<p>Questions/Answers around V-REP</p>
+					<p class="skiplink"><a href="#start_here">Skip to content</a></p>
+				</div>
+			</div>
+
+			</div>
+					</div>
+				<div class="navbar navbar-top" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-main" class="nav-main linklist" role="menubar">
+
+		<li id="quick-links" class="quick-links dropdown-container responsive-menu" data-skip-responsive="true">
+			<a href="#" class="dropdown-trigger">
+				<i class="icon fa-bars fa-fw" aria-hidden="true"></i><span>Quick links</span>
+			</a>
+			<div class="dropdown">
+				<div class="pointer"><div class="pointer-inner"></div></div>
+				<ul class="dropdown-contents" role="menu">
+					
+											<li class="separator"></li>
+																									<li>
+								<a href="./search.php?search_id=unanswered&amp;sid=8dfbea5bcc0626cf1931726b83194614" role="menuitem">
+									<i class="icon fa-file fa-fw" aria-hidden="true"></i><span>Unanswered topics</span>
+								</a>
+							</li>
+							<li>
+								<a href="./search.php?search_id=active_topics&amp;sid=8dfbea5bcc0626cf1931726b83194614" role="menuitem">
+									<i class="icon fa-file fa-fw" aria-hidden="true"></i><span>Active topics</span>
+								</a>
+							</li>
+							<li class="separator"></li>
+							<li>
+								<a href="./search.php?sid=8dfbea5bcc0626cf1931726b83194614" role="menuitem">
+									<i class="icon fa-search fa-fw" aria-hidden="true"></i><span>Search</span>
+								</a>
+							</li>
+					
+										
+											<li class="separator"></li>
+																			<li>
+								<a href="./memberlist.php?mode=team&amp;sid=8dfbea5bcc0626cf1931726b83194614" role="menuitem">
+									<i class="icon fa-shield fa-fw" aria-hidden="true"></i><span>The team</span>
+								</a>
+							</li>
+																<li class="separator"></li>
+
+									</ul>
+			</div>
+		</li>
+
+				<li data-skip-responsive="true">
+			<a href="/app.php/help/faq?sid=8dfbea5bcc0626cf1931726b83194614" rel="help" title="Frequently Asked Questions" role="menuitem">
+				<i class="icon fa-question-circle fa-fw" aria-hidden="true"></i><span>FAQ</span>
+			</a>
+		</li>
+						
+			<li class="rightside"  data-skip-responsive="true">
+			<a href="./ucp.php?mode=login&amp;sid=8dfbea5bcc0626cf1931726b83194614" title="Login" accesskey="x" role="menuitem">
+				<i class="icon fa-power-off fa-fw" aria-hidden="true"></i><span>Login</span>
+			</a>
+		</li>
+					<li class="rightside" data-skip-responsive="true">
+				<a href="./ucp.php?mode=register&amp;sid=8dfbea5bcc0626cf1931726b83194614" role="menuitem">
+					<i class="icon fa-pencil-square-o  fa-fw" aria-hidden="true"></i><span>Register</span>
+				</a>
+			</li>
+						</ul>
+    </div>
+</div>
+
+<div class="navbar" role="navigation">
+	<div class="inner">
+	<ul id="nav-breadcrumbs" class="nav-breadcrumbs linklist navlinks" role="menubar">
+						<li class="breadcrumbs">
+										<span class="crumb"  itemtype="http://data-vocabulary.org/Breadcrumb" itemscope=""><a href="./index.php?sid=8dfbea5bcc0626cf1931726b83194614" itemprop="url" accesskey="h" data-navbar-reference="index"><i class="icon fa-home fa-fw"></i><span itemprop="title">Board index</span></a></span>
+
+											<span class="crumb"  itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="" data-forum-id="9"><a href="./viewforum.php?f=9&amp;sid=8dfbea5bcc0626cf1931726b83194614" itemprop="url"><span itemprop="title">General questions</span></a></span>
+												</li>
+		
+							<li id="search-box" class="rightside search-box responsive-hide" role="search">
+				<form action="./search.php?sid=8dfbea5bcc0626cf1931726b83194614" method="get" id="search">
+				<fieldset>
+					<input name="keywords" id="keywords" type="search" maxlength="128" title="Search for keywords" class="inputbox search tiny" size="20" value="" placeholder="Search‚Ä¶" />
+					<button class="button button-search" type="submit" title="Search">
+						<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+					</button>
+					<a href="./search.php?sid=8dfbea5bcc0626cf1931726b83194614" class="button button-search-end" title="Advanced search">
+						<i class="icon fa-cog fa-fw" aria-hidden="true"></i><span class="sr-only">Advanced search</span>
+					</a>
+					<input type="hidden" name="sid" value="8dfbea5bcc0626cf1931726b83194614" />
+
+				</fieldset>
+				</form>
+			</li>
+
+			<li class="rightside responsive-search">
+				<a href="./search.php?sid=8dfbea5bcc0626cf1931726b83194614" title="View the advanced search options" role="menuitem">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</a>
+			</li>
+					</ul>
+
+	</div>
+</div>
+	</div>
+
+	
+	<a id="start_here" class="anchor"></a>
+	<div id="page-body" class="page-body" role="main">
+		
+		
+<h2 class="topic-title"><a href="./viewtopic.php?f=9&amp;t=5333&amp;sid=8dfbea5bcc0626cf1931726b83194614">V-Rep installation on Ubuntu</a></h2>
+<!-- NOTE: remove the style="display: none" when you want to have the forum description on the topic body -->
+<div style="display: none !important;">Typically: "How do I... ", "How can I... " questions<br /></div>
+
+
+<div class="action-bar bar-top">
+	
+			<a href="./posting.php?mode=reply&amp;f=9&amp;t=5333&amp;sid=8dfbea5bcc0626cf1931726b83194614" class="button" title="Post a reply">
+							<span>Post Reply</span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+	
+			<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Topic tools" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			<div class="pointer"><div class="pointer-inner"></div></div>
+			<ul class="dropdown-contents">
+																												<li>
+					<a href="./viewtopic.php?f=9&amp;t=5333&amp;sid=8dfbea5bcc0626cf1931726b83194614&amp;view=print" title="Print view" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Print view</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+	
+			<div class="search-box" role="search">
+			<form method="get" id="topic-search" action="./search.php?sid=8dfbea5bcc0626cf1931726b83194614">
+			<fieldset>
+				<input class="inputbox search tiny"  type="search" name="keywords" id="search_keywords" size="20" placeholder="Search this topic‚Ä¶" />
+				<button class="button button-search" type="submit" title="Search">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</button>
+				<a href="./search.php?sid=8dfbea5bcc0626cf1931726b83194614" class="button button-search-end" title="Advanced search">
+					<i class="icon fa-cog fa-fw" aria-hidden="true"></i><span class="sr-only">Advanced search</span>
+				</a>
+				<input type="hidden" name="t" value="5333" />
+<input type="hidden" name="sf" value="msgonly" />
+<input type="hidden" name="sid" value="8dfbea5bcc0626cf1931726b83194614" />
+
+			</fieldset>
+			</form>
+		</div>
+	
+			<div class="pagination">
+			4 posts
+							&bull; Page <strong>1</strong> of <strong>1</strong>
+					</div>
+		</div>
+
+
+
+
+			<div id="p21463" class="post has-profile bg2 offline">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile21463">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="./memberlist.php?mode=viewprofile&amp;u=2811&amp;sid=8dfbea5bcc0626cf1931726b83194614" class="username">Space</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="./search.php?author_id=2811&amp;sr=posts&amp;sid=8dfbea5bcc0626cf1931726b83194614">27</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> 16 Nov 2015, 17:07</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content21463">
+
+						<h3 class="first"><a href="#p21463">V-Rep installation on Ubuntu</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="./posting.php?mode=quote&amp;f=9&amp;p=21463&amp;sid=8dfbea5bcc0626cf1931726b83194614" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="./viewtopic.php?p=21463&amp;sid=8dfbea5bcc0626cf1931726b83194614#p21463" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=2811&amp;sid=8dfbea5bcc0626cf1931726b83194614" class="username">Space</a></strong> &raquo; </span>17 Apr 2016, 21:42
+			</p>
+			
+			
+			
+			<div class="content">Hi,<br>
+<br>
+I would like to have a tutorial on how to install V-Rep on Ubuntu 14.04 as until now i was only working on Win7.<br>
+<br>
+thanks in advance<br>
+<br>
+space</div>
+
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p21465" class="post has-profile bg1 offline">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile21465">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="./memberlist.php?mode=viewprofile&amp;u=3253&amp;sid=8dfbea5bcc0626cf1931726b83194614" class="username">grindrise</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="./search.php?author_id=3253&amp;sr=posts&amp;sid=8dfbea5bcc0626cf1931726b83194614">16</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> 01 Apr 2016, 23:14</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content21465">
+
+						<h3 ><a href="#p21465">Re: V-Rep installation on Ubuntu</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="./posting.php?mode=quote&amp;f=9&amp;p=21465&amp;sid=8dfbea5bcc0626cf1931726b83194614" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="./viewtopic.php?p=21465&amp;sid=8dfbea5bcc0626cf1931726b83194614#p21465" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=3253&amp;sid=8dfbea5bcc0626cf1931726b83194614" class="username">grindrise</a></strong> &raquo; </span>17 Apr 2016, 23:12
+			</p>
+			
+			
+			
+			<div class="content">hello,<br>
+<br>
+<a href="http://www.coppeliarobotics.com/downloads.html" class="postlink">http://www.coppeliarobotics.com/downloads.html</a><br>
+<br>
+You have to download it from here and you should unpack it to somewhere and thats all after it can be ran by terminal. <br>
+You have to go in V-rep folder and run "./vrep.sh".<br>
+<br>
+Cheers</div>
+
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p27971" class="post has-profile bg2 offline">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile27971">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="./memberlist.php?mode=viewprofile&amp;u=3878&amp;sid=8dfbea5bcc0626cf1931726b83194614" class="username">farah amirah</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="./search.php?author_id=3878&amp;sr=posts&amp;sid=8dfbea5bcc0626cf1931726b83194614">11</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> 05 Oct 2016, 07:31</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content27971">
+
+						<h3 ><a href="#p27971">Re: V-Rep installation on Ubuntu</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="./posting.php?mode=quote&amp;f=9&amp;p=27971&amp;sid=8dfbea5bcc0626cf1931726b83194614" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="./viewtopic.php?p=27971&amp;sid=8dfbea5bcc0626cf1931726b83194614#p27971" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=3878&amp;sid=8dfbea5bcc0626cf1931726b83194614" class="username">farah amirah</a></strong> &raquo; </span>05 Jan 2018, 07:48
+			</p>
+			
+			
+			
+			<div class="content">hello, i want to ask is it possible to run vrep in ubuntu with ROS? Is we able to run simulation of kuka youbot vrep and at the same time we able to run the real youbot using ros ubuntu?</div>
+
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p27972" class="post has-profile bg1 offline">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile27972">
+			<dt class="has-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="./memberlist.php?mode=viewprofile&amp;u=2&amp;sid=8dfbea5bcc0626cf1931726b83194614" class="username">coppelia</a>							</dt>
+
+						<dd class="profile-rank">Site Admin</dd>			
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="./search.php?author_id=2&amp;sr=posts&amp;sid=8dfbea5bcc0626cf1931726b83194614">7170</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> 14 Dec 2012, 00:25</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content27972">
+
+						<h3 ><a href="#p27972">Re: V-Rep installation on Ubuntu</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="./posting.php?mode=quote&amp;f=9&amp;p=27972&amp;sid=8dfbea5bcc0626cf1931726b83194614" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="./viewtopic.php?p=27972&amp;sid=8dfbea5bcc0626cf1931726b83194614#p27972" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=2&amp;sid=8dfbea5bcc0626cf1931726b83194614" class="username">coppelia</a></strong> &raquo; </span>05 Jan 2018, 10:39
+			</p>
+			
+			
+			
+			<div class="content">Hello,<br>
+<br>
+yes, you can do that. You will however have to prepare all the ROS messages yourself, and correctly link that with the YouBot model. Have a look <a href="http://www.coppeliarobotics.com/helpFiles/en/rosInterf.htm" class="postlink">here</a>, and at the very simple demo scene for ROS communication: <em class="text-italics">scenes/rosInterfaceTopicPublisherAndSubscriber.ttt</em>.<br>
+<br>
+Cheers</div>
+
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+	
+
+	<div class="action-bar bar-bottom">
+	
+			<a href="./posting.php?mode=reply&amp;f=9&amp;t=5333&amp;sid=8dfbea5bcc0626cf1931726b83194614" class="button" title="Post a reply">
+							<span>Post Reply</span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+		
+		<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Topic tools" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			<div class="pointer"><div class="pointer-inner"></div></div>
+			<ul class="dropdown-contents">
+																												<li>
+					<a href="./viewtopic.php?f=9&amp;t=5333&amp;sid=8dfbea5bcc0626cf1931726b83194614&amp;view=print" title="Print view" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Print view</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+
+			<form method="post" action="./viewtopic.php?f=9&amp;t=5333&amp;sid=8dfbea5bcc0626cf1931726b83194614">
+		<div class="dropdown-container dropdown-container-left dropdown-button-control sort-tools">
+	<span title="Display and sorting options" class="button button-secondary dropdown-trigger dropdown-select">
+		<i class="icon fa-sort-amount-asc fa-fw" aria-hidden="true"></i>
+		<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+	</span>
+	<div class="dropdown hidden">
+		<div class="pointer"><div class="pointer-inner"></div></div>
+		<div class="dropdown-contents">
+			<fieldset class="display-options">
+							<label>Display: <select name="st" id="st"><option value="0" selected="selected">All posts</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select></label>
+								<label>Sort by: <select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="s">Subject</option></select></label>
+				<label>Direction: <select name="sd" id="sd"><option value="a" selected="selected">Ascending</option><option value="d">Descending</option></select></label>
+								<hr class="dashed" />
+				<input type="submit" class="button2" name="sort" value="Go" />
+						</fieldset>
+		</div>
+	</div>
+</div>
+		</form>
+	
+	
+	
+			<div class="pagination">
+			4 posts
+							&bull; Page <strong>1</strong> of <strong>1</strong>
+					</div>
+	</div>
+
+
+<div class="action-bar actions-jump">
+		<p class="jumpbox-return">
+		<a href="./viewforum.php?f=9&amp;sid=8dfbea5bcc0626cf1931726b83194614" class="left-box arrow-left" accesskey="r">
+			<i class="icon fa-angle-left fa-fw icon-black" aria-hidden="true"></i><span>Return to ‚ÄúGeneral questions‚Äù</span>
+		</a>
+	</p>
+	
+		<div class="jumpbox dropdown-container dropdown-container-right dropdown-up dropdown-left dropdown-button-control" id="jumpbox">
+			<span title="Jump to" class="button button-secondary dropdown-trigger dropdown-select">
+				<span>Jump to</span>
+				<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+			</span>
+		<div class="dropdown">
+			<div class="pointer"><div class="pointer-inner"></div></div>
+			<ul class="dropdown-contents">
+																				<li><a href="./viewforum.php?f=9&amp;sid=8dfbea5bcc0626cf1931726b83194614" class="jumpbox-forum-link"> <span> General questions</span></a></li>
+																<li><a href="./viewforum.php?f=5&amp;sid=8dfbea5bcc0626cf1931726b83194614" class="jumpbox-forum-link"> <span> Bug reports</span></a></li>
+																<li><a href="./viewforum.php?f=7&amp;sid=8dfbea5bcc0626cf1931726b83194614" class="jumpbox-forum-link"> <span> Feature requests</span></a></li>
+																<li><a href="./viewforum.php?f=11&amp;sid=8dfbea5bcc0626cf1931726b83194614" class="jumpbox-forum-link"> <span> Videos around V-REP</span></a></li>
+											</ul>
+		</div>
+	</div>
+
+	</div>
+
+
+			</div>
+
+
+<div id="page-footer" class="page-footer" role="contentinfo">
+	<div class="navbar navbar-bottom" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-footer" class="nav-footer linklist" role="menubar">
+		<li class="breadcrumbs">
+									<span class="crumb"><a href="./index.php?sid=8dfbea5bcc0626cf1931726b83194614" data-navbar-reference="index"><i class="icon fa-home fa-fw" aria-hidden="true"></i><span>Board index</span></a></span>					</li>
+		
+				
+							<li class="rightside">
+				<a href="./ucp.php?mode=delete_cookies&amp;sid=8dfbea5bcc0626cf1931726b83194614" data-ajax="true" data-refresh="true" role="menuitem">
+					<i class="icon fa-trash fa-fw" aria-hidden="true"></i><span>Delete all board cookies</span>
+				</a>
+			</li>
+				
+							<li class="rightside" data-last-responsive="true">
+				<a href="./memberlist.php?mode=contactadmin&amp;sid=8dfbea5bcc0626cf1931726b83194614" role="menuitem">
+					<i class="icon fa-envelope fa-fw" aria-hidden="true"></i><span>Contact us</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+
+	<div class="copyright">
+        <span>Flat Style by <a href="http://iansvivarium.com">Ian Bradley</a> &bull; Powered by <a href="https://www.phpbb.com/">phpBB</a>&reg; Forum Software &copy; phpBB Limited</span><br />
+											</div>
+
+	<div id="darkenwrapper" class="darkenwrapper" data-ajax-error-title="AJAX error" data-ajax-error-text="Something went wrong when processing your request." data-ajax-error-text-abort="User aborted request." data-ajax-error-text-timeout="Your request timed out; please try again." data-ajax-error-text-parsererror="Something went wrong with the request and the server returned an invalid reply.">
+		<div id="darken" class="darken">&nbsp;</div>
+	</div>
+
+	<div id="phpbb_alert" class="phpbb_alert" data-l-err="Error" data-l-timeout-processing-req="Request timed out.">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<h3 class="alert_title">&nbsp;</h3><p class="alert_text"></p>
+	</div>
+	<div id="phpbb_confirm" class="phpbb_alert">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<div class="alert_text"></div>
+	</div>
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" class="anchor" accesskey="z"></a>
+	<img src="./cron.php?cron_type=cron.task.text_reparser.post_text&amp;sid=8dfbea5bcc0626cf1931726b83194614" width="1" height="1" alt="cron" /></div>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('\x3Cscript src="./assets/javascript/jquery.min.js?assets_version=7">\x3C/script>');</script><script type="text/javascript" src="./assets/javascript/core.js?assets_version=7"></script>
+	<script type="text/javascript">
+		(function($){
+			var $fa_cdn = $('head').find('link[rel="stylesheet"]').first(),
+				$span = $('<span class="fa" style="display:none"></span>').appendTo('body');
+			if ($span.css('fontFamily') !== 'FontAwesome' ) {
+				$fa_cdn.after('<link href="./assets/css/font-awesome.min.css" rel="stylesheet">');
+				$fa_cdn.remove();
+			}
+			$span.remove();
+		})(jQuery);
+	</script>
+
+
+
+<script type="text/javascript" src="./styles/prosilver/template/forum_fn.js?assets_version=7"></script>
+<script type="text/javascript" src="./styles/prosilver/template/ajax.js?assets_version=7"></script>
+
+
+
+</body>
+</html>
+J·—‘'Û      ]÷ò]÷ô@Ü¯¥       ;    :http://www.forum.coppeliarobotics.com/viewtopic.php?t=5333 necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Sat, 29 Jun 2019 21:22:32 GMT
+Server: Apache/2.2.27 (Unix) mod_ssl/2.2.27 OpenSSL/0.9.8e-fips-rhel5 mod_bwlimited/1.4 PHP/5.4.31
+X-Powered-By: PHP/5.4.31
+Cache-Control: private, no-cache="set-cookie"
+Expires: Sat, 29 Jun 2019 21:22:32 GMT
+Content-Type: text/html; charset=UTF-8
+ original-response-headers Date: Sat, 29 Jun 2019 21:22:32 GMT
+Server: Apache/2.2.27 (Unix) mod_ssl/2.2.27 OpenSSL/0.9.8e-fips-rhel5 mod_bwlimited/1.4 PHP/5.4.31
+X-Powered-By: PHP/5.4.31
+Set-Cookie: phpbb3_a48a1b_u=1; expires=Sun, 28-Jun-2020 21:22:32 GMT; path=/; HttpOnly
+Set-Cookie: phpbb3_a48a1b_k=; expires=Sun, 28-Jun-2020 21:22:32 GMT; path=/; HttpOnly
+Set-Cookie: phpbb3_a48a1b_sid=8dfbea5bcc0626cf1931726b83194614; expires=Sun, 28-Jun-2020 21:22:32 GMT; path=/; HttpOnly
+Cache-Control: private, no-cache="set-cookie"
+Expires: Sat, 29 Jun 2019 21:22:32 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+ uncompressed-len 0 predictor::resource-count 39 predictor::https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style-gold/theme/stylesheet.css?assets_version=7 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style-gold/theme/en/stylesheet.css?assets_version=7 1,1,1561843352,4096 predictor::https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js 1,1,1561843352,4096 net-response-time-onstart 378 net-response-time-onstop 553 predictor::http://www.forum.coppeliarobotics.com/cron.php?cron_type=cron.task.text_reparser.post_text&sid=8dfbea5bcc0626cf1931726b83194614 1,1,1561843352,4096 predictor::http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/assets/javascript/core.js?assets_version=7 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/prosilver/template/forum_fn.js?assets_version=7 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/prosilver/template/ajax.js?assets_version=7 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style/theme/normalize.css?v=3.2 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style/theme/base.css?v=3.2 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style/theme/utilities.css?v=3.2 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style/theme/common.css?v=3.2 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style/theme/links.css?v=3.2 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style/theme/content.css?v=3.2 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style/theme/buttons.css?v=3.2 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style/theme/cp.css?v=3.2 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style/theme/forms.css?v=3.2 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style/theme/icons.css?v=3.2 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style/theme/colours.css?v=3.2 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style/theme/responsive.css?v=3.2 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style/theme/flat.css?v=3.2 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style-gold/theme/colour-override.css?v=3.2 1,1,1561843352,4096 predictor::http://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style-gold/theme/en/icon_user_offline.png 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style-gold/theme/images/site_logo.png 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style/theme/fonts/poppins-v3-latin-ext_latin-regular.woff2 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style/theme/fonts/bebaskai-regular-webfont.woff2 1,1,1561843352,4096 predictor::http://www.forum.coppeliarobotics.com/styles/flat-style/theme/fonts/poppins-v3-latin-ext_latin-600.woff2 1,1,1561843352,4096 predictor::https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.woff2?v=4.4.0 1,1,1561843352,4096 predictor::https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2 1,1,1561843352,4096 predictor::https://fonts.gstatic.com/s/opensans/v16/memnYaGs126MiZpBA-UFUKWyV9hrIqM.woff2 1,1,1561843352,4096 predictor::https://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0b.woff2 1,1,1561843352,4096 predictor::https://fonts.gstatic.com/s/opensans/v16/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2 1,1,1561843352,4096 predictor::https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UNirkOUuhp.woff2 1,1,1561843352,4096 predictor::https://fonts.gstatic.com/s/opensans/v16/memnYaGs126MiZpBA-UFUKXGUdhrIqM.woff2 1,1,1561843352,4096 predictor::https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2 1,1,1561843352,4096 predictor::https://fonts.gstatic.com/s/opensans/v16/memnYaGs126MiZpBA-UFUKWiUNhrIqM.woff2 1,1,1561843352,4096 predictor::https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN8rsOUuhp.woff2 1,1,1561843352,4096   gÅ

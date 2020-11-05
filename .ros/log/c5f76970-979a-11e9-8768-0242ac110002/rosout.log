@@ -1,0 +1,4 @@
+
+
+1561502662.685891200  Node Startup
+1561502677.981930500 INFO [/home/catkin_ws/src/learning_actionlib/src/Fibonacciclient.cpp:14(main) [topics: /rosout, /fibonacci/goal, /fibonacci/cancel] Waiting for action server to start.

@@ -1,0 +1,7 @@
+[Default Applications]
+inode/directory=pcmanfm.desktop
+text/x-python=org.gnome.gedit.desktop
+
+[Added Associations]
+inode/directory=pcmanfm.desktop;
+text/x-python=terminator.desktop;org.gnome.gedit.desktop;

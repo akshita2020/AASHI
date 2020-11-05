@@ -1,0 +1,1431 @@
+[rosmaster.main][INFO] 2019-06-11 08:45:55,488: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-06-11 08:45:55,488: Starting ROS Master Node
+[xmlrpc][INFO] 2019-06-11 08:45:55,489: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-06-11 08:45:55,490: Started XML-RPC server [http://dc5b429f784e:11311/]
+[xmlrpc][INFO] 2019-06-11 08:45:55,490: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-06-11 08:45:55,490: Master initialized: port[11311], uri[http://dc5b429f784e:11311/]
+[rosmaster.master][INFO] 2019-06-11 08:45:55,497: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-06-11 08:45:55,498: +PARAM [/roslaunch/uris/host_dc5b429f784e__34499] by /roslaunch
+[rosmaster.master][INFO] 2019-06-11 08:45:55,848: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-06-11 08:45:55,848: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2019-06-11 08:45:55,849: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-06-11 08:45:55,849: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2019-06-11 08:45:55,865: +SERVICE [/rosout/get_loggers] /rosout http://dc5b429f784e:37533/
+[rosmaster.master][INFO] 2019-06-11 08:45:55,866: +SERVICE [/rosout/set_logger_level] /rosout http://dc5b429f784e:37533/
+[rosmaster.master][INFO] 2019-06-11 08:45:55,874: +SUB [/clock] /rosout http://dc5b429f784e:37533/
+[rosmaster.master][INFO] 2019-06-11 08:45:55,875: +PUB [/rosout_agg] /rosout http://dc5b429f784e:37533/
+[rosmaster.master][INFO] 2019-06-11 08:45:55,880: +SUB [/rosout] /rosout http://dc5b429f784e:37533/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,600: +PUB [/rosout] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,601: +SERVICE [/gazebo/get_loggers] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,602: +SERVICE [/gazebo/set_logger_level] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,610: +SUB [/clock] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,691: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:45:56,693: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:45:56,917: +PUB [/clock] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,919: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,921: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,922: +SERVICE [/gazebo/delete_model] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,924: +SERVICE [/gazebo/delete_light] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,925: +SERVICE [/gazebo/get_model_properties] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,927: +SERVICE [/gazebo/get_model_state] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,928: +SERVICE [/gazebo/get_world_properties] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,929: +SERVICE [/gazebo/get_joint_properties] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,930: +SERVICE [/gazebo/get_link_properties] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,932: +SERVICE [/gazebo/get_link_state] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,933: +SERVICE [/gazebo/get_light_properties] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,934: +SERVICE [/gazebo/set_light_properties] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,935: +SERVICE [/gazebo/get_physics_properties] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,936: +PUB [/gazebo/link_states] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,938: +PUB [/gazebo/model_states] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,939: +SERVICE [/gazebo/set_link_properties] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,940: +SERVICE [/gazebo/set_physics_properties] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,941: +SERVICE [/gazebo/set_model_state] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,942: +SERVICE [/gazebo/set_model_configuration] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,944: +SERVICE [/gazebo/set_joint_properties] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,945: +SERVICE [/gazebo/set_link_state] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,949: +SUB [/gazebo/set_link_state] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,954: +SUB [/gazebo/set_model_state] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,955: +SERVICE [/gazebo/pause_physics] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,956: +SERVICE [/gazebo/unpause_physics] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,957: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,959: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,960: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,961: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,962: +SERVICE [/gazebo/reset_simulation] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,963: +SERVICE [/gazebo/reset_world] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:56,992: publisherUpdate[/clock] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:45:56,992: publisherUpdate[/clock] -> http://dc5b429f784e:45231/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:45:56,993: publisherUpdate[/clock] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:45:56,994: publisherUpdate[/clock] -> http://dc5b429f784e:45231/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:45:57,607: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:33685/
+[rosmaster.master][INFO] 2019-06-11 08:45:57,611: +SUB [/clock] /urdf_spawner http://dc5b429f784e:33685/
+[rosmaster.master][INFO] 2019-06-11 08:45:57,613: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:33685/
+[rosmaster.master][INFO] 2019-06-11 08:45:57,614: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:33685/
+[rosmaster.master][INFO] 2019-06-11 08:45:57,695: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:33685/']
+[rosmaster.master][INFO] 2019-06-11 08:45:57,696: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:33685/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:45:57,799: -SUB [/clock] /urdf_spawner http://dc5b429f784e:33685/
+[rosmaster.master][INFO] 2019-06-11 08:45:57,799: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:33685/
+[rosmaster.master][INFO] 2019-06-11 08:45:57,799: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:45233
+[rosmaster.master][INFO] 2019-06-11 08:45:57,799: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:45233
+[rosmaster.master][INFO] 2019-06-11 08:45:57,896: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:45:57,897: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:45:58,228: +SERVICE [/robot/camera1/set_camera_info] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,233: +SERVICE [/robot/camera1/set_parameters] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,234: +PUB [/robot/camera1/parameter_descriptions] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,235: +PUB [/robot/camera1/parameter_updates] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,237: +PARAM [/robot/camera1/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,238: +PARAM [/robot/camera1/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,278: +PUB [/robot/camera1/image_raw/compressedDepth] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,280: +SERVICE [/robot/camera1/image_raw/compressedDepth/set_parameters] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,281: +PUB [/robot/camera1/image_raw/compressedDepth/parameter_descriptions] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,283: +PUB [/robot/camera1/image_raw/compressedDepth/parameter_updates] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,286: +PARAM [/robot/camera1/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,292: +PARAM [/robot/camera1/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,294: +PARAM [/robot/camera1/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,296: +PUB [/tf] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,297: +PARAM [/robot/camera1/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,300: +PARAM [/robot/camera1/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,302: +PARAM [/robot/camera1/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,309: +SUB [/robot/cmd_vel] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,310: +PUB [/robot/camera1/image_raw/compressed] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,311: +PUB [/robot/odom] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,313: +SERVICE [/robot/camera1/image_raw/compressed/set_parameters] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,314: +PUB [/robot/camera1/image_raw/compressed/parameter_descriptions] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,315: +PUB [/robot/camera1/image_raw/compressed/parameter_updates] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,319: +PARAM [/robot/camera1/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,320: +PARAM [/robot/camera1/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,322: +PARAM [/robot/camera1/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,323: +PARAM [/robot/camera1/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,325: +PARAM [/robot/camera1/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,326: +PARAM [/robot/camera1/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,330: +PUB [/robot/camera1/image_raw] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,333: +PUB [/robot/camera1/image_raw/theora] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,335: +SERVICE [/robot/camera1/image_raw/theora/set_parameters] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,336: +PUB [/robot/camera1/image_raw/theora/parameter_descriptions] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,342: +PUB [/robot/camera1/image_raw/theora/parameter_updates] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:58,347: +PARAM [/robot/camera1/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,349: +PARAM [/robot/camera1/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,350: +PARAM [/robot/camera1/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,352: +PARAM [/robot/camera1/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,354: +PARAM [/robot/camera1/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,355: +PARAM [/robot/camera1/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,357: +PARAM [/robot/camera1/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,359: +PARAM [/robot/camera1/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:45:58,360: +PUB [/robot/camera1/camera_info] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:45:59,467: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:42139/
+[rosmaster.master][INFO] 2019-06-11 08:45:59,473: +SUB [/clock] /urdf_spawner http://dc5b429f784e:42139/
+[rosmaster.master][INFO] 2019-06-11 08:45:59,475: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:42139/
+[rosmaster.master][INFO] 2019-06-11 08:45:59,476: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:42139/
+[rosmaster.master][INFO] 2019-06-11 08:45:59,493: -SUB [/clock] /urdf_spawner http://dc5b429f784e:42139/
+[rosmaster.master][INFO] 2019-06-11 08:45:59,494: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:42139/
+[rosmaster.master][INFO] 2019-06-11 08:45:59,494: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:45519
+[rosmaster.master][INFO] 2019-06-11 08:45:59,494: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:45519
+[rosmaster.master][INFO] 2019-06-11 08:45:59,499: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:42139/']
+[rosmaster.master][INFO] 2019-06-11 08:45:59,501: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:42139/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:45:59,501: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:45:59,502: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:01,313: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:37575/
+[rosmaster.master][INFO] 2019-06-11 08:46:01,331: +SUB [/clock] /urdf_spawner http://dc5b429f784e:37575/
+[rosmaster.master][INFO] 2019-06-11 08:46:01,335: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:37575/
+[rosmaster.master][INFO] 2019-06-11 08:46:01,336: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:37575/
+[rosmaster.master][INFO] 2019-06-11 08:46:01,349: -SUB [/clock] /urdf_spawner http://dc5b429f784e:37575/
+[rosmaster.master][INFO] 2019-06-11 08:46:01,350: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:37575/
+[rosmaster.master][INFO] 2019-06-11 08:46:01,350: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:43159
+[rosmaster.master][INFO] 2019-06-11 08:46:01,350: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:43159
+[rosmaster.master][INFO] 2019-06-11 08:46:01,403: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:37575/']
+[rosmaster.master][INFO] 2019-06-11 08:46:01,405: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:37575/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:01,405: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:46:01,406: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:03,162: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:38967/
+[rosmaster.master][INFO] 2019-06-11 08:46:03,186: +SUB [/clock] /urdf_spawner http://dc5b429f784e:38967/
+[rosmaster.master][INFO] 2019-06-11 08:46:03,189: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:38967/
+[rosmaster.master][INFO] 2019-06-11 08:46:03,191: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:38967/
+[rosmaster.master][INFO] 2019-06-11 08:46:03,202: -SUB [/clock] /urdf_spawner http://dc5b429f784e:38967/
+[rosmaster.master][INFO] 2019-06-11 08:46:03,202: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:38967/
+[rosmaster.master][INFO] 2019-06-11 08:46:03,202: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:38031
+[rosmaster.master][INFO] 2019-06-11 08:46:03,202: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:38031
+[rosmaster.master][INFO] 2019-06-11 08:46:03,208: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:38967/']
+[rosmaster.master][INFO] 2019-06-11 08:46:03,209: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:38967/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:03,209: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:46:03,210: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:05,106: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:44999/
+[rosmaster.master][INFO] 2019-06-11 08:46:05,112: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:44999/']
+[rosmaster.master][INFO] 2019-06-11 08:46:05,113: +SUB [/clock] /urdf_spawner http://dc5b429f784e:44999/
+[rosmaster.master][INFO] 2019-06-11 08:46:05,114: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:44999/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:05,116: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:44999/
+[rosmaster.master][INFO] 2019-06-11 08:46:05,118: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:44999/
+[rosmaster.master][INFO] 2019-06-11 08:46:05,218: -SUB [/clock] /urdf_spawner http://dc5b429f784e:44999/
+[rosmaster.master][INFO] 2019-06-11 08:46:05,218: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:44999/
+[rosmaster.master][INFO] 2019-06-11 08:46:05,218: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:43667
+[rosmaster.master][INFO] 2019-06-11 08:46:05,218: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:43667
+[rosmaster.master][INFO] 2019-06-11 08:46:05,313: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:46:05,314: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:07,027: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:42235/
+[rosmaster.master][INFO] 2019-06-11 08:46:07,033: +SUB [/clock] /urdf_spawner http://dc5b429f784e:42235/
+[rosmaster.master][INFO] 2019-06-11 08:46:07,035: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:42235/
+[rosmaster.master][INFO] 2019-06-11 08:46:07,037: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:42235/
+[rosmaster.master][INFO] 2019-06-11 08:46:07,049: -SUB [/clock] /urdf_spawner http://dc5b429f784e:42235/
+[rosmaster.master][INFO] 2019-06-11 08:46:07,049: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:42235/
+[rosmaster.master][INFO] 2019-06-11 08:46:07,049: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:43713
+[rosmaster.master][INFO] 2019-06-11 08:46:07,049: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:43713
+[rosmaster.master][INFO] 2019-06-11 08:46:07,116: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:42235/']
+[rosmaster.master][INFO] 2019-06-11 08:46:07,117: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:42235/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:07,118: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:46:07,118: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:08,956: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:35203/
+[rosmaster.master][INFO] 2019-06-11 08:46:08,963: +SUB [/clock] /urdf_spawner http://dc5b429f784e:35203/
+[rosmaster.master][INFO] 2019-06-11 08:46:08,965: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:35203/
+[rosmaster.master][INFO] 2019-06-11 08:46:08,966: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:35203/
+[rosmaster.master][INFO] 2019-06-11 08:46:08,982: -SUB [/clock] /urdf_spawner http://dc5b429f784e:35203/
+[rosmaster.master][INFO] 2019-06-11 08:46:08,982: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:35203/
+[rosmaster.master][INFO] 2019-06-11 08:46:08,983: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:34453
+[rosmaster.master][INFO] 2019-06-11 08:46:08,983: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:34453
+[rosmaster.master][INFO] 2019-06-11 08:46:09,025: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:35203/']
+[rosmaster.master][INFO] 2019-06-11 08:46:09,027: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:35203/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:09,027: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:46:09,028: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:10,776: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:38031/
+[rosmaster.master][INFO] 2019-06-11 08:46:10,781: +SUB [/clock] /urdf_spawner http://dc5b429f784e:38031/
+[rosmaster.master][INFO] 2019-06-11 08:46:10,783: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:38031/
+[rosmaster.master][INFO] 2019-06-11 08:46:10,784: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:38031/
+[rosmaster.master][INFO] 2019-06-11 08:46:10,806: -SUB [/clock] /urdf_spawner http://dc5b429f784e:38031/
+[rosmaster.master][INFO] 2019-06-11 08:46:10,806: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:38031/
+[rosmaster.master][INFO] 2019-06-11 08:46:10,806: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:42363
+[rosmaster.master][INFO] 2019-06-11 08:46:10,806: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:42363
+[rosmaster.master][INFO] 2019-06-11 08:46:10,829: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:38031/']
+[rosmaster.master][INFO] 2019-06-11 08:46:10,830: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:38031/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:10,830: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:46:10,830: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:12,908: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:42937/
+[rosmaster.master][INFO] 2019-06-11 08:46:12,916: +SUB [/clock] /urdf_spawner http://dc5b429f784e:42937/
+[rosmaster.master][INFO] 2019-06-11 08:46:12,919: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:42937/
+[rosmaster.master][INFO] 2019-06-11 08:46:12,921: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:42937/
+[rosmaster.master][INFO] 2019-06-11 08:46:12,933: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:42937/']
+[rosmaster.master][INFO] 2019-06-11 08:46:12,935: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:42937/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:13,037: -SUB [/clock] /urdf_spawner http://dc5b429f784e:42937/
+[rosmaster.master][INFO] 2019-06-11 08:46:13,037: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:42937/
+[rosmaster.master][INFO] 2019-06-11 08:46:13,037: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:39583
+[rosmaster.master][INFO] 2019-06-11 08:46:13,037: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:39583
+[rosmaster.master][INFO] 2019-06-11 08:46:13,038: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:46:13,039: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:13,949: +PUB [/rosout] /image_view_1560242773941930900 http://dc5b429f784e:41091/
+[rosmaster.master][INFO] 2019-06-11 08:46:13,951: +SERVICE [/image_view_1560242773941930900/get_loggers] /image_view_1560242773941930900 http://dc5b429f784e:41091/
+[rosmaster.master][INFO] 2019-06-11 08:46:13,953: +SERVICE [/image_view_1560242773941930900/set_logger_level] /image_view_1560242773941930900 http://dc5b429f784e:41091/
+[rosmaster.master][INFO] 2019-06-11 08:46:13,981: +SUB [/clock] /image_view_1560242773941930900 http://dc5b429f784e:41091/
+[rosmaster.master][INFO] 2019-06-11 08:46:14,037: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']
+[rosmaster.master][INFO] 2019-06-11 08:46:14,038: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:14,174: +SUB [/robot/camera1/image_raw] /image_view_1560242773941930900 http://dc5b429f784e:41091/
+[rosmaster.master][INFO] 2019-06-11 08:46:14,177: +PUB [/image_view_1560242773941930900/output] /image_view_1560242773941930900 http://dc5b429f784e:41091/
+[rosmaster.master][INFO] 2019-06-11 08:46:14,178: +SERVICE [/image_view_1560242773941930900/set_parameters] /image_view_1560242773941930900 http://dc5b429f784e:41091/
+[rosmaster.master][INFO] 2019-06-11 08:46:14,180: +PUB [/image_view_1560242773941930900/parameter_descriptions] /image_view_1560242773941930900 http://dc5b429f784e:41091/
+[rosmaster.master][INFO] 2019-06-11 08:46:14,185: +PUB [/image_view_1560242773941930900/parameter_updates] /image_view_1560242773941930900 http://dc5b429f784e:41091/
+[rosmaster.master][INFO] 2019-06-11 08:46:14,198: +PARAM [/image_view_1560242773941930900/do_dynamic_scaling] by /image_view_1560242773941930900
+[rosmaster.master][INFO] 2019-06-11 08:46:14,231: +PARAM [/image_view_1560242773941930900/colormap] by /image_view_1560242773941930900
+[rosmaster.master][INFO] 2019-06-11 08:46:14,232: +PARAM [/image_view_1560242773941930900/min_image_value] by /image_view_1560242773941930900
+[rosmaster.master][INFO] 2019-06-11 08:46:14,234: +PARAM [/image_view_1560242773941930900/max_image_value] by /image_view_1560242773941930900
+[rosmaster.master][INFO] 2019-06-11 08:46:14,235: +PARAM [/image_view_1560242773941930900/do_dynamic_scaling] by /image_view_1560242773941930900
+[rosmaster.master][INFO] 2019-06-11 08:46:14,236: +PARAM [/image_view_1560242773941930900/colormap] by /image_view_1560242773941930900
+[rosmaster.master][INFO] 2019-06-11 08:46:14,237: +PARAM [/image_view_1560242773941930900/min_image_value] by /image_view_1560242773941930900
+[rosmaster.master][INFO] 2019-06-11 08:46:14,239: +PARAM [/image_view_1560242773941930900/max_image_value] by /image_view_1560242773941930900
+[rosmaster.master][INFO] 2019-06-11 08:46:15,274: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:39427/
+[rosmaster.master][INFO] 2019-06-11 08:46:15,286: +SUB [/clock] /urdf_spawner http://dc5b429f784e:39427/
+[rosmaster.master][INFO] 2019-06-11 08:46:15,290: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:39427/
+[rosmaster.master][INFO] 2019-06-11 08:46:15,311: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:39427/
+[rosmaster.master][INFO] 2019-06-11 08:46:15,325: -SUB [/clock] /urdf_spawner http://dc5b429f784e:39427/
+[rosmaster.master][INFO] 2019-06-11 08:46:15,326: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:39427/
+[rosmaster.master][INFO] 2019-06-11 08:46:15,326: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:39753
+[rosmaster.master][INFO] 2019-06-11 08:46:15,326: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:39753
+[rosmaster.master][INFO] 2019-06-11 08:46:15,341: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:39427/']
+[rosmaster.master][INFO] 2019-06-11 08:46:15,342: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:39427/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:15,342: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']
+[rosmaster.master][INFO] 2019-06-11 08:46:15,343: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:17,885: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:46641/
+[rosmaster.master][INFO] 2019-06-11 08:46:17,892: +SUB [/clock] /urdf_spawner http://dc5b429f784e:46641/
+[rosmaster.master][INFO] 2019-06-11 08:46:17,894: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:46641/
+[rosmaster.master][INFO] 2019-06-11 08:46:17,897: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:46641/
+[rosmaster.master][INFO] 2019-06-11 08:46:17,915: -SUB [/clock] /urdf_spawner http://dc5b429f784e:46641/
+[rosmaster.master][INFO] 2019-06-11 08:46:17,915: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:46641/
+[rosmaster.master][INFO] 2019-06-11 08:46:17,915: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:46693
+[rosmaster.master][INFO] 2019-06-11 08:46:17,915: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:46693
+[rosmaster.master][INFO] 2019-06-11 08:46:17,945: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:46641/']
+[rosmaster.master][INFO] 2019-06-11 08:46:17,946: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:46641/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:17,946: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']
+[rosmaster.master][INFO] 2019-06-11 08:46:17,947: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:20,064: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:41989/
+[rosmaster.master][INFO] 2019-06-11 08:46:20,070: +SUB [/clock] /urdf_spawner http://dc5b429f784e:41989/
+[rosmaster.master][INFO] 2019-06-11 08:46:20,074: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:41989/
+[rosmaster.master][INFO] 2019-06-11 08:46:20,076: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:41989/
+[rosmaster.master][INFO] 2019-06-11 08:46:20,098: -SUB [/clock] /urdf_spawner http://dc5b429f784e:41989/
+[rosmaster.master][INFO] 2019-06-11 08:46:20,098: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:41989/
+[rosmaster.master][INFO] 2019-06-11 08:46:20,098: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:44503
+[rosmaster.master][INFO] 2019-06-11 08:46:20,099: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:44503
+[rosmaster.master][INFO] 2019-06-11 08:46:20,151: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:41989/']
+[rosmaster.master][INFO] 2019-06-11 08:46:20,152: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:41989/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:20,152: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']
+[rosmaster.master][INFO] 2019-06-11 08:46:20,153: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:22,816: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:41559/
+[rosmaster.master][INFO] 2019-06-11 08:46:22,823: +SUB [/clock] /urdf_spawner http://dc5b429f784e:41559/
+[rosmaster.master][INFO] 2019-06-11 08:46:22,826: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:41559/
+[rosmaster.master][INFO] 2019-06-11 08:46:22,829: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:41559/
+[rosmaster.master][INFO] 2019-06-11 08:46:22,851: -SUB [/clock] /urdf_spawner http://dc5b429f784e:41559/
+[rosmaster.master][INFO] 2019-06-11 08:46:22,851: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:41559/
+[rosmaster.master][INFO] 2019-06-11 08:46:22,851: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:35993
+[rosmaster.master][INFO] 2019-06-11 08:46:22,851: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:35993
+[rosmaster.master][INFO] 2019-06-11 08:46:22,857: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:41559/']
+[rosmaster.master][INFO] 2019-06-11 08:46:22,858: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:41559/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:22,858: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']
+[rosmaster.master][INFO] 2019-06-11 08:46:22,859: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:25,103: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:40629/
+[rosmaster.master][INFO] 2019-06-11 08:46:25,117: +SUB [/clock] /urdf_spawner http://dc5b429f784e:40629/
+[rosmaster.master][INFO] 2019-06-11 08:46:25,121: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:40629/
+[rosmaster.master][INFO] 2019-06-11 08:46:25,126: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:40629/
+[rosmaster.master][INFO] 2019-06-11 08:46:25,165: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:40629/']
+[rosmaster.master][INFO] 2019-06-11 08:46:25,167: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:40629/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:25,276: -SUB [/clock] /urdf_spawner http://dc5b429f784e:40629/
+[rosmaster.master][INFO] 2019-06-11 08:46:25,276: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:40629/
+[rosmaster.master][INFO] 2019-06-11 08:46:25,276: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:42427
+[rosmaster.master][INFO] 2019-06-11 08:46:25,277: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:42427
+[rosmaster.master][INFO] 2019-06-11 08:46:25,367: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']
+[rosmaster.master][INFO] 2019-06-11 08:46:25,368: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:27,592: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:40145/
+[rosmaster.master][INFO] 2019-06-11 08:46:27,602: +SUB [/clock] /urdf_spawner http://dc5b429f784e:40145/
+[rosmaster.master][INFO] 2019-06-11 08:46:27,606: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:40145/
+[rosmaster.master][INFO] 2019-06-11 08:46:27,608: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:40145/
+[rosmaster.master][INFO] 2019-06-11 08:46:27,629: -SUB [/clock] /urdf_spawner http://dc5b429f784e:40145/
+[rosmaster.master][INFO] 2019-06-11 08:46:27,629: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:40145/
+[rosmaster.master][INFO] 2019-06-11 08:46:27,629: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:42263
+[rosmaster.master][INFO] 2019-06-11 08:46:27,630: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:42263
+[rosmaster.master][INFO] 2019-06-11 08:46:27,672: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:40145/']
+[rosmaster.master][INFO] 2019-06-11 08:46:27,674: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:40145/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:27,674: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']
+[rosmaster.master][INFO] 2019-06-11 08:46:27,675: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:30,014: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:38267/
+[rosmaster.master][INFO] 2019-06-11 08:46:30,020: +SUB [/clock] /urdf_spawner http://dc5b429f784e:38267/
+[rosmaster.master][INFO] 2019-06-11 08:46:30,023: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:38267/
+[rosmaster.master][INFO] 2019-06-11 08:46:30,027: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:38267/
+[rosmaster.master][INFO] 2019-06-11 08:46:30,067: -SUB [/clock] /urdf_spawner http://dc5b429f784e:38267/
+[rosmaster.master][INFO] 2019-06-11 08:46:30,067: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:38267/
+[rosmaster.master][INFO] 2019-06-11 08:46:30,067: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:36979
+[rosmaster.master][INFO] 2019-06-11 08:46:30,067: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:36979
+[rosmaster.master][INFO] 2019-06-11 08:46:30,078: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:38267/']
+[rosmaster.master][INFO] 2019-06-11 08:46:30,080: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:38267/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:30,080: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']
+[rosmaster.master][INFO] 2019-06-11 08:46:30,081: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:32,482: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:38753/
+[rosmaster.master][INFO] 2019-06-11 08:46:32,488: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:38753/']
+[rosmaster.master][INFO] 2019-06-11 08:46:32,489: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:38753/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:32,494: +SUB [/clock] /urdf_spawner http://dc5b429f784e:38753/
+[rosmaster.master][INFO] 2019-06-11 08:46:32,501: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:38753/
+[rosmaster.master][INFO] 2019-06-11 08:46:32,503: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:38753/
+[rosmaster.master][INFO] 2019-06-11 08:46:32,592: -SUB [/clock] /urdf_spawner http://dc5b429f784e:38753/
+[rosmaster.master][INFO] 2019-06-11 08:46:32,593: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:38753/
+[rosmaster.master][INFO] 2019-06-11 08:46:32,593: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:46733
+[rosmaster.master][INFO] 2019-06-11 08:46:32,593: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:46733
+[rosmaster.master][INFO] 2019-06-11 08:46:32,690: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']
+[rosmaster.master][INFO] 2019-06-11 08:46:32,692: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:34,883: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:41671/
+[rosmaster.master][INFO] 2019-06-11 08:46:34,892: +SUB [/clock] /urdf_spawner http://dc5b429f784e:41671/
+[rosmaster.master][INFO] 2019-06-11 08:46:34,895: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:41671/
+[rosmaster.master][INFO] 2019-06-11 08:46:34,895: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:41671/']
+[rosmaster.master][INFO] 2019-06-11 08:46:34,896: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:41671/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:34,898: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:41671/
+[rosmaster.master][INFO] 2019-06-11 08:46:34,999: -SUB [/clock] /urdf_spawner http://dc5b429f784e:41671/
+[rosmaster.master][INFO] 2019-06-11 08:46:34,999: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:41671/
+[rosmaster.master][INFO] 2019-06-11 08:46:35,000: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:44017
+[rosmaster.master][INFO] 2019-06-11 08:46:35,000: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:44017
+[rosmaster.master][INFO] 2019-06-11 08:46:35,003: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']
+[rosmaster.master][INFO] 2019-06-11 08:46:35,004: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:37,332: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:36651/
+[rosmaster.master][INFO] 2019-06-11 08:46:37,338: +SUB [/clock] /urdf_spawner http://dc5b429f784e:36651/
+[rosmaster.master][INFO] 2019-06-11 08:46:37,340: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:36651/
+[rosmaster.master][INFO] 2019-06-11 08:46:37,343: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:36651/
+[rosmaster.master][INFO] 2019-06-11 08:46:37,365: -SUB [/clock] /urdf_spawner http://dc5b429f784e:36651/
+[rosmaster.master][INFO] 2019-06-11 08:46:37,366: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:36651/
+[rosmaster.master][INFO] 2019-06-11 08:46:37,366: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:46607
+[rosmaster.master][INFO] 2019-06-11 08:46:37,366: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:46607
+[rosmaster.master][INFO] 2019-06-11 08:46:37,400: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:36651/']
+[rosmaster.master][INFO] 2019-06-11 08:46:37,402: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:36651/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:37,402: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']
+[rosmaster.master][INFO] 2019-06-11 08:46:37,403: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:39,690: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:33429/
+[rosmaster.master][INFO] 2019-06-11 08:46:39,701: +SUB [/clock] /urdf_spawner http://dc5b429f784e:33429/
+[rosmaster.master][INFO] 2019-06-11 08:46:39,709: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:33429/
+[rosmaster.master][INFO] 2019-06-11 08:46:39,710: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:33429/']
+[rosmaster.master][INFO] 2019-06-11 08:46:39,714: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/', 'http://dc5b429f784e:33429/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:39,715: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:33429/
+[rosmaster.master][INFO] 2019-06-11 08:46:39,827: -SUB [/clock] /urdf_spawner http://dc5b429f784e:33429/
+[rosmaster.master][INFO] 2019-06-11 08:46:39,827: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:33429/
+[rosmaster.master][INFO] 2019-06-11 08:46:39,827: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:35617
+[rosmaster.master][INFO] 2019-06-11 08:46:39,827: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:35617
+[rosmaster.master][INFO] 2019-06-11 08:46:39,910: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']
+[rosmaster.master][INFO] 2019-06-11 08:46:39,911: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:41091/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:40,197: -PUB [/rosout] /image_view_1560242773941930900 http://dc5b429f784e:41091/
+[rosmaster.master][INFO] 2019-06-11 08:46:40,198: -PUB [/image_view_1560242773941930900/output] /image_view_1560242773941930900 http://dc5b429f784e:41091/
+[rosmaster.master][INFO] 2019-06-11 08:46:40,200: -PUB [/image_view_1560242773941930900/parameter_descriptions] /image_view_1560242773941930900 http://dc5b429f784e:41091/
+[rosmaster.master][INFO] 2019-06-11 08:46:40,201: -PUB [/image_view_1560242773941930900/parameter_updates] /image_view_1560242773941930900 http://dc5b429f784e:41091/
+[rosmaster.master][INFO] 2019-06-11 08:46:40,209: -SUB [/clock] /image_view_1560242773941930900 http://dc5b429f784e:41091/
+[rosmaster.master][INFO] 2019-06-11 08:46:40,211: -SUB [/robot/camera1/image_raw] /image_view_1560242773941930900 http://dc5b429f784e:41091/
+[rosmaster.master][INFO] 2019-06-11 08:46:40,212: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:46:40,214: -SERVICE [/image_view_1560242773941930900/get_loggers] /image_view_1560242773941930900 rosrpc://dc5b429f784e:60729
+[rosmaster.master][INFO] 2019-06-11 08:46:40,214: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:40,216: -SERVICE [/image_view_1560242773941930900/set_logger_level] /image_view_1560242773941930900 rosrpc://dc5b429f784e:60729
+[rosmaster.master][INFO] 2019-06-11 08:46:40,218: -SERVICE [/image_view_1560242773941930900/set_parameters] /image_view_1560242773941930900 rosrpc://dc5b429f784e:60729
+[rosmaster.master][INFO] 2019-06-11 08:46:42,525: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:36895/
+[rosmaster.master][INFO] 2019-06-11 08:46:42,534: +SUB [/clock] /urdf_spawner http://dc5b429f784e:36895/
+[rosmaster.master][INFO] 2019-06-11 08:46:42,541: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:36895/
+[rosmaster.master][INFO] 2019-06-11 08:46:42,548: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:36895/
+[rosmaster.master][INFO] 2019-06-11 08:46:42,571: -SUB [/clock] /urdf_spawner http://dc5b429f784e:36895/
+[rosmaster.master][INFO] 2019-06-11 08:46:42,572: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:36895/
+[rosmaster.master][INFO] 2019-06-11 08:46:42,572: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:37921
+[rosmaster.master][INFO] 2019-06-11 08:46:42,573: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:37921
+[rosmaster.master][INFO] 2019-06-11 08:46:42,620: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:36895/']
+[rosmaster.master][INFO] 2019-06-11 08:46:42,621: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:36895/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:42,622: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:46:42,622: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:44,777: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:40747/
+[rosmaster.master][INFO] 2019-06-11 08:46:44,783: +SUB [/clock] /urdf_spawner http://dc5b429f784e:40747/
+[rosmaster.master][INFO] 2019-06-11 08:46:44,786: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:40747/
+[rosmaster.master][INFO] 2019-06-11 08:46:44,791: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:40747/
+[rosmaster.master][INFO] 2019-06-11 08:46:44,818: -SUB [/clock] /urdf_spawner http://dc5b429f784e:40747/
+[rosmaster.master][INFO] 2019-06-11 08:46:44,818: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:40747/
+[rosmaster.master][INFO] 2019-06-11 08:46:44,825: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40747/']
+[rosmaster.master][INFO] 2019-06-11 08:46:44,826: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:38937
+[rosmaster.master][INFO] 2019-06-11 08:46:44,827: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:38937
+[rosmaster.master][INFO] 2019-06-11 08:46:44,827: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:44,828: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:46:44,829: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:47,522: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:42651/
+[rosmaster.master][INFO] 2019-06-11 08:46:47,529: +SUB [/clock] /urdf_spawner http://dc5b429f784e:42651/
+[rosmaster.master][INFO] 2019-06-11 08:46:47,530: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:42651/']
+[rosmaster.master][INFO] 2019-06-11 08:46:47,532: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:42651/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:47,533: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:42651/
+[rosmaster.master][INFO] 2019-06-11 08:46:47,535: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:42651/
+[rosmaster.master][INFO] 2019-06-11 08:46:47,634: -SUB [/clock] /urdf_spawner http://dc5b429f784e:42651/
+[rosmaster.master][INFO] 2019-06-11 08:46:47,634: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:42651/
+[rosmaster.master][INFO] 2019-06-11 08:46:47,634: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:39365
+[rosmaster.master][INFO] 2019-06-11 08:46:47,634: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:39365
+[rosmaster.master][INFO] 2019-06-11 08:46:47,635: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:46:47,636: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:49,942: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:37075/
+[rosmaster.master][INFO] 2019-06-11 08:46:49,945: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:37075/']
+[rosmaster.master][INFO] 2019-06-11 08:46:49,947: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:49,954: +SUB [/clock] /urdf_spawner http://dc5b429f784e:37075/
+[rosmaster.master][INFO] 2019-06-11 08:46:49,957: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:37075/
+[rosmaster.master][INFO] 2019-06-11 08:46:49,963: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:37075/
+[rosmaster.master][INFO] 2019-06-11 08:46:50,050: -SUB [/clock] /urdf_spawner http://dc5b429f784e:37075/
+[rosmaster.master][INFO] 2019-06-11 08:46:50,051: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:37075/
+[rosmaster.master][INFO] 2019-06-11 08:46:50,051: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:37147
+[rosmaster.master][INFO] 2019-06-11 08:46:50,051: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:37147
+[rosmaster.master][INFO] 2019-06-11 08:46:50,136: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:46:50,137: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:51,816: +PUB [/rosout] /rostopic_3466_1560242811650 http://dc5b429f784e:40879/
+[rosmaster.master][INFO] 2019-06-11 08:46:51,840: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40879/']
+[rosmaster.master][INFO] 2019-06-11 08:46:51,842: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40879/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:51,845: +SUB [/clock] /rostopic_3466_1560242811650 http://dc5b429f784e:40879/
+[rosmaster.master][INFO] 2019-06-11 08:46:51,848: +SERVICE [/rostopic_3466_1560242811650/get_loggers] /rostopic_3466_1560242811650 http://dc5b429f784e:40879/
+[rosmaster.master][INFO] 2019-06-11 08:46:51,851: +SERVICE [/rostopic_3466_1560242811650/set_logger_level] /rostopic_3466_1560242811650 http://dc5b429f784e:40879/
+[rosmaster.master][INFO] 2019-06-11 08:46:51,872: +SUB [/robot/camera1/image_raw] /rostopic_3466_1560242811650 http://dc5b429f784e:40879/
+[rosmaster.master][INFO] 2019-06-11 08:46:52,288: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:39619/
+[rosmaster.master][INFO] 2019-06-11 08:46:52,294: +SUB [/clock] /urdf_spawner http://dc5b429f784e:39619/
+[rosmaster.master][INFO] 2019-06-11 08:46:52,297: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:39619/
+[rosmaster.master][INFO] 2019-06-11 08:46:52,299: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:39619/
+[rosmaster.master][INFO] 2019-06-11 08:46:52,338: -SUB [/clock] /urdf_spawner http://dc5b429f784e:39619/
+[rosmaster.master][INFO] 2019-06-11 08:46:52,338: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:39619/
+[rosmaster.master][INFO] 2019-06-11 08:46:52,339: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:35335
+[rosmaster.master][INFO] 2019-06-11 08:46:52,339: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:35335
+[rosmaster.master][INFO] 2019-06-11 08:46:52,343: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40879/', 'http://dc5b429f784e:39619/']
+[rosmaster.master][INFO] 2019-06-11 08:46:52,344: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40879/', 'http://dc5b429f784e:39619/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:52,344: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40879/']
+[rosmaster.master][INFO] 2019-06-11 08:46:52,345: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40879/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:54,556: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:40935/
+[rosmaster.master][INFO] 2019-06-11 08:46:54,561: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40879/', 'http://dc5b429f784e:40935/']
+[rosmaster.master][INFO] 2019-06-11 08:46:54,564: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40879/', 'http://dc5b429f784e:40935/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:54,565: +SUB [/clock] /urdf_spawner http://dc5b429f784e:40935/
+[rosmaster.master][INFO] 2019-06-11 08:46:54,572: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:40935/
+[rosmaster.master][INFO] 2019-06-11 08:46:54,574: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:40935/
+[rosmaster.master][INFO] 2019-06-11 08:46:54,666: -SUB [/clock] /urdf_spawner http://dc5b429f784e:40935/
+[rosmaster.master][INFO] 2019-06-11 08:46:54,666: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:40935/
+[rosmaster.master][INFO] 2019-06-11 08:46:54,666: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:44227
+[rosmaster.master][INFO] 2019-06-11 08:46:54,666: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:44227
+[rosmaster.master][INFO] 2019-06-11 08:46:54,750: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40879/']
+[rosmaster.master][INFO] 2019-06-11 08:46:54,750: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40879/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:56,871: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:33747/
+[rosmaster.master][INFO] 2019-06-11 08:46:56,887: +SUB [/clock] /urdf_spawner http://dc5b429f784e:33747/
+[rosmaster.master][INFO] 2019-06-11 08:46:56,892: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:33747/
+[rosmaster.master][INFO] 2019-06-11 08:46:56,894: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:33747/
+[rosmaster.master][INFO] 2019-06-11 08:46:56,908: -SUB [/clock] /urdf_spawner http://dc5b429f784e:33747/
+[rosmaster.master][INFO] 2019-06-11 08:46:56,908: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:33747/
+[rosmaster.master][INFO] 2019-06-11 08:46:56,908: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:39515
+[rosmaster.master][INFO] 2019-06-11 08:46:56,908: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:39515
+[rosmaster.master][INFO] 2019-06-11 08:46:56,956: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40879/', 'http://dc5b429f784e:33747/']
+[rosmaster.master][INFO] 2019-06-11 08:46:56,957: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40879/', 'http://dc5b429f784e:33747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:56,957: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40879/']
+[rosmaster.master][INFO] 2019-06-11 08:46:56,958: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40879/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:57,954: -SUB [/clock] /rostopic_3466_1560242811650 http://dc5b429f784e:40879/
+[rosmaster.master][INFO] 2019-06-11 08:46:57,954: -SUB [/robot/camera1/image_raw] /rostopic_3466_1560242811650 http://dc5b429f784e:40879/
+[rosmaster.master][INFO] 2019-06-11 08:46:57,954: -PUB [/rosout] /rostopic_3466_1560242811650 http://dc5b429f784e:40879/
+[rosmaster.master][INFO] 2019-06-11 08:46:57,954: -SERVICE [/rostopic_3466_1560242811650/get_loggers] /rostopic_3466_1560242811650 rosrpc://dc5b429f784e:38263
+[rosmaster.master][INFO] 2019-06-11 08:46:57,954: -SERVICE [/rostopic_3466_1560242811650/set_logger_level] /rostopic_3466_1560242811650 rosrpc://dc5b429f784e:38263
+[rosmaster.master][INFO] 2019-06-11 08:46:57,958: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:46:57,959: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:59,228: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:39851/
+[rosmaster.master][INFO] 2019-06-11 08:46:59,234: +SUB [/clock] /urdf_spawner http://dc5b429f784e:39851/
+[rosmaster.master][INFO] 2019-06-11 08:46:59,243: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:39851/
+[rosmaster.master][INFO] 2019-06-11 08:46:59,246: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:39851/
+[rosmaster.master][INFO] 2019-06-11 08:46:59,261: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:39851/']
+[rosmaster.master][INFO] 2019-06-11 08:46:59,263: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:39851/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:46:59,369: -SUB [/clock] /urdf_spawner http://dc5b429f784e:39851/
+[rosmaster.master][INFO] 2019-06-11 08:46:59,371: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:39851/
+[rosmaster.master][INFO] 2019-06-11 08:46:59,371: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:40101
+[rosmaster.master][INFO] 2019-06-11 08:46:59,372: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:40101
+[rosmaster.master][INFO] 2019-06-11 08:46:59,374: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:46:59,378: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:01,857: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:34275/
+[rosmaster.master][INFO] 2019-06-11 08:47:01,862: +SUB [/clock] /urdf_spawner http://dc5b429f784e:34275/
+[rosmaster.master][INFO] 2019-06-11 08:47:01,864: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:34275/
+[rosmaster.master][INFO] 2019-06-11 08:47:01,866: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:34275/
+[rosmaster.master][INFO] 2019-06-11 08:47:01,867: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:34275/']
+[rosmaster.master][INFO] 2019-06-11 08:47:01,868: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:34275/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:01,972: -SUB [/clock] /urdf_spawner http://dc5b429f784e:34275/
+[rosmaster.master][INFO] 2019-06-11 08:47:01,972: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:34275/
+[rosmaster.master][INFO] 2019-06-11 08:47:01,972: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:40507
+[rosmaster.master][INFO] 2019-06-11 08:47:01,972: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:40507
+[rosmaster.master][INFO] 2019-06-11 08:47:01,983: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:47:01,984: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:02,129: +SERVICE [/gazebo/set_parameters] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:47:02,131: +PUB [/gazebo/parameter_descriptions] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:47:02,133: +PUB [/gazebo/parameter_updates] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:47:02,179: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,181: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,182: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,184: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,186: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,188: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,189: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,190: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,202: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,209: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,211: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,213: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,214: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,221: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,223: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,235: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,236: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,251: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,253: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,256: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,258: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,262: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,281: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,284: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,292: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,307: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,309: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,311: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,318: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:02,319: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2019-06-11 08:47:04,370: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:44385/
+[rosmaster.master][INFO] 2019-06-11 08:47:04,373: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:44385/']
+[rosmaster.master][INFO] 2019-06-11 08:47:04,375: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:44385/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:04,384: +SUB [/clock] /urdf_spawner http://dc5b429f784e:44385/
+[rosmaster.master][INFO] 2019-06-11 08:47:04,390: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:44385/
+[rosmaster.master][INFO] 2019-06-11 08:47:04,393: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:44385/
+[rosmaster.master][INFO] 2019-06-11 08:47:04,480: -SUB [/clock] /urdf_spawner http://dc5b429f784e:44385/
+[rosmaster.master][INFO] 2019-06-11 08:47:04,480: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:44385/
+[rosmaster.master][INFO] 2019-06-11 08:47:04,480: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:36869
+[rosmaster.master][INFO] 2019-06-11 08:47:04,481: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:36869
+[rosmaster.master][INFO] 2019-06-11 08:47:04,489: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:47:04,490: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:04,764: +PUB [/rosout] /rostopic_3684_1560242824593 http://dc5b429f784e:34643/
+[rosmaster.master][INFO] 2019-06-11 08:47:04,775: +SUB [/clock] /rostopic_3684_1560242824593 http://dc5b429f784e:34643/
+[rosmaster.master][INFO] 2019-06-11 08:47:04,776: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:34643/']
+[rosmaster.master][INFO] 2019-06-11 08:47:04,778: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:34643/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:04,780: +SERVICE [/rostopic_3684_1560242824593/get_loggers] /rostopic_3684_1560242824593 http://dc5b429f784e:34643/
+[rosmaster.master][INFO] 2019-06-11 08:47:04,782: +SERVICE [/rostopic_3684_1560242824593/set_logger_level] /rostopic_3684_1560242824593 http://dc5b429f784e:34643/
+[rosmaster.master][INFO] 2019-06-11 08:47:04,827: +SUB [/robot/camera1/image_raw] /rostopic_3684_1560242824593 http://dc5b429f784e:34643/
+[rosmaster.master][INFO] 2019-06-11 08:47:06,605: -SUB [/clock] /rostopic_3684_1560242824593 http://dc5b429f784e:34643/
+[rosmaster.master][INFO] 2019-06-11 08:47:06,605: -SUB [/robot/camera1/image_raw] /rostopic_3684_1560242824593 http://dc5b429f784e:34643/
+[rosmaster.master][INFO] 2019-06-11 08:47:06,605: -PUB [/rosout] /rostopic_3684_1560242824593 http://dc5b429f784e:34643/
+[rosmaster.master][INFO] 2019-06-11 08:47:06,606: -SERVICE [/rostopic_3684_1560242824593/get_loggers] /rostopic_3684_1560242824593 rosrpc://dc5b429f784e:36591
+[rosmaster.master][INFO] 2019-06-11 08:47:06,606: -SERVICE [/rostopic_3684_1560242824593/set_logger_level] /rostopic_3684_1560242824593 rosrpc://dc5b429f784e:36591
+[rosmaster.master][INFO] 2019-06-11 08:47:06,683: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:47:06,684: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:08,088: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:34691/
+[rosmaster.master][INFO] 2019-06-11 08:47:08,089: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:34691/']
+[rosmaster.master][INFO] 2019-06-11 08:47:08,090: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:34691/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:08,097: +SUB [/clock] /urdf_spawner http://dc5b429f784e:34691/
+[rosmaster.master][INFO] 2019-06-11 08:47:08,102: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:34691/
+[rosmaster.master][INFO] 2019-06-11 08:47:08,123: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:34691/
+[rosmaster.master][INFO] 2019-06-11 08:47:08,194: -SUB [/clock] /urdf_spawner http://dc5b429f784e:34691/
+[rosmaster.master][INFO] 2019-06-11 08:47:08,194: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:34691/
+[rosmaster.master][INFO] 2019-06-11 08:47:08,194: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:34471
+[rosmaster.master][INFO] 2019-06-11 08:47:08,195: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:34471
+[rosmaster.master][INFO] 2019-06-11 08:47:08,202: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']
+[rosmaster.master][INFO] 2019-06-11 08:47:08,203: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:09,065: +PUB [/rosout] /image_view_1560242829059402300 http://dc5b429f784e:40221/
+[rosmaster.master][INFO] 2019-06-11 08:47:09,069: +SERVICE [/image_view_1560242829059402300/get_loggers] /image_view_1560242829059402300 http://dc5b429f784e:40221/
+[rosmaster.master][INFO] 2019-06-11 08:47:09,071: +SERVICE [/image_view_1560242829059402300/set_logger_level] /image_view_1560242829059402300 http://dc5b429f784e:40221/
+[rosmaster.master][INFO] 2019-06-11 08:47:09,083: +SUB [/clock] /image_view_1560242829059402300 http://dc5b429f784e:40221/
+[rosmaster.master][INFO] 2019-06-11 08:47:09,089: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:47:09,092: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:09,363: +SUB [/robot/camera1/image_raw] /image_view_1560242829059402300 http://dc5b429f784e:40221/
+[rosmaster.master][INFO] 2019-06-11 08:47:09,365: +PUB [/image_view_1560242829059402300/output] /image_view_1560242829059402300 http://dc5b429f784e:40221/
+[rosmaster.master][INFO] 2019-06-11 08:47:09,367: +SERVICE [/image_view_1560242829059402300/set_parameters] /image_view_1560242829059402300 http://dc5b429f784e:40221/
+[rosmaster.master][INFO] 2019-06-11 08:47:09,369: +PUB [/image_view_1560242829059402300/parameter_descriptions] /image_view_1560242829059402300 http://dc5b429f784e:40221/
+[rosmaster.master][INFO] 2019-06-11 08:47:09,371: +PUB [/image_view_1560242829059402300/parameter_updates] /image_view_1560242829059402300 http://dc5b429f784e:40221/
+[rosmaster.master][INFO] 2019-06-11 08:47:09,382: +PARAM [/image_view_1560242829059402300/do_dynamic_scaling] by /image_view_1560242829059402300
+[rosmaster.master][INFO] 2019-06-11 08:47:09,387: +PARAM [/image_view_1560242829059402300/colormap] by /image_view_1560242829059402300
+[rosmaster.master][INFO] 2019-06-11 08:47:09,390: +PARAM [/image_view_1560242829059402300/min_image_value] by /image_view_1560242829059402300
+[rosmaster.master][INFO] 2019-06-11 08:47:09,392: +PARAM [/image_view_1560242829059402300/max_image_value] by /image_view_1560242829059402300
+[rosmaster.master][INFO] 2019-06-11 08:47:09,393: +PARAM [/image_view_1560242829059402300/do_dynamic_scaling] by /image_view_1560242829059402300
+[rosmaster.master][INFO] 2019-06-11 08:47:09,397: +PARAM [/image_view_1560242829059402300/colormap] by /image_view_1560242829059402300
+[rosmaster.master][INFO] 2019-06-11 08:47:09,399: +PARAM [/image_view_1560242829059402300/min_image_value] by /image_view_1560242829059402300
+[rosmaster.master][INFO] 2019-06-11 08:47:09,401: +PARAM [/image_view_1560242829059402300/max_image_value] by /image_view_1560242829059402300
+[rosmaster.master][INFO] 2019-06-11 08:47:11,250: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:46271/
+[rosmaster.master][INFO] 2019-06-11 08:47:11,259: +SUB [/clock] /urdf_spawner http://dc5b429f784e:46271/
+[rosmaster.master][INFO] 2019-06-11 08:47:11,265: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:46271/
+[rosmaster.master][INFO] 2019-06-11 08:47:11,268: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:46271/
+[rosmaster.master][INFO] 2019-06-11 08:47:11,289: -SUB [/clock] /urdf_spawner http://dc5b429f784e:46271/
+[rosmaster.master][INFO] 2019-06-11 08:47:11,290: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:46271/
+[rosmaster.master][INFO] 2019-06-11 08:47:11,290: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:44237
+[rosmaster.master][INFO] 2019-06-11 08:47:11,290: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:44237
+[rosmaster.master][INFO] 2019-06-11 08:47:11,301: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:46271/']
+[rosmaster.master][INFO] 2019-06-11 08:47:11,302: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:46271/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:11,302: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:47:11,304: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:14,713: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:35201/
+[rosmaster.master][INFO] 2019-06-11 08:47:14,720: +SUB [/clock] /urdf_spawner http://dc5b429f784e:35201/
+[rosmaster.master][INFO] 2019-06-11 08:47:14,722: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:35201/']
+[rosmaster.master][INFO] 2019-06-11 08:47:14,724: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:35201/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:14,725: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:35201/
+[rosmaster.master][INFO] 2019-06-11 08:47:14,727: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:35201/
+[rosmaster.master][INFO] 2019-06-11 08:47:14,836: -SUB [/clock] /urdf_spawner http://dc5b429f784e:35201/
+[rosmaster.master][INFO] 2019-06-11 08:47:14,836: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:35201/
+[rosmaster.master][INFO] 2019-06-11 08:47:14,837: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:42429
+[rosmaster.master][INFO] 2019-06-11 08:47:14,837: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:42429
+[rosmaster.master][INFO] 2019-06-11 08:47:14,923: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:47:14,924: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:18,262: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:41159/
+[rosmaster.master][INFO] 2019-06-11 08:47:18,278: +SUB [/clock] /urdf_spawner http://dc5b429f784e:41159/
+[rosmaster.master][INFO] 2019-06-11 08:47:18,282: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:41159/
+[rosmaster.master][INFO] 2019-06-11 08:47:18,285: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:41159/
+[rosmaster.master][INFO] 2019-06-11 08:47:18,333: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:41159/']
+[rosmaster.master][INFO] 2019-06-11 08:47:18,335: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:41159/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:18,336: -SUB [/clock] /urdf_spawner http://dc5b429f784e:41159/
+[rosmaster.master][INFO] 2019-06-11 08:47:18,336: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:41159/
+[rosmaster.master][INFO] 2019-06-11 08:47:18,337: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:38521
+[rosmaster.master][INFO] 2019-06-11 08:47:18,337: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:38521
+[rosmaster.master][INFO] 2019-06-11 08:47:18,349: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:47:18,350: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:22,416: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:43967/
+[rosmaster.master][INFO] 2019-06-11 08:47:22,448: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:43967/']
+[rosmaster.master][INFO] 2019-06-11 08:47:22,449: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:43967/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:22,450: +SUB [/clock] /urdf_spawner http://dc5b429f784e:43967/
+[rosmaster.master][INFO] 2019-06-11 08:47:22,462: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:43967/
+[rosmaster.master][INFO] 2019-06-11 08:47:22,466: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:43967/
+[rosmaster.master][INFO] 2019-06-11 08:47:22,561: -SUB [/clock] /urdf_spawner http://dc5b429f784e:43967/
+[rosmaster.master][INFO] 2019-06-11 08:47:22,561: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:43967/
+[rosmaster.master][INFO] 2019-06-11 08:47:22,561: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:43999
+[rosmaster.master][INFO] 2019-06-11 08:47:22,562: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:43999
+[rosmaster.master][INFO] 2019-06-11 08:47:22,571: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:47:22,572: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:26,286: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:42247/
+[rosmaster.master][INFO] 2019-06-11 08:47:26,298: +SUB [/clock] /urdf_spawner http://dc5b429f784e:42247/
+[rosmaster.master][INFO] 2019-06-11 08:47:26,307: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:42247/
+[rosmaster.master][INFO] 2019-06-11 08:47:26,310: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:42247/
+[rosmaster.master][INFO] 2019-06-11 08:47:26,346: -SUB [/clock] /urdf_spawner http://dc5b429f784e:42247/
+[rosmaster.master][INFO] 2019-06-11 08:47:26,347: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:42247/
+[rosmaster.master][INFO] 2019-06-11 08:47:26,347: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:34313
+[rosmaster.master][INFO] 2019-06-11 08:47:26,347: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:34313
+[rosmaster.master][INFO] 2019-06-11 08:47:26,367: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:42247/']
+[rosmaster.master][INFO] 2019-06-11 08:47:26,368: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:42247/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:26,369: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:47:26,370: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:29,364: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:44283/
+[rosmaster.master][INFO] 2019-06-11 08:47:29,377: +SUB [/clock] /urdf_spawner http://dc5b429f784e:44283/
+[rosmaster.master][INFO] 2019-06-11 08:47:29,379: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:44283/']
+[rosmaster.master][INFO] 2019-06-11 08:47:29,382: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:44283/
+[rosmaster.master][INFO] 2019-06-11 08:47:29,385: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:44283/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:29,391: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:44283/
+[rosmaster.master][INFO] 2019-06-11 08:47:29,491: -SUB [/clock] /urdf_spawner http://dc5b429f784e:44283/
+[rosmaster.master][INFO] 2019-06-11 08:47:29,491: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:44283/
+[rosmaster.master][INFO] 2019-06-11 08:47:29,492: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:35045
+[rosmaster.master][INFO] 2019-06-11 08:47:29,492: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:35045
+[rosmaster.master][INFO] 2019-06-11 08:47:29,492: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:47:29,493: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:32,845: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:45281/
+[rosmaster.master][INFO] 2019-06-11 08:47:32,852: +SUB [/clock] /urdf_spawner http://dc5b429f784e:45281/
+[rosmaster.master][INFO] 2019-06-11 08:47:32,856: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:45281/
+[rosmaster.master][INFO] 2019-06-11 08:47:32,862: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:45281/
+[rosmaster.master][INFO] 2019-06-11 08:47:32,891: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:45281/']
+[rosmaster.master][INFO] 2019-06-11 08:47:32,892: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:45281/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:32,894: -SUB [/clock] /urdf_spawner http://dc5b429f784e:45281/
+[rosmaster.master][INFO] 2019-06-11 08:47:32,894: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:45281/
+[rosmaster.master][INFO] 2019-06-11 08:47:32,894: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:35603
+[rosmaster.master][INFO] 2019-06-11 08:47:32,895: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:35603
+[rosmaster.master][INFO] 2019-06-11 08:47:32,897: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:47:32,898: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:36,030: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:39517/
+[rosmaster.master][INFO] 2019-06-11 08:47:36,034: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:39517/']
+[rosmaster.master][INFO] 2019-06-11 08:47:36,038: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:39517/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:36,041: +SUB [/clock] /urdf_spawner http://dc5b429f784e:39517/
+[rosmaster.master][INFO] 2019-06-11 08:47:36,065: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:39517/
+[rosmaster.master][INFO] 2019-06-11 08:47:36,068: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:39517/
+[rosmaster.master][INFO] 2019-06-11 08:47:36,140: -SUB [/clock] /urdf_spawner http://dc5b429f784e:39517/
+[rosmaster.master][INFO] 2019-06-11 08:47:36,141: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:39517/
+[rosmaster.master][INFO] 2019-06-11 08:47:36,141: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:37263
+[rosmaster.master][INFO] 2019-06-11 08:47:36,141: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:37263
+[rosmaster.master][INFO] 2019-06-11 08:47:36,199: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:47:36,200: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:39,441: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:36555/']
+[rosmaster.master][INFO] 2019-06-11 08:47:39,443: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:36555/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:39,443: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:36555/
+[rosmaster.master][INFO] 2019-06-11 08:47:39,456: +SUB [/clock] /urdf_spawner http://dc5b429f784e:36555/
+[rosmaster.master][INFO] 2019-06-11 08:47:39,460: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:36555/
+[rosmaster.master][INFO] 2019-06-11 08:47:39,463: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:36555/
+[rosmaster.master][INFO] 2019-06-11 08:47:39,548: -SUB [/clock] /urdf_spawner http://dc5b429f784e:36555/
+[rosmaster.master][INFO] 2019-06-11 08:47:39,549: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:36555/
+[rosmaster.master][INFO] 2019-06-11 08:47:39,549: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:37607
+[rosmaster.master][INFO] 2019-06-11 08:47:39,549: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:37607
+[rosmaster.master][INFO] 2019-06-11 08:47:39,560: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:47:39,561: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:43,117: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:39427/
+[rosmaster.master][INFO] 2019-06-11 08:47:43,145: +SUB [/clock] /urdf_spawner http://dc5b429f784e:39427/
+[rosmaster.master][INFO] 2019-06-11 08:47:43,154: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:39427/']
+[rosmaster.master][INFO] 2019-06-11 08:47:43,155: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:39427/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:43,158: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:39427/
+[rosmaster.master][INFO] 2019-06-11 08:47:43,171: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:39427/
+[rosmaster.master][INFO] 2019-06-11 08:47:43,216: -SUB [/clock] /urdf_spawner http://dc5b429f784e:39427/
+[rosmaster.master][INFO] 2019-06-11 08:47:43,217: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:39427/
+[rosmaster.master][INFO] 2019-06-11 08:47:43,217: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:45293
+[rosmaster.master][INFO] 2019-06-11 08:47:43,217: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:45293
+[rosmaster.master][INFO] 2019-06-11 08:47:43,255: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:47:43,256: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:46,732: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:34575/
+[rosmaster.master][INFO] 2019-06-11 08:47:46,739: +SUB [/clock] /urdf_spawner http://dc5b429f784e:34575/
+[rosmaster.master][INFO] 2019-06-11 08:47:46,743: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:34575/
+[rosmaster.master][INFO] 2019-06-11 08:47:46,747: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:34575/
+[rosmaster.master][INFO] 2019-06-11 08:47:46,773: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34575/']
+[rosmaster.master][INFO] 2019-06-11 08:47:46,775: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34575/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:46,885: -SUB [/clock] /urdf_spawner http://dc5b429f784e:34575/
+[rosmaster.master][INFO] 2019-06-11 08:47:46,886: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:34575/
+[rosmaster.master][INFO] 2019-06-11 08:47:46,886: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:37815
+[rosmaster.master][INFO] 2019-06-11 08:47:46,886: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:37815
+[rosmaster.master][INFO] 2019-06-11 08:47:46,888: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:47:46,889: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:50,032: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:33411/
+[rosmaster.master][INFO] 2019-06-11 08:47:50,039: +SUB [/clock] /urdf_spawner http://dc5b429f784e:33411/
+[rosmaster.master][INFO] 2019-06-11 08:47:50,041: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:33411/']
+[rosmaster.master][INFO] 2019-06-11 08:47:50,042: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:33411/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:50,044: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:33411/
+[rosmaster.master][INFO] 2019-06-11 08:47:50,047: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:33411/
+[rosmaster.master][INFO] 2019-06-11 08:47:50,146: -SUB [/clock] /urdf_spawner http://dc5b429f784e:33411/
+[rosmaster.master][INFO] 2019-06-11 08:47:50,146: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:33411/
+[rosmaster.master][INFO] 2019-06-11 08:47:50,147: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:37861
+[rosmaster.master][INFO] 2019-06-11 08:47:50,147: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:37861
+[rosmaster.master][INFO] 2019-06-11 08:47:50,199: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:47:50,203: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:53,252: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:44261/
+[rosmaster.master][INFO] 2019-06-11 08:47:53,259: +SUB [/clock] /urdf_spawner http://dc5b429f784e:44261/
+[rosmaster.master][INFO] 2019-06-11 08:47:53,267: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:44261/
+[rosmaster.master][INFO] 2019-06-11 08:47:53,270: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:44261/
+[rosmaster.master][INFO] 2019-06-11 08:47:53,300: -SUB [/clock] /urdf_spawner http://dc5b429f784e:44261/
+[rosmaster.master][INFO] 2019-06-11 08:47:53,301: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:44261/
+[rosmaster.master][INFO] 2019-06-11 08:47:53,301: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:37225
+[rosmaster.master][INFO] 2019-06-11 08:47:53,301: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:37225
+[rosmaster.master][INFO] 2019-06-11 08:47:53,313: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:44261/']
+[rosmaster.master][INFO] 2019-06-11 08:47:53,314: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:44261/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:53,315: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:47:53,315: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:57,163: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:33379/
+[rosmaster.master][INFO] 2019-06-11 08:47:57,188: +SUB [/clock] /urdf_spawner http://dc5b429f784e:33379/
+[rosmaster.master][INFO] 2019-06-11 08:47:57,207: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:33379/
+[rosmaster.master][INFO] 2019-06-11 08:47:57,210: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:33379/
+[rosmaster.master][INFO] 2019-06-11 08:47:57,228: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:33379/']
+[rosmaster.master][INFO] 2019-06-11 08:47:57,229: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:33379/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:47:57,339: -SUB [/clock] /urdf_spawner http://dc5b429f784e:33379/
+[rosmaster.master][INFO] 2019-06-11 08:47:57,339: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:33379/
+[rosmaster.master][INFO] 2019-06-11 08:47:57,340: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:36759
+[rosmaster.master][INFO] 2019-06-11 08:47:57,340: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:36759
+[rosmaster.master][INFO] 2019-06-11 08:47:57,342: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:47:57,343: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:00,576: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:41063/
+[rosmaster.master][INFO] 2019-06-11 08:48:00,606: +SUB [/clock] /urdf_spawner http://dc5b429f784e:41063/
+[rosmaster.master][INFO] 2019-06-11 08:48:00,620: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:41063/
+[rosmaster.master][INFO] 2019-06-11 08:48:00,631: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:41063/
+[rosmaster.master][INFO] 2019-06-11 08:48:00,636: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:41063/']
+[rosmaster.master][INFO] 2019-06-11 08:48:00,637: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:41063/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:00,753: -SUB [/clock] /urdf_spawner http://dc5b429f784e:41063/
+[rosmaster.master][INFO] 2019-06-11 08:48:00,754: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:41063/
+[rosmaster.master][INFO] 2019-06-11 08:48:00,754: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:35247
+[rosmaster.master][INFO] 2019-06-11 08:48:00,754: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:35247
+[rosmaster.master][INFO] 2019-06-11 08:48:00,762: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:48:00,763: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:04,133: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:45335/
+[rosmaster.master][INFO] 2019-06-11 08:48:04,146: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:45335/']
+[rosmaster.master][INFO] 2019-06-11 08:48:04,147: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:45335/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:04,156: +SUB [/clock] /urdf_spawner http://dc5b429f784e:45335/
+[rosmaster.master][INFO] 2019-06-11 08:48:04,160: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:45335/
+[rosmaster.master][INFO] 2019-06-11 08:48:04,163: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:45335/
+[rosmaster.master][INFO] 2019-06-11 08:48:04,261: -SUB [/clock] /urdf_spawner http://dc5b429f784e:45335/
+[rosmaster.master][INFO] 2019-06-11 08:48:04,261: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:45335/
+[rosmaster.master][INFO] 2019-06-11 08:48:04,261: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:34703
+[rosmaster.master][INFO] 2019-06-11 08:48:04,261: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:34703
+[rosmaster.master][INFO] 2019-06-11 08:48:04,284: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:48:04,285: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:08,182: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:42499/
+[rosmaster.master][INFO] 2019-06-11 08:48:08,193: +SUB [/clock] /urdf_spawner http://dc5b429f784e:42499/
+[rosmaster.master][INFO] 2019-06-11 08:48:08,195: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:42499/']
+[rosmaster.master][INFO] 2019-06-11 08:48:08,196: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:42499/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:08,198: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:42499/
+[rosmaster.master][INFO] 2019-06-11 08:48:08,209: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:42499/
+[rosmaster.master][INFO] 2019-06-11 08:48:08,301: -SUB [/clock] /urdf_spawner http://dc5b429f784e:42499/
+[rosmaster.master][INFO] 2019-06-11 08:48:08,302: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:42499/
+[rosmaster.master][INFO] 2019-06-11 08:48:08,302: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:43009
+[rosmaster.master][INFO] 2019-06-11 08:48:08,302: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:43009
+[rosmaster.master][INFO] 2019-06-11 08:48:08,302: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:48:08,303: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:11,313: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:36385/
+[rosmaster.master][INFO] 2019-06-11 08:48:11,313: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:36385/']
+[rosmaster.master][INFO] 2019-06-11 08:48:11,315: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:36385/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:11,321: +SUB [/clock] /urdf_spawner http://dc5b429f784e:36385/
+[rosmaster.master][INFO] 2019-06-11 08:48:11,330: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:36385/
+[rosmaster.master][INFO] 2019-06-11 08:48:11,333: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:36385/
+[rosmaster.master][INFO] 2019-06-11 08:48:11,419: -SUB [/clock] /urdf_spawner http://dc5b429f784e:36385/
+[rosmaster.master][INFO] 2019-06-11 08:48:11,419: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:36385/
+[rosmaster.master][INFO] 2019-06-11 08:48:11,419: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:40275
+[rosmaster.master][INFO] 2019-06-11 08:48:11,420: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:40275
+[rosmaster.master][INFO] 2019-06-11 08:48:11,479: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:48:11,480: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:14,673: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:44011/
+[rosmaster.master][INFO] 2019-06-11 08:48:14,678: +SUB [/clock] /urdf_spawner http://dc5b429f784e:44011/
+[rosmaster.master][INFO] 2019-06-11 08:48:14,681: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:44011/
+[rosmaster.master][INFO] 2019-06-11 08:48:14,684: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:44011/
+[rosmaster.master][INFO] 2019-06-11 08:48:14,686: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:44011/']
+[rosmaster.master][INFO] 2019-06-11 08:48:14,687: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:44011/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:14,791: -SUB [/clock] /urdf_spawner http://dc5b429f784e:44011/
+[rosmaster.master][INFO] 2019-06-11 08:48:14,792: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:44011/
+[rosmaster.master][INFO] 2019-06-11 08:48:14,792: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:46419
+[rosmaster.master][INFO] 2019-06-11 08:48:14,792: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:46419
+[rosmaster.master][INFO] 2019-06-11 08:48:14,808: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:48:14,809: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:17,527: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:46403/
+[rosmaster.master][INFO] 2019-06-11 08:48:17,531: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:46403/']
+[rosmaster.master][INFO] 2019-06-11 08:48:17,533: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:46403/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:17,552: +SUB [/clock] /urdf_spawner http://dc5b429f784e:46403/
+[rosmaster.master][INFO] 2019-06-11 08:48:17,555: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:46403/
+[rosmaster.master][INFO] 2019-06-11 08:48:17,558: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:46403/
+[rosmaster.master][INFO] 2019-06-11 08:48:17,637: -SUB [/clock] /urdf_spawner http://dc5b429f784e:46403/
+[rosmaster.master][INFO] 2019-06-11 08:48:17,637: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:46403/
+[rosmaster.master][INFO] 2019-06-11 08:48:17,637: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:39481
+[rosmaster.master][INFO] 2019-06-11 08:48:17,638: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:39481
+[rosmaster.master][INFO] 2019-06-11 08:48:17,693: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:48:17,694: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:20,813: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:38043/
+[rosmaster.master][INFO] 2019-06-11 08:48:20,820: +SUB [/clock] /urdf_spawner http://dc5b429f784e:38043/
+[rosmaster.master][INFO] 2019-06-11 08:48:20,827: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:38043/']
+[rosmaster.master][INFO] 2019-06-11 08:48:20,829: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:38043/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:20,833: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:38043/
+[rosmaster.master][INFO] 2019-06-11 08:48:20,838: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:38043/
+[rosmaster.master][INFO] 2019-06-11 08:48:20,939: -SUB [/clock] /urdf_spawner http://dc5b429f784e:38043/
+[rosmaster.master][INFO] 2019-06-11 08:48:20,943: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:38043/
+[rosmaster.master][INFO] 2019-06-11 08:48:20,944: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:46277
+[rosmaster.master][INFO] 2019-06-11 08:48:20,944: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:46277
+[rosmaster.master][INFO] 2019-06-11 08:48:21,000: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:48:21,001: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:24,289: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:43813/
+[rosmaster.master][INFO] 2019-06-11 08:48:24,297: +SUB [/clock] /urdf_spawner http://dc5b429f784e:43813/
+[rosmaster.master][INFO] 2019-06-11 08:48:24,300: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:43813/
+[rosmaster.master][INFO] 2019-06-11 08:48:24,303: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:43813/
+[rosmaster.master][INFO] 2019-06-11 08:48:24,313: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:43813/']
+[rosmaster.master][INFO] 2019-06-11 08:48:24,315: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:43813/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:24,417: -SUB [/clock] /urdf_spawner http://dc5b429f784e:43813/
+[rosmaster.master][INFO] 2019-06-11 08:48:24,418: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:43813/
+[rosmaster.master][INFO] 2019-06-11 08:48:24,418: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:37475
+[rosmaster.master][INFO] 2019-06-11 08:48:24,418: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:37475
+[rosmaster.master][INFO] 2019-06-11 08:48:24,437: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:48:24,438: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:27,592: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:45951/
+[rosmaster.master][INFO] 2019-06-11 08:48:27,605: +SUB [/clock] /urdf_spawner http://dc5b429f784e:45951/
+[rosmaster.master][INFO] 2019-06-11 08:48:27,610: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:45951/
+[rosmaster.master][INFO] 2019-06-11 08:48:27,615: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:45951/
+[rosmaster.master][INFO] 2019-06-11 08:48:27,621: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:45951/']
+[rosmaster.master][INFO] 2019-06-11 08:48:27,622: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:45951/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:27,748: -SUB [/clock] /urdf_spawner http://dc5b429f784e:45951/
+[rosmaster.master][INFO] 2019-06-11 08:48:27,748: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:45951/
+[rosmaster.master][INFO] 2019-06-11 08:48:27,748: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:36121
+[rosmaster.master][INFO] 2019-06-11 08:48:27,749: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:36121
+[rosmaster.master][INFO] 2019-06-11 08:48:27,768: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:48:27,769: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:31,477: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:46487/
+[rosmaster.master][INFO] 2019-06-11 08:48:31,514: +SUB [/clock] /urdf_spawner http://dc5b429f784e:46487/
+[rosmaster.master][INFO] 2019-06-11 08:48:31,520: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:46487/
+[rosmaster.master][INFO] 2019-06-11 08:48:31,530: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:46487/']
+[rosmaster.master][INFO] 2019-06-11 08:48:31,531: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:46487/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:31,534: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:46487/
+[rosmaster.master][INFO] 2019-06-11 08:48:31,639: -SUB [/clock] /urdf_spawner http://dc5b429f784e:46487/
+[rosmaster.master][INFO] 2019-06-11 08:48:31,640: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:46487/
+[rosmaster.master][INFO] 2019-06-11 08:48:31,640: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:43421
+[rosmaster.master][INFO] 2019-06-11 08:48:31,640: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:43421
+[rosmaster.master][INFO] 2019-06-11 08:48:31,651: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:48:31,652: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:35,238: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:40301/
+[rosmaster.master][INFO] 2019-06-11 08:48:35,254: +SUB [/clock] /urdf_spawner http://dc5b429f784e:40301/
+[rosmaster.master][INFO] 2019-06-11 08:48:35,259: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:40301/
+[rosmaster.master][INFO] 2019-06-11 08:48:35,262: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:40301/
+[rosmaster.master][INFO] 2019-06-11 08:48:35,266: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:40301/']
+[rosmaster.master][INFO] 2019-06-11 08:48:35,267: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:40301/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:35,371: -SUB [/clock] /urdf_spawner http://dc5b429f784e:40301/
+[rosmaster.master][INFO] 2019-06-11 08:48:35,371: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:40301/
+[rosmaster.master][INFO] 2019-06-11 08:48:35,371: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:43511
+[rosmaster.master][INFO] 2019-06-11 08:48:35,372: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:43511
+[rosmaster.master][INFO] 2019-06-11 08:48:35,388: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:48:35,389: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:38,659: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:37459/
+[rosmaster.master][INFO] 2019-06-11 08:48:38,667: +SUB [/clock] /urdf_spawner http://dc5b429f784e:37459/
+[rosmaster.master][INFO] 2019-06-11 08:48:38,671: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:37459/
+[rosmaster.master][INFO] 2019-06-11 08:48:38,673: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:37459/
+[rosmaster.master][INFO] 2019-06-11 08:48:38,674: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:37459/']
+[rosmaster.master][INFO] 2019-06-11 08:48:38,677: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:37459/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:38,786: -SUB [/clock] /urdf_spawner http://dc5b429f784e:37459/
+[rosmaster.master][INFO] 2019-06-11 08:48:38,786: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:37459/
+[rosmaster.master][INFO] 2019-06-11 08:48:38,787: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:39551
+[rosmaster.master][INFO] 2019-06-11 08:48:38,787: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:39551
+[rosmaster.master][INFO] 2019-06-11 08:48:38,795: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:48:38,796: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:42,091: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:39829/
+[rosmaster.master][INFO] 2019-06-11 08:48:42,095: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:39829/']
+[rosmaster.master][INFO] 2019-06-11 08:48:42,096: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:39829/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:42,106: +SUB [/clock] /urdf_spawner http://dc5b429f784e:39829/
+[rosmaster.master][INFO] 2019-06-11 08:48:42,110: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:39829/
+[rosmaster.master][INFO] 2019-06-11 08:48:42,112: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:39829/
+[rosmaster.master][INFO] 2019-06-11 08:48:42,205: -SUB [/clock] /urdf_spawner http://dc5b429f784e:39829/
+[rosmaster.master][INFO] 2019-06-11 08:48:42,205: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:39829/
+[rosmaster.master][INFO] 2019-06-11 08:48:42,205: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:44269
+[rosmaster.master][INFO] 2019-06-11 08:48:42,206: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:44269
+[rosmaster.master][INFO] 2019-06-11 08:48:42,212: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:48:42,213: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:45,409: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:44465/
+[rosmaster.master][INFO] 2019-06-11 08:48:45,423: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:44465/']
+[rosmaster.master][INFO] 2019-06-11 08:48:45,424: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:44465/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:45,458: +SUB [/clock] /urdf_spawner http://dc5b429f784e:44465/
+[rosmaster.master][INFO] 2019-06-11 08:48:45,461: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:44465/
+[rosmaster.master][INFO] 2019-06-11 08:48:45,462: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:44465/
+[rosmaster.master][INFO] 2019-06-11 08:48:45,538: -SUB [/clock] /urdf_spawner http://dc5b429f784e:44465/
+[rosmaster.master][INFO] 2019-06-11 08:48:45,538: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:44465/
+[rosmaster.master][INFO] 2019-06-11 08:48:45,538: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:40041
+[rosmaster.master][INFO] 2019-06-11 08:48:45,539: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:40041
+[rosmaster.master][INFO] 2019-06-11 08:48:45,573: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:48:45,575: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:49,367: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:41311/
+[rosmaster.master][INFO] 2019-06-11 08:48:49,383: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:41311/']
+[rosmaster.master][INFO] 2019-06-11 08:48:49,383: +SUB [/clock] /urdf_spawner http://dc5b429f784e:41311/
+[rosmaster.master][INFO] 2019-06-11 08:48:49,385: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:41311/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:49,390: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:41311/
+[rosmaster.master][INFO] 2019-06-11 08:48:49,394: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:41311/
+[rosmaster.master][INFO] 2019-06-11 08:48:49,490: -SUB [/clock] /urdf_spawner http://dc5b429f784e:41311/
+[rosmaster.master][INFO] 2019-06-11 08:48:49,490: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:41311/
+[rosmaster.master][INFO] 2019-06-11 08:48:49,490: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:42305
+[rosmaster.master][INFO] 2019-06-11 08:48:49,491: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:42305
+[rosmaster.master][INFO] 2019-06-11 08:48:49,510: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:48:49,511: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:52,777: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:43869/
+[rosmaster.master][INFO] 2019-06-11 08:48:52,798: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:43869/']
+[rosmaster.master][INFO] 2019-06-11 08:48:52,800: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:43869/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:52,800: +SUB [/clock] /urdf_spawner http://dc5b429f784e:43869/
+[rosmaster.master][INFO] 2019-06-11 08:48:52,804: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:43869/
+[rosmaster.master][INFO] 2019-06-11 08:48:52,805: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:43869/
+[rosmaster.master][INFO] 2019-06-11 08:48:52,914: -SUB [/clock] /urdf_spawner http://dc5b429f784e:43869/
+[rosmaster.master][INFO] 2019-06-11 08:48:52,915: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:43869/
+[rosmaster.master][INFO] 2019-06-11 08:48:52,915: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:44805
+[rosmaster.master][INFO] 2019-06-11 08:48:52,915: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:44805
+[rosmaster.master][INFO] 2019-06-11 08:48:52,918: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:48:52,919: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:56,092: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:44889/
+[rosmaster.master][INFO] 2019-06-11 08:48:56,098: +SUB [/clock] /urdf_spawner http://dc5b429f784e:44889/
+[rosmaster.master][INFO] 2019-06-11 08:48:56,103: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:44889/
+[rosmaster.master][INFO] 2019-06-11 08:48:56,105: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:44889/
+[rosmaster.master][INFO] 2019-06-11 08:48:56,118: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:44889/']
+[rosmaster.master][INFO] 2019-06-11 08:48:56,119: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:44889/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:56,229: -SUB [/clock] /urdf_spawner http://dc5b429f784e:44889/
+[rosmaster.master][INFO] 2019-06-11 08:48:56,229: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:44889/
+[rosmaster.master][INFO] 2019-06-11 08:48:56,230: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:44713
+[rosmaster.master][INFO] 2019-06-11 08:48:56,230: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:44713
+[rosmaster.master][INFO] 2019-06-11 08:48:56,233: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:48:56,234: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:59,655: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:38755/
+[rosmaster.master][INFO] 2019-06-11 08:48:59,668: +SUB [/clock] /urdf_spawner http://dc5b429f784e:38755/
+[rosmaster.master][INFO] 2019-06-11 08:48:59,668: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:38755/']
+[rosmaster.master][INFO] 2019-06-11 08:48:59,669: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:38755/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:48:59,672: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:38755/
+[rosmaster.master][INFO] 2019-06-11 08:48:59,676: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:38755/
+[rosmaster.master][INFO] 2019-06-11 08:48:59,774: -SUB [/clock] /urdf_spawner http://dc5b429f784e:38755/
+[rosmaster.master][INFO] 2019-06-11 08:48:59,774: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:38755/
+[rosmaster.master][INFO] 2019-06-11 08:48:59,775: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:39159
+[rosmaster.master][INFO] 2019-06-11 08:48:59,775: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:39159
+[rosmaster.master][INFO] 2019-06-11 08:48:59,834: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:48:59,835: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:03,367: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:46079/
+[rosmaster.master][INFO] 2019-06-11 08:49:03,375: +SUB [/clock] /urdf_spawner http://dc5b429f784e:46079/
+[rosmaster.master][INFO] 2019-06-11 08:49:03,380: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:46079/']
+[rosmaster.master][INFO] 2019-06-11 08:49:03,381: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:46079/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:03,390: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:46079/
+[rosmaster.master][INFO] 2019-06-11 08:49:03,393: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:46079/
+[rosmaster.master][INFO] 2019-06-11 08:49:03,494: -SUB [/clock] /urdf_spawner http://dc5b429f784e:46079/
+[rosmaster.master][INFO] 2019-06-11 08:49:03,495: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:46079/
+[rosmaster.master][INFO] 2019-06-11 08:49:03,496: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:37825
+[rosmaster.master][INFO] 2019-06-11 08:49:03,496: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:37825
+[rosmaster.master][INFO] 2019-06-11 08:49:03,557: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:49:03,558: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:06,574: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:35239/
+[rosmaster.master][INFO] 2019-06-11 08:49:06,577: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:35239/']
+[rosmaster.master][INFO] 2019-06-11 08:49:06,580: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:35239/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:06,583: +SUB [/clock] /urdf_spawner http://dc5b429f784e:35239/
+[rosmaster.master][INFO] 2019-06-11 08:49:06,622: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:35239/
+[rosmaster.master][INFO] 2019-06-11 08:49:06,629: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:35239/
+[rosmaster.master][INFO] 2019-06-11 08:49:06,685: -SUB [/clock] /urdf_spawner http://dc5b429f784e:35239/
+[rosmaster.master][INFO] 2019-06-11 08:49:06,685: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:35239/
+[rosmaster.master][INFO] 2019-06-11 08:49:06,685: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:43861
+[rosmaster.master][INFO] 2019-06-11 08:49:06,686: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:43861
+[rosmaster.master][INFO] 2019-06-11 08:49:06,691: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:49:06,693: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:09,869: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:36259/
+[rosmaster.master][INFO] 2019-06-11 08:49:09,874: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:36259/']
+[rosmaster.master][INFO] 2019-06-11 08:49:09,876: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:36259/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:09,884: +SUB [/clock] /urdf_spawner http://dc5b429f784e:36259/
+[rosmaster.master][INFO] 2019-06-11 08:49:09,888: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:36259/
+[rosmaster.master][INFO] 2019-06-11 08:49:09,891: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:36259/
+[rosmaster.master][INFO] 2019-06-11 08:49:09,993: -SUB [/clock] /urdf_spawner http://dc5b429f784e:36259/
+[rosmaster.master][INFO] 2019-06-11 08:49:09,995: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:36259/
+[rosmaster.master][INFO] 2019-06-11 08:49:09,995: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:35015
+[rosmaster.master][INFO] 2019-06-11 08:49:09,995: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:35015
+[rosmaster.master][INFO] 2019-06-11 08:49:10,003: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']
+[rosmaster.master][INFO] 2019-06-11 08:49:10,004: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:12,358: +PUB [/rosout] /teleop_turtle http://dc5b429f784e:34225/
+[rosmaster.master][INFO] 2019-06-11 08:49:12,360: +SERVICE [/teleop_turtle/get_loggers] /teleop_turtle http://dc5b429f784e:34225/
+[rosmaster.master][INFO] 2019-06-11 08:49:12,361: +SERVICE [/teleop_turtle/set_logger_level] /teleop_turtle http://dc5b429f784e:34225/
+[rosmaster.master][INFO] 2019-06-11 08:49:12,381: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:49:12,383: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:12,384: +SUB [/clock] /teleop_turtle http://dc5b429f784e:34225/
+[rosmaster.master][INFO] 2019-06-11 08:49:12,390: +PUB [/robot/cmd_vel] /teleop_turtle http://dc5b429f784e:34225/
+[rosmaster.master][INFO] 2019-06-11 08:49:12,397: publisherUpdate[/robot/cmd_vel] -> http://dc5b429f784e:45231/ ['http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:49:12,399: publisherUpdate[/robot/cmd_vel] -> http://dc5b429f784e:45231/ ['http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:13,525: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:34201/
+[rosmaster.master][INFO] 2019-06-11 08:49:13,539: +SUB [/clock] /urdf_spawner http://dc5b429f784e:34201/
+[rosmaster.master][INFO] 2019-06-11 08:49:13,550: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:34201/
+[rosmaster.master][INFO] 2019-06-11 08:49:13,555: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:34201/
+[rosmaster.master][INFO] 2019-06-11 08:49:13,586: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:34201/']
+[rosmaster.master][INFO] 2019-06-11 08:49:13,587: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:34201/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:13,698: -SUB [/clock] /urdf_spawner http://dc5b429f784e:34201/
+[rosmaster.master][INFO] 2019-06-11 08:49:13,699: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:34201/
+[rosmaster.master][INFO] 2019-06-11 08:49:13,700: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:32881
+[rosmaster.master][INFO] 2019-06-11 08:49:13,702: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:49:13,703: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:13,704: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:32881
+[rosmaster.master][INFO] 2019-06-11 08:49:17,220: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:46749/
+[rosmaster.master][INFO] 2019-06-11 08:49:17,228: +SUB [/clock] /urdf_spawner http://dc5b429f784e:46749/
+[rosmaster.master][INFO] 2019-06-11 08:49:17,230: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:46749/']
+[rosmaster.master][INFO] 2019-06-11 08:49:17,231: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:46749/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:17,233: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:46749/
+[rosmaster.master][INFO] 2019-06-11 08:49:17,239: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:46749/
+[rosmaster.master][INFO] 2019-06-11 08:49:17,335: -SUB [/clock] /urdf_spawner http://dc5b429f784e:46749/
+[rosmaster.master][INFO] 2019-06-11 08:49:17,335: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:46749/
+[rosmaster.master][INFO] 2019-06-11 08:49:17,335: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:39441
+[rosmaster.master][INFO] 2019-06-11 08:49:17,336: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:39441
+[rosmaster.master][INFO] 2019-06-11 08:49:17,403: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:49:17,404: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:20,801: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:35285/
+[rosmaster.master][INFO] 2019-06-11 08:49:20,810: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:35285/']
+[rosmaster.master][INFO] 2019-06-11 08:49:20,812: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:35285/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:20,819: +SUB [/clock] /urdf_spawner http://dc5b429f784e:35285/
+[rosmaster.master][INFO] 2019-06-11 08:49:20,823: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:35285/
+[rosmaster.master][INFO] 2019-06-11 08:49:20,825: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:35285/
+[rosmaster.master][INFO] 2019-06-11 08:49:20,927: -SUB [/clock] /urdf_spawner http://dc5b429f784e:35285/
+[rosmaster.master][INFO] 2019-06-11 08:49:20,928: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:35285/
+[rosmaster.master][INFO] 2019-06-11 08:49:20,928: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:39869
+[rosmaster.master][INFO] 2019-06-11 08:49:20,928: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:39869
+[rosmaster.master][INFO] 2019-06-11 08:49:20,950: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:49:20,951: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:24,557: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:39595/
+[rosmaster.master][INFO] 2019-06-11 08:49:24,560: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:39595/']
+[rosmaster.master][INFO] 2019-06-11 08:49:24,561: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:39595/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:24,589: +SUB [/clock] /urdf_spawner http://dc5b429f784e:39595/
+[rosmaster.master][INFO] 2019-06-11 08:49:24,602: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:39595/
+[rosmaster.master][INFO] 2019-06-11 08:49:24,606: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:39595/
+[rosmaster.master][INFO] 2019-06-11 08:49:24,665: -SUB [/clock] /urdf_spawner http://dc5b429f784e:39595/
+[rosmaster.master][INFO] 2019-06-11 08:49:24,665: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:39595/
+[rosmaster.master][INFO] 2019-06-11 08:49:24,665: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:37989
+[rosmaster.master][INFO] 2019-06-11 08:49:24,666: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:37989
+[rosmaster.master][INFO] 2019-06-11 08:49:24,728: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:49:24,729: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:27,990: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:36557/
+[rosmaster.master][INFO] 2019-06-11 08:49:28,018: +SUB [/clock] /urdf_spawner http://dc5b429f784e:36557/
+[rosmaster.master][INFO] 2019-06-11 08:49:28,022: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:36557/
+[rosmaster.master][INFO] 2019-06-11 08:49:28,025: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:36557/
+[rosmaster.master][INFO] 2019-06-11 08:49:28,034: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:36557/']
+[rosmaster.master][INFO] 2019-06-11 08:49:28,037: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:36557/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:28,142: -SUB [/clock] /urdf_spawner http://dc5b429f784e:36557/
+[rosmaster.master][INFO] 2019-06-11 08:49:28,143: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:36557/
+[rosmaster.master][INFO] 2019-06-11 08:49:28,143: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:39953
+[rosmaster.master][INFO] 2019-06-11 08:49:28,143: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:39953
+[rosmaster.master][INFO] 2019-06-11 08:49:28,172: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:49:28,174: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:31,566: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:40915/
+[rosmaster.master][INFO] 2019-06-11 08:49:31,572: +SUB [/clock] /urdf_spawner http://dc5b429f784e:40915/
+[rosmaster.master][INFO] 2019-06-11 08:49:31,585: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:40915/']
+[rosmaster.master][INFO] 2019-06-11 08:49:31,586: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:40915/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:31,591: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:40915/
+[rosmaster.master][INFO] 2019-06-11 08:49:31,594: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:40915/
+[rosmaster.master][INFO] 2019-06-11 08:49:31,690: -SUB [/clock] /urdf_spawner http://dc5b429f784e:40915/
+[rosmaster.master][INFO] 2019-06-11 08:49:31,701: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:40915/
+[rosmaster.master][INFO] 2019-06-11 08:49:31,701: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:37081
+[rosmaster.master][INFO] 2019-06-11 08:49:31,702: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:37081
+[rosmaster.master][INFO] 2019-06-11 08:49:31,748: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:49:31,752: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:35,289: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:43043/
+[rosmaster.master][INFO] 2019-06-11 08:49:35,293: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:43043/']
+[rosmaster.master][INFO] 2019-06-11 08:49:35,295: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:43043/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:35,300: +SUB [/clock] /urdf_spawner http://dc5b429f784e:43043/
+[rosmaster.master][INFO] 2019-06-11 08:49:35,312: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:43043/
+[rosmaster.master][INFO] 2019-06-11 08:49:35,318: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:43043/
+[rosmaster.master][INFO] 2019-06-11 08:49:35,413: -SUB [/clock] /urdf_spawner http://dc5b429f784e:43043/
+[rosmaster.master][INFO] 2019-06-11 08:49:35,414: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:43043/
+[rosmaster.master][INFO] 2019-06-11 08:49:35,414: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:45325
+[rosmaster.master][INFO] 2019-06-11 08:49:35,414: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:45325
+[rosmaster.master][INFO] 2019-06-11 08:49:35,464: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:49:35,465: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:38,782: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:46497/
+[rosmaster.master][INFO] 2019-06-11 08:49:38,786: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:46497/']
+[rosmaster.master][INFO] 2019-06-11 08:49:38,788: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:46497/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:38,790: +SUB [/clock] /urdf_spawner http://dc5b429f784e:46497/
+[rosmaster.master][INFO] 2019-06-11 08:49:38,796: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:46497/
+[rosmaster.master][INFO] 2019-06-11 08:49:38,803: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:46497/
+[rosmaster.master][INFO] 2019-06-11 08:49:38,896: -SUB [/clock] /urdf_spawner http://dc5b429f784e:46497/
+[rosmaster.master][INFO] 2019-06-11 08:49:38,897: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:46497/
+[rosmaster.master][INFO] 2019-06-11 08:49:38,897: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:46161
+[rosmaster.master][INFO] 2019-06-11 08:49:38,897: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:46161
+[rosmaster.master][INFO] 2019-06-11 08:49:38,905: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:49:38,906: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:42,413: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:39011/
+[rosmaster.master][INFO] 2019-06-11 08:49:42,423: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:39011/']
+[rosmaster.master][INFO] 2019-06-11 08:49:42,423: +SUB [/clock] /urdf_spawner http://dc5b429f784e:39011/
+[rosmaster.master][INFO] 2019-06-11 08:49:42,425: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:39011/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:42,451: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:39011/
+[rosmaster.master][INFO] 2019-06-11 08:49:42,471: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:39011/
+[rosmaster.master][INFO] 2019-06-11 08:49:42,528: -SUB [/clock] /urdf_spawner http://dc5b429f784e:39011/
+[rosmaster.master][INFO] 2019-06-11 08:49:42,529: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:39011/
+[rosmaster.master][INFO] 2019-06-11 08:49:42,529: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:41167
+[rosmaster.master][INFO] 2019-06-11 08:49:42,529: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:41167
+[rosmaster.master][INFO] 2019-06-11 08:49:42,585: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:49:42,586: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:45,821: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:41897/
+[rosmaster.master][INFO] 2019-06-11 08:49:45,830: +SUB [/clock] /urdf_spawner http://dc5b429f784e:41897/
+[rosmaster.master][INFO] 2019-06-11 08:49:45,835: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:41897/']
+[rosmaster.master][INFO] 2019-06-11 08:49:45,837: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:41897/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:45,838: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:41897/
+[rosmaster.master][INFO] 2019-06-11 08:49:45,842: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:41897/
+[rosmaster.master][INFO] 2019-06-11 08:49:45,940: -SUB [/clock] /urdf_spawner http://dc5b429f784e:41897/
+[rosmaster.master][INFO] 2019-06-11 08:49:45,941: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:41897/
+[rosmaster.master][INFO] 2019-06-11 08:49:45,941: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:32879
+[rosmaster.master][INFO] 2019-06-11 08:49:45,941: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:32879
+[rosmaster.master][INFO] 2019-06-11 08:49:45,993: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:49:45,994: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:49,082: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:34585/
+[rosmaster.master][INFO] 2019-06-11 08:49:49,091: +SUB [/clock] /urdf_spawner http://dc5b429f784e:34585/
+[rosmaster.master][INFO] 2019-06-11 08:49:49,094: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:34585/
+[rosmaster.master][INFO] 2019-06-11 08:49:49,098: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:34585/
+[rosmaster.master][INFO] 2019-06-11 08:49:49,100: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:34585/']
+[rosmaster.master][INFO] 2019-06-11 08:49:49,104: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:34585/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:49,205: -SUB [/clock] /urdf_spawner http://dc5b429f784e:34585/
+[rosmaster.master][INFO] 2019-06-11 08:49:49,205: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:34585/
+[rosmaster.master][INFO] 2019-06-11 08:49:49,205: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:33565
+[rosmaster.master][INFO] 2019-06-11 08:49:49,206: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:33565
+[rosmaster.master][INFO] 2019-06-11 08:49:49,219: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:49:49,220: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:52,617: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:44997/
+[rosmaster.master][INFO] 2019-06-11 08:49:52,630: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:44997/']
+[rosmaster.master][INFO] 2019-06-11 08:49:52,631: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:44997/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:52,635: +SUB [/clock] /urdf_spawner http://dc5b429f784e:44997/
+[rosmaster.master][INFO] 2019-06-11 08:49:52,644: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:44997/
+[rosmaster.master][INFO] 2019-06-11 08:49:52,646: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:44997/
+[rosmaster.master][INFO] 2019-06-11 08:49:52,738: -SUB [/clock] /urdf_spawner http://dc5b429f784e:44997/
+[rosmaster.master][INFO] 2019-06-11 08:49:52,738: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:44997/
+[rosmaster.master][INFO] 2019-06-11 08:49:52,738: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:36251
+[rosmaster.master][INFO] 2019-06-11 08:49:52,738: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:36251
+[rosmaster.master][INFO] 2019-06-11 08:49:52,763: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:49:52,764: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:55,952: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:44819/
+[rosmaster.master][INFO] 2019-06-11 08:49:55,959: +SUB [/clock] /urdf_spawner http://dc5b429f784e:44819/
+[rosmaster.master][INFO] 2019-06-11 08:49:55,962: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:44819/
+[rosmaster.master][INFO] 2019-06-11 08:49:55,964: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:44819/
+[rosmaster.master][INFO] 2019-06-11 08:49:55,970: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:44819/']
+[rosmaster.master][INFO] 2019-06-11 08:49:55,972: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:44819/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:56,075: -SUB [/clock] /urdf_spawner http://dc5b429f784e:44819/
+[rosmaster.master][INFO] 2019-06-11 08:49:56,075: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:44819/
+[rosmaster.master][INFO] 2019-06-11 08:49:56,075: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:42505
+[rosmaster.master][INFO] 2019-06-11 08:49:56,076: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:42505
+[rosmaster.master][INFO] 2019-06-11 08:49:56,127: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:49:56,128: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:59,277: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:40081/
+[rosmaster.master][INFO] 2019-06-11 08:49:59,287: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:40081/']
+[rosmaster.master][INFO] 2019-06-11 08:49:59,289: +SUB [/clock] /urdf_spawner http://dc5b429f784e:40081/
+[rosmaster.master][INFO] 2019-06-11 08:49:59,291: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:40081/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:49:59,297: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:40081/
+[rosmaster.master][INFO] 2019-06-11 08:49:59,308: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:40081/
+[rosmaster.master][INFO] 2019-06-11 08:49:59,397: -SUB [/clock] /urdf_spawner http://dc5b429f784e:40081/
+[rosmaster.master][INFO] 2019-06-11 08:49:59,397: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:40081/
+[rosmaster.master][INFO] 2019-06-11 08:49:59,397: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:41707
+[rosmaster.master][INFO] 2019-06-11 08:49:59,397: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:41707
+[rosmaster.master][INFO] 2019-06-11 08:49:59,439: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:49:59,440: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:02,766: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:42311/
+[rosmaster.master][INFO] 2019-06-11 08:50:02,787: +SUB [/clock] /urdf_spawner http://dc5b429f784e:42311/
+[rosmaster.master][INFO] 2019-06-11 08:50:02,792: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:42311/
+[rosmaster.master][INFO] 2019-06-11 08:50:02,811: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:42311/']
+[rosmaster.master][INFO] 2019-06-11 08:50:02,813: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:42311/
+[rosmaster.master][INFO] 2019-06-11 08:50:02,814: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:42311/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:02,926: -SUB [/clock] /urdf_spawner http://dc5b429f784e:42311/
+[rosmaster.master][INFO] 2019-06-11 08:50:02,926: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:42311/
+[rosmaster.master][INFO] 2019-06-11 08:50:02,927: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:38865
+[rosmaster.master][INFO] 2019-06-11 08:50:02,927: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:38865
+[rosmaster.master][INFO] 2019-06-11 08:50:02,946: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:50:02,947: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:06,307: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:45557/
+[rosmaster.master][INFO] 2019-06-11 08:50:06,324: +SUB [/clock] /urdf_spawner http://dc5b429f784e:45557/
+[rosmaster.master][INFO] 2019-06-11 08:50:06,328: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:45557/
+[rosmaster.master][INFO] 2019-06-11 08:50:06,329: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:45557/']
+[rosmaster.master][INFO] 2019-06-11 08:50:06,332: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:45557/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:06,335: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:45557/
+[rosmaster.master][INFO] 2019-06-11 08:50:06,441: -SUB [/clock] /urdf_spawner http://dc5b429f784e:45557/
+[rosmaster.master][INFO] 2019-06-11 08:50:06,441: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:45557/
+[rosmaster.master][INFO] 2019-06-11 08:50:06,441: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:33207
+[rosmaster.master][INFO] 2019-06-11 08:50:06,442: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:33207
+[rosmaster.master][INFO] 2019-06-11 08:50:06,456: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:50:06,457: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:09,881: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:33881/
+[rosmaster.master][INFO] 2019-06-11 08:50:09,900: +SUB [/clock] /urdf_spawner http://dc5b429f784e:33881/
+[rosmaster.master][INFO] 2019-06-11 08:50:09,904: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:33881/
+[rosmaster.master][INFO] 2019-06-11 08:50:09,912: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:33881/
+[rosmaster.master][INFO] 2019-06-11 08:50:09,938: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:33881/']
+[rosmaster.master][INFO] 2019-06-11 08:50:09,939: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:33881/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:10,047: -SUB [/clock] /urdf_spawner http://dc5b429f784e:33881/
+[rosmaster.master][INFO] 2019-06-11 08:50:10,047: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:33881/
+[rosmaster.master][INFO] 2019-06-11 08:50:10,048: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:34943
+[rosmaster.master][INFO] 2019-06-11 08:50:10,049: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:34943
+[rosmaster.master][INFO] 2019-06-11 08:50:10,066: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:50:10,067: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:13,915: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:35917/
+[rosmaster.master][INFO] 2019-06-11 08:50:13,923: +SUB [/clock] /urdf_spawner http://dc5b429f784e:35917/
+[rosmaster.master][INFO] 2019-06-11 08:50:13,927: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:35917/
+[rosmaster.master][INFO] 2019-06-11 08:50:13,946: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:35917/
+[rosmaster.master][INFO] 2019-06-11 08:50:13,950: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:35917/']
+[rosmaster.master][INFO] 2019-06-11 08:50:13,951: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:35917/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:14,071: -SUB [/clock] /urdf_spawner http://dc5b429f784e:35917/
+[rosmaster.master][INFO] 2019-06-11 08:50:14,072: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:35917/
+[rosmaster.master][INFO] 2019-06-11 08:50:14,072: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:44813
+[rosmaster.master][INFO] 2019-06-11 08:50:14,072: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:44813
+[rosmaster.master][INFO] 2019-06-11 08:50:14,088: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:50:14,089: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:17,358: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:36951/
+[rosmaster.master][INFO] 2019-06-11 08:50:17,363: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:36951/']
+[rosmaster.master][INFO] 2019-06-11 08:50:17,366: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:36951/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:17,371: +SUB [/clock] /urdf_spawner http://dc5b429f784e:36951/
+[rosmaster.master][INFO] 2019-06-11 08:50:17,376: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:36951/
+[rosmaster.master][INFO] 2019-06-11 08:50:17,379: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:36951/
+[rosmaster.master][INFO] 2019-06-11 08:50:17,470: -SUB [/clock] /urdf_spawner http://dc5b429f784e:36951/
+[rosmaster.master][INFO] 2019-06-11 08:50:17,470: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:36951/
+[rosmaster.master][INFO] 2019-06-11 08:50:17,470: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:43359
+[rosmaster.master][INFO] 2019-06-11 08:50:17,470: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:43359
+[rosmaster.master][INFO] 2019-06-11 08:50:17,503: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:50:17,504: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:20,854: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:46095/
+[rosmaster.master][INFO] 2019-06-11 08:50:20,861: +SUB [/clock] /urdf_spawner http://dc5b429f784e:46095/
+[rosmaster.master][INFO] 2019-06-11 08:50:20,871: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:46095/
+[rosmaster.master][INFO] 2019-06-11 08:50:20,874: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:46095/
+[rosmaster.master][INFO] 2019-06-11 08:50:20,878: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:46095/']
+[rosmaster.master][INFO] 2019-06-11 08:50:20,881: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:46095/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:20,984: -SUB [/clock] /urdf_spawner http://dc5b429f784e:46095/
+[rosmaster.master][INFO] 2019-06-11 08:50:20,984: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:46095/
+[rosmaster.master][INFO] 2019-06-11 08:50:20,984: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:42539
+[rosmaster.master][INFO] 2019-06-11 08:50:20,985: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:42539
+[rosmaster.master][INFO] 2019-06-11 08:50:21,017: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:50:21,018: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:24,568: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:36483/
+[rosmaster.master][INFO] 2019-06-11 08:50:24,579: +SUB [/clock] /urdf_spawner http://dc5b429f784e:36483/
+[rosmaster.master][INFO] 2019-06-11 08:50:24,584: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:36483/
+[rosmaster.master][INFO] 2019-06-11 08:50:24,588: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:36483/
+[rosmaster.master][INFO] 2019-06-11 08:50:24,594: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:36483/']
+[rosmaster.master][INFO] 2019-06-11 08:50:24,596: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:36483/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:24,699: -SUB [/clock] /urdf_spawner http://dc5b429f784e:36483/
+[rosmaster.master][INFO] 2019-06-11 08:50:24,699: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:36483/
+[rosmaster.master][INFO] 2019-06-11 08:50:24,699: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:34653
+[rosmaster.master][INFO] 2019-06-11 08:50:24,700: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:34653
+[rosmaster.master][INFO] 2019-06-11 08:50:24,728: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:50:24,729: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:28,046: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:32913/
+[rosmaster.master][INFO] 2019-06-11 08:50:28,055: +SUB [/clock] /urdf_spawner http://dc5b429f784e:32913/
+[rosmaster.master][INFO] 2019-06-11 08:50:28,059: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:32913/
+[rosmaster.master][INFO] 2019-06-11 08:50:28,061: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:32913/
+[rosmaster.master][INFO] 2019-06-11 08:50:28,096: -SUB [/clock] /urdf_spawner http://dc5b429f784e:32913/
+[rosmaster.master][INFO] 2019-06-11 08:50:28,096: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:32913/
+[rosmaster.master][INFO] 2019-06-11 08:50:28,097: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:42491
+[rosmaster.master][INFO] 2019-06-11 08:50:28,097: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:42491
+[rosmaster.master][INFO] 2019-06-11 08:50:28,109: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:32913/']
+[rosmaster.master][INFO] 2019-06-11 08:50:28,110: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:32913/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:28,110: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:50:28,111: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:31,478: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:40117/
+[rosmaster.master][INFO] 2019-06-11 08:50:31,487: +SUB [/clock] /urdf_spawner http://dc5b429f784e:40117/
+[rosmaster.master][INFO] 2019-06-11 08:50:31,494: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:40117/
+[rosmaster.master][INFO] 2019-06-11 08:50:31,509: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:40117/
+[rosmaster.master][INFO] 2019-06-11 08:50:31,523: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:40117/']
+[rosmaster.master][INFO] 2019-06-11 08:50:31,524: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:40117/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:31,630: -SUB [/clock] /urdf_spawner http://dc5b429f784e:40117/
+[rosmaster.master][INFO] 2019-06-11 08:50:31,631: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:40117/
+[rosmaster.master][INFO] 2019-06-11 08:50:31,631: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:39053
+[rosmaster.master][INFO] 2019-06-11 08:50:31,632: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:39053
+[rosmaster.master][INFO] 2019-06-11 08:50:31,643: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:50:31,645: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:34,621: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:42295/
+[rosmaster.master][INFO] 2019-06-11 08:50:34,632: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:42295/']
+[rosmaster.master][INFO] 2019-06-11 08:50:34,634: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:42295/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:34,636: +SUB [/clock] /urdf_spawner http://dc5b429f784e:42295/
+[rosmaster.master][INFO] 2019-06-11 08:50:34,641: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:42295/
+[rosmaster.master][INFO] 2019-06-11 08:50:34,645: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:42295/
+[rosmaster.master][INFO] 2019-06-11 08:50:34,743: -SUB [/clock] /urdf_spawner http://dc5b429f784e:42295/
+[rosmaster.master][INFO] 2019-06-11 08:50:34,745: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:42295/
+[rosmaster.master][INFO] 2019-06-11 08:50:34,745: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:33625
+[rosmaster.master][INFO] 2019-06-11 08:50:34,745: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:33625
+[rosmaster.master][INFO] 2019-06-11 08:50:34,758: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:50:34,759: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:38,501: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:40675/
+[rosmaster.master][INFO] 2019-06-11 08:50:38,504: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:40675/']
+[rosmaster.master][INFO] 2019-06-11 08:50:38,507: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:40675/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:38,518: +SUB [/clock] /urdf_spawner http://dc5b429f784e:40675/
+[rosmaster.master][INFO] 2019-06-11 08:50:38,522: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:40675/
+[rosmaster.master][INFO] 2019-06-11 08:50:38,528: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:40675/
+[rosmaster.master][INFO] 2019-06-11 08:50:38,585: -SUB [/clock] /urdf_spawner http://dc5b429f784e:40675/
+[rosmaster.master][INFO] 2019-06-11 08:50:38,585: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:40675/
+[rosmaster.master][INFO] 2019-06-11 08:50:38,586: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:41441
+[rosmaster.master][INFO] 2019-06-11 08:50:38,586: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:41441
+[rosmaster.master][INFO] 2019-06-11 08:50:38,588: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:50:38,590: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:42,923: +PUB [/rosout] /urdf_spawner http://dc5b429f784e:41953/
+[rosmaster.master][INFO] 2019-06-11 08:50:42,934: +SUB [/clock] /urdf_spawner http://dc5b429f784e:41953/
+[rosmaster.master][INFO] 2019-06-11 08:50:42,939: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://dc5b429f784e:41953/
+[rosmaster.master][INFO] 2019-06-11 08:50:42,944: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://dc5b429f784e:41953/
+[rosmaster.master][INFO] 2019-06-11 08:50:42,978: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:41953/']
+[rosmaster.master][INFO] 2019-06-11 08:50:42,979: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/', 'http://dc5b429f784e:41953/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:43,023: -SUB [/clock] /urdf_spawner http://dc5b429f784e:41953/
+[rosmaster.master][INFO] 2019-06-11 08:50:43,023: -PUB [/rosout] /urdf_spawner http://dc5b429f784e:41953/
+[rosmaster.master][INFO] 2019-06-11 08:50:43,024: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://dc5b429f784e:40893
+[rosmaster.master][INFO] 2019-06-11 08:50:43,024: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://dc5b429f784e:40893
+[rosmaster.master][INFO] 2019-06-11 08:50:43,080: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']
+[rosmaster.master][INFO] 2019-06-11 08:50:43,081: publisherUpdate[/rosout] -> http://dc5b429f784e:37533/ ['http://dc5b429f784e:45231/', 'http://dc5b429f784e:40221/', 'http://dc5b429f784e:34225/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:46,218: -SUB [/gazebo/set_link_state] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:50:46,220: -SUB [/gazebo/set_model_state] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:50:46,221: -PUB [/clock] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:50:46,222: -PUB [/gazebo/link_states] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:50:46,223: -PUB [/gazebo/model_states] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:50:46,225: -SERVICE [/gazebo/spawn_sdf_model] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,226: -SERVICE [/gazebo/spawn_urdf_model] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,226: publisherUpdate[/clock] -> http://dc5b429f784e:37533/ []
+[rosmaster.master][INFO] 2019-06-11 08:50:46,228: publisherUpdate[/clock] -> http://dc5b429f784e:37533/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:46,229: publisherUpdate[/clock] -> http://dc5b429f784e:45231/ []
+[rosmaster.master][INFO] 2019-06-11 08:50:46,230: publisherUpdate[/clock] -> http://dc5b429f784e:45231/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-11 08:50:46,230: publisherUpdate[/clock] -> http://dc5b429f784e:40221/ []
+[rosmaster.master][INFO] 2019-06-11 08:50:46,231: -SERVICE [/gazebo/delete_model] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,232: publisherUpdate[/clock] -> http://dc5b429f784e:40221/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2019-06-11 08:50:46,234: -SERVICE [/gazebo/delete_light] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,235: -SERVICE [/gazebo/get_model_properties] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,236: -SERVICE [/gazebo/get_model_state] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,238: -SERVICE [/gazebo/get_world_properties] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,241: -SERVICE [/gazebo/get_joint_properties] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.threadpool][ERROR] 2019-06-11 08:50:46,241: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2019-06-11 08:50:46,242: publisherUpdate[/clock] -> http://dc5b429f784e:34225/ []
+[rosmaster.master][INFO] 2019-06-11 08:50:46,243: publisherUpdate[/clock] -> http://dc5b429f784e:34225/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2019-06-11 08:50:46,244: -SERVICE [/gazebo/get_link_properties] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,246: -SERVICE [/gazebo/get_link_state] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.threadpool][ERROR] 2019-06-11 08:50:46,247: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2019-06-11 08:50:46,248: -SERVICE [/gazebo/get_light_properties] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,250: -SERVICE [/gazebo/set_light_properties] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,251: -SERVICE [/gazebo/get_physics_properties] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,253: -SERVICE [/gazebo/set_link_properties] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,254: -SERVICE [/gazebo/set_physics_properties] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,255: -SERVICE [/gazebo/set_model_state] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,256: -SERVICE [/gazebo/set_model_configuration] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,258: -SERVICE [/gazebo/set_joint_properties] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,259: -SERVICE [/gazebo/set_link_state] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,260: -SERVICE [/gazebo/pause_physics] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,262: -SERVICE [/gazebo/unpause_physics] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,263: -SERVICE [/gazebo/apply_body_wrench] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,265: -SERVICE [/gazebo/apply_joint_effort] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,266: -SERVICE [/gazebo/clear_joint_forces] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,267: -SERVICE [/gazebo/clear_body_wrenches] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,268: -SERVICE [/gazebo/reset_simulation] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,269: -SERVICE [/gazebo/reset_world] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,272: -PUB [/gazebo/parameter_descriptions] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:50:46,273: -PUB [/gazebo/parameter_updates] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:50:46,274: -SERVICE [/gazebo/set_parameters] /gazebo rosrpc://dc5b429f784e:42735
+[rosmaster.master][INFO] 2019-06-11 08:50:46,279: -PUB [/tf] /gazebo http://dc5b429f784e:45231/
+[rosmaster.master][INFO] 2019-06-11 08:50:46,629: -PUB [/rosout_agg] /rosout http://dc5b429f784e:37533/
+[rosmaster.master][INFO] 2019-06-11 08:50:46,630: -SUB [/clock] /rosout http://dc5b429f784e:37533/
+[rosmaster.master][INFO] 2019-06-11 08:50:46,632: -SUB [/rosout] /rosout http://dc5b429f784e:37533/
+[rosmaster.master][INFO] 2019-06-11 08:50:46,633: -SERVICE [/rosout/get_loggers] /rosout rosrpc://dc5b429f784e:47617
+[rosmaster.master][INFO] 2019-06-11 08:50:46,635: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://dc5b429f784e:47617
+[rosmaster.main][INFO] 2019-06-11 08:50:46,710: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2019-06-11 08:50:46,710: stopping master...
+[rospy.core][INFO] 2019-06-11 08:50:46,710: signal_shutdown [atexit]

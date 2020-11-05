@@ -1,0 +1,60 @@
+[rosmaster.main][INFO] 2019-07-02 15:08:57,538: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-07-02 15:08:57,538: Starting ROS Master Node
+[xmlrpc][INFO] 2019-07-02 15:08:57,552: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-07-02 15:08:57,552: Started XML-RPC server [http://f6566a55c2b3:11311/]
+[xmlrpc][INFO] 2019-07-02 15:08:57,552: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-07-02 15:08:57,552: Master initialized: port[11311], uri[http://f6566a55c2b3:11311/]
+[rosmaster.master][INFO] 2019-07-02 15:08:57,560: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 15:08:57,562: +PARAM [/roslaunch/uris/host_f6566a55c2b3__43743] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 15:08:57,913: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 15:08:57,913: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 15:08:57,917: +SERVICE [/rosout/get_loggers] /rosout http://f6566a55c2b3:38641/
+[rosmaster.master][INFO] 2019-07-02 15:08:57,919: +SERVICE [/rosout/set_logger_level] /rosout http://f6566a55c2b3:38641/
+[rosmaster.master][INFO] 2019-07-02 15:08:57,921: +PUB [/rosout_agg] /rosout http://f6566a55c2b3:38641/
+[rosmaster.master][INFO] 2019-07-02 15:08:57,926: +SUB [/rosout] /rosout http://f6566a55c2b3:38641/
+[rosmaster.master][INFO] 2019-07-02 15:09:04,246: +PUB [/rosout] /vrep_ros_interface http://f6566a55c2b3:43295/
+[rosmaster.master][INFO] 2019-07-02 15:09:04,247: +SERVICE [/vrep_ros_interface/get_loggers] /vrep_ros_interface http://f6566a55c2b3:43295/
+[rosmaster.master][INFO] 2019-07-02 15:09:04,248: +SERVICE [/vrep_ros_interface/set_logger_level] /vrep_ros_interface http://f6566a55c2b3:43295/
+[rosmaster.master][INFO] 2019-07-02 15:09:04,250: +PUB [/tf] /vrep_ros_interface http://f6566a55c2b3:43295/
+[rosmaster.master][INFO] 2019-07-02 15:09:04,266: publisherUpdate[/rosout] -> http://f6566a55c2b3:38641/ ['http://f6566a55c2b3:43295/']
+[rosmaster.master][INFO] 2019-07-02 15:09:04,267: publisherUpdate[/rosout] -> http://f6566a55c2b3:38641/ ['http://f6566a55c2b3:43295/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 15:09:24,535: +PUB [/sensorTrigger23667] /vrep_ros_interface http://f6566a55c2b3:43295/
+[rosmaster.master][INFO] 2019-07-02 15:09:24,536: +PUB [/simTime23667] /vrep_ros_interface http://f6566a55c2b3:43295/
+[rosmaster.master][INFO] 2019-07-02 15:09:24,542: +SUB [/leftMotorSpeed23667] /vrep_ros_interface http://f6566a55c2b3:43295/
+[rosmaster.master][INFO] 2019-07-02 15:09:24,547: +SUB [/rightMotorSpeed23667] /vrep_ros_interface http://f6566a55c2b3:43295/
+[rosmaster.master][INFO] 2019-07-02 15:09:24,564: +PUB [/rosout] /rosBubbleRob4754634 http://f6566a55c2b3:38887/
+[rosmaster.master][INFO] 2019-07-02 15:09:24,565: +SERVICE [/rosBubbleRob4754634/get_loggers] /rosBubbleRob4754634 http://f6566a55c2b3:38887/
+[rosmaster.master][INFO] 2019-07-02 15:09:24,566: +SERVICE [/rosBubbleRob4754634/set_logger_level] /rosBubbleRob4754634 http://f6566a55c2b3:38887/
+[rosmaster.master][INFO] 2019-07-02 15:09:24,571: +SUB [/sensorTrigger23667] /rosBubbleRob4754634 http://f6566a55c2b3:38887/
+[rosmaster.master][INFO] 2019-07-02 15:09:24,576: +SUB [/simTime23667] /rosBubbleRob4754634 http://f6566a55c2b3:38887/
+[rosmaster.master][INFO] 2019-07-02 15:09:24,577: +PUB [/leftMotorSpeed23667] /rosBubbleRob4754634 http://f6566a55c2b3:38887/
+[rosmaster.master][INFO] 2019-07-02 15:09:24,579: +PUB [/rightMotorSpeed23667] /rosBubbleRob4754634 http://f6566a55c2b3:38887/
+[rosmaster.master][INFO] 2019-07-02 15:09:24,619: publisherUpdate[/rosout] -> http://f6566a55c2b3:38641/ ['http://f6566a55c2b3:43295/', 'http://f6566a55c2b3:38887/']
+[rosmaster.master][INFO] 2019-07-02 15:09:24,620: publisherUpdate[/rosout] -> http://f6566a55c2b3:38641/ ['http://f6566a55c2b3:43295/', 'http://f6566a55c2b3:38887/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 15:09:24,620: publisherUpdate[/leftMotorSpeed23667] -> http://f6566a55c2b3:43295/ ['http://f6566a55c2b3:38887/']
+[rosmaster.master][INFO] 2019-07-02 15:09:24,621: publisherUpdate[/leftMotorSpeed23667] -> http://f6566a55c2b3:43295/ ['http://f6566a55c2b3:38887/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 15:09:24,621: publisherUpdate[/rightMotorSpeed23667] -> http://f6566a55c2b3:43295/ ['http://f6566a55c2b3:38887/']
+[rosmaster.master][INFO] 2019-07-02 15:09:24,622: publisherUpdate[/rightMotorSpeed23667] -> http://f6566a55c2b3:43295/ ['http://f6566a55c2b3:38887/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 15:09:31,304: -PUB [/sensorTrigger23667] /vrep_ros_interface http://f6566a55c2b3:43295/
+[rosmaster.master][INFO] 2019-07-02 15:09:31,305: -SUB [/leftMotorSpeed23667] /vrep_ros_interface http://f6566a55c2b3:43295/
+[rosmaster.master][INFO] 2019-07-02 15:09:31,307: -SUB [/rightMotorSpeed23667] /vrep_ros_interface http://f6566a55c2b3:43295/
+[rosmaster.master][INFO] 2019-07-02 15:09:31,314: -PUB [/simTime23667] /vrep_ros_interface http://f6566a55c2b3:43295/
+[rosmaster.master][INFO] 2019-07-02 15:09:31,336: publisherUpdate[/sensorTrigger23667] -> http://f6566a55c2b3:38887/ []
+[rosmaster.master][INFO] 2019-07-02 15:09:31,337: publisherUpdate[/sensorTrigger23667] -> http://f6566a55c2b3:38887/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 15:09:31,338: publisherUpdate[/simTime23667] -> http://f6566a55c2b3:38887/ []
+[rosmaster.master][INFO] 2019-07-02 15:09:31,338: publisherUpdate[/simTime23667] -> http://f6566a55c2b3:38887/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 15:09:37,953: -PUB [/rosout] /vrep_ros_interface http://f6566a55c2b3:43295/
+[rosmaster.master][INFO] 2019-07-02 15:09:37,954: -PUB [/tf] /vrep_ros_interface http://f6566a55c2b3:43295/
+[rosmaster.master][INFO] 2019-07-02 15:09:37,955: -SERVICE [/vrep_ros_interface/get_loggers] /vrep_ros_interface rosrpc://f6566a55c2b3:52139
+[rosmaster.master][INFO] 2019-07-02 15:09:37,955: publisherUpdate[/rosout] -> http://f6566a55c2b3:38641/ ['http://f6566a55c2b3:38887/']
+[rosmaster.master][INFO] 2019-07-02 15:09:37,956: publisherUpdate[/rosout] -> http://f6566a55c2b3:38641/ ['http://f6566a55c2b3:38887/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 15:09:37,957: -SERVICE [/vrep_ros_interface/set_logger_level] /vrep_ros_interface rosrpc://f6566a55c2b3:52139
+[rosmaster.master][INFO] 2019-07-02 15:09:41,171: -PUB [/rosout] /rosBubbleRob4754634 http://f6566a55c2b3:38887/
+[rosmaster.master][INFO] 2019-07-02 15:09:41,173: -PUB [/leftMotorSpeed23667] /rosBubbleRob4754634 http://f6566a55c2b3:38887/
+[rosmaster.master][INFO] 2019-07-02 15:09:41,175: -PUB [/rightMotorSpeed23667] /rosBubbleRob4754634 http://f6566a55c2b3:38887/
+[rosmaster.master][INFO] 2019-07-02 15:09:41,177: -SUB [/sensorTrigger23667] /rosBubbleRob4754634 http://f6566a55c2b3:38887/
+[rosmaster.master][INFO] 2019-07-02 15:09:41,179: -SUB [/simTime23667] /rosBubbleRob4754634 http://f6566a55c2b3:38887/
+[rosmaster.master][INFO] 2019-07-02 15:09:41,181: -SERVICE [/rosBubbleRob4754634/get_loggers] /rosBubbleRob4754634 rosrpc://f6566a55c2b3:33927
+[rosmaster.master][INFO] 2019-07-02 15:09:41,183: -SERVICE [/rosBubbleRob4754634/set_logger_level] /rosBubbleRob4754634 rosrpc://f6566a55c2b3:33927
+[rosmaster.master][INFO] 2019-07-02 15:09:41,185: publisherUpdate[/rosout] -> http://f6566a55c2b3:38641/ []
+[rosmaster.master][INFO] 2019-07-02 15:09:41,186: publisherUpdate[/rosout] -> http://f6566a55c2b3:38641/ []: sec=0.00, result=[1, '', 0]

@@ -1,0 +1,5 @@
+
+
+1561445675.971423700  Node Startup
+1561445676.544061000 WARN [/tmp/binarydeb/ros-kinetic-kdl-parser-1.12.10/src/kdl_parser.cpp:200(treeFromUrdfModel) [topics: /rosout] The root link link_chassis has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+1561445677.145033800 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.15/src/rviz/ogre_helpers/render_system.cpp:211(RenderSystem::detectGlVersion) [topics: /rosout] OpenGl version: 3 (GLSL 1.3).

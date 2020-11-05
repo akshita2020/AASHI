@@ -1,0 +1,67 @@
+[rospy.client][INFO] 2019-06-29 13:57:38,408: init_node, name[/controller_spawner], pid[55675]
+[xmlrpc][INFO] 2019-06-29 13:57:38,408: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2019-06-29 13:57:38,409: ROS Slave URI: [http://dc5b429f784e:46079/]
+[xmlrpc][INFO] 2019-06-29 13:57:38,409: Started XML-RPC server [http://dc5b429f784e:46079/]
+[rospy.impl.masterslave][INFO] 2019-06-29 13:57:38,410: _ready: http://dc5b429f784e:46079/
+[rospy.registration][INFO] 2019-06-29 13:57:38,410: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-29 13:57:38,411: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-29 13:57:38,510: registered with master
+[rospy.rosout][INFO] 2019-06-29 13:57:38,510: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-29 13:57:38,512: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-29 13:57:38,514: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-29 13:57:38,518: connected to core topic /clock
+[rosout][WARNING] 2019-06-29 13:57:38,522: DEPRECATION warning: --shutdown-timeout has no effect.
+[rosout][INFO] 2019-06-29 13:57:38,522: Controller Spawner: Waiting for service /m2wr/controller_manager/load_controller
+[rospy.internal][INFO] 2019-06-29 13:57:38,526: topic[/clock] adding connection to [http://dc5b429f784e:38413/], count 0
+[rospy.internal][INFO] 2019-06-29 13:57:38,717: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2019-06-29 13:57:39,731: Controller Spawner: Waiting for service /m2wr/controller_manager/switch_controller
+[rosout][INFO] 2019-06-29 13:57:39,733: Controller Spawner: Waiting for service /m2wr/controller_manager/unload_controller
+[rosout][INFO] 2019-06-29 13:57:39,735: Loading controller: joint_state_controller
+[rosout][ERROR] 2019-06-29 13:57:40,740: Failed to load joint_state_controller
+[rosout][INFO] 2019-06-29 13:57:40,741: Loading controller: joint1_position_controller
+[rosout][ERROR] 2019-06-29 13:57:41,750: Failed to load joint1_position_controller
+[rosout][INFO] 2019-06-29 13:57:41,750: Loading controller: joint2_position_controller
+[rosout][ERROR] 2019-06-29 13:57:42,755: Failed to load joint2_position_controller
+[rosout][INFO] 2019-06-29 13:57:42,756: Loading controller: joint3_position_controller
+[rosout][ERROR] 2019-06-29 13:57:43,766: Failed to load joint3_position_controller
+[rosout][INFO] 2019-06-29 13:57:43,767: Loading controller: joint4_position_controller
+[rosout][ERROR] 2019-06-29 13:57:44,771: Failed to load joint4_position_controller
+[rosout][INFO] 2019-06-29 13:57:44,772: Loading controller: rgrip_position_controller
+[rosout][ERROR] 2019-06-29 13:57:45,781: Failed to load rgrip_position_controller
+[rosout][INFO] 2019-06-29 13:57:45,782: Loading controller: lgrip_position_controller
+[rosout][ERROR] 2019-06-29 13:57:46,786: Failed to load lgrip_position_controller
+[rosout][INFO] 2019-06-29 13:57:46,787: Controller Spawner: Loaded controllers: 
+[rospy.core][INFO] 2019-06-29 13:58:19,496: signal_shutdown [signal-2]
+[rosout][INFO] 2019-06-29 13:58:19,496: Shutting down spawner. Stopping and unloading controllers...
+[rosout][INFO] 2019-06-29 13:58:19,497: Stopping all controllers...
+[rospy.impl.masterslave][INFO] 2019-06-29 13:58:28,407: external shutdown request from [/master]: new node registered with same name
+[rospy.core][INFO] 2019-06-29 13:58:28,407: signal_shutdown [external shutdown request from [/master]: [new node registered with same name]]
+[rospy.internal][INFO] 2019-06-29 13:58:28,549: topic[/rosout] removing connection to /rosout
+[rospy.internal][WARNING] 2019-06-29 13:58:33,773: Unknown error initiating TCP/IP socket to dc5b429f784e:44075 (http://dc5b429f784e:38413/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][ERROR] 2019-06-29 13:58:33,774: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 729, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/core.py", line 500, in _ros_signal
+    signal_shutdown("signal-"+str(sig))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/core.py", line 468, in signal_shutdown
+    traceback.print_exc()
+  File "/usr/lib/python2.7/traceback.py", line 233, in print_exc
+    print_exception(etype, value, tb, limit, file)
+  File "/usr/lib/python2.7/traceback.py", line 124, in print_exception
+    _print(file, 'Traceback (most recent call last):')
+  File "/usr/lib/python2.7/traceback.py", line 13, in _print
+    file.write(str+terminator)
+IOError: [Errno 5] Input/output error
+
+[rospy.internal][INFO] 2019-06-29 13:58:33,775: topic[/clock] removing connection to http://dc5b429f784e:38413/
+[rospy.core][INFO] 2019-06-29 13:58:33,776: signal_shutdown [atexit]

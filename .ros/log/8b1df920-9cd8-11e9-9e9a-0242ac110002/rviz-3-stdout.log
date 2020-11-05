@@ -1,0 +1,35 @@
+[0m[ INFO] [1562079433.338493700]: rviz version 1.12.17[0m
+[0m[ INFO] [1562079433.338523400]: compiled against Qt version 5.5.1[0m
+[0m[ INFO] [1562079433.338530500]: compiled against OGRE version 1.9.0 (Ghadamon)[0m
+[0m[ INFO] [1562079433.452642100]: Stereo is NOT SUPPORTED[0m
+[0m[ INFO] [1562079433.452735100]: OpenGl version: 3 (GLSL 1.3).[0m
+[0m[ INFO] [1562079496.265929200]: Creating 1 swatches[0m
+[0m[ INFO] [1562079499.694363400]: Setting goal: Frame:map, Position(5.363, 1.291, 0.000), Orientation(0.000, 0.000, -0.383, 0.924) = Angle: -0.785
+[0m
+[0m[ INFO] [1562079549.763910000]: Setting goal: Frame:map, Position(-0.110, -2.544, 0.000), Orientation(0.000, 0.000, 0.942, -0.335) = Angle: -2.459
+[0m
+[0m[ INFO] [1562079560.248030700]: Setting goal: Frame:map, Position(0.654, 1.651, 0.000), Orientation(0.000, 0.000, 0.990, -0.140) = Angle: -2.860
+[0m
+[0m[ INFO] [1562079575.206678300]: Setting goal: Frame:map, Position(2.729, -3.299, 0.000), Orientation(0.000, 0.000, -0.832, 0.555) = Angle: -1.965
+[0m
+[0m[ INFO] [1562079584.441920400]: Setting goal: Frame:map, Position(4.053, -2.085, 0.000), Orientation(0.000, 0.000, -0.439, 0.899) = Angle: -0.908
+[0m
+[0m[ INFO] [1562079594.557271600]: Setting goal: Frame:map, Position(4.000, -2.606, 0.000), Orientation(0.000, 0.000, 0.889, -0.457) = Angle: -2.192
+[0m
+[0m[ INFO] [1562079599.797557100]: Setting goal: Frame:map, Position(5.781, -0.521, 0.000), Orientation(0.000, 0.000, -0.852, 0.523) = Angle: -2.041
+[0m
+[0m[ INFO] [1562079605.748947300]: Setting goal: Frame:map, Position(3.520, 1.741, 0.000), Orientation(0.000, 0.000, -0.215, 0.977) = Angle: -0.433
+[0m
+[0m[ INFO] [1562079613.224212300]: Setting goal: Frame:map, Position(4.388, -2.422, 0.000), Orientation(0.000, 0.000, 0.897, -0.442) = Angle: -2.227
+[0m
+[0m[ INFO] [1562079617.815909000]: Setting goal: Frame:map, Position(5.712, 0.406, 0.000), Orientation(0.000, 0.000, -0.568, 0.823) = Angle: -1.209
+[0m
+[0m[ INFO] [1562079624.264074100]: Setting goal: Frame:map, Position(3.601, -2.599, 0.000), Orientation(0.000, 0.000, 0.899, -0.437) = Angle: -2.237
+[0m
+[0m[ INFO] [1562079640.174131200]: Setting goal: Frame:map, Position(4.261, -2.690, 0.000), Orientation(0.000, 0.000, 0.950, -0.312) = Angle: -2.507
+[0m
+[0m[ INFO] [1562079644.449914600]: Setting goal: Frame:map, Position(5.506, -1.570, 0.000), Orientation(0.000, 0.000, -0.850, 0.527) = Angle: -2.031
+[0m
+[0m[ INFO] [1562079649.935973400]: Setting goal: Frame:map, Position(6.805, 2.730, 0.000), Orientation(0.000, 0.000, 0.611, 0.792) = Angle: 1.314
+[0m
+[0m[ INFO] [1562079663.172154200]: Creating 1 swatches[0m

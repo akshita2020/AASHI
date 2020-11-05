@@ -1,0 +1,22 @@
+[rosmaster.main][INFO] 2019-06-25 15:20:02,582: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-06-25 15:20:02,582: Starting ROS Master Node
+[xmlrpc][INFO] 2019-06-25 15:20:02,583: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-06-25 15:20:02,583: Started XML-RPC server [http://dc5b429f784e:11311/]
+[xmlrpc][INFO] 2019-06-25 15:20:02,583: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-06-25 15:20:02,584: Master initialized: port[11311], uri[http://dc5b429f784e:11311/]
+[rosmaster.master][INFO] 2019-06-25 15:20:02,605: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 15:20:02,607: +PARAM [/roslaunch/uris/host_dc5b429f784e__43363] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 15:20:03,028: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 15:20:03,028: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 15:20:03,028: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 15:20:03,033: +SERVICE [/rosout/get_loggers] /rosout http://dc5b429f784e:34711/
+[rosmaster.master][INFO] 2019-06-25 15:20:03,034: +SERVICE [/rosout/set_logger_level] /rosout http://dc5b429f784e:34711/
+[rosmaster.master][INFO] 2019-06-25 15:20:03,036: +PUB [/rosout_agg] /rosout http://dc5b429f784e:34711/
+[rosmaster.master][INFO] 2019-06-25 15:20:03,041: +SUB [/rosout] /rosout http://dc5b429f784e:34711/
+[rosmaster.master][INFO] 2019-06-25 15:21:09,444: -PUB [/rosout_agg] /rosout http://dc5b429f784e:34711/
+[rosmaster.master][INFO] 2019-06-25 15:21:09,445: -SUB [/rosout] /rosout http://dc5b429f784e:34711/
+[rosmaster.master][INFO] 2019-06-25 15:21:09,445: -SERVICE [/rosout/get_loggers] /rosout rosrpc://dc5b429f784e:35681
+[rosmaster.master][INFO] 2019-06-25 15:21:09,446: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://dc5b429f784e:35681
+[rosmaster.main][INFO] 2019-06-25 15:21:09,468: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2019-06-25 15:21:09,468: stopping master...
+[rospy.core][INFO] 2019-06-25 15:21:09,468: signal_shutdown [atexit]

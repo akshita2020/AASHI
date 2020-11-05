@@ -1,0 +1,74 @@
+[rospy.client][INFO] 2019-06-26 10:22:27,656: init_node, name[/bug], pid[6370]
+[xmlrpc][INFO] 2019-06-26 10:22:27,656: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2019-06-26 10:22:27,658: ROS Slave URI: [http://dc5b429f784e:41819/]
+[xmlrpc][INFO] 2019-06-26 10:22:27,658: Started XML-RPC server [http://dc5b429f784e:41819/]
+[rospy.impl.masterslave][INFO] 2019-06-26 10:22:27,659: _ready: http://dc5b429f784e:41819/
+[rospy.registration][INFO] 2019-06-26 10:22:27,660: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-26 10:22:27,660: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-26 10:22:27,759: registered with master
+[rospy.rosout][INFO] 2019-06-26 10:22:27,759: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-26 10:22:27,762: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-26 10:22:27,784: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-26 10:22:27,800: connected to core topic /clock
+[rosout][INFO] 2019-06-26 10:22:27,815: state changed: Go to point
+[rospy.internal][INFO] 2019-06-26 10:22:27,835: topic[/odom] adding connection to [http://dc5b429f784e:42097/], count 0
+[rospy.internal][INFO] 2019-06-26 10:22:27,838: topic[/m2wr/laser/scan] adding connection to [http://dc5b429f784e:42097/], count 0
+[rospy.internal][INFO] 2019-06-26 10:22:27,838: topic[/clock] adding connection to [http://dc5b429f784e:42097/], count 0
+[rospy.internal][INFO] 2019-06-26 10:22:27,969: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2019-06-26 10:22:48,230: state changed: wall following
+[rosout][INFO] 2019-06-26 10:23:23,739: state changed: Go to point
+[rospy.core][INFO] 2019-06-26 10:24:49,341: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-26 10:24:49,351: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-26 10:24:49,351: topic[/clock] removing connection to http://dc5b429f784e:42097/
+[rospy.internal][INFO] 2019-06-26 10:24:49,351: topic[/m2wr/laser/scan] removing connection to http://dc5b429f784e:42097/
+[rospy.internal][INFO] 2019-06-26 10:24:49,351: topic[/odom] removing connection to http://dc5b429f784e:42097/
+[rospy.impl.masterslave][INFO] 2019-06-26 10:24:49,352: signal-2
+[rospy.core][INFO] 2019-06-26 10:24:49,504: signal_shutdown [atexit]
+[rospy.client][INFO] 2019-06-26 10:24:58,421: init_node, name[/bug], pid[6492]
+[xmlrpc][INFO] 2019-06-26 10:24:58,427: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-26 10:24:58,429: Started XML-RPC server [http://dc5b429f784e:45729/]
+[rospy.init][INFO] 2019-06-26 10:24:58,430: ROS Slave URI: [http://dc5b429f784e:45729/]
+[rospy.impl.masterslave][INFO] 2019-06-26 10:24:58,430: _ready: http://dc5b429f784e:45729/
+[xmlrpc][INFO] 2019-06-26 10:24:58,438: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-06-26 10:24:58,438: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-26 10:24:58,530: registered with master
+[rospy.rosout][INFO] 2019-06-26 10:24:58,531: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-26 10:24:58,536: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-26 10:24:58,545: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-26 10:24:58,568: connected to core topic /clock
+[rosout][INFO] 2019-06-26 10:24:58,608: state changed: Go to point
+[rospy.internal][INFO] 2019-06-26 10:24:58,613: topic[/m2wr/laser/scan] adding connection to [http://dc5b429f784e:42097/], count 0
+[rospy.internal][INFO] 2019-06-26 10:24:58,615: topic[/odom] adding connection to [http://dc5b429f784e:42097/], count 0
+[rospy.internal][INFO] 2019-06-26 10:24:58,622: topic[/clock] adding connection to [http://dc5b429f784e:42097/], count 0
+[rospy.internal][INFO] 2019-06-26 10:24:58,762: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2019-06-26 10:25:18,682: state changed: wall following
+[rosout][INFO] 2019-06-26 10:25:58,197: state changed: Go to point
+[rosout][INFO] 2019-06-26 10:26:44,000: state changed: wall following
+[rosout][INFO] 2019-06-26 10:27:32,475: state changed: Go to point
+[rosout][INFO] 2019-06-26 10:27:58,228: state changed: wall following
+[rosout][INFO] 2019-06-26 10:29:13,162: state changed: Go to point
+[rosout][INFO] 2019-06-26 10:29:49,147: state changed: wall following
+[rosout][INFO] 2019-06-26 10:31:15,552: state changed: Go to point
+[rosout][INFO] 2019-06-26 10:31:41,579: state changed: wall following
+[rosout][INFO] 2019-06-26 10:33:03,910: state changed: Go to point
+[rospy.core][INFO] 2019-06-26 10:33:20,323: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-26 10:33:20,355: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-26 10:33:20,356: topic[/clock] removing connection to http://dc5b429f784e:42097/
+[rospy.internal][WARNING] 2019-06-26 10:33:20,357: Unknown error initiating TCP/IP socket to dc5b429f784e:55537 (http://dc5b429f784e:42097/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][INFO] 2019-06-26 10:33:20,356: topic[/m2wr/laser/scan] removing connection to http://dc5b429f784e:42097/
+[rospy.topics][ERROR] 2019-06-26 10:33:20,357: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2019-06-26 10:33:20,358: topic[/odom] removing connection to http://dc5b429f784e:42097/
+[rospy.impl.masterslave][INFO] 2019-06-26 10:33:20,358: signal-2
+[rospy.core][INFO] 2019-06-26 10:33:20,469: signal_shutdown [atexit]

@@ -1,0 +1,27 @@
+[rospy.client][INFO] 2019-06-25 07:02:23,320: init_node, name[/mybot_spawn], pid[2751]
+[xmlrpc][INFO] 2019-06-25 07:02:23,320: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-25 07:02:23,321: Started XML-RPC server [http://dc5b429f784e:37143/]
+[rospy.init][INFO] 2019-06-25 07:02:23,321: ROS Slave URI: [http://dc5b429f784e:37143/]
+[rospy.impl.masterslave][INFO] 2019-06-25 07:02:23,321: _ready: http://dc5b429f784e:37143/
+[rospy.registration][INFO] 2019-06-25 07:02:23,322: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-25 07:02:23,322: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-25 07:02:23,421: registered with master
+[rospy.rosout][INFO] 2019-06-25 07:02:23,422: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-25 07:02:23,424: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-25 07:02:23,426: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-25 07:02:23,430: connected to core topic /clock
+[rosout][INFO] 2019-06-25 07:02:23,435: Loading model XML from ros parameter
+[rosout][INFO] 2019-06-25 07:02:23,438: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2019-06-25 07:02:23,441: topic[/clock] adding connection to [http://dc5b429f784e:36287/], count 0
+[rosout][INFO] 2019-06-25 07:02:23,442: Calling service /gazebo/spawn_urdf_model
+[rosout][INFO] 2019-06-25 07:02:23,593: Spawn status: SpawnModel: Successfully spawned entity
+[rospy.core][INFO] 2019-06-25 07:02:23,594: signal_shutdown [atexit]
+[rospy.internal][INFO] 2019-06-25 07:02:23,597: topic[/clock] removing connection to http://dc5b429f784e:36287/
+[rospy.impl.masterslave][INFO] 2019-06-25 07:02:23,598: atexit
+[rospy.internal][ERROR] 2019-06-25 07:02:23,598: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 729, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+

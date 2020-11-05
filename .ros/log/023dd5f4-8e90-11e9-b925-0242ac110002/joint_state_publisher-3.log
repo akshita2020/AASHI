@@ -1,0 +1,25 @@
+[rospy.client][INFO] 2019-06-14 10:34:57,900: init_node, name[/joint_state_publisher], pid[25394]
+[xmlrpc][INFO] 2019-06-14 10:34:57,901: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-14 10:34:57,901: Started XML-RPC server [http://dc5b429f784e:45093/]
+[rospy.init][INFO] 2019-06-14 10:34:57,902: ROS Slave URI: [http://dc5b429f784e:45093/]
+[rospy.impl.masterslave][INFO] 2019-06-14 10:34:57,902: _ready: http://dc5b429f784e:45093/
+[xmlrpc][INFO] 2019-06-14 10:34:57,903: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-06-14 10:34:57,903: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-14 10:34:58,002: registered with master
+[rospy.rosout][INFO] 2019-06-14 10:34:58,003: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-14 10:34:58,005: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-14 10:34:58,007: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-14 10:34:58,010: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-14 10:34:58,025: topic[/clock] adding connection to [http://dc5b429f784e:36055/], count 0
+[rosout][INFO] 2019-06-14 10:34:58,120: Centering
+[rospy.internal][INFO] 2019-06-14 10:34:58,239: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-06-14 10:34:58,393: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.internal][INFO] 2019-06-14 10:36:28,935: topic[/joint_states] adding connection to [/robot_state_publisher], count 1
+[rospy.internal][INFO] 2019-06-14 10:36:28,935: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2019-06-14 10:36:43,579: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2019-06-14 10:36:47,831: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.internal][INFO] 2019-06-14 10:37:23,599: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2019-06-14 10:38:33,950: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.internal][INFO] 2019-06-14 10:38:44,138: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2019-06-14 10:38:45,364: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.internal][INFO] 2019-06-14 10:38:48,641: topic[/joint_states] removing connection to /robot_state_publisher

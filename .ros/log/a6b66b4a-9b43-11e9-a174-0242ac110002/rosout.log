@@ -1,0 +1,505 @@
+
+
+1561905049.768880900  Node Startup
+1561905050.721802949 INFO [joint_state_publisher:418(center) [topics: /rosout] Centering
+1561905050.890888100 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.17/src/rviz/ogre_helpers/render_system.cpp:222(RenderSystem::detectGlVersion) [topics: /rosout] OpenGl version: 3 (GLSL 1.3).
+1561905088.190604300 WARN [/tmp/binarydeb/ros-kinetic-kdl-parser-1.12.11/src/kdl_parser.cpp:208(treeFromUrdfModel) [topics: /rosout] The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+1561905088.386892080 INFO [joint_state_publisher:418(center) [topics: /rosout] Centering
+1561905088.709334900 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.17/src/rviz/ogre_helpers/render_system.cpp:441(RenderWindow* rviz::RenderSystem::makeRenderWindow) [topics: /rosout] Stereo is NOT SUPPORTED
+1561905088.709405900 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.17/src/rviz/ogre_helpers/render_system.cpp:222(RenderSystem::detectGlVersion) [topics: /rosout] OpenGl version: 3 (GLSL 1.3).
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.14/src/libros/service.cpp:80(service::exists) [topics: /rosout] waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.14/src/libros/service.cpp:80(service::exists) [topics: /rosout] waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...
+0.000000000 INFO [gazebo_interface.py:31(spawn_urdf_model_client) [topics: /clock, /rosout] Calling service /gazebo/spawn_urdf_model
+0.000000000 INFO [gazebo_interface.py:33(spawn_urdf_model_client) [topics: /clock, /rosout] Spawn status: SpawnModel: Successfully spawned entity
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.19/include/gazebo_plugins/gazebo_ros_utils.h:95(__cxx11::string gazebo::GetRobotNamespace) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states] Laser Plugin: Using the 'robotNamespace' param: '/'
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.19/src/gazebo_ros_laser.cpp:111(GazeboRosLaser::Load) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states] Starting Laser Plugin (ns = /)
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.19/src/gazebo_ros_laser.cpp:135(GazeboRosLaser::LoadThread) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states] Laser Plugin (ns = /)  <tf_prefix_>, set to ""
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.19/src/gazebo_ros_utils.cpp:57(GazeboRos::readCommonParameter) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /m2wr/laser/scan] Starting plugin DiffDrive(ns = //)
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.19/src/gazebo_ros_utils.cpp:83(GazeboRos::readCommonParameter) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /m2wr/laser/scan] DiffDrive(ns = //): <rosDebugLevel> = na
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.19/src/gazebo_ros_utils.cpp:93(GazeboRos::readCommonParameter) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /m2wr/laser/scan] DiffDrive(ns = //): <tf_prefix> = 
+0.000000000 WARN [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.19/src/gazebo_ros_utils.cpp:101(GazeboRos::getParameterBoolean) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /m2wr/laser/scan] DiffDrive(ns = //): missing <publishOdomTF> default is true
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.19/src/gazebo_ros_diff_drive.cpp:157(GazeboRosDiffDrive::Load) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /m2wr/laser/scan, /joint_states] DiffDrive(ns = //): Advertise joint_states
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.19/src/gazebo_ros_diff_drive.cpp:163(GazeboRosDiffDrive::Load) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /m2wr/laser/scan, /joint_states, /tf] DiffDrive(ns = //): Try to subscribe to cmd_vel
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.19/src/gazebo_ros_diff_drive.cpp:171(GazeboRosDiffDrive::Load) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /m2wr/laser/scan, /joint_states, /tf] DiffDrive(ns = //): Subscribe to cmd_vel
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.19/src/gazebo_ros_diff_drive.cpp:176(GazeboRosDiffDrive::Load) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /m2wr/laser/scan, /joint_states, /tf, /odom] DiffDrive(ns = //): Advertise odom on odom 
+0.024000000 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.14/src/libros/service.cpp:122(service::waitForService) [topics: /rosout] waitForService: Service [/gazebo/set_physics_properties] is now available.
+0.024000000 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.14/src/libros/service.cpp:122(service::waitForService) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /m2wr/laser/scan, /joint_states, /tf, /odom] waitForService: Service [/gazebo/set_physics_properties] is now available.
+1561905153.272018000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.051 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.272051000 WARN [/tmp/binarydeb/ros-kinetic-robot-state-publisher-1.13.6/src/joint_state_listener.cpp:118(JointStateListener::callbackJointState) [topics: /rosout, /tf, /tf_static] Received JointState is 1561905153.221015 seconds old.
+1561905153.272067900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.051 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.329461700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.1 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.329515700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.1 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.399484900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.15 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.399529000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.15 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+0.182000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-ros-2.5.19/src/gazebo_ros_api_plugin.cpp:2301(GazeboRosApiPlugin::physicsReconfigureThread) [topics: /rosout, /gazebo_gui/parameter_descriptions, /gazebo_gui/parameter_updates] Physics dynamic reconfigure ready.
+0.185000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-ros-2.5.19/src/gazebo_ros_api_plugin.cpp:2301(GazeboRosApiPlugin::physicsReconfigureThread) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /m2wr/laser/scan, /joint_states, /tf, /odom, /gazebo/parameter_descriptions, /gazebo/parameter_updates] Physics dynamic reconfigure ready.
+1561905153.446334700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.201 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.446406800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.201 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.496034700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.25 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.496085100 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.25 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.556154500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.3 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.556421900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.3 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.603217700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.351 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.603284300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.351 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.653845900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.401 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.653921900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.401 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.702800700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.45 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.702849700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.45 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.753473700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.5 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.753541900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.5 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.806669900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.551 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.806706400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.551 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.854387700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.6 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.854664800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.6 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.914494000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.651 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.914517900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.651 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.958608500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.701 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905153.958828800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.701 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.006109200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.75 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.006158300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.75 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.056613800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.801 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.056666800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.801 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.104876400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.851 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.104947400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.851 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.154765500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.9 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.154852400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.9 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.215542300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 0.951 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.215592900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 0.951 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.270953300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.271005500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.315998400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.05 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.316062700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.05 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.359892800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.101 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.359928700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.101 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.410499200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.15 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.410989900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.15 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.460303000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.2 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.460345500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.2 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.510607600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.251 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.510834200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.251 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.560041700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.301 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.560235200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.301 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.609619700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.35 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.609640400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.35 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.660592900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.401 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.660678000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.401 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.710951000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.45 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.710999300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.45 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.761322000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.501 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.761371900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.501 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.811791400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.551 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.811841500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.551 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.872893000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.601 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.873430900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.601 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.923428200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.65 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.923581600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.65 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.972933900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.7 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905154.972964800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.7 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.024395500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.75 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.024454900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.75 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.079632000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.8 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.079689400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.8 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.129211600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.851 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.129266900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.851 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.176978700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.9 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.177028000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.9 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.226189600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 1.95 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.226240400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 1.95 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.293572500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.293595900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.337355000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.051 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.337382900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.051 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.390416000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.1 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.390464700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.1 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.438159900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.15 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.438276700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.15 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.485656400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.201 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.485732100 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.201 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.543644100 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.251 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.543693600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.251 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.596704800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.301 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.596816500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.301 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.644812800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.351 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.644847600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.351 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.690246000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.401 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.690271500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.401 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.739393000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.451 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.739418000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.451 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.788174300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.501 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.788359200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.501 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.840184300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.55 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.840412700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.55 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.889459900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.6 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.889523800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.6 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.941359400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.65 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.941420400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.65 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.990933300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.7 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905155.991030900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.7 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.044454600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.751 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.044480700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.751 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.091560100 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.8 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.091622100 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.8 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.146298100 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.85 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.146349000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.85 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.198174300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.9 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.198201600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.9 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.248423700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 2.95 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.248447900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 2.95 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.302916300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.302964800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.347730800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.05 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.347798300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.05 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.406735200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.101 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.406767600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.101 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.450641900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.15 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.450694000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.15 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.499227900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.201 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.499288800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.201 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.547067100 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.251 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.547118100 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.251 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.602101500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.301 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.602155900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.301 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.649430600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.35 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.649473100 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.35 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.703515000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.401 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.703546600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.401 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.761018900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.45 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.761067400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.45 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.809311300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.5 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.809369200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.5 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.855021500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.55 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.855100200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.55 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.907366000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.6 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.907418200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.6 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.963225600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.65 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905156.963307400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.65 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.007484400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.7 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.007533600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.7 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.053459600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.75 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.053490100 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.75 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.105498700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.8 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.105531200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.8 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.159893500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.851 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.159927600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.851 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.210234700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.901 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.210510800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.901 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.260371900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 3.951 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.260399900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 3.951 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.310102300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.001 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.310154800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.001 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.359371400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.05 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.359428200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.05 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.408818600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.1 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.408867200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.1 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.465608300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.15 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.465658700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.15 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.516847400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.2 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.516971300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.2 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.570386400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.251 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.570436800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.251 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.623211800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.301 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.623244300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.301 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.670161900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.351 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.670211300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.351 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.730647900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.4 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.730701500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.4 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.783288900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.45 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.783338200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.45 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.825453700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.5 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.825502400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.5 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.875251900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.551 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.875648100 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.551 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.927707400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.601 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.927866100 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.601 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.979379700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.651 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905157.979433900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.651 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.029122600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.701 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.029491600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.701 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.079417500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.751 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.079447900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.751 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.133722700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.8 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.133805100 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.8 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.181188800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.85 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.181238000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.85 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.230467900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.9 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.230524700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.9 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.282342100 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 4.95 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.282460500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 4.95 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.329788500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.329838200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.381193700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.05 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.381253400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.05 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.432800900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.101 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.432863400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.101 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.494139000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.151 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.494235800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.151 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.546597400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.201 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.546669600 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.201 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.590022900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.25 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.590072200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.25 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.640422000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.3 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.640444200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.3 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.698208700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.35 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.698280500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.35 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.758199300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.401 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.758433300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.401 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.802424100 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.45 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.802473800 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.45 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.849957200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.501 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.850468400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.501 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.911906300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.551 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.911972200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.551 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.969322300 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.6 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905158.969366700 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.6 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905159.011605500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.651 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905159.011708400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.651 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905159.061090500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.701 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905159.061111500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.701 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905159.114262200 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.751 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905159.114319900 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.751 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905159.160085100 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.801 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905159.160298500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.801 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905159.207594500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.85 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905159.207836400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.85 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905159.260399400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.9 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905159.260452400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.9 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905159.314116400 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_right_wheel at time 5.95 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1561905159.314199500 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.20/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame link_left_wheel at time 5.95 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained

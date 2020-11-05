@@ -1,0 +1,35 @@
+[rospy.client][INFO] 2019-06-30 21:04:11,964: init_node, name[/controller_spawner], pid[2021]
+[xmlrpc][INFO] 2019-06-30 21:04:11,965: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-30 21:04:11,965: Started XML-RPC server [http://dc5b429f784e:43973/]
+[rospy.impl.masterslave][INFO] 2019-06-30 21:04:11,965: _ready: http://dc5b429f784e:43973/
+[xmlrpc][INFO] 2019-06-30 21:04:11,966: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-30 21:04:11,967: ROS Slave URI: [http://dc5b429f784e:43973/]
+[rospy.registration][INFO] 2019-06-30 21:04:11,967: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-30 21:04:12,067: registered with master
+[rospy.rosout][INFO] 2019-06-30 21:04:12,067: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-30 21:04:12,069: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-30 21:04:12,071: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-30 21:04:12,074: connected to core topic /clock
+[rosout][WARNING] 2019-06-30 21:04:12,079: DEPRECATION warning: --shutdown-timeout has no effect.
+[rosout][INFO] 2019-06-30 21:04:12,079: Controller Spawner: Waiting for service /m2wr/controller_manager/load_controller
+[rospy.internal][INFO] 2019-06-30 21:04:12,083: topic[/clock] adding connection to [http://dc5b429f784e:34705/], count 0
+[rospy.internal][INFO] 2019-06-30 21:04:12,330: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2019-06-30 21:04:13,290: Controller Spawner: Waiting for service /m2wr/controller_manager/switch_controller
+[rosout][INFO] 2019-06-30 21:04:13,292: Controller Spawner: Waiting for service /m2wr/controller_manager/unload_controller
+[rosout][INFO] 2019-06-30 21:04:13,293: Loading controller: joint_state_controller
+[rosout][INFO] 2019-06-30 21:04:13,305: Loading controller: joint1_position_controller
+[rosout][ERROR] 2019-06-30 21:04:14,372: Failed to load joint1_position_controller
+[rosout][INFO] 2019-06-30 21:04:14,372: Loading controller: joint2_position_controller
+[rosout][ERROR] 2019-06-30 21:04:15,460: Failed to load joint2_position_controller
+[rosout][INFO] 2019-06-30 21:04:15,463: Loading controller: joint3_position_controller
+[rosout][ERROR] 2019-06-30 21:04:16,546: Failed to load joint3_position_controller
+[rosout][INFO] 2019-06-30 21:04:16,547: Loading controller: joint4_position_controller
+[rosout][ERROR] 2019-06-30 21:04:17,649: Failed to load joint4_position_controller
+[rosout][INFO] 2019-06-30 21:04:17,650: Loading controller: rgrip_position_controller
+[rosout][ERROR] 2019-06-30 21:04:18,755: Failed to load rgrip_position_controller
+[rosout][INFO] 2019-06-30 21:04:18,756: Loading controller: lgrip_position_controller
+[rosout][ERROR] 2019-06-30 21:04:19,851: Failed to load lgrip_position_controller
+[rosout][INFO] 2019-06-30 21:04:19,851: Controller Spawner: Loaded controllers: joint_state_controller
+[rosout][INFO] 2019-06-30 21:04:25,848: Started controllers: joint_state_controller
+[rospy.core][INFO] 2019-06-30 21:04:28,766: signal_shutdown [signal-2]
+[rospy.core][INFO] 2019-06-30 21:04:28,770: signal_shutdown [atexit]

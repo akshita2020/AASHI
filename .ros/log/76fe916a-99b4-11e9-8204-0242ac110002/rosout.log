@@ -1,0 +1,5 @@
+
+
+1561733600.221731600  Node Startup
+1561733601.284813880 INFO [joint_state_publisher:418(center) [topics: /joint_states, /rosout] Centering
+1561733601.488257600 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.15/src/rviz/ogre_helpers/render_system.cpp:430(RenderWindow* rviz::RenderSystem::makeRenderWindow) [topics: /rosout] Stereo is NOT SUPPORTED

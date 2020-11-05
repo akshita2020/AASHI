@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2019-06-14 10:37:01,693: init_node, name[/rostopic_26344_1560508621596], pid[26344]
+[xmlrpc][INFO] 2019-06-14 10:37:01,694: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-14 10:37:01,694: Started XML-RPC server [http://dc5b429f784e:41473/]
+[rospy.init][INFO] 2019-06-14 10:37:01,695: ROS Slave URI: [http://dc5b429f784e:41473/]
+[rospy.impl.masterslave][INFO] 2019-06-14 10:37:01,695: _ready: http://dc5b429f784e:41473/
+[rospy.registration][INFO] 2019-06-14 10:37:01,696: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-14 10:37:01,697: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-14 10:37:01,796: registered with master
+[rospy.rosout][INFO] 2019-06-14 10:37:01,796: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-14 10:37:01,799: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-14 10:37:01,804: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-14 10:37:01,809: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-14 10:37:01,831: topic[/clock] adding connection to [http://dc5b429f784e:36055/], count 0
+[rospy.internal][INFO] 2019-06-14 10:37:01,850: topic[/tf] adding connection to [http://dc5b429f784e:36055/], count 0
+[rospy.internal][INFO] 2019-06-14 10:37:01,854: topic[/tf] adding connection to [http://dc5b429f784e:39077/], count 1
+[rospy.internal][INFO] 2019-06-14 10:37:02,058: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2019-06-14 10:37:03,714: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-14 10:37:03,722: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-14 10:37:03,723: topic[/clock] removing connection to http://dc5b429f784e:36055/
+[rospy.internal][INFO] 2019-06-14 10:37:03,723: topic[/tf] removing connection to http://dc5b429f784e:36055/
+[rospy.internal][INFO] 2019-06-14 10:37:03,724: topic[/tf] removing connection to http://dc5b429f784e:39077/
+[rospy.impl.masterslave][INFO] 2019-06-14 10:37:03,724: signal-2
+[rospy.core][INFO] 2019-06-14 10:37:03,888: signal_shutdown [atexit]

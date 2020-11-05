@@ -1,0 +1,13 @@
+[rospy.client][INFO] 2019-07-01 09:10:19,421: init_node, name[/rostopic_4206_1561972219211], pid[4206]
+[xmlrpc][INFO] 2019-07-01 09:10:19,422: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-07-01 09:10:19,424: Started XML-RPC server [http://dc5b429f784e:37705/]
+[rospy.impl.masterslave][INFO] 2019-07-01 09:10:19,424: _ready: http://dc5b429f784e:37705/
+[rospy.init][INFO] 2019-07-01 09:10:19,424: ROS Slave URI: [http://dc5b429f784e:37705/]
+[xmlrpc][INFO] 2019-07-01 09:10:19,425: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-07-01 09:10:19,426: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-07-01 09:10:19,526: registered with master
+[rospy.internal][INFO] 2019-07-01 09:10:19,765: topic[/m2wr/joint2_position_controller/command] adding connection to [/gazebo], count 0
+[rospy.core][INFO] 2019-07-01 09:16:36,861: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-07-01 09:16:36,864: topic[/m2wr/joint2_position_controller/command] removing connection to /gazebo
+[rospy.impl.masterslave][INFO] 2019-07-01 09:16:36,864: signal-2
+[rospy.core][INFO] 2019-07-01 09:16:37,045: signal_shutdown [atexit]

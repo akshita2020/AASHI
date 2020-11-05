@@ -1,0 +1,789 @@
+[roslaunch][INFO] 2019-06-11 08:45:54,325: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2019-06-11 08:45:54,330: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2019-06-11 08:45:54,330: roslaunch starting with args ['/opt/ros/kinetic/bin/roslaunch', 'robot1_description', 'gazebo4.launch']
+[roslaunch][INFO] 2019-06-11 08:45:54,330: roslaunch env is {'ROS_DISTRO': 'kinetic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/catkin_ws/devel/share/common-lisp', 'USER': 'root', 'LC_ALL': 'C.UTF-8', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/home/catkin_ws/devel:/opt/ros/kinetic', 'LD_LIBRARY_PATH': '/home/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'ROS_LOG_FILENAME': '/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/roslaunch-dc5b429f784e-2380.log', 'SHLVL': '1', 'TERMINATOR_UUID': 'urn:uuid:75adaecb-481c-4b97-a4aa-31e46b2aaf60', 'SUPERVISOR_ENABLED': '1', 'DISPLAY': ':1.0', 'WINDOWID': '20971523', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'HOME': '/root', 'COLORTERM': 'gnome-terminal', 'PYTHONPATH': '/home/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'SUPERVISOR_PROCESS_NAME': 'pcmanfm', 'TINI_VERSION': 'v0.9.0', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'IBUS_DISABLE_SNOOPER': '1', 'PKG_CONFIG_PATH': '/home/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PACKAGE_PATH': '/home/catkin_ws/src:/opt/ros/kinetic/share', '_': '/opt/ros/kinetic/bin/roslaunch', 'OLDPWD': '/home/catkin_ws', 'HOSTNAME': 'dc5b429f784e', 'PWD': '/home/catkin_ws/devel', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_GROUP_NAME': 'pcmanfm'}
+[roslaunch][INFO] 2019-06-11 08:45:54,330: starting in server mode
+[roslaunch.parent][INFO] 2019-06-11 08:45:54,330: starting roslaunch parent run
+[roslaunch][INFO] 2019-06-11 08:45:54,331: loading roscore config file /opt/ros/kinetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2019-06-11 08:45:54,541: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2019-06-11 08:45:54,541: loading config file /home/catkin_ws/src/robot1_description/launch/gazebo4.launch
+[roslaunch][INFO] 2019-06-11 08:45:54,617: Added node of type [gazebo_ros/gzserver] in namespace [/]
+[roslaunch][INFO] 2019-06-11 08:45:54,618: Added node of type [gazebo_ros/gzclient] in namespace [/]
+[roslaunch][INFO] 2019-06-11 08:45:55,000: Added node of type [gazebo_ros/spawn_model] in namespace [/]
+[roslaunch][INFO] 2019-06-11 08:45:55,000: ... selected machine [] for node of type [gazebo_ros/gzserver]
+[roslaunch][INFO] 2019-06-11 08:45:55,000: ... selected machine [] for node of type [gazebo_ros/gzclient]
+[roslaunch][INFO] 2019-06-11 08:45:55,000: ... selected machine [] for node of type [gazebo_ros/spawn_model]
+[roslaunch.pmon][INFO] 2019-06-11 08:45:55,004: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2019-06-11 08:45:55,005: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2019-06-11 08:45:55,005: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2019-06-11 08:45:55,005: starting parent XML-RPC server
+[roslaunch.server][INFO] 2019-06-11 08:45:55,005: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2019-06-11 08:45:55,006: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2019-06-11 08:45:55,006: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-11 08:45:55,006: Started XML-RPC server [http://dc5b429f784e:34499/]
+[xmlrpc][INFO] 2019-06-11 08:45:55,006: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2019-06-11 08:45:55,018: started roslaunch server http://dc5b429f784e:34499/
+[roslaunch.parent][INFO] 2019-06-11 08:45:55,018: ... parent XML-RPC server started
+[roslaunch][INFO] 2019-06-11 08:45:55,018: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-06-11 08:45:55,018: auto-starting new master
+[roslaunch][INFO] 2019-06-11 08:45:55,019: create_master_process: rosmaster, /opt/ros/kinetic/share/ros, 11311, 3, None
+[roslaunch][INFO] 2019-06-11 08:45:55,019: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2019-06-11 08:45:55,019: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2019-06-11 08:45:55,019: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2019-06-11 08:45:55,019: process[master]: starting os process
+[roslaunch][INFO] 2019-06-11 08:45:55,019: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/master.log']]
+[roslaunch][INFO] 2019-06-11 08:45:55,019: process[master]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:45:55,290: process[master]: started with pid [2393]
+[roslaunch][INFO] 2019-06-11 08:45:55,290: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-06-11 08:45:55,391: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-06-11 08:45:55,492: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-06-11 08:45:55,493: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-06-11 08:45:55,495: ROS_MASTER_URI=http://localhost:11311
+[roslaunch][INFO] 2019-06-11 08:45:55,496: setting /run_id to 52d0fe0a-8c25-11e9-b9c2-0242ac110002
+[roslaunch][INFO] 2019-06-11 08:45:55,497: setting /roslaunch/uris/host_dc5b429f784e__34499' to http://dc5b429f784e:34499/
+[roslaunch][INFO] 2019-06-11 08:45:55,500: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2019-06-11 08:45:55,500: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-06-11 08:45:55,500: process[rosout-1]: env[{'ROS_DISTRO': 'kinetic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/catkin_ws/devel/share/common-lisp', 'LD_LIBRARY_PATH': '/home/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'USER': 'root', 'HOME': '/root', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_PACKAGE_PATH': '/home/catkin_ws/src:/opt/ros/kinetic/share', 'CMAKE_PREFIX_PATH': '/home/catkin_ws/devel:/opt/ros/kinetic', 'ROS_LOG_FILENAME': '/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/roslaunch-dc5b429f784e-2380.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'SHLVL': '1', 'TERMINATOR_UUID': 'urn:uuid:75adaecb-481c-4b97-a4aa-31e46b2aaf60', 'SUPERVISOR_ENABLED': '1', 'DISPLAY': ':1.0', 'WINDOWID': '20971523', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1', 'PYTHONPATH': '/home/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'SUPERVISOR_PROCESS_NAME': 'pcmanfm', 'TINI_VERSION': 'v0.9.0', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'IBUS_DISABLE_SNOOPER': '1', 'PKG_CONFIG_PATH': '/home/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/kinetic/bin/roslaunch', 'OLDPWD': '/home/catkin_ws', 'HOSTNAME': 'dc5b429f784e', 'PWD': '/home/catkin_ws/devel', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'COLORTERM': 'gnome-terminal', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_GROUP_NAME': 'pcmanfm'}]
+[roslaunch][INFO] 2019-06-11 08:45:55,571: process[rosout-1]: args[[u'/opt/ros/kinetic/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2019-06-11 08:45:55,571: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2019-06-11 08:45:55,571: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2019-06-11 08:45:55,571: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2019-06-11 08:45:55,571: ... registered process [rosout-1]
+[roslaunch][INFO] 2019-06-11 08:45:55,571: process[rosout-1]: starting os process
+[roslaunch][INFO] 2019-06-11 08:45:55,571: process[rosout-1]: start w/ args [[u'/opt/ros/kinetic/lib/rosout/rosout', u'__name:=rosout', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/rosout-1.log']]
+[roslaunch][INFO] 2019-06-11 08:45:55,572: process[rosout-1]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:45:55,844: process[rosout-1]: started with pid [2406]
+[roslaunch][INFO] 2019-06-11 08:45:55,844: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2019-06-11 08:45:55,844: load_parameters starting ...
+[roslaunch][INFO] 2019-06-11 08:45:55,849: ... load_parameters complete
+[roslaunch][INFO] 2019-06-11 08:45:55,849: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2019-06-11 08:45:55,850: ... preparing to launch node of type [gazebo_ros/gzserver]
+[roslaunch][INFO] 2019-06-11 08:45:55,850: create_node_process: package[gazebo_ros] type[gzserver] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-06-11 08:45:55,850: process[gazebo-2]: env[{'ROS_DISTRO': 'kinetic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/catkin_ws/devel/share/common-lisp', 'LD_LIBRARY_PATH': '/home/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'USER': 'root', 'HOME': '/root', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_PACKAGE_PATH': '/home/catkin_ws/src:/opt/ros/kinetic/share', 'CMAKE_PREFIX_PATH': '/home/catkin_ws/devel:/opt/ros/kinetic', 'ROS_LOG_FILENAME': '/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/roslaunch-dc5b429f784e-2380.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'SHLVL': '1', 'TERMINATOR_UUID': 'urn:uuid:75adaecb-481c-4b97-a4aa-31e46b2aaf60', 'SUPERVISOR_ENABLED': '1', 'DISPLAY': ':1.0', 'WINDOWID': '20971523', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1', 'PYTHONPATH': '/home/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'SUPERVISOR_PROCESS_NAME': 'pcmanfm', 'TINI_VERSION': 'v0.9.0', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'IBUS_DISABLE_SNOOPER': '1', 'PKG_CONFIG_PATH': '/home/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/kinetic/bin/roslaunch', 'OLDPWD': '/home/catkin_ws', 'HOSTNAME': 'dc5b429f784e', 'PWD': '/home/catkin_ws/devel', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'COLORTERM': 'gnome-terminal', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_GROUP_NAME': 'pcmanfm'}]
+[roslaunch][INFO] 2019-06-11 08:45:55,857: process[gazebo-2]: args[[u'/opt/ros/kinetic/lib/gazebo_ros/gzserver', '-u', '-e', 'ode', 'worlds/empty.world', u'__name:=gazebo']]
+[roslaunch][INFO] 2019-06-11 08:45:55,858: ... created process [gazebo-2]
+[roslaunch.pmon][INFO] 2019-06-11 08:45:55,858: ProcessMonitor.register[gazebo-2]
+[roslaunch.pmon][INFO] 2019-06-11 08:45:55,858: ProcessMonitor.register[gazebo-2] complete
+[roslaunch][INFO] 2019-06-11 08:45:55,858: ... registered process [gazebo-2]
+[roslaunch][INFO] 2019-06-11 08:45:55,858: process[gazebo-2]: starting os process
+[roslaunch][INFO] 2019-06-11 08:45:55,858: process[gazebo-2]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/gzserver', '-u', '-e', 'ode', 'worlds/empty.world', u'__name:=gazebo', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/gazebo-2.log']]
+[roslaunch][INFO] 2019-06-11 08:45:55,858: process[gazebo-2]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:45:56,134: process[gazebo-2]: started with pid [2409]
+[roslaunch][INFO] 2019-06-11 08:45:56,134: ... successfully launched [gazebo-2]
+[roslaunch][INFO] 2019-06-11 08:45:56,134: ... preparing to launch node of type [gazebo_ros/gzclient]
+[roslaunch][INFO] 2019-06-11 08:45:56,134: create_node_process: package[gazebo_ros] type[gzclient] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-06-11 08:45:56,135: process[gazebo_gui-3]: env[{'ROS_DISTRO': 'kinetic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/catkin_ws/devel/share/common-lisp', 'LD_LIBRARY_PATH': '/home/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'USER': 'root', 'HOME': '/root', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_PACKAGE_PATH': '/home/catkin_ws/src:/opt/ros/kinetic/share', 'CMAKE_PREFIX_PATH': '/home/catkin_ws/devel:/opt/ros/kinetic', 'ROS_LOG_FILENAME': '/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/roslaunch-dc5b429f784e-2380.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'SHLVL': '1', 'TERMINATOR_UUID': 'urn:uuid:75adaecb-481c-4b97-a4aa-31e46b2aaf60', 'SUPERVISOR_ENABLED': '1', 'DISPLAY': ':1.0', 'WINDOWID': '20971523', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1', 'PYTHONPATH': '/home/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'SUPERVISOR_PROCESS_NAME': 'pcmanfm', 'TINI_VERSION': 'v0.9.0', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'IBUS_DISABLE_SNOOPER': '1', 'PKG_CONFIG_PATH': '/home/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/kinetic/bin/roslaunch', 'OLDPWD': '/home/catkin_ws', 'HOSTNAME': 'dc5b429f784e', 'PWD': '/home/catkin_ws/devel', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'COLORTERM': 'gnome-terminal', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_GROUP_NAME': 'pcmanfm'}]
+[roslaunch][INFO] 2019-06-11 08:45:56,137: process[gazebo_gui-3]: args[[u'/opt/ros/kinetic/lib/gazebo_ros/gzclient', u'__name:=gazebo_gui']]
+[roslaunch][INFO] 2019-06-11 08:45:56,137: ... created process [gazebo_gui-3]
+[roslaunch.pmon][INFO] 2019-06-11 08:45:56,137: ProcessMonitor.register[gazebo_gui-3]
+[roslaunch.pmon][INFO] 2019-06-11 08:45:56,138: ProcessMonitor.register[gazebo_gui-3] complete
+[roslaunch][INFO] 2019-06-11 08:45:56,138: ... registered process [gazebo_gui-3]
+[roslaunch][INFO] 2019-06-11 08:45:56,138: process[gazebo_gui-3]: starting os process
+[roslaunch][INFO] 2019-06-11 08:45:56,138: process[gazebo_gui-3]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/gzclient', u'__name:=gazebo_gui', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/gazebo_gui-3.log']]
+[roslaunch][INFO] 2019-06-11 08:45:56,138: process[gazebo_gui-3]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:45:56,413: process[gazebo_gui-3]: started with pid [2435]
+[roslaunch][INFO] 2019-06-11 08:45:56,414: ... successfully launched [gazebo_gui-3]
+[roslaunch][INFO] 2019-06-11 08:45:56,414: ... preparing to launch node of type [gazebo_ros/spawn_model]
+[roslaunch][INFO] 2019-06-11 08:45:56,414: create_node_process: package[gazebo_ros] type[spawn_model] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-06-11 08:45:56,414: process[urdf_spawner-4]: env[{'ROS_DISTRO': 'kinetic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/catkin_ws/devel/share/common-lisp', 'LD_LIBRARY_PATH': '/home/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'USER': 'root', 'HOME': '/root', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_PACKAGE_PATH': '/home/catkin_ws/src:/opt/ros/kinetic/share', 'CMAKE_PREFIX_PATH': '/home/catkin_ws/devel:/opt/ros/kinetic', 'ROS_LOG_FILENAME': '/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/roslaunch-dc5b429f784e-2380.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'SHLVL': '1', 'TERMINATOR_UUID': 'urn:uuid:75adaecb-481c-4b97-a4aa-31e46b2aaf60', 'SUPERVISOR_ENABLED': '1', 'DISPLAY': ':1.0', 'WINDOWID': '20971523', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1', 'PYTHONPATH': '/home/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'SUPERVISOR_PROCESS_NAME': 'pcmanfm', 'TINI_VERSION': 'v0.9.0', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'IBUS_DISABLE_SNOOPER': '1', 'PKG_CONFIG_PATH': '/home/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/kinetic/bin/roslaunch', 'OLDPWD': '/home/catkin_ws', 'HOSTNAME': 'dc5b429f784e', 'PWD': '/home/catkin_ws/devel', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'COLORTERM': 'gnome-terminal', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_GROUP_NAME': 'pcmanfm'}]
+[roslaunch][INFO] 2019-06-11 08:45:56,418: process[urdf_spawner-4]: args[[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner']]
+[roslaunch][INFO] 2019-06-11 08:45:56,418: ... created process [urdf_spawner-4]
+[roslaunch.pmon][INFO] 2019-06-11 08:45:56,418: ProcessMonitor.register[urdf_spawner-4]
+[roslaunch.pmon][INFO] 2019-06-11 08:45:56,418: ProcessMonitor.register[urdf_spawner-4] complete
+[roslaunch][INFO] 2019-06-11 08:45:56,419: ... registered process [urdf_spawner-4]
+[roslaunch][INFO] 2019-06-11 08:45:56,419: process[urdf_spawner-4]: starting os process
+[roslaunch][INFO] 2019-06-11 08:45:56,419: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:45:56,419: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:45:56,698: process[urdf_spawner-4]: started with pid [2477]
+[roslaunch][INFO] 2019-06-11 08:45:56,698: ... successfully launched [urdf_spawner-4]
+[roslaunch][INFO] 2019-06-11 08:45:56,698: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2019-06-11 08:45:56,699: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140006275905280)>
+[roslaunch.parent][INFO] 2019-06-11 08:45:56,699: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2019-06-11 08:45:56,699: spin
+[roslaunch][INFO] 2019-06-11 08:45:58,013: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:45:58,013: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:45:58,013: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:45:58,013: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:45:58,013: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:45:58,297: process[urdf_spawner-4]: started with pid [2637]
+[roslaunch][INFO] 2019-06-11 08:45:59,700: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:45:59,700: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:45:59,700: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:45:59,701: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:45:59,701: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:45:59,990: process[urdf_spawner-4]: started with pid [2729]
+[roslaunch][INFO] 2019-06-11 08:46:01,597: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:01,597: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:01,597: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:01,598: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:01,598: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:01,886: process[urdf_spawner-4]: started with pid [2753]
+[roslaunch][INFO] 2019-06-11 08:46:03,493: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:03,493: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:03,493: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:03,494: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:03,494: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:03,800: process[urdf_spawner-4]: started with pid [2776]
+[roslaunch][INFO] 2019-06-11 08:46:05,405: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:05,405: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:05,405: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:05,406: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:05,406: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:05,716: process[urdf_spawner-4]: started with pid [2803]
+[roslaunch][INFO] 2019-06-11 08:46:07,320: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:07,320: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:07,321: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:07,321: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:07,321: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:07,641: process[urdf_spawner-4]: started with pid [2826]
+[roslaunch][INFO] 2019-06-11 08:46:09,145: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:09,146: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:09,146: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:09,147: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:09,147: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:09,471: process[urdf_spawner-4]: started with pid [2851]
+[roslaunch][INFO] 2019-06-11 08:46:10,974: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:10,975: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:10,975: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:10,975: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:10,975: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:11,315: process[urdf_spawner-4]: started with pid [2877]
+[roslaunch][INFO] 2019-06-11 08:46:13,219: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:13,220: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:13,220: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:13,220: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:13,221: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:13,600: process[urdf_spawner-4]: started with pid [2905]
+[roslaunch][INFO] 2019-06-11 08:46:16,009: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:16,009: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:16,010: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:16,010: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:16,010: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:16,388: process[urdf_spawner-4]: started with pid [2994]
+[roslaunch][INFO] 2019-06-11 08:46:18,194: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:18,194: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:18,194: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:18,195: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:18,195: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:18,579: process[urdf_spawner-4]: started with pid [3020]
+[roslaunch][INFO] 2019-06-11 08:46:20,785: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:20,785: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:20,785: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:20,785: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:20,786: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:21,179: process[urdf_spawner-4]: started with pid [3049]
+[roslaunch][INFO] 2019-06-11 08:46:23,084: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:23,085: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:23,085: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:23,085: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:23,085: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:23,474: process[urdf_spawner-4]: started with pid [3075]
+[roslaunch][INFO] 2019-06-11 08:46:25,482: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:25,483: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:25,483: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:25,483: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:25,483: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:25,881: process[urdf_spawner-4]: started with pid [3104]
+[roslaunch][INFO] 2019-06-11 08:46:27,887: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:27,887: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:27,887: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:27,887: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:27,887: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:28,304: process[urdf_spawner-4]: started with pid [3150]
+[roslaunch][INFO] 2019-06-11 08:46:30,319: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:30,319: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:30,319: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:30,320: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:30,320: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:30,732: process[urdf_spawner-4]: started with pid [3201]
+[roslaunch][INFO] 2019-06-11 08:46:32,839: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:32,839: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:32,840: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:32,840: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:32,840: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:33,258: process[urdf_spawner-4]: started with pid [3230]
+[roslaunch][INFO] 2019-06-11 08:46:35,265: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:35,266: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:35,266: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:35,266: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:35,266: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:35,708: process[urdf_spawner-4]: started with pid [3258]
+[roslaunch][INFO] 2019-06-11 08:46:37,616: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:37,616: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:37,617: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:37,617: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:37,617: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:38,021: process[urdf_spawner-4]: started with pid [3288]
+[roslaunch][INFO] 2019-06-11 08:46:40,528: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:40,528: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:40,528: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:40,529: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:40,529: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:40,934: process[urdf_spawner-4]: started with pid [3327]
+[roslaunch][INFO] 2019-06-11 08:46:42,739: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:42,739: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:42,739: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:42,739: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:42,740: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:43,146: process[urdf_spawner-4]: started with pid [3354]
+[roslaunch][INFO] 2019-06-11 08:46:45,554: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:45,554: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:45,554: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:45,554: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:45,554: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:45,947: process[urdf_spawner-4]: started with pid [3385]
+[roslaunch][INFO] 2019-06-11 08:46:47,852: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:47,853: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:47,853: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:47,854: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:47,854: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:48,259: process[urdf_spawner-4]: started with pid [3419]
+[roslaunch][INFO] 2019-06-11 08:46:50,266: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:50,267: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:50,267: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:50,267: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:50,267: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:50,650: process[urdf_spawner-4]: started with pid [3453]
+[roslaunch][INFO] 2019-06-11 08:46:52,556: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:52,556: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:52,558: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:52,558: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:52,558: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:52,947: process[urdf_spawner-4]: started with pid [3511]
+[roslaunch][INFO] 2019-06-11 08:46:54,852: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:54,853: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:54,854: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:54,855: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:54,856: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:55,254: process[urdf_spawner-4]: started with pid [3539]
+[roslaunch][INFO] 2019-06-11 08:46:57,159: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:57,159: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:57,160: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:57,160: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:57,160: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:46:57,573: process[urdf_spawner-4]: started with pid [3564]
+[roslaunch][INFO] 2019-06-11 08:46:59,680: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:46:59,680: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:46:59,681: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:46:59,681: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:46:59,681: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:47:00,096: process[urdf_spawner-4]: started with pid [3594]
+[roslaunch][INFO] 2019-06-11 08:47:02,203: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:47:02,204: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:47:02,204: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:47:02,204: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:47:02,204: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:47:02,648: process[urdf_spawner-4]: started with pid [3653]
+[roslaunch][INFO] 2019-06-11 08:47:05,257: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:47:05,258: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:47:05,258: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:47:05,258: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:47:05,258: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:47:05,768: process[urdf_spawner-4]: started with pid [3728]
+[roslaunch][INFO] 2019-06-11 08:47:08,477: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:47:08,477: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:47:08,477: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:47:08,478: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:47:08,478: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:47:08,924: process[urdf_spawner-4]: started with pid [3761]
+[roslaunch][INFO] 2019-06-11 08:47:11,542: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:47:11,542: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:47:11,542: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:47:11,543: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:47:11,543: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:47:12,080: process[urdf_spawner-4]: started with pid [3856]
+[roslaunch][INFO] 2019-06-11 08:47:15,090: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:47:15,090: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:47:15,091: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:47:15,092: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:47:15,092: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:47:15,682: process[urdf_spawner-4]: started with pid [3888]
+[roslaunch][INFO] 2019-06-11 08:47:19,192: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:47:19,193: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:47:19,193: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:47:19,193: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:47:19,194: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:47:19,775: process[urdf_spawner-4]: started with pid [3912]
+[roslaunch][INFO] 2019-06-11 08:47:23,288: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:47:23,289: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:47:23,289: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:47:23,289: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:47:23,290: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:47:23,809: process[urdf_spawner-4]: started with pid [3932]
+[roslaunch][INFO] 2019-06-11 08:47:26,620: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:47:26,620: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:47:26,621: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:47:26,621: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:47:26,622: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:47:27,191: process[urdf_spawner-4]: started with pid [3951]
+[roslaunch][INFO] 2019-06-11 08:47:29,799: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:47:29,799: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:47:29,799: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:47:29,800: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:47:29,800: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:47:30,301: process[urdf_spawner-4]: started with pid [3972]
+[roslaunch][INFO] 2019-06-11 08:47:33,116: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:47:33,117: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:47:33,117: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:47:33,117: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:47:33,117: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:47:33,618: process[urdf_spawner-4]: started with pid [3992]
+[roslaunch][INFO] 2019-06-11 08:47:36,428: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:47:36,428: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:47:36,429: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:47:36,429: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:47:36,430: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:47:37,011: process[urdf_spawner-4]: started with pid [4012]
+[roslaunch][INFO] 2019-06-11 08:47:39,926: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:47:39,926: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:47:39,927: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:47:39,927: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:47:39,928: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:47:40,567: process[urdf_spawner-4]: started with pid [4032]
+[roslaunch][INFO] 2019-06-11 08:47:43,486: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:47:43,487: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:47:43,487: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:47:43,487: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:47:43,487: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:47:44,005: process[urdf_spawner-4]: started with pid [4051]
+[roslaunch][INFO] 2019-06-11 08:47:47,125: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:47:47,125: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:47:47,126: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:47:47,126: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:47:47,126: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:47:47,637: process[urdf_spawner-4]: started with pid [4071]
+[roslaunch][INFO] 2019-06-11 08:47:50,345: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:47:50,345: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:47:50,346: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:47:50,346: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:47:50,346: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:47:50,952: process[urdf_spawner-4]: started with pid [4091]
+[roslaunch][INFO] 2019-06-11 08:47:54,066: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:47:54,066: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:47:54,067: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:47:54,067: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:47:54,067: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:47:54,551: process[urdf_spawner-4]: started with pid [4110]
+[roslaunch][INFO] 2019-06-11 08:47:57,561: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:47:57,561: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:47:57,562: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:47:57,562: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:47:57,562: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:47:58,128: process[urdf_spawner-4]: started with pid [4131]
+[roslaunch][INFO] 2019-06-11 08:48:00,941: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:48:00,941: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:48:00,941: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:48:00,942: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:48:00,942: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:48:01,516: process[urdf_spawner-4]: started with pid [4155]
+[roslaunch][INFO] 2019-06-11 08:48:05,036: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:48:05,036: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:48:05,037: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:48:05,037: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:48:05,037: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:48:05,734: process[urdf_spawner-4]: started with pid [4176]
+[roslaunch][INFO] 2019-06-11 08:48:08,544: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:48:08,546: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:48:08,548: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:48:08,548: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:48:08,549: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:48:09,029: process[urdf_spawner-4]: started with pid [4196]
+[roslaunch][INFO] 2019-06-11 08:48:11,738: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:48:11,738: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:48:11,739: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:48:11,739: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:48:11,739: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:48:12,276: process[urdf_spawner-4]: started with pid [4216]
+[roslaunch][INFO] 2019-06-11 08:48:14,989: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:48:14,989: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:48:14,990: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:48:14,990: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:48:14,990: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:48:15,452: process[urdf_spawner-4]: started with pid [4237]
+[roslaunch][INFO] 2019-06-11 08:48:17,861: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:48:17,862: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:48:17,863: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:48:17,863: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:48:17,863: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:48:18,326: process[urdf_spawner-4]: started with pid [4258]
+[roslaunch][INFO] 2019-06-11 08:48:21,237: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:48:21,238: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:48:21,240: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:48:21,241: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:48:21,241: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:48:21,767: process[urdf_spawner-4]: started with pid [4278]
+[roslaunch][INFO] 2019-06-11 08:48:24,676: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:48:24,676: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:48:24,677: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:48:24,677: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:48:24,677: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:48:25,377: process[urdf_spawner-4]: started with pid [4298]
+[roslaunch][INFO] 2019-06-11 08:48:28,491: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:48:28,496: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:48:28,496: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:48:28,497: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:48:28,497: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:48:28,992: process[urdf_spawner-4]: started with pid [4318]
+[roslaunch][INFO] 2019-06-11 08:48:32,002: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:48:32,003: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:48:32,003: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:48:32,004: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:48:32,004: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:48:32,648: process[urdf_spawner-4]: started with pid [4338]
+[roslaunch][INFO] 2019-06-11 08:48:35,658: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:48:35,658: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:48:35,658: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:48:35,658: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:48:35,659: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:48:36,213: process[urdf_spawner-4]: started with pid [4358]
+[roslaunch][INFO] 2019-06-11 08:48:39,121: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:48:39,122: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:48:39,122: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:48:39,122: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:48:39,122: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:48:39,716: process[urdf_spawner-4]: started with pid [4378]
+[roslaunch][INFO] 2019-06-11 08:48:42,424: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:48:42,424: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:48:42,424: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:48:42,425: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:48:42,425: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:48:42,933: process[urdf_spawner-4]: started with pid [4398]
+[roslaunch][INFO] 2019-06-11 08:48:46,345: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:48:46,346: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:48:46,346: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:48:46,346: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:48:46,346: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:48:46,972: process[urdf_spawner-4]: started with pid [4418]
+[roslaunch][INFO] 2019-06-11 08:48:49,780: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:48:49,780: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:48:49,780: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:48:49,781: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:48:49,781: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:48:50,373: process[urdf_spawner-4]: started with pid [4466]
+[roslaunch][INFO] 2019-06-11 08:48:53,181: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:48:53,181: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:48:53,181: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:48:53,181: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:48:53,182: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:48:53,660: process[urdf_spawner-4]: started with pid [4494]
+[roslaunch][INFO] 2019-06-11 08:48:56,471: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:48:56,471: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:48:56,471: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:48:56,472: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:48:56,472: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:48:57,037: process[urdf_spawner-4]: started with pid [4539]
+[roslaunch][INFO] 2019-06-11 08:49:00,554: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:49:00,555: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:49:00,555: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:49:00,555: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:49:00,556: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:49:01,065: process[urdf_spawner-4]: started with pid [4576]
+[roslaunch][INFO] 2019-06-11 08:49:03,772: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:49:03,773: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:49:03,773: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:49:03,774: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:49:03,774: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:49:04,276: process[urdf_spawner-4]: started with pid [4596]
+[roslaunch][INFO] 2019-06-11 08:49:06,983: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:49:06,984: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:49:06,984: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:49:06,984: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:49:06,984: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:49:07,613: process[urdf_spawner-4]: started with pid [4616]
+[roslaunch][INFO] 2019-06-11 08:49:10,320: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:49:10,320: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:49:10,321: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:49:10,321: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:49:10,321: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:49:10,804: process[urdf_spawner-4]: started with pid [4636]
+[roslaunch][INFO] 2019-06-11 08:49:14,012: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:49:14,013: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:49:14,013: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:49:14,013: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:49:14,013: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:49:14,550: process[urdf_spawner-4]: started with pid [4683]
+[roslaunch][INFO] 2019-06-11 08:49:17,558: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:49:17,558: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:49:17,559: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:49:17,559: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:49:17,559: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:49:18,291: process[urdf_spawner-4]: started with pid [4703]
+[roslaunch][INFO] 2019-06-11 08:49:21,201: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:49:21,201: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:49:21,202: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:49:21,202: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:49:21,202: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:49:21,814: process[urdf_spawner-4]: started with pid [4723]
+[roslaunch][INFO] 2019-06-11 08:49:24,923: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:49:24,923: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:49:24,924: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:49:24,924: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:49:24,924: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:49:25,427: process[urdf_spawner-4]: started with pid [4743]
+[roslaunch][INFO] 2019-06-11 08:49:28,435: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:49:28,435: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:49:28,436: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:49:28,436: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:49:28,436: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:49:28,937: process[urdf_spawner-4]: started with pid [4763]
+[roslaunch][INFO] 2019-06-11 08:49:31,950: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:49:31,950: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:49:31,951: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:49:31,951: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:49:31,952: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:49:32,445: process[urdf_spawner-4]: started with pid [4784]
+[roslaunch][INFO] 2019-06-11 08:49:35,659: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:49:35,660: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:49:35,660: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:49:35,661: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:49:35,661: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:49:36,253: process[urdf_spawner-4]: started with pid [4804]
+[roslaunch][INFO] 2019-06-11 08:49:39,171: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:49:39,171: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:49:39,172: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:49:39,172: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:49:39,172: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:49:39,873: process[urdf_spawner-4]: started with pid [4824]
+[roslaunch][INFO] 2019-06-11 08:49:42,787: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:49:42,788: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:49:42,788: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:49:42,788: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:49:42,788: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:49:43,240: process[urdf_spawner-4]: started with pid [4844]
+[roslaunch][INFO] 2019-06-11 08:49:46,255: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:49:46,256: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:49:46,256: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:49:46,256: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:49:46,256: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:49:46,713: process[urdf_spawner-4]: started with pid [4864]
+[roslaunch][INFO] 2019-06-11 08:49:49,526: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:49:49,527: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:49:49,527: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:49:49,528: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:49:49,528: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:49:50,065: process[urdf_spawner-4]: started with pid [4884]
+[roslaunch][INFO] 2019-06-11 08:49:52,976: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:49:52,976: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:49:52,976: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:49:52,976: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:49:52,977: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:49:53,446: process[urdf_spawner-4]: started with pid [4904]
+[roslaunch][INFO] 2019-06-11 08:49:56,355: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:49:56,356: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:49:56,356: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:49:56,357: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:49:56,357: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:49:56,874: process[urdf_spawner-4]: started with pid [4924]
+[roslaunch][INFO] 2019-06-11 08:49:59,686: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:49:59,686: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:49:59,686: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:49:59,686: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:49:59,687: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:50:00,219: process[urdf_spawner-4]: started with pid [4944]
+[roslaunch][INFO] 2019-06-11 08:50:03,127: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:50:03,127: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:50:03,127: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:50:03,127: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:50:03,128: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:50:03,630: process[urdf_spawner-4]: started with pid [4964]
+[roslaunch][INFO] 2019-06-11 08:50:06,738: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:50:06,738: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:50:06,738: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:50:06,739: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:50:06,739: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:50:07,304: process[urdf_spawner-4]: started with pid [4984]
+[roslaunch][INFO] 2019-06-11 08:50:10,822: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:50:10,822: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:50:10,822: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:50:10,823: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:50:10,823: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:50:11,360: process[urdf_spawner-4]: started with pid [5004]
+[roslaunch][INFO] 2019-06-11 08:50:14,374: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:50:14,374: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:50:14,375: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:50:14,375: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:50:14,375: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:50:14,931: process[urdf_spawner-4]: started with pid [5024]
+[roslaunch][INFO] 2019-06-11 08:50:17,745: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:50:17,746: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:50:17,746: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:50:17,746: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:50:17,746: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:50:18,280: process[urdf_spawner-4]: started with pid [5044]
+[roslaunch][INFO] 2019-06-11 08:50:21,291: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:50:21,291: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:50:21,292: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:50:21,292: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:50:21,292: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:50:21,776: process[urdf_spawner-4]: started with pid [5064]
+[roslaunch][INFO] 2019-06-11 08:50:24,988: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:50:24,988: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:50:24,988: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:50:24,989: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:50:24,989: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:50:25,517: process[urdf_spawner-4]: started with pid [5084]
+[roslaunch][INFO] 2019-06-11 08:50:28,928: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:50:28,928: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:50:28,928: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:50:28,929: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:50:28,929: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:50:29,415: process[urdf_spawner-4]: started with pid [5108]
+[roslaunch][INFO] 2019-06-11 08:50:29,516: [gazebo_gui-3] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/gazebo_gui-3*.log
+[roslaunch.pmon][INFO] 2019-06-11 08:50:29,517: ProcessMonitor.unregister[gazebo_gui-3] starting
+[roslaunch.pmon][INFO] 2019-06-11 08:50:29,518: ProcessMonitor.unregister[gazebo_gui-3] complete
+[roslaunch][INFO] 2019-06-11 08:50:31,924: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:50:31,924: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:50:31,924: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:50:31,925: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:50:31,925: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:50:32,448: process[urdf_spawner-4]: started with pid [5129]
+[roslaunch][INFO] 2019-06-11 08:50:34,956: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:50:34,956: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:50:34,957: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:50:34,958: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:50:34,958: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:50:35,425: process[urdf_spawner-4]: started with pid [5149]
+[roslaunch][INFO] 2019-06-11 08:50:39,350: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:50:39,351: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:50:39,352: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:50:39,352: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:50:39,352: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:50:40,071: process[urdf_spawner-4]: started with pid [5169]
+[roslaunch][INFO] 2019-06-11 08:50:43,790: [urdf_spawner-4] process has finished cleanly
+log file: /root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4*.log
+[roslaunch][INFO] 2019-06-11 08:50:43,791: [urdf_spawner-4] restarting process
+[roslaunch][INFO] 2019-06-11 08:50:43,792: process[urdf_spawner-4]: restarting os process
+[roslaunch][INFO] 2019-06-11 08:50:43,792: process[urdf_spawner-4]: start w/ args [[u'/opt/ros/kinetic/lib/gazebo_ros/spawn_model', '-urdf', '-model', 'robot1', '-param', 'robot_description', '-z', '0.05', u'__name:=urdf_spawner', u'__log:=/root/.ros/log/52d0fe0a-8c25-11e9-b9c2-0242ac110002/urdf_spawner-4.log']]
+[roslaunch][INFO] 2019-06-11 08:50:43,792: process[urdf_spawner-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-06-11 08:50:44,274: process[urdf_spawner-4]: started with pid [5189]
+[roslaunch.pmon][INFO] 2019-06-11 08:50:45,970: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140006275905280)>
+[roslaunch.pmon][INFO] 2019-06-11 08:50:45,988: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140006275905280)>
+[roslaunch.pmon][INFO] 2019-06-11 08:50:45,988: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140006275905280)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7f55c07e9590>, <roslaunch.nodeprocess.LocalProcess object at 0x7f55c07e9850>, <roslaunch.nodeprocess.LocalProcess object at 0x7f55c07e91d0>, <roslaunch.nodeprocess.LocalProcess object at 0x7f55c07e9a50>]
+[roslaunch.pmon][INFO] 2019-06-11 08:50:46,002: ProcessMonitor exit: killing urdf_spawner-4
+[roslaunch][INFO] 2019-06-11 08:50:46,003: [urdf_spawner-4] killing on exit
+[roslaunch.pmon][INFO] 2019-06-11 08:50:46,004: ProcessMonitor exit: killing gazebo-2
+[roslaunch][INFO] 2019-06-11 08:50:46,004: [gazebo-2] killing on exit
+[roslaunch][INFO] 2019-06-11 08:50:46,005: process[gazebo-2]: killing os process with pid[2409] pgid[2409]
+[roslaunch][INFO] 2019-06-11 08:50:46,006: [gazebo-2] sending SIGINT to pgid [2409]
+[roslaunch][INFO] 2019-06-11 08:50:46,006: [gazebo-2] sent SIGINT to pgid [2409]
+[roslaunch][INFO] 2019-06-11 08:50:46,009: process[urdf_spawner-4]: killing os process with pid[5189] pgid[5189]
+[roslaunch][INFO] 2019-06-11 08:50:46,009: [urdf_spawner-4] sending SIGINT to pgid [5189]
+[roslaunch][INFO] 2019-06-11 08:50:46,009: [urdf_spawner-4] sent SIGINT to pgid [5189]
+[roslaunch][INFO] 2019-06-11 08:50:46,210: process[urdf_spawner-4]: SIGINT killed with return value 1
+[roslaunch][INFO] 2019-06-11 08:50:46,407: process[gazebo-2]: SIGINT killed with return value -2
+[roslaunch.pmon][INFO] 2019-06-11 08:50:46,408: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2019-06-11 08:50:46,408: [rosout-1] killing on exit
+[roslaunch][INFO] 2019-06-11 08:50:46,408: process[rosout-1]: killing os process with pid[2406] pgid[2406]
+[roslaunch][INFO] 2019-06-11 08:50:46,408: [rosout-1] sending SIGINT to pgid [2406]
+[roslaunch][INFO] 2019-06-11 08:50:46,408: [rosout-1] sent SIGINT to pgid [2406]
+[roslaunch][INFO] 2019-06-11 08:50:46,709: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2019-06-11 08:50:46,709: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2019-06-11 08:50:46,709: [master] killing on exit
+[roslaunch][INFO] 2019-06-11 08:50:46,709: process[master]: killing os process with pid[2393] pgid[2393]
+[roslaunch][INFO] 2019-06-11 08:50:46,709: [master] sending SIGINT to pgid [2393]
+[roslaunch][INFO] 2019-06-11 08:50:46,709: [master] sent SIGINT to pgid [2393]
+[roslaunch][INFO] 2019-06-11 08:50:46,910: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2019-06-11 08:50:46,911: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2019-06-11 08:50:46,911: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2019-06-11 08:50:46,937: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2019-06-11 08:50:46,938: runner.stop()
+[roslaunch][INFO] 2019-06-11 08:50:46,938: shutting down processing monitor...
+[roslaunch][INFO] 2019-06-11 08:50:46,938: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 140006275905280)>
+[roslaunch.pmon][INFO] 2019-06-11 08:50:46,938: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140006275905280)>
+[roslaunch][INFO] 2019-06-11 08:50:46,938: ... shutting down processing monitor complete
+[roslaunch][INFO] 2019-06-11 08:50:46,938: done
+[roslaunch.pmon][INFO] 2019-06-11 08:50:46,938: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140006275905280)>
+[rospy.core][INFO] 2019-06-11 08:50:46,938: signal_shutdown [atexit]

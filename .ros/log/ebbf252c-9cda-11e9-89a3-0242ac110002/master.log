@@ -1,0 +1,27 @@
+[rosmaster.main][INFO] 2019-07-02 15:06:09,283: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-07-02 15:06:09,283: Starting ROS Master Node
+[xmlrpc][INFO] 2019-07-02 15:06:09,284: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-07-02 15:06:09,285: Started XML-RPC server [http://f6566a55c2b3:11311/]
+[xmlrpc][INFO] 2019-07-02 15:06:09,285: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-07-02 15:06:09,285: Master initialized: port[11311], uri[http://f6566a55c2b3:11311/]
+[rosmaster.master][INFO] 2019-07-02 15:06:09,306: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 15:06:09,307: +PARAM [/roslaunch/uris/host_f6566a55c2b3__42229] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 15:06:09,650: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 15:06:09,651: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-07-02 15:06:09,654: +SERVICE [/rosout/get_loggers] /rosout http://f6566a55c2b3:35829/
+[rosmaster.master][INFO] 2019-07-02 15:06:09,655: +SERVICE [/rosout/set_logger_level] /rosout http://f6566a55c2b3:35829/
+[rosmaster.master][INFO] 2019-07-02 15:06:09,658: +PUB [/rosout_agg] /rosout http://f6566a55c2b3:35829/
+[rosmaster.master][INFO] 2019-07-02 15:06:09,663: +SUB [/rosout] /rosout http://f6566a55c2b3:35829/
+[rosmaster.master][INFO] 2019-07-02 15:06:14,858: +PUB [/rosout] /vrep_ros_interface http://f6566a55c2b3:43519/
+[rosmaster.master][INFO] 2019-07-02 15:06:14,859: +SERVICE [/vrep_ros_interface/get_loggers] /vrep_ros_interface http://f6566a55c2b3:43519/
+[rosmaster.master][INFO] 2019-07-02 15:06:14,861: +SERVICE [/vrep_ros_interface/set_logger_level] /vrep_ros_interface http://f6566a55c2b3:43519/
+[rosmaster.master][INFO] 2019-07-02 15:06:14,863: +PUB [/tf] /vrep_ros_interface http://f6566a55c2b3:43519/
+[rosmaster.master][INFO] 2019-07-02 15:06:14,897: publisherUpdate[/rosout] -> http://f6566a55c2b3:35829/ ['http://f6566a55c2b3:43519/']
+[rosmaster.master][INFO] 2019-07-02 15:06:14,899: publisherUpdate[/rosout] -> http://f6566a55c2b3:35829/ ['http://f6566a55c2b3:43519/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-07-02 15:06:27,341: -PUB [/rosout_agg] /rosout http://f6566a55c2b3:35829/
+[rosmaster.master][INFO] 2019-07-02 15:06:27,343: -SUB [/rosout] /rosout http://f6566a55c2b3:35829/
+[rosmaster.master][INFO] 2019-07-02 15:06:27,344: -SERVICE [/rosout/get_loggers] /rosout rosrpc://f6566a55c2b3:46877
+[rosmaster.master][INFO] 2019-07-02 15:06:27,345: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://f6566a55c2b3:46877
+[rosmaster.main][INFO] 2019-07-02 15:06:27,357: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2019-07-02 15:06:27,357: stopping master...
+[rospy.core][INFO] 2019-07-02 15:06:27,358: signal_shutdown [atexit]

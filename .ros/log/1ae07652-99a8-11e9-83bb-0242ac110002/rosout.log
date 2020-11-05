@@ -1,0 +1,5 @@
+
+
+1561728291.511712700  Node Startup
+1561728292.084444000 WARN [/tmp/binarydeb/ros-kinetic-kdl-parser-1.12.10/src/kdl_parser.cpp:200(treeFromUrdfModel) [topics: /rosout] The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+1561728292.762952900 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.15/src/rviz/ogre_helpers/render_system.cpp:430(RenderWindow* rviz::RenderSystem::makeRenderWindow) [topics: /rosout] Stereo is NOT SUPPORTED

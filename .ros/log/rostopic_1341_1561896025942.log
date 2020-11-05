@@ -1,0 +1,90 @@
+[rospy.client][INFO] 2019-06-30 12:00:26,075: init_node, name[/rostopic_1341_1561896025942], pid[1341]
+[xmlrpc][INFO] 2019-06-30 12:00:26,077: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-30 12:00:26,078: Started XML-RPC server [http://dc5b429f784e:44957/]
+[rospy.init][INFO] 2019-06-30 12:00:26,079: ROS Slave URI: [http://dc5b429f784e:44957/]
+[rospy.impl.masterslave][INFO] 2019-06-30 12:00:26,079: _ready: http://dc5b429f784e:44957/
+[rospy.registration][INFO] 2019-06-30 12:00:26,080: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-30 12:00:26,080: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-30 12:00:26,179: registered with master
+[rospy.rosout][INFO] 2019-06-30 12:00:26,180: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-30 12:00:26,181: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-30 12:00:26,183: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-06-30 12:00:26,195: topic[/sensorTrigger28694] adding connection to [http://dc5b429f784e:42605/], count 0
+[rospy.internal][INFO] 2019-06-30 12:00:26,432: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2019-06-30 12:01:26,989: Unable to initiate TCP/IP socket to dc5b429f784e:44825 (http://dc5b429f784e:42605/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/sensorTrigger28694] from [TCPROS connection on port 44825 to [172.17.0.2:44836 on socket 27]] [/rostopic_1341_1561896025942].
+
+[rospy.internal][ERROR] 2019-06-30 12:01:27,991: Unable to initiate TCP/IP socket to dc5b429f784e:44825 (http://dc5b429f784e:42605/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/sensorTrigger28694] from [TCPROS connection on port 44825 to [172.17.0.2:44848 on socket 21]] [/rostopic_1341_1561896025942].
+
+[rospy.internal][ERROR] 2019-06-30 12:01:29,992: Unable to initiate TCP/IP socket to dc5b429f784e:44825 (http://dc5b429f784e:42605/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/sensorTrigger28694] from [TCPROS connection on port 44825 to [172.17.0.2:44850 on socket 21]] [/rostopic_1341_1561896025942].
+
+[rospy.internal][ERROR] 2019-06-30 12:01:33,994: Unable to initiate TCP/IP socket to dc5b429f784e:44825 (http://dc5b429f784e:42605/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/sensorTrigger28694] from [TCPROS connection on port 44825 to [172.17.0.2:44852 on socket 21]] [/rostopic_1341_1561896025942].
+
+[rospy.internal][ERROR] 2019-06-30 12:01:42,000: Unable to initiate TCP/IP socket to dc5b429f784e:44825 (http://dc5b429f784e:42605/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/sensorTrigger28694] from [TCPROS connection on port 44825 to [172.17.0.2:44868 on socket 21]] [/rostopic_1341_1561896025942].
+
+[rospy.internal][ERROR] 2019-06-30 12:01:58,017: Unable to initiate TCP/IP socket to dc5b429f784e:44825 (http://dc5b429f784e:42605/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/sensorTrigger28694] from [TCPROS connection on port 44825 to [172.17.0.2:44870 on socket 21]] [/rostopic_1341_1561896025942].
+
+[rospy.internal][ERROR] 2019-06-30 12:02:30,042: Unable to initiate TCP/IP socket to dc5b429f784e:44825 (http://dc5b429f784e:42605/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/sensorTrigger28694] from [TCPROS connection on port 44825 to [172.17.0.2:44872 on socket 21]] [/rostopic_1341_1561896025942].
+
+[rospy.internal][ERROR] 2019-06-30 12:03:02,069: Unable to initiate TCP/IP socket to dc5b429f784e:44825 (http://dc5b429f784e:42605/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/sensorTrigger28694] from [TCPROS connection on port 44825 to [172.17.0.2:44874 on socket 21]] [/rostopic_1341_1561896025942].
+
+[rospy.core][INFO] 2019-06-30 12:03:31,456: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-30 12:03:31,459: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-30 12:03:31,459: topic[/sensorTrigger28694] removing connection to http://dc5b429f784e:42605/
+[rospy.impl.masterslave][INFO] 2019-06-30 12:03:31,459: signal-2
+[rospy.core][INFO] 2019-06-30 12:03:31,608: signal_shutdown [atexit]

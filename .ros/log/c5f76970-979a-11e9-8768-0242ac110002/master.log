@@ -1,0 +1,41 @@
+[rosmaster.main][INFO] 2019-06-25 22:44:22,161: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-06-25 22:44:22,161: Starting ROS Master Node
+[xmlrpc][INFO] 2019-06-25 22:44:22,162: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-06-25 22:44:22,162: Started XML-RPC server [http://dc5b429f784e:11311/]
+[xmlrpc][INFO] 2019-06-25 22:44:22,162: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-06-25 22:44:22,162: Master initialized: port[11311], uri[http://dc5b429f784e:11311/]
+[rosmaster.master][INFO] 2019-06-25 22:44:22,243: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 22:44:22,245: +PARAM [/roslaunch/uris/host_dc5b429f784e__40799] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 22:44:22,667: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 22:44:22,667: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 22:44:22,683: +SERVICE [/rosout/get_loggers] /rosout http://dc5b429f784e:38551/
+[rosmaster.master][INFO] 2019-06-25 22:44:22,684: +SERVICE [/rosout/set_logger_level] /rosout http://dc5b429f784e:38551/
+[rosmaster.master][INFO] 2019-06-25 22:44:22,686: +PUB [/rosout_agg] /rosout http://dc5b429f784e:38551/
+[rosmaster.master][INFO] 2019-06-25 22:44:22,690: +SUB [/rosout] /rosout http://dc5b429f784e:38551/
+[rosmaster.master][INFO] 2019-06-25 22:44:37,961: +PUB [/rosout] /test_fibonacci http://dc5b429f784e:45063/
+[rosmaster.master][INFO] 2019-06-25 22:44:37,962: +SERVICE [/test_fibonacci/get_loggers] /test_fibonacci http://dc5b429f784e:45063/
+[rosmaster.master][INFO] 2019-06-25 22:44:37,963: +SERVICE [/test_fibonacci/set_logger_level] /test_fibonacci http://dc5b429f784e:45063/
+[rosmaster.master][INFO] 2019-06-25 22:44:37,970: +SUB [/fibonacci/status] /test_fibonacci http://dc5b429f784e:45063/
+[rosmaster.master][INFO] 2019-06-25 22:44:37,975: +SUB [/fibonacci/feedback] /test_fibonacci http://dc5b429f784e:45063/
+[rosmaster.master][INFO] 2019-06-25 22:44:37,979: +SUB [/fibonacci/result] /test_fibonacci http://dc5b429f784e:45063/
+[rosmaster.master][INFO] 2019-06-25 22:44:37,980: +PUB [/fibonacci/goal] /test_fibonacci http://dc5b429f784e:45063/
+[rosmaster.master][INFO] 2019-06-25 22:44:37,981: +PUB [/fibonacci/cancel] /test_fibonacci http://dc5b429f784e:45063/
+[rosmaster.master][INFO] 2019-06-25 22:44:38,027: publisherUpdate[/rosout] -> http://dc5b429f784e:38551/ ['http://dc5b429f784e:45063/']
+[rosmaster.master][INFO] 2019-06-25 22:44:38,028: publisherUpdate[/rosout] -> http://dc5b429f784e:38551/ ['http://dc5b429f784e:45063/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 22:44:42,154: -PUB [/rosout] /test_fibonacci http://dc5b429f784e:45063/
+[rosmaster.master][INFO] 2019-06-25 22:44:42,156: -PUB [/fibonacci/goal] /test_fibonacci http://dc5b429f784e:45063/
+[rosmaster.master][INFO] 2019-06-25 22:44:42,157: -PUB [/fibonacci/cancel] /test_fibonacci http://dc5b429f784e:45063/
+[rosmaster.master][INFO] 2019-06-25 22:44:42,159: -SUB [/fibonacci/status] /test_fibonacci http://dc5b429f784e:45063/
+[rosmaster.master][INFO] 2019-06-25 22:44:42,160: -SUB [/fibonacci/feedback] /test_fibonacci http://dc5b429f784e:45063/
+[rosmaster.master][INFO] 2019-06-25 22:44:42,162: -SUB [/fibonacci/result] /test_fibonacci http://dc5b429f784e:45063/
+[rosmaster.master][INFO] 2019-06-25 22:44:42,163: -SERVICE [/test_fibonacci/get_loggers] /test_fibonacci rosrpc://dc5b429f784e:39343
+[rosmaster.master][INFO] 2019-06-25 22:44:42,165: -SERVICE [/test_fibonacci/set_logger_level] /test_fibonacci rosrpc://dc5b429f784e:39343
+[rosmaster.master][INFO] 2019-06-25 22:44:42,169: publisherUpdate[/rosout] -> http://dc5b429f784e:38551/ []
+[rosmaster.master][INFO] 2019-06-25 22:44:42,170: publisherUpdate[/rosout] -> http://dc5b429f784e:38551/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 22:46:32,231: -PUB [/rosout_agg] /rosout http://dc5b429f784e:38551/
+[rosmaster.master][INFO] 2019-06-25 22:46:32,232: -SUB [/rosout] /rosout http://dc5b429f784e:38551/
+[rosmaster.master][INFO] 2019-06-25 22:46:32,233: -SERVICE [/rosout/get_loggers] /rosout rosrpc://dc5b429f784e:58915
+[rosmaster.master][INFO] 2019-06-25 22:46:32,234: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://dc5b429f784e:58915
+[rosmaster.main][INFO] 2019-06-25 22:46:32,270: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2019-06-25 22:46:32,270: stopping master...
+[rospy.core][INFO] 2019-06-25 22:46:32,270: signal_shutdown [atexit]

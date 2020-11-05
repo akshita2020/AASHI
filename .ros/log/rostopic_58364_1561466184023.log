@@ -1,0 +1,40 @@
+[rospy.client][INFO] 2019-06-25 12:36:24,118: init_node, name[/rostopic_58364_1561466184023], pid[58364]
+[xmlrpc][INFO] 2019-06-25 12:36:24,119: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-25 12:36:24,120: Started XML-RPC server [http://dc5b429f784e:33501/]
+[rospy.init][INFO] 2019-06-25 12:36:24,121: ROS Slave URI: [http://dc5b429f784e:33501/]
+[rospy.impl.masterslave][INFO] 2019-06-25 12:36:24,122: _ready: http://dc5b429f784e:33501/
+[rospy.registration][INFO] 2019-06-25 12:36:24,123: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-25 12:36:24,123: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-25 12:36:24,222: registered with master
+[rospy.rosout][INFO] 2019-06-25 12:36:24,223: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-25 12:36:24,227: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-25 12:36:24,231: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-25 12:36:24,235: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-25 12:36:24,239: topic[/clock] adding connection to [http://dc5b429f784e:46453/], count 0
+[rospy.internal][INFO] 2019-06-25 12:36:24,280: topic[/m2wr/laser/scan] adding connection to [http://dc5b429f784e:46453/], count 0
+[rospy.internal][INFO] 2019-06-25 12:36:24,432: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2019-06-25 12:36:25,160: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-25 12:36:25,165: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-25 12:36:25,165: topic[/clock] removing connection to http://dc5b429f784e:46453/
+[rospy.topics][ERROR] 2019-06-25 12:36:25,166: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][WARNING] 2019-06-25 12:36:25,167: Unknown error initiating TCP/IP socket to dc5b429f784e:54509 (http://dc5b429f784e:46453/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][INFO] 2019-06-25 12:36:25,167: topic[/m2wr/laser/scan] removing connection to http://dc5b429f784e:46453/
+[rospy.internal][WARNING] 2019-06-25 12:36:25,168: Unknown error initiating TCP/IP socket to dc5b429f784e:54509 (http://dc5b429f784e:46453/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.impl.masterslave][INFO] 2019-06-25 12:36:25,167: signal-2
+[rospy.core][INFO] 2019-06-25 12:36:25,301: signal_shutdown [atexit]

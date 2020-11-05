@@ -1,0 +1,4 @@
+
+
+0.000000000  Node Startup
+0.000000000 INFO [gazebo_interface.py:27(spawn_urdf_model_client) [topics: /clock, /rosout] Waiting for service /gazebo/spawn_urdf_model

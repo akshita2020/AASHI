@@ -1,0 +1,63 @@
+[rosmaster.main][INFO] 2019-06-25 14:00:39,930: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-06-25 14:00:39,930: Starting ROS Master Node
+[xmlrpc][INFO] 2019-06-25 14:00:39,931: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-06-25 14:00:39,932: Started XML-RPC server [http://dc5b429f784e:11311/]
+[xmlrpc][INFO] 2019-06-25 14:00:39,932: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-06-25 14:00:39,932: Master initialized: port[11311], uri[http://dc5b429f784e:11311/]
+[rosmaster.master][INFO] 2019-06-25 14:00:39,943: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 14:00:39,944: +PARAM [/roslaunch/uris/host_dc5b429f784e__43361] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 14:00:40,304: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 14:00:40,304: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 14:00:40,319: +SERVICE [/rosout/get_loggers] /rosout http://dc5b429f784e:37003/
+[rosmaster.master][INFO] 2019-06-25 14:00:40,320: +SERVICE [/rosout/set_logger_level] /rosout http://dc5b429f784e:37003/
+[rosmaster.master][INFO] 2019-06-25 14:00:40,322: +PUB [/rosout_agg] /rosout http://dc5b429f784e:37003/
+[rosmaster.master][INFO] 2019-06-25 14:00:40,327: +SUB [/rosout] /rosout http://dc5b429f784e:37003/
+[rosmaster.master][INFO] 2019-06-25 14:00:43,650: +PUB [/rosout] /slam_gmapping http://dc5b429f784e:45923/
+[rosmaster.master][INFO] 2019-06-25 14:00:43,651: +SERVICE [/slam_gmapping/get_loggers] /slam_gmapping http://dc5b429f784e:45923/
+[rosmaster.master][INFO] 2019-06-25 14:00:43,652: +SERVICE [/slam_gmapping/set_logger_level] /slam_gmapping http://dc5b429f784e:45923/
+[rosmaster.master][INFO] 2019-06-25 14:00:43,659: +SUB [/tf] /slam_gmapping http://dc5b429f784e:45923/
+[rosmaster.master][INFO] 2019-06-25 14:00:43,664: +SUB [/tf_static] /slam_gmapping http://dc5b429f784e:45923/
+[rosmaster.master][INFO] 2019-06-25 14:00:43,666: +PUB [/tf] /slam_gmapping http://dc5b429f784e:45923/
+[rosmaster.master][INFO] 2019-06-25 14:00:43,697: +PUB [/slam_gmapping/entropy] /slam_gmapping http://dc5b429f784e:45923/
+[rosmaster.master][INFO] 2019-06-25 14:00:43,699: +PUB [/map] /slam_gmapping http://dc5b429f784e:45923/
+[rosmaster.master][INFO] 2019-06-25 14:00:43,701: +PUB [/map_metadata] /slam_gmapping http://dc5b429f784e:45923/
+[rosmaster.master][INFO] 2019-06-25 14:00:43,702: +SERVICE [/dynamic_map] /slam_gmapping http://dc5b429f784e:45923/
+[rosmaster.master][INFO] 2019-06-25 14:00:43,708: +SUB [/scan] /slam_gmapping http://dc5b429f784e:45923/
+[rosmaster.master][INFO] 2019-06-25 14:00:43,741: publisherUpdate[/rosout] -> http://dc5b429f784e:37003/ ['http://dc5b429f784e:45923/']
+[rosmaster.master][INFO] 2019-06-25 14:00:43,742: publisherUpdate[/tf] -> http://dc5b429f784e:45923/ ['http://dc5b429f784e:45923/']
+[rosmaster.master][INFO] 2019-06-25 14:00:43,744: publisherUpdate[/tf] -> http://dc5b429f784e:45923/ ['http://dc5b429f784e:45923/']: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2019-06-25 14:00:43,744: publisherUpdate[/rosout] -> http://dc5b429f784e:37003/ ['http://dc5b429f784e:45923/']: sec=0.00, result=[1, '', 0]
+[rosmaster.threadpool][ERROR] 2019-06-25 14:00:43,745: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2019-06-25 14:00:50,267: -PUB [/rosout_agg] /rosout http://dc5b429f784e:37003/
+[rosmaster.master][INFO] 2019-06-25 14:00:50,268: -SUB [/rosout] /rosout http://dc5b429f784e:37003/
+[rosmaster.master][INFO] 2019-06-25 14:00:50,269: -SERVICE [/rosout/get_loggers] /rosout rosrpc://dc5b429f784e:58395
+[rosmaster.master][INFO] 2019-06-25 14:00:50,270: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://dc5b429f784e:58395
+[rosmaster.main][INFO] 2019-06-25 14:00:50,298: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2019-06-25 14:00:50,298: stopping master...
+[rospy.core][INFO] 2019-06-25 14:00:50,298: signal_shutdown [atexit]

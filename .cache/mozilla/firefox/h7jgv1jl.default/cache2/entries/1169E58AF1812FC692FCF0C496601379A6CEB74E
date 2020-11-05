@@ -1,0 +1,343 @@
+
+
+
+
+
+
+<!doctype html>
+
+<html class="windows x86 no-js" lang="en" dir="ltr" data-latest-firefox="67.0.1" data-esr-versions="60.7.0" data-gtm-container-id="GTM-MW3R8V" data-gtm-page-id="/firefox/firstrun/" data-stub-attribution-rate="1.0">
+  <head>
+    <meta charset="utf-8">
+
+    <script type="text/javascript" src="https://www.mozilla.org/media/js/BUNDLES/site.42d7dbd806b5.js" charset="utf-8"></script>
+
+    <!--[if !lte IE 8]><!-->
+    
+    <!--<![endif]-->
+
+<!--
+             _.-~-.
+           7''  Q..\
+        _7         (_
+      _7  _/    _q.  /
+    _7 . ___  /VVvv-'_                                            .
+   7/ / /~- \_\\      '-._     .-'                      /       //
+  ./ ( /-~-/||'=.__  '::. '-~'' {             ___   /  //     ./{
+ V   V-~-~| ||   __''_   ':::.   ''~-~.___.-'' _/  // / {_   /  {  /
+  VV/-~-~-|/ \ .'__'. '.    '::                     _ _ _        ''.
+  / /~~~~||VVV/ /  \ )  \        _ __ ___   ___ ___(_) | | __ _   .::'
+ / (~-~-~\\.-' /    \'   \::::. | '_ ` _ \ / _ \_  / | | |/ _` | :::'
+/..\    /..\__/      '     '::: | | | | | | (_) / /| | | | (_| | ::'
+vVVv    vVVv                 ': |_| |_| |_|\___/___|_|_|_|\__,_| ''
+
+Hi there, nice to meet you!
+
+Interested in having a direct impact on hundreds of millions of users? Join
+Mozilla, and become part of a global community thatâ€™s helping to build a
+brighter future for the Web.
+
+Visit https://careers.mozilla.org to learn about our current job openings.
+Visit https://www.mozilla.org/contribute for more ways to get involved and
+help support Mozilla.
+-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <title>
+  Welcome to Firefox
+</title>
+    <meta name="description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mozilla">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="https://www.mozilla.org/en-US/firefox/59.0.2/firstrun/">
+    <meta property="og:image" content="https://www.mozilla.org/media/img/firefox/template/page-image.4b108ed0b8d8.png">
+    <meta property="og:title" content="
+  Welcome to Firefox
+">
+    <meta property="og:description" content="">
+    <meta property="fb:page_id" content="14696440021">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@firefox">
+    <meta name="twitter:domain" content="mozilla.org">
+    <meta name="twitter:app:name:googleplay" content="Firefox">
+    <meta name="twitter:app:id:googleplay" content="org.mozilla.firefox">
+    <meta name="twitter:app:name:iphone" content="Firefox">
+    <meta name="twitter:app:id:iphone" content="989804926">
+    <meta name="twitter:app:name:ipad" content="Firefox">
+    <meta name="twitter:app:id:ipad" content="989804926">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="https://www.mozilla.org/media/img/firefox/ios-icon-180.f7c89c6f4a0e.png">
+    <link rel="icon" type="image/png" sizes="196x196" href="https://www.mozilla.org/media/img/firefox/favicon-196.c6d9abffb769.png">
+    <link rel="shortcut icon" href="https://www.mozilla.org/media/img/firefox/favicon.e6bb0e59df3d.ico">
+    <meta name="robots" content="noindex,follow">
+    
+
+    
+
+    <!--[if lte IE 8]>
+      
+      <script src="https://www.mozilla.org/media/js/libs/html5shiv.98460818858d.js"></script>
+
+      
+      
+  <link href="https://www.mozilla.org/media/css/BUNDLES/protocol-oldIE.06cc05c2e5e8.css" rel="stylesheet" type="text/css" />
+
+    <![endif]-->
+
+    <!--[if !lte IE 8]><!-->
+    
+    
+  <link href="https://www.mozilla.org/media/css/BUNDLES/protocol-core.b1d8dfab73c8.css" rel="stylesheet" type="text/css" />
+
+
+    
+    
+  <link href="https://www.mozilla.org/media/css/BUNDLES/firefox_firstrun_quantum.0f45b951f497.css" rel="stylesheet" type="text/css" />
+
+    <!--<![endif]-->
+
+    
+  
+    <link href="https://www.mozilla.org/media/css/BUNDLES/firefox-update-notification-firstrun-whatsnew.6ae59fff1a4c.css" rel="stylesheet" type="text/css" />
+  
+
+
+    
+    
+      <!--
+Read more about our custom configuration and use of Google Analytics here:
+https://bugzilla.mozilla.org/show_bug.cgi?id=1122305#c8
+-->
+
+<!-- Google Tag Manager -->
+<!-- Customized for Mozilla.org-->
+<!-- Region Container: NONE -->
+<!-- Rollup Container: System Filtered -->
+<!-- Site Container: NONE -->
+
+
+  <script type="text/javascript" src="https://www.mozilla.org/media/js/BUNDLES/gtm-snippet.9f9cf2026c5f.js" charset="utf-8"></script>
+
+<!-- End Google Tag Manager -->
+    
+  </head>
+
+  <body id="firstrun-quantum-onboarding" class="html-ltr "  data-global-nav-current-link="firefox">
+    <div id="strings"
+      data-global-close="Close"
+      data-global-next="Next"
+      data-global-previous="Previous"
+      data-global-update-firefox="Update your Firefox"
+      data-global-fx-out-of-date-banner-heading="Your Firefox is out-of-date."
+      data-global-fx-out-of-date-banner-message="Get the most recent version to keep browsing securely."
+      data-global-fx-out-of-date-banner-confirm="Update Firefox"
+      ></div>
+
+  
+
+  <div id="outer-wrapper">
+    
+  <div id="scene">
+    <main class="fxaccounts-container">
+      <header id="main-header">
+      
+        <h1>
+        
+          Take Firefox with You
+        
+        </h1>
+        <p class="content">
+        
+          Get your bookmarks, history, passwords and other settings on all your devices.
+        
+        </p>
+        <p><a href="/en-US/firefox/accounts/">Learn more about Firefox Accounts</a></p>
+      
+      </header>
+      <div id="fxaccounts-wrapper">
+        
+  <form action="https://accounts.firefox.com/" data-mozillaonline-action="https://accounts.firefox.com.cn/" id="fxa-email-form" class="fxa-email-form">
+    <input type="hidden" name="action" value="email" />
+    <input type="hidden" name="context" value="fx_desktop_v3" />
+    <input type="hidden" name="service" value="sync" />
+    <input type="hidden" name="entrypoint" value="mozilla.org-firstrun_page" id="fxa-email-form-entrypoint" />
+    <input type="hidden" name="form_type" value="email" />
+    
+    <input type="hidden" name="flow_id" value="" />
+    <input type="hidden" name="flow_begin_time" value="" />
+
+    
+    <input type="hidden" name="utm_source" value=firstrun-page id="fxa-email-form-utm-source" />
+  
+    <input type="hidden" name="utm_content" value="firstrun-page" id="fxa-email-form-utm-content" />
+  
+    <input type="hidden" name="utm_medium" value="referral" id="fxa-email-form-utm-medium" />
+  
+    <input type="hidden" name="utm_campaign" value="fxa-embedded-form" id="fxa-email-form-utm-campaign" />
+  
+  
+
+    
+
+    <p class="fxa-email-form-intro">
+    
+      <strong>Enter your email</strong> to access Firefox Accounts.
+    
+    </p>
+
+    <p class="agreement">
+    By proceeding, you agree to the <a href="https://accounts.firefox.com/legal/terms">Terms of Service</a> and <a href="https://accounts.firefox.com/legal/privacy">Privacy Notice</a>.
+    </p>
+
+    <div class="fxa-email-field-container">
+      <p class="field">
+        <label for="fxa-email-field">Email address</label>
+        <input type="email" name="email" id="fxa-email-field" class="fxa-email-field" placeholder="user@example.com" required>
+      </p>
+
+      <button type="submit" class="mzp-c-button mzp-t-product" id="fxa-email-form-submit" data-link-type="FxA-Sync" data-link-name="Continue">
+      
+        Continue
+      
+      </button>
+    </div>
+
+  </form>
+
+        <p class="fxa-signin">Already have an account? <a 
+  
+
+  
+    
+  
+  
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+  href="https://accounts.firefox.com/signin?service=sync&context=fx_desktop_v3&amp;entrypoint=mozilla.org-firstrun_page&amp;utm_content=firstrun-page&amp;utm_source=firstrun-page&amp;utm_medium=referral&amp;utm_campaign=fxa-embedded-form" data-mozillaonline-link="https://accounts.firefox.com.cn/signin?service=sync&context=fx_desktop_v3&amp;entrypoint=mozilla.org-firstrun_page&amp;utm_content=firstrun-page&amp;utm_source=firstrun-page&amp;utm_medium=referral&amp;utm_campaign=fxa-embedded-form">Sign In</a></p>
+      </div>
+    </main>
+
+  </div>
+
+
+    
+  </div>
+
+  <!--[if IE 9]>
+    <script type="text/javascript" src="https://www.mozilla.org/media/js/BUNDLES/matchmedia.a6e503dcb8bc.js" charset="utf-8"></script>
+  <![endif]-->
+
+    
+<!--[if !lte IE 8]><!-->
+  <script type="text/javascript" src="https://www.mozilla.org/media/js/BUNDLES/common-protocol.934ad83c3126.js" charset="utf-8"></script>
+<!--<![endif]-->
+
+<!--[if lte IE 8]>
+  <script type="text/javascript" src="https://www.mozilla.org/media/js/BUNDLES/common-ie8.24034b520d59.js" charset="utf-8"></script>
+<![endif]-->
+
+
+    
+    
+      
+        <script type="text/javascript" src="https://www.mozilla.org/media/js/BUNDLES/stub-attribution.bf7c7a8615d5.js" charset="utf-8"></script>
+      
+    
+
+    <!--[if !lte IE 8]><!-->
+    
+  <script type="text/javascript" src="https://www.mozilla.org/media/js/BUNDLES/firefox_firstrun_quantum.46c0070d271a.js" charset="utf-8"></script>
+
+
+    
+    
+  
+    <div class="notification-modal-content">
+  <h2>Love this version of Firefox?</h2>
+  <h3>We do too, so weâ€™ve improved to keep you safe from malware. Update now for safer, faster browsing.</h3>
+
+  <p>Easy update instructions:</p>
+
+  <ol class="win-lin">
+    <li>Click the <strong>menu button</strong>, click <strong>help</strong> and select <strong>About Firefox</strong>.</li>
+    <li>The <strong>About Firefox</strong> window will open and Firefox will begin checking for updates and downloading them automatically.</li>
+    <li>When the updates are ready to be installed, click <strong>Restart Firefox to Update</strong>.</li>
+  </ol>
+
+  <ol class="mac">
+    <li>On the menu bar click the <strong>Firefox</strong> menu and select <strong>About Firefox</strong>.</li>
+    <li>The <strong>About Firefox</strong> window will open and Firefox will begin checking for updates and downloading them automatically.</li>
+    <li>When the updates are ready to be installed, click <strong>Restart Firefox to Update</strong>.</li>
+  </ol>
+
+  <small><a href="https://support.mozilla.org/kb/update-firefox-latest-version">More help</a></small>
+</div>
+    <script type="text/javascript" src="https://www.mozilla.org/media/js/BUNDLES/firefox-update-notification-firstrun-whatsnew.19e4badaa779.js" charset="utf-8"></script>
+  
+
+
+    
+    <!--<![endif]-->
+
+    
+    
+    <img src="https://mozilla.org/set_hsts.gif" class="hidden">
+  </body>
+</html>rÅÛ      \ÿhd\ÿhf@v	Ÿ\ÿj¼   7    :https://www.mozilla.org/en-US/firefox/59.0.2/firstrun/ necko:classified 1 strongly-framed 1 security-info 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 request-method GET request-Accept-Encoding gzip, deflate, br response-head HTTP/2.0 200 OK
+date: Tue, 11 Jun 2019 08:37:57 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=600
+content-security-policy: script-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com www.google-analytics.com tagmanager.google.com www.youtube.com s.ytimg.com; img-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com data: mozilla.org www.googletagmanager.com www.google-analytics.com adservice.google.com adservice.google.de adservice.google.dk creativecommons.org ad.doubleclick.net; default-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com; frame-src www.googletagmanager.com www.google-analytics.com www.youtube-nocookie.com trackertest.org www.surveygizmo.com accounts.firefox.com accounts.firefox.com.cn www.youtube.com; style-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com 'unsafe-inline'; connect-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com www.googletagmanager.com www.google-analytics.com https://accounts.firefox.com/ https://accounts.firefox.com.cn/; child-src www.googletagmanager.com www.google-analytics.com www.youtube-nocookie.com trackertest.org www.surveygizmo.com accounts.firefox.com accounts.firefox.com.cn www.youtube.com
+etag: "9d25a52aca449180669633480431b940"
+expires: Tue, 11 Jun 2019 08:39:02 GMT
+strict-transport-security: max-age=31536000
+x-backend-server: bedrock-prod-web-575476c9b-trv96.frankfurt
+x-clacks-overhead: GNU Terry Pratchett
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-robots-tag: noodp
+x-xss-protection: 1; mode=block
+cf-cache-status: HIT
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+vary: Accept-Encoding
+server: cloudflare
+cf-ray: 4e5244177efad60c-MXP
+X-Firefox-Spdy: h2
+ original-response-headers date: Tue, 11 Jun 2019 08:37:57 GMT
+content-type: text/html; charset=utf-8
+cache-control: max-age=600
+content-security-policy: script-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com www.google-analytics.com tagmanager.google.com www.youtube.com s.ytimg.com; img-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com data: mozilla.org www.googletagmanager.com www.google-analytics.com adservice.google.com adservice.google.de adservice.google.dk creativecommons.org ad.doubleclick.net; default-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com; frame-src www.googletagmanager.com www.google-analytics.com www.youtube-nocookie.com trackertest.org www.surveygizmo.com accounts.firefox.com accounts.firefox.com.cn www.youtube.com; style-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com 'unsafe-inline'; connect-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com www.googletagmanager.com www.google-analytics.com https://accounts.firefox.com/ https://accounts.firefox.com.cn/; child-src www.googletagmanager.com www.google-analytics.com www.youtube-nocookie.com trackertest.org www.surveygizmo.com accounts.firefox.com accounts.firefox.com.cn www.youtube.com
+etag: "9d25a52aca449180669633480431b940"
+expires: Tue, 11 Jun 2019 08:39:02 GMT
+strict-transport-security: max-age=31536000
+x-backend-server: bedrock-prod-web-575476c9b-trv96.frankfurt
+x-clacks-overhead: GNU Terry Pratchett
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-robots-tag: noodp
+x-xss-protection: 1; mode=block
+cf-cache-status: HIT
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+vary: Accept-Encoding
+server: cloudflare
+cf-ray: 4e5244177efad60c-MXP
+X-Firefox-Spdy: h2
+ uncompressed-len 0 net-response-time-onstart 55 net-response-time-onstop 59 predictor::resource-count 23 predictor::https://www.mozilla.org/media/js/BUNDLES/site.42d7dbd806b5.js 1,1,1560242276,4096 predictor::https://www.mozilla.org/media/css/BUNDLES/protocol-core.b1d8dfab73c8.css 1,1,1560242276,4096 predictor::https://www.mozilla.org/media/css/BUNDLES/firefox_firstrun_quantum.0f45b951f497.css 1,1,1560242276,4096 predictor::https://www.mozilla.org/media/css/BUNDLES/firefox-update-notification-firstrun-whatsnew.6ae59fff1a4c.css 1,1,1560242276,4096 predictor::https://www.mozilla.org/media/js/BUNDLES/gtm-snippet.9f9cf2026c5f.js 1,1,1560242276,4096 predictor::https://www.mozilla.org/media/js/BUNDLES/common-protocol.934ad83c3126.js 1,1,1560242276,4096 predictor::https://www.mozilla.org/media/js/BUNDLES/stub-attribution.bf7c7a8615d5.js 1,1,1560242276,4096 predictor::https://www.mozilla.org/media/js/BUNDLES/firefox_firstrun_quantum.46c0070d271a.js 1,1,1560242276,4096 predictor::https://www.mozilla.org/media/js/BUNDLES/firefox-update-notification-firstrun-whatsnew.19e4badaa779.js 1,1,1560242276,4096 predictor::https://mozilla.org/set_hsts.gif 1,1,1560242276,4097 predictor::https://www.googletagmanager.com/gtm.js?id=GTM-MW3R8V&l=dataLayer 1,1,1560242276,4096 predictor::https://www.mozilla.org/media/img/firefox/firstrun/fox-tail-header.075d5293f79a.png 1,1,1560242276,4096 predictor::https://www.mozilla.org/media/img/logos/firefox/logo-quantum.9c5e96634f92.png 1,1,1560242276,4096 predictor::https://www.mozilla.org/media/img/firefox/firstrun/sync/sync-devices-icons-anim.b1539dd40ed3.svg 1,1,1560242276,4096 predictor::https://www.mozilla.org/media/fonts/FiraSans-Light.3940026cbaf9.woff2 1,1,1560242276,4096 predictor::https://www.mozilla.org/media/fonts/opensans-regular.668362de763a.woff2 1,1,1560242276,4096 predictor::https://www.mozilla.org/media/fonts/opensans-bold.5cf854f3d1c0.woff2 1,1,1560242276,4096 predictor::https://www.mozilla.org/media/fonts/FiraSans-SemiBold.e04482cc0b3a.woff2 1,1,1560242276,4096 predictor::https://www.mozilla.org/media/img/notification/background.d05af05e08eb.png 1,1,1560242276,4096 predictor::https://www.mozilla.org/media/img/notification/alarm-bell.59dc6843b2b6.png 1,1,1560242276,4096 predictor::https://www.mozilla.org/media/img/notification/close.c65fe17185cd.svg 1,1,1560242276,4096 predictor::https://www.google-analytics.com/analytics.js 1,1,1560242276,4096 predictor::https://www.google-analytics.com/plugins/ua/linkid.js 1,1,1560242276,4096   )

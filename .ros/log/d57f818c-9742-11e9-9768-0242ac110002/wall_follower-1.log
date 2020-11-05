@@ -1,0 +1,30 @@
+[rospy.client][INFO] 2019-06-25 12:15:05,371: init_node, name[/wall_follower], pid[53489]
+[xmlrpc][INFO] 2019-06-25 12:15:05,375: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2019-06-25 12:15:05,377: ROS Slave URI: [http://dc5b429f784e:37067/]
+[xmlrpc][INFO] 2019-06-25 12:15:05,377: Started XML-RPC server [http://dc5b429f784e:37067/]
+[rospy.impl.masterslave][INFO] 2019-06-25 12:15:05,378: _ready: http://dc5b429f784e:37067/
+[xmlrpc][INFO] 2019-06-25 12:15:05,379: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-06-25 12:15:05,380: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-25 12:15:05,477: registered with master
+[rospy.rosout][INFO] 2019-06-25 12:15:05,478: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-25 12:15:05,483: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-25 12:15:05,505: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-25 12:15:05,517: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-25 12:15:05,562: topic[/clock] adding connection to [http://dc5b429f784e:44243/], count 0
+[rospy.internal][INFO] 2019-06-25 12:15:05,568: topic[/m2wr/laser/scan] adding connection to [http://dc5b429f784e:44243/], count 0
+[rospy.internal][INFO] 2019-06-25 12:15:05,687: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-06-25 12:15:05,795: topic[/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.core][INFO] 2019-06-25 12:17:05,126: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-25 12:17:05,134: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-25 12:17:05,134: topic[/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2019-06-25 12:17:05,134: topic[/clock] removing connection to http://dc5b429f784e:44243/
+[rospy.internal][INFO] 2019-06-25 12:17:05,135: topic[/m2wr/laser/scan] removing connection to http://dc5b429f784e:44243/
+[rospy.impl.masterslave][INFO] 2019-06-25 12:17:05,136: signal-2
+[rospy.internal][ERROR] 2019-06-25 12:17:05,137: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 729, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.core][INFO] 2019-06-25 12:17:05,273: signal_shutdown [atexit]

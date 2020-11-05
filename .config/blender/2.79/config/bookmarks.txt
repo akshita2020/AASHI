@@ -1,0 +1,4 @@
+[Bookmarks]
+[Recent]
+/home/course_ws/src/p3dx_description/meshes/
+/home/catkin_ws/src/plugin_tutorial/

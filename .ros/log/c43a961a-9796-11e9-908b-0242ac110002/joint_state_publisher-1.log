@@ -1,0 +1,343 @@
+[rospy.client][INFO] 2019-06-25 22:25:02,321: init_node, name[/joint_state_publisher], pid[27533]
+[xmlrpc][INFO] 2019-06-25 22:25:02,321: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-25 22:25:02,322: Started XML-RPC server [http://dc5b429f784e:39315/]
+[rospy.impl.masterslave][INFO] 2019-06-25 22:25:02,323: _ready: http://dc5b429f784e:39315/
+[rospy.init][INFO] 2019-06-25 22:25:02,324: ROS Slave URI: [http://dc5b429f784e:39315/]
+[xmlrpc][INFO] 2019-06-25 22:25:02,325: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-06-25 22:25:02,325: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-25 22:25:02,429: registered with master
+[rospy.rosout][INFO] 2019-06-25 22:25:02,429: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-25 22:25:02,432: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-25 22:25:02,434: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-25 22:25:02,438: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-25 22:25:02,639: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-06-25 22:25:02,741: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.internal][INFO] 2019-06-25 22:25:24,067: topic[/clock] adding connection to [http://dc5b429f784e:39293/], count 0
+[rospy.internal][ERROR] 2019-06-25 22:26:12,719: Unable to initiate TCP/IP socket to dc5b429f784e:37745 (http://dc5b429f784e:39293/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 37745 to [172.17.0.2:42160 on socket 16]] [/joint_state_publisher].
+
+[rospy.internal][ERROR] 2019-06-25 22:26:13,721: Unable to initiate TCP/IP socket to dc5b429f784e:37745 (http://dc5b429f784e:39293/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 37745 to [172.17.0.2:42238 on socket 16]] [/joint_state_publisher].
+
+[rospy.internal][ERROR] 2019-06-25 22:26:15,723: Unable to initiate TCP/IP socket to dc5b429f784e:37745 (http://dc5b429f784e:39293/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 37745 to [172.17.0.2:42242 on socket 16]] [/joint_state_publisher].
+
+[rospy.internal][ERROR] 2019-06-25 22:26:19,726: Unable to initiate TCP/IP socket to dc5b429f784e:37745 (http://dc5b429f784e:39293/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 37745 to [172.17.0.2:42246 on socket 16]] [/joint_state_publisher].
+
+[rospy.internal][WARNING] 2019-06-25 22:26:27,733: Unknown error initiating TCP/IP socket to dc5b429f784e:37745 (http://dc5b429f784e:39293/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2019-06-25 22:26:27,733: topic[/clock] removing connection to http://dc5b429f784e:39293/
+[rospy.internal][INFO] 2019-06-25 22:26:35,624: topic[/clock] adding connection to [http://dc5b429f784e:39405/], count 0
+[rospy.internal][ERROR] 2019-06-25 22:30:22,978: Unable to initiate TCP/IP socket to dc5b429f784e:51679 (http://dc5b429f784e:39405/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 51679 to [172.17.0.2:45958 on socket 18]] [/joint_state_publisher].
+
+[rospy.internal][ERROR] 2019-06-25 22:30:23,980: Unable to initiate TCP/IP socket to dc5b429f784e:51679 (http://dc5b429f784e:39405/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 51679 to [172.17.0.2:46030 on socket 16]] [/joint_state_publisher].
+
+[rospy.internal][ERROR] 2019-06-25 22:30:25,982: Unable to initiate TCP/IP socket to dc5b429f784e:51679 (http://dc5b429f784e:39405/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 51679 to [172.17.0.2:46034 on socket 16]] [/joint_state_publisher].
+
+[rospy.core][INFO] 2019-06-25 22:30:29,126: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-25 22:30:29,130: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2019-06-25 22:30:29,130: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-25 22:30:29,131: topic[/clock] removing connection to http://dc5b429f784e:39405/
+[rospy.impl.masterslave][INFO] 2019-06-25 22:30:29,131: signal-2
+[rospy.core][INFO] 2019-06-25 22:30:29,298: signal_shutdown [atexit]
+[rospy.client][INFO] 2019-06-25 22:30:33,184: init_node, name[/joint_state_publisher], pid[29038]
+[xmlrpc][INFO] 2019-06-25 22:30:33,185: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-25 22:30:33,185: Started XML-RPC server [http://dc5b429f784e:43163/]
+[rospy.impl.masterslave][INFO] 2019-06-25 22:30:33,186: _ready: http://dc5b429f784e:43163/
+[rospy.init][INFO] 2019-06-25 22:30:33,186: ROS Slave URI: [http://dc5b429f784e:43163/]
+[xmlrpc][INFO] 2019-06-25 22:30:33,187: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-06-25 22:30:33,188: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-25 22:30:33,287: registered with master
+[rospy.rosout][INFO] 2019-06-25 22:30:33,287: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-25 22:30:33,291: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-25 22:30:33,294: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-25 22:30:33,298: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-25 22:30:33,534: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-06-25 22:30:33,635: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.internal][INFO] 2019-06-25 22:30:45,690: topic[/clock] adding connection to [http://dc5b429f784e:38543/], count 0
+[rospy.internal][ERROR] 2019-06-25 22:32:02,618: Unable to initiate TCP/IP socket to dc5b429f784e:53673 (http://dc5b429f784e:38543/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 53673 to [172.17.0.2:40422 on socket 18]] [/joint_state_publisher].
+
+[rospy.internal][ERROR] 2019-06-25 22:32:03,620: Unable to initiate TCP/IP socket to dc5b429f784e:53673 (http://dc5b429f784e:38543/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 53673 to [172.17.0.2:40492 on socket 16]] [/joint_state_publisher].
+
+[rospy.internal][ERROR] 2019-06-25 22:32:05,624: Unable to initiate TCP/IP socket to dc5b429f784e:53673 (http://dc5b429f784e:38543/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 53673 to [172.17.0.2:40496 on socket 17]] [/joint_state_publisher].
+
+[rospy.internal][WARNING] 2019-06-25 22:32:09,626: Unknown error initiating TCP/IP socket to dc5b429f784e:53673 (http://dc5b429f784e:38543/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2019-06-25 22:32:09,626: topic[/clock] removing connection to http://dc5b429f784e:38543/
+[rospy.internal][INFO] 2019-06-25 22:32:14,257: topic[/clock] adding connection to [http://dc5b429f784e:33987/], count 0
+[rosout][ERROR] 2019-06-25 22:32:14,350: ROS time moved backwards: 397.325s
+[rospy.core][INFO] 2019-06-25 22:32:16,912: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-25 22:32:16,918: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2019-06-25 22:32:16,918: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-25 22:32:16,919: topic[/clock] removing connection to http://dc5b429f784e:33987/
+[rospy.impl.masterslave][INFO] 2019-06-25 22:32:16,920: signal-2
+[rospy.internal][WARNING] 2019-06-25 22:32:16,920: Unknown error initiating TCP/IP socket to dc5b429f784e:41005 (http://dc5b429f784e:33987/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2019-06-25 22:32:17,023: signal_shutdown [atexit]
+[rospy.client][INFO] 2019-06-25 22:32:25,652: init_node, name[/joint_state_publisher], pid[30146]
+[xmlrpc][INFO] 2019-06-25 22:32:25,659: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-25 22:32:25,660: Started XML-RPC server [http://dc5b429f784e:36621/]
+[rospy.impl.masterslave][INFO] 2019-06-25 22:32:25,660: _ready: http://dc5b429f784e:36621/
+[rospy.registration][INFO] 2019-06-25 22:32:25,662: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-25 22:32:25,663: ROS Slave URI: [http://dc5b429f784e:36621/]
+[xmlrpc][INFO] 2019-06-25 22:32:25,663: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-25 22:32:25,663: registered with master
+[rospy.rosout][INFO] 2019-06-25 22:32:25,665: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-25 22:32:25,670: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-25 22:32:25,676: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-25 22:32:25,684: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-25 22:32:25,699: topic[/clock] adding connection to [http://dc5b429f784e:33987/], count 0
+[rospy.internal][INFO] 2019-06-25 22:32:25,910: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-06-25 22:32:26,011: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.internal][ERROR] 2019-06-25 22:35:08,584: Unable to initiate TCP/IP socket to dc5b429f784e:41005 (http://dc5b429f784e:33987/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 41005 to [172.17.0.2:41230 on socket 9]] [/joint_state_publisher].
+
+[rospy.internal][ERROR] 2019-06-25 22:35:09,586: Unable to initiate TCP/IP socket to dc5b429f784e:41005 (http://dc5b429f784e:33987/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 41005 to [172.17.0.2:41304 on socket 16]] [/joint_state_publisher].
+
+[rospy.core][INFO] 2019-06-25 22:35:10,529: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-25 22:35:10,533: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2019-06-25 22:35:10,533: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-25 22:35:10,533: topic[/clock] removing connection to http://dc5b429f784e:33987/
+[rospy.impl.masterslave][INFO] 2019-06-25 22:35:10,534: signal-2
+[rospy.core][INFO] 2019-06-25 22:35:10,879: signal_shutdown [atexit]
+[rospy.client][INFO] 2019-06-25 22:35:22,490: init_node, name[/joint_state_publisher], pid[30717]
+[xmlrpc][INFO] 2019-06-25 22:35:22,490: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-25 22:35:22,491: Started XML-RPC server [http://dc5b429f784e:36683/]
+[rospy.init][INFO] 2019-06-25 22:35:22,491: ROS Slave URI: [http://dc5b429f784e:36683/]
+[rospy.impl.masterslave][INFO] 2019-06-25 22:35:22,491: _ready: http://dc5b429f784e:36683/
+[rospy.registration][INFO] 2019-06-25 22:35:22,492: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-25 22:35:22,492: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-25 22:35:22,591: registered with master
+[rospy.rosout][INFO] 2019-06-25 22:35:22,592: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-25 22:35:22,594: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-25 22:35:22,595: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-25 22:35:22,597: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-25 22:35:22,800: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-06-25 22:35:22,883: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.internal][INFO] 2019-06-25 22:35:31,779: topic[/clock] adding connection to [http://dc5b429f784e:38525/], count 0
+[rospy.internal][ERROR] 2019-06-25 22:37:13,061: Unable to initiate TCP/IP socket to dc5b429f784e:50645 (http://dc5b429f784e:38525/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 50645 to [172.17.0.2:41740 on socket 18]] [/joint_state_publisher].
+
+[rospy.internal][ERROR] 2019-06-25 22:37:14,063: Unable to initiate TCP/IP socket to dc5b429f784e:50645 (http://dc5b429f784e:38525/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 50645 to [172.17.0.2:41814 on socket 16]] [/joint_state_publisher].
+
+[rospy.internal][ERROR] 2019-06-25 22:37:16,066: Unable to initiate TCP/IP socket to dc5b429f784e:50645 (http://dc5b429f784e:38525/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 50645 to [172.17.0.2:41824 on socket 16]] [/joint_state_publisher].
+
+[rospy.internal][WARNING] 2019-06-25 22:37:20,067: Unknown error initiating TCP/IP socket to dc5b429f784e:50645 (http://dc5b429f784e:38525/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2019-06-25 22:37:20,068: topic[/clock] removing connection to http://dc5b429f784e:38525/
+[rospy.internal][INFO] 2019-06-25 22:37:20,674: topic[/clock] adding connection to [http://dc5b429f784e:35135/], count 0
+[rosout][ERROR] 2019-06-25 22:37:20,758: ROS time moved backwards: 92.714s
+[rospy.core][INFO] 2019-06-25 22:38:16,970: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-25 22:38:16,989: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2019-06-25 22:38:16,989: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-25 22:38:16,991: topic[/clock] removing connection to http://dc5b429f784e:35135/
+[rospy.impl.masterslave][INFO] 2019-06-25 22:38:16,991: signal-2
+[rospy.internal][ERROR] 2019-06-25 22:38:16,991: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 729, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.core][INFO] 2019-06-25 22:38:17,608: signal_shutdown [atexit]
+[rospy.client][INFO] 2019-06-25 22:38:32,472: init_node, name[/joint_state_publisher], pid[32137]
+[xmlrpc][INFO] 2019-06-25 22:38:32,472: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-25 22:38:32,473: Started XML-RPC server [http://dc5b429f784e:39655/]
+[rospy.impl.masterslave][INFO] 2019-06-25 22:38:32,473: _ready: http://dc5b429f784e:39655/
+[rospy.init][INFO] 2019-06-25 22:38:32,474: ROS Slave URI: [http://dc5b429f784e:39655/]
+[rospy.registration][INFO] 2019-06-25 22:38:32,475: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-25 22:38:32,474: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-25 22:38:32,574: registered with master
+[rospy.rosout][INFO] 2019-06-25 22:38:32,575: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-25 22:38:32,577: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-25 22:38:32,579: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-25 22:38:32,582: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-25 22:38:32,870: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.internal][INFO] 2019-06-25 22:38:32,871: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-06-25 22:38:42,260: topic[/clock] adding connection to [http://dc5b429f784e:43337/], count 0
+[rospy.internal][ERROR] 2019-06-25 22:42:33,136: Unable to initiate TCP/IP socket to dc5b429f784e:48915 (http://dc5b429f784e:43337/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 48915 to [172.17.0.2:36780 on socket 18]] [/joint_state_publisher].
+
+[rospy.internal][ERROR] 2019-06-25 22:42:34,138: Unable to initiate TCP/IP socket to dc5b429f784e:48915 (http://dc5b429f784e:43337/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 48915 to [172.17.0.2:36852 on socket 16]] [/joint_state_publisher].
+
+[rospy.internal][ERROR] 2019-06-25 22:42:36,140: Unable to initiate TCP/IP socket to dc5b429f784e:48915 (http://dc5b429f784e:43337/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 48915 to [172.17.0.2:36856 on socket 16]] [/joint_state_publisher].
+
+[rospy.internal][ERROR] 2019-06-25 22:42:40,145: Unable to initiate TCP/IP socket to dc5b429f784e:48915 (http://dc5b429f784e:43337/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 48915 to [172.17.0.2:36860 on socket 16]] [/joint_state_publisher].
+
+[rospy.core][INFO] 2019-06-25 22:42:40,559: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-25 22:42:40,563: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2019-06-25 22:42:40,563: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-25 22:42:40,563: topic[/clock] removing connection to http://dc5b429f784e:43337/
+[rospy.impl.masterslave][INFO] 2019-06-25 22:42:40,564: signal-2
+[rospy.core][INFO] 2019-06-25 22:42:40,919: signal_shutdown [atexit]
+[rospy.client][INFO] 2019-06-25 22:42:52,283: init_node, name[/joint_state_publisher], pid[33288]
+[xmlrpc][INFO] 2019-06-25 22:42:52,283: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-25 22:42:52,284: Started XML-RPC server [http://dc5b429f784e:42439/]
+[rospy.init][INFO] 2019-06-25 22:42:52,284: ROS Slave URI: [http://dc5b429f784e:42439/]
+[rospy.impl.masterslave][INFO] 2019-06-25 22:42:52,284: _ready: http://dc5b429f784e:42439/
+[xmlrpc][INFO] 2019-06-25 22:42:52,285: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-06-25 22:42:52,286: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-25 22:42:52,385: registered with master
+[rospy.rosout][INFO] 2019-06-25 22:42:52,385: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-25 22:42:52,388: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-25 22:42:52,389: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-25 22:42:52,392: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-25 22:42:52,576: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-06-25 22:42:52,677: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.internal][INFO] 2019-06-25 22:43:15,045: topic[/clock] adding connection to [http://dc5b429f784e:39413/], count 0
+[rospy.core][INFO] 2019-06-25 22:43:48,992: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-25 22:43:49,010: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2019-06-25 22:43:49,013: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-25 22:43:49,014: topic[/clock] removing connection to http://dc5b429f784e:39413/
+[rospy.impl.masterslave][INFO] 2019-06-25 22:43:49,014: signal-2
+[rospy.internal][WARNING] 2019-06-25 22:43:49,018: Unknown error initiating TCP/IP socket to dc5b429f784e:55427 (http://dc5b429f784e:39413/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2019-06-25 22:43:49,634: signal_shutdown [atexit]

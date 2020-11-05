@@ -1,0 +1,72 @@
+[rospy.client][INFO] 2019-06-25 15:04:58,819: init_node, name[/fake_joint_calibration], pid[95047]
+[xmlrpc][INFO] 2019-06-25 15:04:58,840: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-25 15:04:58,841: Started XML-RPC server [http://dc5b429f784e:45387/]
+[rospy.init][INFO] 2019-06-25 15:04:58,841: ROS Slave URI: [http://dc5b429f784e:45387/]
+[rospy.impl.masterslave][INFO] 2019-06-25 15:04:58,842: _ready: http://dc5b429f784e:45387/
+[rospy.registration][INFO] 2019-06-25 15:04:58,842: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-25 15:04:58,843: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-25 15:04:58,942: registered with master
+[rospy.core][INFO] 2019-06-25 15:07:28,036: signal_shutdown [signal-2]
+[rospy.impl.masterslave][INFO] 2019-06-25 15:07:28,049: signal-2
+[rospy.core][INFO] 2019-06-25 15:07:28,157: signal_shutdown [atexit]
+[rospy.client][INFO] 2019-06-25 15:07:42,707: init_node, name[/fake_joint_calibration], pid[99552]
+[xmlrpc][INFO] 2019-06-25 15:07:42,708: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-25 15:07:42,708: Started XML-RPC server [http://dc5b429f784e:36471/]
+[rospy.impl.masterslave][INFO] 2019-06-25 15:07:42,709: _ready: http://dc5b429f784e:36471/
+[rospy.init][INFO] 2019-06-25 15:07:42,709: ROS Slave URI: [http://dc5b429f784e:36471/]
+[xmlrpc][INFO] 2019-06-25 15:07:42,710: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-06-25 15:07:42,716: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-25 15:07:42,810: registered with master
+[rospy.core][INFO] 2019-06-25 15:09:13,109: signal_shutdown [signal-2]
+[rospy.impl.masterslave][INFO] 2019-06-25 15:09:13,115: signal-2
+[rospy.core][INFO] 2019-06-25 15:09:13,231: signal_shutdown [atexit]
+[rospy.client][INFO] 2019-06-25 15:10:50,244: init_node, name[/fake_joint_calibration], pid[4803]
+[xmlrpc][INFO] 2019-06-25 15:10:50,261: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2019-06-25 15:10:50,262: ROS Slave URI: [http://dc5b429f784e:34423/]
+[xmlrpc][INFO] 2019-06-25 15:10:50,262: Started XML-RPC server [http://dc5b429f784e:34423/]
+[rospy.impl.masterslave][INFO] 2019-06-25 15:10:50,264: _ready: http://dc5b429f784e:34423/
+[rospy.registration][INFO] 2019-06-25 15:10:50,265: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-25 15:10:50,266: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-25 15:10:50,363: registered with master
+[rospy.core][INFO] 2019-06-25 15:13:54,981: signal_shutdown [signal-2]
+[rospy.impl.masterslave][INFO] 2019-06-25 15:13:54,983: signal-2
+[rospy.core][INFO] 2019-06-25 15:13:55,092: signal_shutdown [atexit]
+[rospy.client][INFO] 2019-06-25 15:14:28,433: init_node, name[/fake_joint_calibration], pid[11788]
+[xmlrpc][INFO] 2019-06-25 15:14:28,434: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2019-06-25 15:14:28,434: ROS Slave URI: [http://dc5b429f784e:41979/]
+[xmlrpc][INFO] 2019-06-25 15:14:28,434: Started XML-RPC server [http://dc5b429f784e:41979/]
+[rospy.impl.masterslave][INFO] 2019-06-25 15:14:28,435: _ready: http://dc5b429f784e:41979/
+[xmlrpc][INFO] 2019-06-25 15:14:28,435: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-06-25 15:14:28,435: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-25 15:14:28,535: registered with master
+[rospy.core][INFO] 2019-06-25 15:14:54,312: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2019-06-25 15:14:54,316: unclean shutdown
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/registration.py", line 374, in cleanup
+    multi()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1006, in __call__
+    return MultiCallIterator(self.__server.system.multicall(marshalled_list))
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 99] Cannot assign requested address
+
+[rospy.impl.masterslave][INFO] 2019-06-25 15:14:54,316: signal-2
+[rospy.core][INFO] 2019-06-25 15:14:54,931: signal_shutdown [atexit]

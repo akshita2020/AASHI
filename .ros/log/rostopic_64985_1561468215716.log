@@ -1,0 +1,26 @@
+[rospy.client][INFO] 2019-06-25 13:10:15,822: init_node, name[/rostopic_64985_1561468215716], pid[64985]
+[xmlrpc][INFO] 2019-06-25 13:10:15,823: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2019-06-25 13:10:15,824: ROS Slave URI: [http://dc5b429f784e:46285/]
+[xmlrpc][INFO] 2019-06-25 13:10:15,824: Started XML-RPC server [http://dc5b429f784e:46285/]
+[rospy.impl.masterslave][INFO] 2019-06-25 13:10:15,825: _ready: http://dc5b429f784e:46285/
+[rospy.registration][INFO] 2019-06-25 13:10:15,825: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-25 13:10:15,826: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-25 13:10:15,925: registered with master
+[rospy.rosout][INFO] 2019-06-25 13:10:15,925: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-25 13:10:15,927: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-25 13:10:15,929: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-25 13:10:15,938: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-25 13:10:15,944: topic[/clock] adding connection to [http://dc5b429f784e:38773/], count 0
+[rospy.internal][INFO] 2019-06-25 13:10:15,988: topic[/map] adding connection to [http://dc5b429f784e:33793/], count 0
+[rospy.internal][INFO] 2019-06-25 13:10:16,202: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2019-06-25 13:10:19,355: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-25 13:10:19,361: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-25 13:10:19,362: topic[/clock] removing connection to http://dc5b429f784e:38773/
+[rospy.internal][INFO] 2019-06-25 13:10:19,363: topic[/map] removing connection to http://dc5b429f784e:33793/
+[rospy.impl.masterslave][INFO] 2019-06-25 13:10:19,363: signal-2
+[rospy.internal][WARNING] 2019-06-25 13:10:19,363: Unknown error initiating TCP/IP socket to dc5b429f784e:51371 (http://dc5b429f784e:33793/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2019-06-25 13:10:19,527: signal_shutdown [atexit]

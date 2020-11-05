@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2019-06-25 12:43:10,762: init_node, name[/roswtf_59347_1561466590592], pid[59347]
+[xmlrpc][INFO] 2019-06-25 12:43:10,763: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-25 12:43:10,764: Started XML-RPC server [http://dc5b429f784e:35607/]
+[rospy.impl.masterslave][INFO] 2019-06-25 12:43:10,765: _ready: http://dc5b429f784e:35607/
+[xmlrpc][INFO] 2019-06-25 12:43:10,766: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-25 12:43:10,765: ROS Slave URI: [http://dc5b429f784e:35607/]
+[rospy.registration][INFO] 2019-06-25 12:43:10,767: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-25 12:43:10,869: registered with master
+[rospy.rosout][INFO] 2019-06-25 12:43:10,870: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-25 12:43:10,873: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-25 12:43:10,878: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-25 12:43:10,887: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-25 12:43:10,892: topic[/clock] adding connection to [http://dc5b429f784e:35683/], count 0
+[rospy.internal][INFO] 2019-06-25 12:43:10,927: topic[/tf] adding connection to [http://dc5b429f784e:35287/], count 0
+[rospy.internal][INFO] 2019-06-25 12:43:10,929: topic[/tf] adding connection to [http://dc5b429f784e:35683/], count 1
+[rospy.internal][INFO] 2019-06-25 12:43:11,081: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-06-25 12:43:11,925: topic impl's ref count is zero, deleting topic /tf...
+[rospy.internal][INFO] 2019-06-25 12:43:11,926: topic[/tf] removing connection to http://dc5b429f784e:35287/
+[rospy.internal][INFO] 2019-06-25 12:43:11,927: topic[/tf] removing connection to http://dc5b429f784e:35683/
+[rospy.core][INFO] 2019-06-25 12:43:11,942: signal_shutdown [atexit]
+[rospy.internal][INFO] 2019-06-25 12:43:11,949: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-25 12:43:11,950: topic[/clock] removing connection to http://dc5b429f784e:35683/
+[rospy.impl.masterslave][INFO] 2019-06-25 12:43:11,950: atexit

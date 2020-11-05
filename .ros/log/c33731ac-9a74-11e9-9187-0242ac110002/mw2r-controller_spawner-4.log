@@ -1,0 +1,20 @@
+[rospy.client][INFO] 2019-06-29 13:50:04,602: init_node, name[/mw2r/controller_spawner], pid[52140]
+[xmlrpc][INFO] 2019-06-29 13:50:04,602: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-29 13:50:04,603: Started XML-RPC server [http://dc5b429f784e:34543/]
+[rospy.init][INFO] 2019-06-29 13:50:04,604: ROS Slave URI: [http://dc5b429f784e:34543/]
+[rospy.impl.masterslave][INFO] 2019-06-29 13:50:04,604: _ready: http://dc5b429f784e:34543/
+[xmlrpc][INFO] 2019-06-29 13:50:04,605: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-06-29 13:50:04,606: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-29 13:50:04,704: registered with master
+[rospy.rosout][INFO] 2019-06-29 13:50:04,705: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-29 13:50:04,708: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-29 13:50:04,710: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-29 13:50:04,714: connected to core topic /clock
+[rosout][INFO] 2019-06-29 13:50:04,719: Controller Spawner: Waiting for service controller_manager/load_controller
+[rospy.internal][INFO] 2019-06-29 13:50:04,722: topic[/clock] adding connection to [http://dc5b429f784e:44991/], count 0
+[rospy.internal][INFO] 2019-06-29 13:50:04,853: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2019-06-29 13:50:34,754: Controller Spawner couldn't find the expected controller_manager ROS interface.
+[rospy.core][INFO] 2019-06-29 13:50:34,756: signal_shutdown [atexit]
+[rospy.internal][INFO] 2019-06-29 13:50:34,762: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-29 13:50:34,763: topic[/clock] removing connection to http://dc5b429f784e:44991/
+[rospy.impl.masterslave][INFO] 2019-06-29 13:50:34,763: atexit

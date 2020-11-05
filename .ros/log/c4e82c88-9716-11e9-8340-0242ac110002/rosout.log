@@ -1,0 +1,8 @@
+
+
+0.000000000  Node Startup
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.13/src/libros/service.cpp:80(service::exists) [topics: /rosout] waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...
+0.023000000 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.13/src/libros/service.cpp:122(service::waitForService) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states] waitForService: Service [/gazebo/set_physics_properties] is now available.
+0.076000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-ros-2.5.14/src/gazebo_ros_api_plugin.cpp:2083(GazeboRosApiPlugin::physicsReconfigureThread) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates] Physics dynamic reconfigure ready.
+7.298000000 INFO [gazebo_interface.py:31(spawn_urdf_model_client) [topics: /clock, /rosout] Calling service /gazebo/spawn_urdf_model
+7.495000000 INFO [gazebo_interface.py:33(spawn_urdf_model_client) [topics: /clock, /rosout] Spawn status: SpawnModel: Successfully spawned entity

@@ -1,0 +1,30 @@
+[rosmaster.main][INFO] 2019-06-25 06:58:31,474: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-06-25 06:58:31,474: Starting ROS Master Node
+[xmlrpc][INFO] 2019-06-25 06:58:31,475: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-06-25 06:58:31,475: Started XML-RPC server [http://dc5b429f784e:11311/]
+[rosmaster.master][INFO] 2019-06-25 06:58:31,476: Master initialized: port[11311], uri[http://dc5b429f784e:11311/]
+[xmlrpc][INFO] 2019-06-25 06:58:31,476: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-06-25 06:58:31,530: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 06:58:31,531: +PARAM [/roslaunch/uris/host_dc5b429f784e__42319] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 06:58:31,877: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 06:58:31,877: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 06:58:31,877: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-06-25 06:58:31,897: +SERVICE [/rosout/get_loggers] /rosout http://dc5b429f784e:41839/
+[rosmaster.master][INFO] 2019-06-25 06:58:31,898: +SERVICE [/rosout/set_logger_level] /rosout http://dc5b429f784e:41839/
+[rosmaster.master][INFO] 2019-06-25 06:58:31,906: +SUB [/clock] /rosout http://dc5b429f784e:41839/
+[rosmaster.master][INFO] 2019-06-25 06:58:31,907: +PUB [/rosout_agg] /rosout http://dc5b429f784e:41839/
+[rosmaster.master][INFO] 2019-06-25 06:58:31,912: +SUB [/rosout] /rosout http://dc5b429f784e:41839/
+[rosmaster.master][INFO] 2019-06-25 06:58:32,795: +PUB [/rosout] /gazebo http://dc5b429f784e:42823/
+[rosmaster.master][INFO] 2019-06-25 06:58:32,797: +SERVICE [/gazebo/get_loggers] /gazebo http://dc5b429f784e:42823/
+[rosmaster.master][INFO] 2019-06-25 06:58:32,798: +SERVICE [/gazebo/set_logger_level] /gazebo http://dc5b429f784e:42823/
+[rosmaster.master][INFO] 2019-06-25 06:58:32,810: +SUB [/clock] /gazebo http://dc5b429f784e:42823/
+[rosmaster.master][INFO] 2019-06-25 06:58:32,877: publisherUpdate[/rosout] -> http://dc5b429f784e:41839/ ['http://dc5b429f784e:42823/']
+[rosmaster.master][INFO] 2019-06-25 06:58:32,880: publisherUpdate[/rosout] -> http://dc5b429f784e:41839/ ['http://dc5b429f784e:42823/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-25 06:59:03,268: -PUB [/rosout_agg] /rosout http://dc5b429f784e:41839/
+[rosmaster.master][INFO] 2019-06-25 06:59:03,269: -SUB [/clock] /rosout http://dc5b429f784e:41839/
+[rosmaster.master][INFO] 2019-06-25 06:59:03,270: -SUB [/rosout] /rosout http://dc5b429f784e:41839/
+[rosmaster.master][INFO] 2019-06-25 06:59:03,274: -SERVICE [/rosout/get_loggers] /rosout rosrpc://dc5b429f784e:57923
+[rosmaster.master][INFO] 2019-06-25 06:59:03,276: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://dc5b429f784e:57923
+[rosmaster.main][INFO] 2019-06-25 06:59:03,355: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2019-06-25 06:59:03,355: stopping master...
+[rospy.core][INFO] 2019-06-25 06:59:03,356: signal_shutdown [atexit]

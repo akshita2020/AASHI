@@ -1,0 +1,146 @@
+
+
+1561471264.363229000  Node Startup
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.13/src/libros/service.cpp:80(service::exists) [topics: /rosout] waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...
+932.792000000 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.13/src/libros/service.cpp:122(service::waitForService) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states] waitForService: Service [/gazebo/set_physics_properties] is now available.
+932.812000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-ros-2.5.14/src/gazebo_ros_api_plugin.cpp:2083(GazeboRosApiPlugin::physicsReconfigureThread) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates] Physics dynamic reconfigure ready.
+0.000000000 INFO [gazebo_interface.py:31(spawn_urdf_model_client) [topics: /clock, /rosout] Calling service /gazebo/spawn_urdf_model
+933.012000000 INFO [gazebo_interface.py:33(spawn_urdf_model_client) [topics: /clock, /rosout] Spawn status: SpawnModel: Successfully spawned entity
+933.012000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.14/include/gazebo_plugins/gazebo_ros_utils.h:95(__cxx11::string gazebo::GetRobotNamespace) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates] Laser Plugin: Using the 'robotNamespace' param: '/'
+933.012000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.14/src/gazebo_ros_laser.cpp:111(GazeboRosLaser::Load) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates] Starting Laser Plugin (ns = /)
+933.012000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.14/src/gazebo_ros_laser.cpp:135(GazeboRosLaser::LoadThread) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates] Laser Plugin (ns = /)  <tf_prefix_>, set to ""
+933.012000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.14/src/gazebo_ros_utils.cpp:57(GazeboRos::readCommonParameter) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates, /scan] Starting plugin DiffDrive(ns = //)
+933.012000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.14/src/gazebo_ros_utils.cpp:83(GazeboRos::readCommonParameter) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates, /scan] DiffDrive(ns = //): <rosDebugLevel> = na
+933.012000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.14/src/gazebo_ros_utils.cpp:93(GazeboRos::readCommonParameter) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates, /scan] DiffDrive(ns = //): <tf_prefix> = 
+933.012000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.14/src/gazebo_ros_diff_drive.cpp:152(GazeboRosDiffDrive::Load) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates, /scan, /joint_states] DiffDrive(ns = //): Advertise joint_states
+933.012000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.14/src/gazebo_ros_diff_drive.cpp:158(GazeboRosDiffDrive::Load) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates, /scan, /joint_states, /tf] DiffDrive(ns = //): Try to subscribe to cmd_vel
+933.012000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.14/src/gazebo_ros_diff_drive.cpp:166(GazeboRosDiffDrive::Load) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates, /scan, /joint_states, /tf] DiffDrive(ns = //): Subscribe to cmd_vel
+933.012000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.14/src/gazebo_ros_diff_drive.cpp:171(GazeboRosDiffDrive::Load) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates, /scan, /joint_states, /tf, /odom] DiffDrive(ns = //): Advertise odom on odom 
+962.665000000 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.15/src/rviz/ogre_helpers/render_system.cpp:430(RenderWindow* rviz::RenderSystem::makeRenderWindow) [topics: /rosout] Stereo is NOT SUPPORTED
+962.666000000 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.15/src/rviz/ogre_helpers/render_system.cpp:211(RenderSystem::detectGlVersion) [topics: /rosout] OpenGl version: 3 (GLSL 1.3).
+1595.090000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1595.14 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1595.141000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1595.19 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1595.191000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1595.24 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1595.240000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1595.29 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1595.265000000 INFO [/home/catkin_ws/src/slam_gmapping/gmapping/src/slam_gmapping.cpp:447(initMapper) [topics: /rosout, /tf, /slam_gmapping/entropy, /map, /map_metadata] Laser is mounted upwards.
+1595.289000000 INFO [/home/catkin_ws/src/slam_gmapping/gmapping/src/slam_gmapping.cpp:532(initMapper) [topics: /rosout, /tf, /slam_gmapping/entropy, /map, /map_metadata] Initialization complete
+1595.290000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1595.34 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1595.341000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1595.39 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1595.391000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1595.44 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1595.441000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1595.49 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1595.491000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1595.54 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1595.541000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1595.59 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1595.590000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1595.64 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1595.640000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1595.69 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1595.691000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1595.74 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1595.740000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1595.79 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1595.791000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1595.84 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1595.841000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1595.89 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1595.891000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1595.94 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1595.941000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1595.99 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1595.990000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.04 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.041000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.09 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.090000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.14 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.142000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.19 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.191000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.24 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.242000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.29 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.291000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.34 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.341000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.39 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.390000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.44 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.440000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.49 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.491000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.54 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.540000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.59 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.590000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.64 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.640000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.69 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.691000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.74 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.741000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.79 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.790000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.84 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.846000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.9 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.890000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.94 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.941000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1596.99 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1596.990000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.04 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.042000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.09 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.091000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.14 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.140000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.19 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.191000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.24 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.238000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.29 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.291000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.34 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.340000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.39 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.391000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.44 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.440000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.49 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.490000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.54 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.540000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.59 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.590000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.64 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.640000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.69 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.691000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.74 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.740000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.79 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.790000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.84 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.842000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.89 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.891000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.94 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.952000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1597.99 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1597.992000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1598.04 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1598.048000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1598.1 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1598.090000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1598.14 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+1598.140000000 WARN [/tmp/binarydeb/ros-kinetic-tf2-0.5.17/src/buffer_core.cpp:277() [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] TF_OLD_DATA ignoring data from the past for frame odom at time 1598.19 according to authority unknown_publisher
+Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained

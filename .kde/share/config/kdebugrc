@@ -1,0 +1,17 @@
+[KSharedDataCache]
+InfoOutput=4
+
+[kbuildsycoca4]
+InfoOutput=4
+
+[kdecore (KConfigSkeleton)]
+InfoOutput=2
+
+[kded]
+InfoOutput=4
+
+[knotify]
+InfoOutput=4
+
+[okular]
+InfoOutput=2

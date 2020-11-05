@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2019-06-29 13:57:38,872: init_node, name[/mybot_spawn], pid[55604]
+[xmlrpc][INFO] 2019-06-29 13:57:38,872: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-29 13:57:38,873: Started XML-RPC server [http://dc5b429f784e:38989/]
+[rospy.init][INFO] 2019-06-29 13:57:38,873: ROS Slave URI: [http://dc5b429f784e:38989/]
+[rospy.impl.masterslave][INFO] 2019-06-29 13:57:38,873: _ready: http://dc5b429f784e:38989/
+[xmlrpc][INFO] 2019-06-29 13:57:38,873: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-06-29 13:57:38,874: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-29 13:57:38,973: registered with master
+[rospy.rosout][INFO] 2019-06-29 13:57:38,974: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-29 13:57:38,976: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-29 13:57:38,977: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-29 13:57:38,980: connected to core topic /clock
+[rosout][INFO] 2019-06-29 13:57:38,983: Loading model XML from ros parameter
+[rosout][INFO] 2019-06-29 13:57:38,987: Waiting for service /gazebo/spawn_urdf_model
+[rosout][INFO] 2019-06-29 13:57:38,990: Calling service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2019-06-29 13:57:38,991: topic[/clock] adding connection to [http://dc5b429f784e:38413/], count 0
+[rospy.internal][INFO] 2019-06-29 13:57:39,210: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2019-06-29 13:57:39,371: Spawn status: SpawnModel: Successfully spawned entity
+[rospy.core][INFO] 2019-06-29 13:57:39,371: signal_shutdown [atexit]
+[rospy.internal][INFO] 2019-06-29 13:57:39,375: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-29 13:57:39,375: topic[/clock] removing connection to http://dc5b429f784e:38413/
+[rospy.topics][ERROR] 2019-06-29 13:57:39,376: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2019-06-29 13:57:39,376: atexit

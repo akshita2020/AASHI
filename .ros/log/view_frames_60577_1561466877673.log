@@ -1,0 +1,22 @@
+[rospy.client][INFO] 2019-06-25 12:47:57,769: init_node, name[/view_frames_60577_1561466877673], pid[60577]
+[xmlrpc][INFO] 2019-06-25 12:47:57,770: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-25 12:47:57,772: Started XML-RPC server [http://dc5b429f784e:41425/]
+[rospy.impl.masterslave][INFO] 2019-06-25 12:47:57,773: _ready: http://dc5b429f784e:41425/
+[xmlrpc][INFO] 2019-06-25 12:47:57,774: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-25 12:47:57,775: ROS Slave URI: [http://dc5b429f784e:41425/]
+[rospy.registration][INFO] 2019-06-25 12:47:57,777: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-25 12:47:57,876: registered with master
+[rospy.rosout][INFO] 2019-06-25 12:47:57,876: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-25 12:47:57,881: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-25 12:47:57,890: initializing /clock core topic
+[rospy.simtime][INFO] 2019-06-25 12:47:57,895: connected to core topic /clock
+[rospy.internal][INFO] 2019-06-25 12:47:57,947: topic[/tf] adding connection to [http://dc5b429f784e:36045/], count 0
+[rospy.internal][INFO] 2019-06-25 12:47:57,950: topic[/tf] adding connection to [http://dc5b429f784e:35641/], count 1
+[rospy.internal][INFO] 2019-06-25 12:47:57,953: topic[/clock] adding connection to [http://dc5b429f784e:36045/], count 0
+[rospy.internal][INFO] 2019-06-25 12:47:58,138: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2019-06-25 12:48:03,163: signal_shutdown [atexit]
+[rospy.internal][INFO] 2019-06-25 12:48:03,174: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-25 12:48:03,175: topic[/clock] removing connection to http://dc5b429f784e:36045/
+[rospy.internal][INFO] 2019-06-25 12:48:03,175: topic[/tf] removing connection to http://dc5b429f784e:36045/
+[rospy.internal][INFO] 2019-06-25 12:48:03,175: topic[/tf] removing connection to http://dc5b429f784e:35641/
+[rospy.impl.masterslave][INFO] 2019-06-25 12:48:03,176: atexit
